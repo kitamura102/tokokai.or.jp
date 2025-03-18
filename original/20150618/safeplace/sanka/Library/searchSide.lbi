@@ -1,0 +1,322 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><aside id="srRight">
+          <article class="box" id="nowTerm">
+            <h1>現在の検索条件</h1>
+            <ul>
+              <li>新築一戸建て</li>
+              <li>目黒区 / 上目黒,中目黒,目黒本町</li>
+              <li>世田谷区 / 赤堤,上北沢,上野毛</li>
+              <li>東急東横線 / 中目黒,祐天寺,学芸大学</li>
+              <li>東急大井町線 / 上野毛,尾山台</li>
+              <li>京王線 / 上北沢,桜上水</li>
+              <li>4,000～6,500万円</li>
+              <li>土地：100m&sup2;～</li>
+              <li>建物：150m&sup2;～</li>
+              <li>2K / DK / LDK , 3K / DK / LDK</li>
+              <li>駅徒歩15分以内</li>
+              <li>築5年以内</li>
+              <li>鉄筋コンクリート造,鉄骨鉄筋コンクリート造</li>
+            </ul>
+            <button type="submit" name="submit" value="">この条件で保存</button>
+            </article>
+          <article class="box" id="termsAgain">
+            <h1>検索条件を変更して再検索</h1>
+            <form method="post" action="">
+              <dl class="terms">
+                <dt>エリア</dt>
+                <dd>
+                  <ul class="srchchoices clearfix">
+                    <li>
+                      <label><input type="checkbox" name="address1[]" value="13110"><a href="/result/result_nb_a_13110.php">いちき串木野市</a><span>(1234)</span></label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="address1[]" value="13112"><a href="/result/result_nb_a_13112.php">つくばみらい市</a><span>(1234)</span></label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="address1[]" value="13111"><a href="/result/result_nb_a_13111.php">かすみがうら市</a><span>(1234)</span></label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="address1[]" value="13109"><a href="/result/result_nb_a_13109.php">大和高田市</a><span>(1234)</span></label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="address1[]" value="13103"><a href="/result/result_nb_a_13103.php">港区</a><span>(23)</span></label>
+                    </li>
+                  </ul>
+                  <p id="btnRefineSearch">
+                    <button type="submit" name="submit" value="">チェックしたエリアの町名を絞り込む</button>
+                  </p>
+                </dd>
+              </dl>
+              <dl class="terms">
+                <dt>価格</dt>
+                <dd>
+                  <select name="total_amount_lower">
+                    <option value="">下限なし</option>
+                    <option value="500">500万円以上</option>
+                    <option value="1000">1000万円以上</option>
+                    <option value="1500">1500万円以上</option>
+                    <option value="2000">2000万円以上</option>
+                    <option value="2500">2500万円以上</option>
+                    <option value="3000">3000万円以上</option>
+                    <option value="3500">3500万円以上</option>
+                    <option value="4000">4000万円以上</option>
+                    <option value="4500">4500万円以上</option>
+                    <option value="5000">5000万円以上</option>
+                    <option value="5500">5500万円以上</option>
+                    <option value="6000">6000万円以上</option>
+                    <option value="6500">6500万円以上</option>
+                    <option value="7000">7000万円以上</option>
+                    <option value="7500">7500万円以上</option>
+                    <option value="8000">8000万円以上</option>
+                    <option value="9000">9000万円以上</option>
+                    <option value="10000">1億円以上</option>
+                  </select>
+                  ～
+                  <select name="total_amount_upper">
+                    <option value="500">500万円未満</option>
+                    <option value="1000">1000万円未満</option>
+                    <option value="1500">1500万円未満</option>
+                    <option value="2000">2000万円未満</option>
+                    <option value="2500">2500万円未満</option>
+                    <option value="3000">3000万円未満</option>
+                    <option value="3500">3500万円未満</option>
+                    <option value="4000">4000万円未満</option>
+                    <option value="4500">4500万円未満</option>
+                    <option value="5000">5000万円未満</option>
+                    <option value="5500">5500万円未満</option>
+                    <option value="6000">6000万円未満</option>
+                    <option value="6500">6500万円未満</option>
+                    <option value="7000">7000万円未満</option>
+                    <option value="7500">7500万円未満</option>
+                    <option value="8000">8000万円未満</option>
+                    <option value="9000">9000万円未満</option>
+                    <option value="10000">1億円未満</option>
+                    <option value="12000">1億2千万円未満</option>
+                    <option value="" selected="">上限なし</option>
+                  </select>
+                </dd>
+              </dl>
+              <dl class="terms">
+                <dt>土地面積</dt>
+                <dd>
+                  <select name="total_amount_lower">
+                    <option value="">下限なし</option>
+                    <option value="60">60㎡以上</option>
+                    <option value="70">70㎡以上</option>
+                    <option value="80">80㎡以上</option>
+                    <option value="90">90㎡以上</option>
+                    <option value="100">100㎡以上</option>
+                    <option value="110">110㎡以上</option>
+                    <option value="120">120㎡以上</option>
+                    <option value="130">130㎡以上</option>
+                    <option value="140">140㎡以上</option>
+                    <option value="150">150㎡以上</option>
+                  </select>
+                  ～
+                  <select name="total_amount_upper">
+                    <option value="60">60㎡未満</option>
+                    <option value="70">70㎡未満</option>
+                    <option value="80">80㎡未満</option>
+                    <option value="90">90㎡未満</option>
+                    <option value="100">100㎡未満</option>
+                    <option value="110">110㎡未満</option>
+                    <option value="120">120㎡未満</option>
+                    <option value="130">130㎡未満</option>
+                    <option value="140">140㎡未満</option>
+                    <option value="150">150㎡未満</option>
+                    <option value="" selected="">上限なし</option>
+                  </select>
+                </dd>
+              </dl>
+              <dl class="terms">
+                <dt>建物面積</dt>
+                <dd>
+                  <select name="total_amount_lower">
+                    <option value="">下限なし</option>
+                    <option value="60">60㎡以上</option>
+                    <option value="70">70㎡以上</option>
+                    <option value="80">80㎡以上</option>
+                    <option value="90">90㎡以上</option>
+                    <option value="100">100㎡以上</option>
+                    <option value="110">110㎡以上</option>
+                    <option value="120">120㎡以上</option>
+                    <option value="130">130㎡以上</option>
+                    <option value="140">140㎡以上</option>
+                    <option value="150">150㎡以上</option>
+                  </select>
+                  ～
+                  <select name="total_amount_upper">
+                    <option value="60">60㎡未満</option>
+                    <option value="70">70㎡未満</option>
+                    <option value="80">80㎡未満</option>
+                    <option value="90">90㎡未満</option>
+                    <option value="100">100㎡未満</option>
+                    <option value="110">110㎡未満</option>
+                    <option value="120">120㎡未満</option>
+                    <option value="130">130㎡未満</option>
+                    <option value="140">140㎡未満</option>
+                    <option value="150">150㎡未満</option>
+                    <option value="" selected="">上限なし</option>
+                  </select>
+                </dd>
+              </dl>
+              <dl class="terms">
+                <dt>間取り</dt>
+                <dd>
+                  <ul class="srchchoices clearfix">
+                    <li>
+                      <label><input type="checkbox" name="srchplan" value="">1K/DK/(S)LDK</label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="srchplan" value="">2K/DK/(S)LDK</label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="srchplan" value="">3K/DK/(S)LDK</label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="srchplan" value="">4K/DK/(S)LDK</label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="srchplan" value="">5K以上</label>
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="terms">
+                <dt>駅徒歩</dt>
+                <dd>
+                  <ul class="srchchoices clearfix wColmun2">
+                    <li>
+                      <label><input type="radio" name="srchfoot" value="5">5分以内</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="srchfoot" value="10">10分以内</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="srchfoot" value="15">15分以内</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="srchfoot" value="20">20分以内</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="srchfoot" value="">指定なし</label>
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="terms">
+                <dt>築年数</dt>
+                <dd>
+                  <ul class="srchchoices clearfix wColmun2">
+                    <li>
+                      <label><input type="radio" name="srchage" value="1">1年以内</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="srchage" value="3">3年以内</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="srchage" value="5">5年以内</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="srchage" value="10">10年以内</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="srchage" value="15">15年以内</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="srchage" value="20">20年以内</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="srchage" value="25">25年以内</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="srchage" value="30">30年以内</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="srchage" value="">指定なし</label>
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="terms">
+                <dt>構造</dt>
+                <dd>
+                  <ul class="srchchoices clearfix wColmun2">
+                    <li>
+                      <label><input type="checkbox" name="srchstructure" value="">木造</label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="srchstructure" value="">木造平家建</label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="srchstructure" value="">ブロック</label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="srchstructure" value="">鉄骨造</label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="srchstructure" value="">軽量鉄骨造</label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="srchstructure" value="">ＲＣ造</label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="srchstructure" value="">ＳＲＣ造</label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="srchstructure" value="">ＰＣ造</label>
+                    </li>
+                    <li>
+                      <label><input type="checkbox" name="srchstructure" value="">ＨＰＣ造</label>
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="terms" id="floor">
+                <dt>階層/所在地</dt>
+                <dd>
+                  <span>地上</span>
+                  <select name="">
+                    <option value="">指定なし</option>
+                    <option value="xxx">xxx</option>
+                  </select>
+                </dd>
+                <dd><label><input type="checkbox" name="srchstructure" value="">地下なし</label></dd>
+              </dl>
+              <dl class="terms">
+                <dt>その他条件など</dt>
+                <dd>
+                  <ul class="srchchoices clearfix">
+                    <li>
+                      <label><input type="radio" name="" value="">閑静な住環境</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="" value="">南向き道路面</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="" value="">安心の○○構造</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="" value="">最上階</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="" value="">2階建て</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="" value="">駐車場有</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="" value="">25年以内</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="" value="">即引き渡し可</label>
+                    </li>
+                    <li>
+                      <label><input type="radio" name="" value="">角地等</label>
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+              <input type="submit" value="検索する" id="btnSubmit">
+            </form>
+          </article>
+        </aside>

@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>%COPYRIGHT%</title>
+<link href="%IMAGE_URL%/default.css" type="text/css" rel="stylesheet" />
+<link href="%IMAGE_URL%/table.css" type="text/css" rel="stylesheet" />
+<link href="%IMAGE_URL%/logsearch.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="%IMAGE_URL%/dom.js"></script>
+<script type="text/javascript" src="%IMAGE_URL%/logsearch.js"></script>
+<script type="text/javascript" src="%IMAGE_URL%/inputlimit.js"></script>
+</head>
+<body>
+<div align="right">%COPYRIGHT4%</div>
+<h1>生ログ検索</h1>
+<form method="post" action="%CGI_URL%" name="form">
+%HIDDEN%
+  <h2>検索条件</h2>
+  <table class="tbl">
+    <tr>
+      <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">検索モード</th>
+      <td><input type="radio" value="1" name="MODE" %MODE1% />直近のログだけを検索表示する　　<input type="radio" value="2" name="MODE" %MODE2% />ログの先頭から順次検索表示する</td>
+    </tr>
+    <tr>
+      <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">日付指定</th>
+      <td>
+        <input type="radio" value="0" name="DATE" %DATE0% />未指定　<input type="radio" value="1" name="DATE" %DATE1% />指定する　
+        西暦 <input type="text" name="SYEAR" value="%SYEAR%" style="width:40px;" maxlength="4" class="inputlimit_num" /> 年
+        <input type="text" name="SMON" value="%SMON%" style="width:20px;" maxlength="2" class="inputlimit_num" /> 月
+        <input type="text" name="SDAY" value="%SDAY%" style="width:20px;" maxlength="2" class="inputlimit_num" /> 日
+        ～ 西暦 <input type="text" name="EYEAR" value="%EYEAR%" style="width:40px;" maxlength="4" class="inputlimit_num" /> 年
+        <input type="text" name="EMON" value="%EMON%" style="width:20px;" maxlength="2" class="inputlimit_num" /> 月
+        <input type="text" name="EDAY" value="%EDAY%" style="width:20px;" maxlength="2" class="inputlimit_num" /> 日まで
+      </td>
+    </tr>
+    <tr>
+      <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">検索文字列</th>
+      <td><input type="text" name="QSTRING" size="85" value="%QSTRING%" /></td>
+    </tr>
+    <tr>
+      <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">表示モード</th>
+      <td><input type="radio" value="0" name="DISP_MODE" %DISP_MODE0% />生ログそのままを表示　　<input type="radio" value="1" name="DISP_MODE" %DISP_MODE1% />整形して表示</td>
+    </tr>
+    <tr>
+      <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">表示件数</th>
+      <td>
+        <table style="width:100%">
+          <tr>
+            <td style="border:0px;"><input type="text" name="DISPNUM" size="4" value="%DISPNUM%" class="inputlimit_num" /> 件</td>
+            <td style="border:0px;text-align:right;"><input type="submit" value="　検　索　" name="B3" /></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</form>
+<p>%HITNUM%　</p>
+%list%
+<hr />
+<div>%COPYRIGHT4%</div>
+</body>
+</html>

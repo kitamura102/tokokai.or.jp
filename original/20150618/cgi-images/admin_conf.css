@@ -1,0 +1,46 @@
+.tbl {
+  border-collapse: collapse;
+  border: 1px solid #000000;
+}
+.tbl th {
+  color: #ffffff;
+  font-weight: normal;
+  text-align: left;
+  border-top: 1px solid #ffffff;
+  border-right: 0px;
+  border-bottom: 1px solid #000000;
+  border-left: 0px;
+  padding: 3px 5px 3px 5px;
+  white-space: nowrap;
+  background-color: #317491;
+}
+.tbl td {
+  background-color: #efefef;
+  text-align: left;
+  border-top: 1px solid #ffffff;
+  border-right: 0px;
+  border-bottom: 1px solid #898989;
+  border-left: 0px;
+  padding: 3px 5px 3px 5px;
+}
+.tbl .center {
+  text-align: center;
+}
+.tbl .right {
+  text-align: right;
+}
+.tbl .italic {
+  font-style: italic;
+}
+
+.tblin {
+  border: 0px;
+}
+.tblin td {
+  border: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.help {
+  cursor: pointer;
+}

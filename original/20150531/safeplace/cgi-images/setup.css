@@ -1,0 +1,46 @@
+#headbox {
+  width: 650px;
+}
+#mainbox {
+  width: 650px;
+}
+#leftbox {
+  width: 500px;
+  float: left;
+}
+#rightbox {
+  width: 130px;
+  float: right;
+}
+#footbox {
+  width: 650px;
+  clear: both;
+}
+
+#stepbox {
+  background-color: #196a77;
+  border: 1px solid #4c4c4c;
+}
+#stepbox .step {
+  background-color: #eeeeee;
+  border: 1px solid #4c4c4c;
+  margin: 5px;
+  padding: 5px;
+  color: #8c8c8c;
+}
+#stepbox .steptitle {
+  font-weight: bold;
+}
+#stepbox .stepdesc {
+  margin-left: 10px;
+}
+#stepbox .target {
+  background-color: #fff7b0;
+  color: #000000;
+}
+.serrorbox {
+  color: #aa0000;
+}
+.serror {
+  margin: 5px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>%COPYRIGHT%</title>
+<link href="%IMAGE_URL%/default.css" type="text/css" rel="stylesheet" />
+<link href="%IMAGE_URL%/table.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div align="right">%COPYRIGHT4%</div>
+<h1>アクセスログ情報</h1>
+<h2>現在解析対象のログ</h2>
+<form action="$CGIURL$" method="post" target="_top">
+<table class="tbl">
+<tr>
+  <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">ログファイル</th>
+  <td>$LOGFILE$</td>
+</tr>
+<tr>
+  <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">ログファイルサイズ</th>
+  <td>$LOGSIZE$</td>
+</tr>
+<tr>
+  <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">ログローテーション</th>
+  <td>$LOGLOTATION$</td>
+</tr>
+</table>
+</form>
+<h2>ログ一覧</h2>
+<table class="tbl">
+  <tr>
+    <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">ファイル名</th>
+    <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">サイズ</th>
+    <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">最終更新日時</th>
+    <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">ログ切替</th>
+  </tr>
+$LOGALLLIST$
+</table>
+<hr />
+<div>%COPYRIGHT4%</div>
+</body>
+</html>

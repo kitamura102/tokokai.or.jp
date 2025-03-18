@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+%COOKIE%
+<title>管理メニュー</title>
+<link href="%IMAGE_URL%/default.css" type="text/css" rel="stylesheet" />
+<link href="%IMAGE_URL%/table.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript">
+function delConfirm(logfile) {
+	var res = confirm(logfile + "を削除してもよろしいですか？");
+	if(res == true) {
+		document.location.href = "admin.cgi?action=logdel&file=" + logfile;
+	} else {
+		return;
+	}
+}
+</script>
+</head>
+<body>
+<h1>アクセスログ管理</h1>
+<table class="tbl">
+  <tr>
+    <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">ファイル名</th>
+    <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">サイズ</th>
+    <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">最終更新日時</th>
+    <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">ダウンロード</th>
+    <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">削除</th>
+  </tr>
+  %LIST%
+</table>
+<hr />
+%COPYRIGHT%
+</body>
+</html>

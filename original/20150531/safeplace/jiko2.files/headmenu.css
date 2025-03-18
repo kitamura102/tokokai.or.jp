@@ -1,0 +1,30 @@
+.headmenu {
+	FONT-SIZE: 10pt; COLOR: #225588; FONT-FAMILY: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka"; LETTER-SPACING: -1.15pt; TEXT-DECORATION: none
+}
+.10point {
+	FONT-SIZE: 10pt; LINE-HEIGHT: 15pt; FONT-FAMILY: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka"; LETTER-SPACING: 0.3pt
+}
+.12point {
+	FONT-SIZE: 12pt; LINE-HEIGHT: 14pt; FONT-FAMILY: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka"; LETTER-SPACING: 0pt
+}
+.headmenu_space {
+	FONT-SIZE: 10pt; COLOR: #225588; FONT-FAMILY: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka"; LETTER-SPACING: 0.2pt; TEXT-DECORATION: none
+}
+.10pointCopy {
+	FONT-SIZE: 10pt; TEXT-INDENT: 10pt; LINE-HEIGHT: 12pt; FONT-FAMILY: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka"; LETTER-SPACING: 0.3pt
+}
+.toppage {
+	BACKGROUND-IMAGE: url(../image_top/header/bg_left.gif); BACKGROUND-REPEAT: repeat-y
+}
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+.bg {
+	BACKGROUND-IMAGE: url(../image_top/bg.gif); BACKGROUND-REPEAT: repeat-y; BACKGROUND-COLOR: #ffffff
+}

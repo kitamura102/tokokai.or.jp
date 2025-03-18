@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/* ==========================================
+
+  “Obstetrics"
+  "Gynecology"
+  "Hospitalization” CSS
+		
+========================================== */
+
+
+
+
+/* Main Content
+========================================== */
+
+	/* feature(Obstetrics,Gynecology)
+	---------------------------------------- */
+	#feature						{	display:table; width:100%; margin-bottom:40px;}
+	#feature ol						{	display:table-cell;}
+	#feature ol li					{	display:table; width:100%; margin-bottom:25px;}
+	#feature ol li span				{	display:table-cell; width:50px; line-height:0.9; vertical-align:top;}
+	#feature ol li span em			{	text-align:center; font-size:3.0em; display:block; font-style:normal;
+										width:50px; height:50px;
+										color:#fff; background:#ff8aa8; border-radius:50%; -webkit-border-radius:50%; -moz-border-radius:50%;}
+	#feature ol li span em:before	{	content:"特色"; font-size:0.467em; display:block; padding:7px 0 2px 0;}
+	
+	#feature ol li p				{	display:table-cell; font-size:1.6em; line-height:1.5; vertical-align:middle; padding:0 0 0 10px;}
+	
+	#feature div					{	display:table-cell; text-align:right; vertical-align:top; padding:30px 0 0 20px;}
+	#feature div img				{	width:100%; height:auto; }	
+	
+		#obstetrics #feature div	{	width:35.6%;}
+		#obstetrics #feature div img{	max-width:334px;}
+		#gynecology #feature div	{	width:39.5%;}
+		#gynecology #feature div img:first-child{	max-width:320px; margin-bottom:14px;}
+		#gynecology #feature div img:last-child{	max-width:218px;}
+
+
+	@media screen and (max-width: 640px) { 
+		#feature						{	display:block;}
+		#feature ol						{	display:block; padding-top:0;}
+		#feature div					{	display:block; padding:10px 0 0 0;}
+		#feature div img				{	display:block; margin:0 auto;}
+			#obstetrics #feature div	{	width:100%;}
+			#obstetrics #feature div img{	max-width:none;}
+			#gynecology #feature div	{	width:100%;}
+			#gynecology #feature div img:first-child{	max-width:none;}
+			#gynecology #feature div img:last-child{	max-width:none;}
+	}	
+	
+
+	/* inBox
+	---------------------------------------- */
+	.inBox				{	padding-bottom:30px;}
+	.inBox h4			{	background:#ff8aa8; color:#fff; border-left:33px solid #ffbad5; padding:10px; font-size:1.8em; font-weight:bold; margin-bottom:20px;}
+	.inBox p,
+	.inBox h5,
+	.inBox ul,
+	.inBox table		{	margin-left:44px; margin-top:5px; font-size:1.6em; line-height:1.5;}
+	
+	.inBox p			{	line-height:1.5;}
+	.inBox .fRimg		{	float:right; margin:5px 0 0 20px; width:31%; max-width:264px;   }
+	.inBox .fRimg img	{	width:100%; height:auto; display:block;}
+	.inBox h5			{	font-size:1.8em; color:#ff8aa8; font-weight:bold; margin-top:1.5em; margin-bottom:5px; line-height:1;}
+	.inBox .note		{	font-size:1.3em;}
+	.inBox .noteIn		{	font-size:0.813em;}/*13px*/
+	.inBox .lead		{	font-size:1.8em; color:#ff8aa8; font-weight:bold;}
+
+
+	@media screen and (max-width: 640px) { 
+		.inBox h4		{	border-left:16px solid #ffbad5;}
+		.inBox p,
+		.inBox h5,
+		.inBox ul,
+		.inBox table	{	margin-left:22px;}
+		
+		.inBox p		{	margin-top:5px;}
+		.inBox .fRimg	{	float:none; margin:5px 0 0 0; max-width:none; width:100%; padding-left:22px; }
+		.inBox h5		{	margin-top:1.5em;}
+	}	
+
+
+		/* hospitalization.html */
+		#hos02 #schedule th	{	font-weight:normal; text-align:right;}
+		#hos02 #schedule td	{	padding-left:1em;}
+		#hos02 #schedule td.noSp	{	padding-left:0;}
+		
+		#hos03 #mealImg li				{	width:48%; margin-left:2%; float:left; margin-top:10px; }
+		#hos03 #mealImg li:first-child	{	margin-left:0;}
+		#hos03 #mealImg li img			{	width:100%; height:auto;}
+		
+		#hos04 div				{	width:50%; padding-top:20px;}
+		#hos04 div h5			{	margin-top:0;}
+		#hos04 div p			{	float:right; width:46%; margin-left:10px; margin-top:-16px;}
+		#hos04 div p img		{	width:100%; height:auto;}
+		#hos04 div ul				{	font-size:1.5em;}
+		#hos04 div:nth-of-type(1)	{	float:left; }
+		#hos04 div:nth-of-type(2)	{	float:right;}
+		
+
+	@media screen and (max-width: 800px) { 
+		#hos04 div p			{	width:40%;}
+		#hos04 div ul			{	font-size:1.4em;}
+	}
+
+	@media screen and (max-width: 640px) { 
+		#hos03 #mealImg li				{	width:100%; margin-left:0; float:none; }
+		
+		#hos04 div				{	width:100%;}
+		#hos04 div p			{	float:none; width:100%; margin-left:0; margin-top:10px; padding-left:22px;}
+		#hos04 div ul			{	font-size:1.5em; margin-top:10px;}
+	}	
+
+

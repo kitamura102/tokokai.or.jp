@@ -1,0 +1,95 @@
+body {
+  font-size: 12px;
+  font-family: "ＭＳ Ｐゴシック", Osaka;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #4c4c4c;
+}
+h1 {
+  font-size: 16px;
+  color: #196a77;
+  padding: 5px;
+  margin-top: 2px;
+  border-top: 2px solid #4c4c4c;
+  border-bottom: 1px solid #4c4c4c;
+  background-color: #eeeeee;
+  font-weight: normal;
+  font-family: メイリオ;
+}
+h2 {
+  font-size: 14px;
+  color: #196a77;
+  font-weight: normal;
+  font-family: メイリオ;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-left: 7px solid #196a77;
+  border-top: 2px solid #196a77;
+  padding-left: 4px;
+}
+h3 {
+  font-size: 12px;
+  color: #196a77;
+  font-weight: normal;
+  font-family: メイリオ;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+a:hover {
+  color: red;
+  text-decoration:underline;
+}
+a {
+  text-decoration:none;
+}
+img{
+  vertical-align: middle;
+  border: 0px;
+}
+form {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+select {
+  font-size: 12px;
+  font-family: "ＭＳ Ｐゴシック", Osaka;
+  font-family: Helvetica, Arial, sans-serif;
+}
+input {
+  font-size: 12px;
+  font-family: "ＭＳ Ｐゴシック", Osaka;
+  font-family: Helvetica, Arial, sans-serif;
+}
+textarea {
+  font-size: 12px;
+  font-family: "ＭＳ Ｐゴシック", Osaka;
+  font-family: Helvetica, Arial, sans-serif;
+}
+th {
+  font-size: 12px;
+  font-family: "ＭＳ Ｐゴシック", Osaka;
+  font-family: Helvetica, Arial, sans-serif;
+}
+td {
+  font-size: 12px;
+  font-family: "ＭＳ Ｐゴシック", Osaka;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.size1{ font-size: 8px }
+.size2{ font-size: 10px }
+.size3{ font-size: 12px }
+.size4{ font-size: 14px }
+.size5{ font-size: 18px }
+.size6{ font-size: 20px }
+.size7{ font-size: 24px }
+.error{
+  color:#ff0000;
+}
+#params {
+  display: none;
+}
+img.gbar1 {
+	border-right: 1px solid #cb5633;
+}
+img.gbar2 {
+	border-right: 1px solid #3688d3;
+}

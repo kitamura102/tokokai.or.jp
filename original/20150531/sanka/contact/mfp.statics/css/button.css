@@ -1,0 +1,24 @@
+div.mfp_buttons {
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+	font-family:Georgia, Verdana, sans-serif;
+}
+div.mfp_buttons button#mfp_button_send {
+	
+}
+div.mfp_buttons button#mfp_button_cancel {
+	
+}
+div.mfp_buttons button {
+	font-size: 16px;
+	margin: 0px;
+	padding: 3px;
+}
+div.mfp_buttons button.imagebutton {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	outline: none;
+	background: none;
+}

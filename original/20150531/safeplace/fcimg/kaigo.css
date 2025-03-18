@@ -1,0 +1,18 @@
+ 
+#houmon{
+  width : 700px;
+  margin-left : 80px;
+}
+.tsisetu_annai td{
+  vertical-align : top;
+}
+.tsisetu_annai ul{
+  margin-top : 0px;
+  margin-left : 0px;
+  margin-right : 0px;
+  margin-bottom : 0px;
+  padding-top : 5px;
+  padding-left : 20px;
+  padding-right : 10px;
+  padding-bottom : 10px;
+}

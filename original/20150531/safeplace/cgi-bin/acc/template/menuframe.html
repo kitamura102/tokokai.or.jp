@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>%COPYRIGHT%</title>
+<link href="%IMAGE_URL%/default.css" type="text/css" rel="stylesheet" />
+<link href="%IMAGE_URL%/menu.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="%IMAGE_URL%/dom.js"></script>
+<script type="text/javascript" src="%IMAGE_URL%/menu.js"></script>
+</head>
+<body>
+<div id="menu">
+<table class="tblh">
+  <tr>
+    <td class="top">%COPYRIGHT2%</td>
+    <td class="top right">%logoff%</td>
+  </tr>
+</table>
+<!-- カレンダー start -->
+<!-- <a href="%ALLACCURL%" target="_top">全期間</a> -->
+<div id="calendar">
+<table id="calhead">
+  <tr>
+    <td class="left">%LastMonth%</td>
+    <td class="center">%ThisMonth%</td>
+    <td class="right">%NextMonth%</td>
+  </tr>
+</table>
+<table id="caltbl">
+<tr>
+  <td><img src="%IMAGE_URL%/sun.gif" border="0" width="17" height="17" alt="日" /></td>
+  <td><img src="%IMAGE_URL%/mon.gif" border="0" width="17" height="17" alt="月" /></td>
+  <td><img src="%IMAGE_URL%/tue.gif" border="0" width="17" height="17" alt="火" /></td>
+  <td><img src="%IMAGE_URL%/wed.gif" border="0" width="17" height="17" alt="水" /></td>
+  <td><img src="%IMAGE_URL%/thu.gif" border="0" width="17" height="17" alt="木" /></td>
+  <td><img src="%IMAGE_URL%/fri.gif" border="0" width="17" height="17" alt="金" /></td>
+  <td><img src="%IMAGE_URL%/sat.gif" border="0" width="17" height="17" alt="土" /></td>
+</tr>
+%calendar%
+</table>
+</div>
+<!-- カレンダー end -->
+<div>%loglist%</div>
+<div>解析モード：%ACCMODE%</div>
+<div id="Out1">
+  <div><img src="%IMAGE_URL%/folder_o.gif" width="17" height="17" id="Out1-1" class="Outline" alt="概要" />&nbsp;概要</div>
+  <div id="Out1-1d">
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="統計概要" /></a>&nbsp;<a href="%CGIURL%" target="FRAME2">統計概要</a></div>
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=AccessLogInformation" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="アクセスログ情報" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=AccessLogInformation" target="FRAME2">アクセスログ情報</a></div>
+    <div><img src="%IMAGE_URL%/line_bottom.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=LogSearch" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="生ログ検索" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=LogSearch" target="FRAME2">生ログ検索</a></div>
+  </div>
+</div>
+
+<div id="Out8">
+  <div><img src="%IMAGE_URL%/folder_o.gif" width="17" height="17" id="Out8-1" class="Outline" alt="訪問者分析" />&nbsp;訪問者分析</div>
+  <div id="Out8-1d">
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=TopVisitors" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="ホスト名" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=TopVisitors" target="FRAME2">ホスト名</a></div>
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=MostActiveCountries" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="国（TLD）" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=MostActiveCountries" target="FRAME2">国（TLD）</a></div>
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=MostActivePrefecture" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="都道府県" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=MostActivePrefecture" target="FRAME2">都道府県</a></div>
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=MostActiveOrganization" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="組織" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=MostActiveOrganization" target="FRAME2">組織</a></div>
+    <div><img src="%IMAGE_URL%/line_bottom.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=NewVsReturningVisitors" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="リピータ比率" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=NewVsReturningVisitors" target="FRAME2">リピータ比率</a></div>
+  </div>
+</div>
+
+<div id="Out7">
+  <div><img src="%IMAGE_URL%/folder_o.gif" width="17" height="17" id="Out7-1" class="Outline" alt="アクセスページ分析" />&nbsp;アクセスページ分析</div>
+  <div id="Out7-1d">
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=TopPagesByViews" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="インプレッション数" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=TopPagesByViews" target="FRAME2">インプレッション数</a></div>
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=TopPagesByVisits" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="セッション数" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=TopPagesByVisits" target="FRAME2">セッション数</a></div>
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=TopPagesByVisitors" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="ユニークユーザー数" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=TopPagesByVisitors" target="FRAME2">ユニークユーザー数</a></div>
+    <div><img src="%IMAGE_URL%/line_bottom.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=VisitorTrace" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="訪問者追跡" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=VisitorTrace" target="FRAME2">訪問者追跡</a></div>
+  </div>
+</div>
+
+<div id="Out3">
+  <div><img src="%IMAGE_URL%/folder_o.gif" width="17" height="17" id="Out3-1" class="Outline" alt="時間別アクセス分布" />&nbsp;時間別アクセス分布</div>
+  <div id="Out3-1d">
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=ActivityByDayOfTheMonth" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="日別アクセス数" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=ActivityByDayOfTheMonth" target="FRAME2">日別アクセス数</a></div>
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=ActivityByDayOfTheWeek" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="曜日別アクセス数" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=ActivityByDayOfTheWeek" target="FRAME2">曜日別アクセス数</a></div>
+    <div><img src="%IMAGE_URL%/line_bottom.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=ActivityByHourOfTheDay" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="時間別アクセス数" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=ActivityByHourOfTheDay" target="FRAME2">時間別アクセス数</a></div>
+  </div>
+</div>
+<div id="Out4">
+  <div><img src="%IMAGE_URL%/folder_o.gif" width="17" height="17" id="Out4-1" class="Outline" alt="アクセス元分析" />&nbsp;アクセス元分析</div>
+  <div id="Out4-1d">
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=TopReferringSites" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="リンク元サイト" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=TopReferringSites" target="FRAME2">リンク元サイト</a></div>
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=TopReferringURLs" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="リンク元URL" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=TopReferringURLs" target="FRAME2">リンク元URL</a></div>
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=TopSearchKeywords" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="検索キーワード" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=TopSearchKeywords" target="FRAME2">検索キーワード</a></div>
+    <div><img src="%IMAGE_URL%/line_bottom.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=TopSearchEngines" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="検索エンジン" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=TopSearchEngines" target="FRAME2">検索エンジン</a></div>
+  </div>
+</div>
+<div id="Out5">
+  <div><img src="%IMAGE_URL%/folder_o.gif" width="17" height="17" id="Out5-1" class="Outline" alt="OS/ブラウザー分析" />&nbsp;OS/ブラウザー分析</div>
+  <div id="Out5-1d">
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=TopPlatforms" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="OS" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=TopPlatforms" target="FRAME2">OS</a></div>
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=TopBrowsers" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="ブラウザー" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=TopBrowsers" target="FRAME2">ブラウザー</a></div>
+    <div><img src="%IMAGE_URL%/line_bottom.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=TopAcceptLanguage" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="表示言語" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=TopAcceptLanguage" target="FRAME2">表示言語</a></div>
+  </div>
+</div>
+<div id="Out6">
+  <div><img src="%IMAGE_URL%/folder_o.gif" width="17" height="17" id="Out6-1" class="Outline" alt="画面情報分析" />&nbsp;画面情報分析</div>
+  <div id="Out6-1d">
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=TopResolution" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="解像度" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=TopResolution" target="FRAME2">解像度</a></div>
+    <div><img src="%IMAGE_URL%/line_bottom.gif" width="17" height="17" alt="" /><a href="%CGIURL%&amp;ITEM=TopColorDepth" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="色深度" /></a>&nbsp;<a href="%CGIURL%&amp;ITEM=TopColorDepth" target="FRAME2">色深度</a></div>
+  </div>
+</div>
+
+<div id="Out9">
+  <div><img src="%IMAGE_URL%/property.gif" width="17" height="17" id="Out9-1" class="Outline" alt="設定情報" />&nbsp;設定情報</div>
+  <div id="Out9-1d">
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="admin.cgi?action=conf" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="CGI設定" /></a>&nbsp;<a href="admin.cgi?action=conf" target="FRAME2">CGI設定</a></div>
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="admin.cgi?action=log" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="アクセスログ管理" /></a>&nbsp;<a href="admin.cgi?action=log" target="FRAME2">アクセスログ管理</a></div>
+    <div><img src="%IMAGE_URL%/line.gif" width="17" height="17" alt="" /><a href="admin.cgi?action=restrict" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="自アクセス除外設定" /></a>&nbsp;<a href="admin.cgi?action=restrict" target="FRAME2">自アクセス除外設定</a></div>
+    <div><img src="%IMAGE_URL%/line_bottom.gif" width="17" height="17" alt="" /><a href="admin.cgi?action=passform" target="FRAME2"><img src="%IMAGE_URL%/file.gif" width="17" height="17" alt="管理用パスワード変更" /></a>&nbsp;<a href="admin.cgi?action=passform" target="FRAME2">管理用パスワード変更</a></div>
+  </div>
+</div>
+</div>
+<hr />
+<div>%COPYRIGHT3%</div>
+<!-- JavaScriptへ引き渡すための変数 start -->
+<form action="" id="params">
+  <input type="hidden" name="IMAGE_URL" id="IMAGE_URL" value="%IMAGE_URL%" />
+</form>
+<!-- JavaScriptへ引き渡すための変数 end -->
+</body>
+</html>
