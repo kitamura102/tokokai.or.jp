@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* ==========================================
+
+  “mmenu Overwrite” CSS
+
+========================================== */
+.mm-menu	{	background:#ffdfe1;}
+.mm-navbar .mm-title {
+	font-size:14px; color:#000!important;}
+
+.category	{	color:#000; background:rgba(255,255,255,0.3)}

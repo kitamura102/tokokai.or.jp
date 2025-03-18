@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja"><!-- InstanceBegin template="/Templates/mother.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>お問い合わせ | 調布病院 産科･婦人科</title>
+<!-- InstanceEndEditable -->
+<meta name="keywords" content="調布市,産科,婦人科,女医,出産,お産,女性のみ,不妊外来,助産師外来,レディースドック,マンモグラフィー">
+<meta name="description" content="調布病院 産科・婦人科は、外来・分娩・入院治療(手術含む)ともにすべて産婦人科専門医の資格を持った女性医師が担当します。">
+<link rel="stylesheet" href="../_styles/reset.css">
+<link rel="stylesheet" href="../_styles/common.css">
+<link rel="stylesheet" href="../_scripts/mmenu/css/jquery.mmenu.all.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../_scripts/mmenu/js/jquery.mmenu.min.js"></script>
+<script src="../_scripts/mmenu/js/jquery.mmenu.fixedelements.min.js"></script>
+<script src="../_scripts/scrolltopcontrol.js"></script>
+<script src="../_scripts/setting.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<link rel="stylesheet" href="mfp.statics/mailformpro.css" type="text/css">
+<link rel="stylesheet" href="../_styles/style_contact.css" type="text/css">
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="../_styles/mmenu_overwrite.css">
+<!-- InstanceParam name="id" type="text" value="contact" -->
+</head>
+<body id="contact">
+<div id="wapper">
+  <!-- ******************************************** -->
+  <header id="header" class="Fixed">
+
+    <section class="wide">
+      <div id="logo">
+        <h1><span>&lt;東京都指定二次救急医療機関&gt; 病院機能評価証取得</span> <a href="/index.html"><img src="../_common/logo.png" alt="医療法人社団　桐光会　調布病院"></a></h1>
+        <a href="#gNavSP" id="spBtn"><i class="icon-b"></i></a>
+      </div>
+      <div id="title" class="clearfix">
+        <div>
+          <h2>産科･婦人科のご案内</h2>
+          <p class="icon-a">042-484-2626<span>お気軽にお電話ください</span></p>
+        </div>
+      </div>
+    </section>
+    <nav class="gNav">
+      <ul class="wide">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="../obstetrics.html">産科のご案内</a></li>
+        <li><a href="../gynecology.html">婦人科のご案内</a></li>
+        <li><a href="../hospitalization.html">入院について</a></li>
+        <li><a href="../voice.html">患者様の声</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- ******************************************** -->
+  <!-- InstanceBeginEditable name="EditContent" -->
+  <div id="container">
+    <section class="wide main">
+    <div class="categoryTitle clearfix">
+      <h3>お問い合わせ</h3>
+    </div>
+    <div class="inner">
+      <p class="textDf">メールフォームでのお問い合わせは、主に下記時間帯に受信確認をしております。<br />
+平日9:00〜17:00　土曜9:00〜13:00<br />
+<font color="red">急を要するご質問、緊急の病状に関するお問い合せ等、早急な回答を必要とするご質問、<br />診療等の予約に関するご質問及び診療のご予約は、必ずお電話にてお問い合わせください。</font><br />
+メールフォームでのお問い合わせに対するご連絡には、２日以上を要する場合があります。<br />
+<font color="red">電話　042-484-2626(代表）</font><br /><br />
+自動送信の「お問い合わせ受付メール」が届かない場合は、受信許可設定がされていません。<br />
+携帯電話に返信をご希望で、ドメイン指定受信やメールフィルター等を設定されている場合は、<br />
+【@tokokai.or.jp】からのメールの受信許可設定をお願いいたします。<br />
+許可されていない場合、返信メールを送信することができません。</p>
+      <form id="mailformpro" action="mailformpro/mailformpro.cgi" method="POST">
+        <div id="mailfield">
+          <dl class="mailform">
+            <dt class="mfp"><span class="must">必須</span>名前</dt>
+            <dd class="mfp">
+              <input type="text" name="名前" size="30" required="required" />
+            </dd>
+            <dt class="mfp">ふりがな</dt>
+            <dd class="mfp">
+              <input type="text" name="ふりがな" size="30" />
+            </dd>
+            <dt class="mfp">性別</dt>
+            <dd class="mfp">
+              <ul>
+                <li>
+                  <label>
+                    <input type="radio" name="性別" value="男性" />
+                    男性</label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="性別" value="女性" />
+                    女性</label>
+                </li>
+              </ul>
+              <div id="errormsg_性別" class="mfp_err">
+              </div>
+            </dd>
+            <dt class="mfp">年齢</dt>
+            <dd class="mfp">
+              <input type="text" name="年齢" size="5" />
+            </dd>
+            <dt class="mfp">電話番号</dt>
+            <dd class="mfp">
+              <input type="tel" data-type="tel" name="電話番号" size="20" data-min="9" />
+            </dd>
+            <dt class="mfp"><span class="must">必須</span>メールアドレス</dt>
+            <dd class="mfp">
+              <input type="email" data-type="email" data-parent="mailfield" name="email" size="40" required="required" />
+            </dd>
+            <dt class="mfp"><span class="must">必須</span>お問い合わせ内容</dt>
+            <dd class="mfp">
+              <textarea name="お問い合わせ内容" rows="10" cols="60" required="required"></textarea>
+            </dd>
+          </dl>
+          <div class="mfp_buttons">
+            <button type="reset">リセット</button>
+            &nbsp;&nbsp;
+            <button type="submit" data-disabled="入力内容にエラーがあります">入力内容確認</button>
+          </div>
+        </div>
+      </form>
+      <script type="text/javascript" id="mfpjs" src="mailformpro/mailformpro.cgi" charset="UTF-8"></script>
+    </div>
+    </section>
+  </div>
+  <!-- InstanceEndEditable -->
+  <!-- ******************************************** -->
+  <footer id="footer">
+    <section class="wide clearfix">
+      <p>医療法人社団 <strong>桐光会 調布病院</strong><br>
+        〒182-0034 東京都調布市下石原3-45-1</p>
+      <p><strong>TEL:042-484-2626</strong> (代表)<br>
+        <span>メールでのお問い合わせは<a href="index.html">こちら</a>をご利用下さい。</span> <span><a href="index.html"><i class="icon-i"></i>メールでのお問い合わせ</a></span></p>
+    </section>
+    <p id="copy">Copyright by Chofu Hospital.All rights reserved.</p>
+  </footer>
+  <!-- ******************************************** -->
+
+  <nav id="gNavSP">
+    <ul>
+      <li class="category"><a href="../index.html">HOME</a></li>
+      <li><a href="../obstetrics.html">産科のご案内</a>
+        <ul>
+          <li><a href="../obstetrics.html?id=obs01">立会い分娩</a></li>
+          <li><a href="../obstetrics.html?id=obs02">和痛分娩</a></li>
+          <li><a href="../obstetrics.html?id=obs03">母乳外来・助産師外来</a></li>
+          <li><a href="../obstetrics.html?id=obs04">母児同室・母乳栄養</a></li>
+        </ul>
+      </li>
+      <li><a href="../gynecology.html">婦人科のご案内</a>
+        <ul>
+          <li><a href="../gynecology.html?id=gyn01">レディースドック・<br>
+            ブライダルドック</a></li>
+          <li><a href="../gynecology.html?id=gyn02">更年期症候群</a></li>
+          <li><a href="../gynecology.html?id=gyn03">不妊症</a></li>
+          <li><a href="../gynecology.html?id=gyn04">ピル・子宮内避妊具(IUS)</a></li>
+          <li><a href="../gynecology.html?id=gyn05">一般外来</a></li>
+          <li><a href="../gynecology.html?id=gyn06">男女産み分け</a></li>
+        </ul>
+      </li>
+      <li><a href="../hospitalization.html">入院について</a>
+        <ul>
+          <li><a href="../hospitalization.html?id=hos01">入院準備</a></li>
+          <li><a href="../hospitalization.html?id=hos02">入院生活の決まり</a></li>
+          <li><a href="../hospitalization.html?id=hos03">食事について</a></li>
+          <li><a href="../hospitalization.html?id=hos04">お祝い膳について</a></li>
+          <li><a href="../hospitalization.html?id=hos05">入院のスケジュール</a></li>
+        </ul>
+      </li>
+      <li><a href="../voice.html">患者様の声</a></li>
+      <li><a href="https://www.tokokai.or.jp/access.html" target="_blank">病院までのアクセス</a></li>
+      <li><a href="https://www.tokokai.or.jp/uketuke.html" target="_blank">診療・受付時間</a></li>
+      <li class="category"><a href="index.html">メールでのお問い合わせ</a></li>
+    </ul>
+  </nav>
+<!-- ******************************************** -->
+</div>
+<!-- InstanceBeginEditable name="EditLast" --> <!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

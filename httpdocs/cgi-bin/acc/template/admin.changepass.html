@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+%COOKIE%
+<title>管理メニュー</title>
+<link href="%IMAGE_URL%/default.css" type="text/css" rel="stylesheet" />
+<link href="%IMAGE_URL%/table.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<h1>管理者用パスワード変更</h1>
+<p>管理者用パスワードを指定してください。パスワードに指定できる文字は、半角の英数、ハイフン、アンダースコアです。この画面は、一度パスワードを設定したら出てきません。忘れないようご注意ください。</p>
+<form method="post" action="%CGI_URL%">
+<input type="hidden" name="action" value="passchange" />
+<table class="tbl">
+  <tr>
+    <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">パスワード</th>
+    <td><input type="password" name="PASSWORD1" size="20" /></td>
+  </tr>
+  <tr>
+    <th style="background-image:url(%IMAGE_URL%/barbg.gif);background-repeat:repeat-x;">再入力</th>
+    <td><input type="password" name="PASSWORD2" size="20" /></td>
+  </tr>
+</table>
+<p><input type="submit" value="　設　　定　" name="B1" /></p>
+</form>
+<hr />
+%COPYRIGHT%
+</body>
+</html>

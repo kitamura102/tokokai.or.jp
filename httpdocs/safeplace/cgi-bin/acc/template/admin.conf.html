@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+%COOKIE%
+<title>管理メニュー</title>
+<link href="%IMAGE_URL%/default.css" type="text/css" rel="stylesheet" />
+<link href="%IMAGE_URL%/admin_conf.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="%IMAGE_URL%/dom.js"></script>
+<script type="text/javascript" src="%IMAGE_URL%/admin_conf.js"></script>
+<script type="text/javascript" src="%IMAGE_URL%/inputlimit.js"></script>
+</head>
+<body>
+<h1>CGI 設定</h1>
+<p><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" /> をクリックすると、ヘルプが表示されます。ヘルプの内容に従って、適切に設定してください。</p>
+<form method="post" action="%CGI_URL%" name="form">
+<input type="hidden" name="action" value="setconf" />
+<table class="tbl">
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_IMAGE_URL" class="help" /> イメージディレクトリの URL</th>
+    <td><input type="text" name="IMAGE_URL" size="50" value="%IMAGE_URL%" class="inputlimit_ascii" /></td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_AUTHFLAG" class="help" /> アクセス制限機能</th>
+    <td>
+      <select size="1" name="AUTHFLAG" id="AUTHFLAG">
+        <option value="0" %AUTHFLAG0%>OFF</option>
+        <option value="1" %AUTHFLAG1%>ON</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_PASSWORD" class="help" /> ログインパスワード</th>
+    <td><input type="password" name="PASSWORD" id="PASSWORD" size="20" value="%PASSWORD%" /></td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_URL2PATH_FLAG" class="help" /> URL マッピング機能</th>
+    <td>
+      <select size="1" name="URL2PATH_FLAG" id="URL2PATH_FLAG">
+        <option value="0" %URL2PATH_FLAG0%>しない</option>
+        <option value="1" %URL2PATH_FLAG1%>する</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_URL2PATH" class="help" /> URL マッピング</th>
+    <td>
+      <table class="tblin">
+        <tr>
+          <td>URL</td>
+          <td><input type="text" name="URL2PATH_URL" id="URL2PATH_URL" size="50" value="%URL2PATH_URL%" class="inputlimit_ascii" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="center">↓</td>
+        </tr>
+        <tr>
+          <td>パス</td>
+          <td><input type="text" name="URL2PATH_PATH" id="URL2PATH_PATH" size="50" value="%URL2PATH_PATH%" class="inputlimit_ascii" /></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_TIMEDIFF" class="help" /> 時差の調整</th>
+    <td>サーバの時間から <input type="text" name="TIMEDIFF" size="2" value="%TIMEDIFF%" />　時間進める</td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_GRAPHMAXLENGTH" class="help" /> 棒グラフの長さ</th>
+    <td><input type="text" name="GRAPHMAXLENGTH" size="5" value="%GRAPHMAXLENGTH%" class="inputlimit_num" /> ピクセル</td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_ROW" class="help" /> 表示ランキング数</th>
+    <td><input type="text" name="ROW" size="5" value="%ROW%" class="inputlimit_num" /> 位まで表示する</td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_LOTATION" class="help" /> ローテーション設定</th>
+    <td>
+      <select size="1" name="LOTATION" id="LOTATION">
+        <option value="0" %LOTATION0%>ローテーションしない</option>
+        <option value="1" %LOTATION1%>ログサイズでローテーション</option>
+        <option value="2" %LOTATION2%>日ごとにローテーション</option>
+        <option value="3" %LOTATION3%>月ごとにローテーション</option>
+        <option value="4" %LOTATION4%>週ごとにローテーション</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_LOTATION_SIZE" class="help" /> ローテーションサイズ</th>
+    <td><input type="text" name="LOTATION_SIZE" id="LOTATION_SIZE" size="8" value="%LOTATION_SIZE%" class="inputlimit_num" /> バイト</td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_LOTATION_SAVE" class="help" /> 過去ログ保存</th>
+    <td>
+      <div>
+        <select size="1" name="LOTATION_SAVE" id="LOTATION_SAVE">
+          <option value="0" %LOTATION_SAVE0%>保存せず削除する</option>
+          <option value="1" %LOTATION_SAVE1%>すべて保存する</option>
+          <option value="2" %LOTATION_SAVE2%>指定個数分だけ保存する</option>
+        </select>
+      </div>
+      <div>　</div>
+      <div>「指定個数分だけ保存する」を選択した場合は、保存過去ログファイル数を指定してください。</div>
+      <div>保存過去ログファイル数： <input type="text" name="LOTATION_SAVE_NUM" id="LOTATION_SAVE_NUM" value="%LOTATION_SAVE_NUM%" size="3" class="inputlimit_num" /></div>
+  </td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_MY_SITE_URLs" class="help" /> リンク元解析 除外 URL</th>
+    <td><textarea rows="3" name="MY_SITE_URLs" cols="80" class="inputlimit_ascii">%MY_SITE_URLs%</textarea></td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_REJECT_HOSTS" class="help" /> ロギング除外ホスト</th>
+    <td><textarea rows="3" name="REJECT_HOSTS" cols="80" class="inputlimit_ascii">%REJECT_HOSTS%</textarea></td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_DIRECTORYINDEX" class="help" /> ディレクトリインデックス</th>
+    <td><textarea rows="3" name="DIRECTORYINDEX" cols="80" class="inputlimit_ascii">%DIRECTORYINDEX%</textarea></td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_URLHANDLE" class="help" /> アクセスページ URL の扱い</th>
+    <td>
+      <select size="1" name="URLHANDLE" id="URLHANDLE">
+        <option value="0" %URLHANDLE0%>何もしない</option>
+        <option value="1" %URLHANDLE1%>? 以降は無視する</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_USECOOKIE" class="help" /> Cookie 利用設定</th>
+    <td>
+      <select size="1" name="USECOOKIE" id="USECOOKIE">
+        <option value="0" %USECOOKIE0%>使わない</option>
+        <option value="1" %USECOOKIE1%>使う</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_EXPIREDAYS" class="help" /> Cookie 有効期限</th>
+    <td><input type="text" name="EXPIREDAYS" id="EXPIREDAYS" size="4" value="%EXPIREDAYS%" class="inputlimit_num" /> 日</td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_INTERVAL" class="help" /> セッションインターバル</th>
+    <td><input type="text" name="INTERVAL" size="6" value="%INTERVAL%" class="inputlimit_num" /> 秒</td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_LOCK_FLAG" class="help" /> ログファイルのロック処理</th>
+    <td>
+      <select size="1" name="LOCK_FLAG">
+        <option value="0" %LOCK_FLAG0%>しない</option>
+        <option value="1" %LOCK_FLAG1%>する</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_CIRCLE_GLAPH" class="help" /> 円グラフの方式</th>
+    <td>
+      <select size="1" name="CIRCLE_GLAPH">
+        <option value="0" %CIRCLE_GLAPH0%>Flash</option>
+        <option value="1" %CIRCLE_GLAPH1%>Javaアプレット</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_IMAGE_TYPE" class="help" /> 解析タグの表示画像形式</th>
+    <td>
+      <select size="1" name="IMAGE_TYPE">
+        <option value="0" %IMAGE_TYPE0%>自動認識</option>
+        <option value="1" %IMAGE_TYPE1%>GIF</option>
+        <option value="2" %IMAGE_TYPE2%>JPEG</option>
+        <option value="3" %IMAGE_TYPE3%>PNG</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_REQ_URL_CONV" class="help" /> アクセスページURL置換</th>
+    <td>
+      <div><textarea name="REQ_URL_CONV_1" rows="3" cols="80" class="inputlimit_ascii">%REQ_URL_CONV_1%</textarea></div>
+      <div>を</div>
+      <div><input type="text" name="REQ_URL_CONV_2" value="%REQ_URL_CONV_2%" size="50" class="inputlimit_ascii" /></div>
+      <div>に置換する</div>
+    </td>
+  </tr>
+  <tr>
+    <th><img src="%IMAGE_URL%/hatena.gif" width="15" height="15" alt="ヘルプ" title="ヘルプ" id="help_STIMEOUT" class="help" /> ログオンセッションタイムアウト</th>
+    <td><input type="text" name="STIMEOUT" size="6" value="%STIMEOUT%" class="inputlimit_num" /> 秒</td>
+  </tr>
+</table>
+<p>
+<input type="submit" value="　設　定　" name="B1" />
+</p>
+</form>
+<hr />
+%COPYRIGHT%
+</body>
+</html>

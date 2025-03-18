@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>%COPYRIGHT%</title>
+<link href="%IMAGE_URL%/default.css" type="text/css" rel="stylesheet" />
+<link href="%IMAGE_URL%/setup.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="%IMAGE_URL%/dom.js"></script>
+<script type="text/javascript" src="%IMAGE_URL%/setup.js"></script>
+</head>
+<body>
+<!-- ヘッダー start -->
+<div id="headbox">
+<h1>%COPYRIGHT% 初期セットアップ</h1>
+</div>
+<!-- ヘッダー end -->
+<div id="mainbox">
+<!-- 左フレーム start -->
+<div id="leftbox">
+<h2>■ 設定ファイル書込権限のチェック</h2>
+<div class="error">%error%</div>
+<p>正しく設定したあと、「リロード」ボタンを押してください。</p>
+<form method="get" action="%CGI_URL%">
+  <input type="submit" value="リロード" name="B1" />
+</form>
+</div>
+<!-- 左フレーム end -->
+<!-- 右フレーム start -->
+<div id="rightbox">
+<div id="stepbox">
+  <div class="step">
+    <div class="steptitle">Step 1</div>
+    <div class="stepdesc">イメージディレクトリURLの設定</div>
+  </div>
+  <div class="step">
+    <div class="steptitle">Step 2</div>
+    <div class="stepdesc">CGI設置診断セットアップ</div>
+  </div>
+  <div class="step">
+    <div class="steptitle">Step 3</div>
+    <div class="stepdesc">ログオンパスワードの設定</div>
+  </div>
+  <div class="step">
+    <div class="steptitle">Step 4</div>
+    <div class="stepdesc">管理者用パスワードの設定</div>
+  </div>
+  <div class="step">
+    <div class="steptitle">セットアップ完了</div>
+  </div>
+</div>
+</div>
+<!-- 右フレーム end -->
+</div>
+<!-- フッター start -->
+<div id="footbox">
+<hr />
+%COPYRIGHT2%
+</div>
+<!-- フッター end -->
+</body>
+</html>

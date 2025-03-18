@@ -1,0 +1,24 @@
+div#mfp_overlay {
+	position: absolute;
+	display: none;
+	z-index: 10001;
+}
+div#mfp_overlay_inner {
+	background-color: #FFF;
+	padding: 15px;
+	margin: 0px auto;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #000;
+	/*width: 640px;*/
+	width:98%;
+	max-width:640px;
+}
+
+div#mfp_overlay_inner h4	{	font-size:18px; padding:15px 0;}
+
+div#mfp_overlay_background {
+	background-color: #000;
+	position: absolute;
+	display: none;
+	z-index: 10000;
+}

@@ -1,0 +1,14 @@
+form#mailformpro label {
+	border-radius: 3px;
+	margin: 3px;
+	display: block;
+}
+form#mailformpro label.mfp_checked {
+	padding: 3px;
+	border: solid 1px #CCC;
+	background-color: #E8EEF9;
+}
+form#mailformpro label.mfp_not_checked {
+	padding: 3px;
+	border: solid 1px #EEE;
+}

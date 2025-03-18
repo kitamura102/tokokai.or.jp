@@ -1,0 +1,89 @@
+@charset   "Shift_JIS";
+.tantou_am{
+		border-width : 1px 1px 1px 1px;
+		border-style : solid solid solid solid;
+		border-color : gray gray gray gray;
+		border-collapse : collapse;
+		empty-cells : show;
+		width : 97%;
+}
+.t-sinryouka{
+		padding-top : 10px;
+		padding-left : 10px;
+		padding-right : 10px;
+		padding-bottom : 10px;
+		text-align : center;
+		border-right-color : silver;
+		border-bottom-color : silver;
+		border-right-width : 1px;
+		border-bottom-width : 3px;
+		border-right-style : solid;
+		border-bottom-style : double;
+		font-size : 90%;
+}
+.sinryouka{
+		padding-top : 5px;
+		padding-left : 10px;
+		padding-right : 10px;
+		padding-bottom : 5px;
+		text-align : center;
+		border-right-color : silver;
+		border-bottom-color : silver;
+		border-right-width : 1px;
+		border-bottom-width : 1px;
+		border-right-style : solid;
+		border-bottom-style : solid;
+		font-size : 90%;
+}
+.youbi{
+		padding-top : 10px;
+		padding-left : 10px;
+		padding-right : 10px;
+		padding-bottom : 10px;
+		border-right-color : silver;
+		border-bottom-color : silver;
+		border-right-width : 1px;
+		border-bottom-width : 3px;
+		border-right-style : solid;
+		border-bottom-style : double;
+		font-size : 75%;
+}
+.tantou{
+		text-align : center;
+		border-right-width : 1px;
+		border-bottom-width : 1px;
+		border-right-style : solid;
+		border-bottom-style : solid;
+		border-right-color : silver;
+		border-bottom-color : silver;
+		font-size : 85%;
+}
+.sinryouka01{
+		border-right-width : 1px;
+		border-right-style : solid;
+		border-right-color : silver;
+		text-align : center;
+		padding-top : 10px;
+		padding-left : 10px;
+		padding-right : 10px;
+		padding-bottom : 10px;
+		font-size : 90%;
+		border-bottom-width : 1px;
+		border-bottom-style : dotted;
+		border-bottom-color : silver;
+}
+.t-sinryou{
+		border-bottom-width : 2px;
+		border-bottom-style : solid;
+		border-bottom-color : gray;
+}
+.navy{
+		color : navy;
+}
+.fuchsia{
+		color : #cc00cc;
+}
+#tantou a{
+		text-decoration : underline;
+}
+

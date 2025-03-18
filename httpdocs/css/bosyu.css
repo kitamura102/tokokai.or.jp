@@ -1,0 +1,134 @@
+#boshu{
+  border-width : 1px 1px 1px 1px;
+  border-style : solid solid solid solid;
+  border-color : #9dceff #9dceff #9dceff #9dceff;
+  border-collapse : collapse;
+  empty-cells : show;
+  color : #373737;
+  width : 98%;
+  margin-left : 10px;
+  text-align : left;
+}
+.t-boshu{
+  font-size : 20px;
+  font-weight : bold;
+  letter-spacing : 20px;
+  text-align : center;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  border-bottom-width : 1px;
+  border-bottom-style : 9dceff;
+  border-bottom-color : 9dceff;
+  border-bottom-style : solid;
+  border-bottom-color : #9dceff;
+}
+.boshu01{
+  font-size : 16px;
+  text-align : left;
+  padding-top : 10px;
+  padding-left : 10px;
+  padding-right : 10px;
+  padding-bottom : 10px;
+  border-right-width : 1px;
+  border-bottom-width : 1px;
+  border-right-style : solid;
+  border-bottom-style : solid;
+  border-right-color : #9dceff;
+  border-bottom-color : #9dceff;
+}
+.boshu02{
+  font-size : 16px;
+  border-bottom-width : 1px;
+  border-bottom-style : solid;
+  border-bottom-color : #9dceff;
+  line-height : 120%;
+  text-align : left;
+  padding-left : 10px;
+  padding-right : 10px;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  border-top-width : 1px;
+  border-top-style : solid;
+  border-top-color : #9dceff;
+}
+.boshu03{
+  font-size : 16px;
+  padding-top : 10px;
+  padding-left : 10px;
+  padding-right : 10px;
+  padding-bottom : 10px;
+}
+.boshu04{
+  font-size : 16px;
+  padding-top : 10px;
+  padding-left : 10px;
+  padding-right : 10px;
+  padding-bottom : 0px;
+  border-top-width : 1px;
+  border-top-style : solid;
+  border-top-color : #9dceff;
+}
+.boshu03add{
+  border-collapse : collapse;
+  border-spacing : inherit;
+  empty-cells : show;
+  padding-left : 80px;
+  padding-top : 0px;
+  padding-bottom : 10px;
+}
+.boshu_add{
+  border-width : 2px 2px 2px 2px;
+  border-style : solid solid solid solid;
+  border-color : white white white white;
+  border-collapse : collapse;
+  empty-cells : show;
+}
+.t-boshu_add{
+  padding-top : 5px;
+  padding-left : 20px;
+  padding-right : 20px;
+  padding-bottom : 5px;
+  border-width : 1px 1px 1px 1px;
+  border-style : solid solid solid solid;
+  border-color : white white white white;
+  text-align : center;
+}
+.t-boshu_add01{
+  padding-top : 5px;
+  padding-left : 20px;
+  padding-right : 20px;
+  padding-bottom : 5px;
+  border-width : 1px 1px 1px 1px;
+  border-style : solid solid solid solid;
+  border-color : #f0f0e1 white white white;
+  text-align : center;
+}
+.n-boshu_add{
+  padding-top : 5px;
+  padding-left : 20px;
+  padding-bottom : 5px;
+  border-width : 1px 1px 1px 1px;
+  border-style : solid solid solid solid;
+  border-color : white white white white;
+  text-align : left;
+  padding-right : 20px;
+}
+.boshu_comment{
+  font-size : 15px;
+  color : #0000cc;
+  padding-top : 5px;
+}
+.kinmu{
+  padding-left : 10px;
+  padding-right : 10px;
+  padding-bottom : 5px;
+  text-align : left;
+}
+#boyu_label{
+  font-size : 130%;
+  padding-top : 10px;
+  padding-left : 10px;
+  padding-right : 10px;
+  padding-bottom : 10px;
+  text-align : center;
+}

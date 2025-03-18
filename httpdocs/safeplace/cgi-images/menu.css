@@ -1,0 +1,60 @@
+#menu .logoff {
+  text-align: right;
+}
+#calendar {
+  background-color: #f7f9fb;
+  border: 1px solid #196a77;
+  text-align: center;
+  padding: 6px;
+  width: 140px;
+}
+#calendar #calhead {
+  background-color: #ffffff;
+  border: 1px solid #8c8c8c;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#calendar #caltbl {
+  border-collapse: collapse;
+  border: 1px solid #8c8c8c;
+}
+#calendar #caltbl td {
+  text-align: center;
+  margin: 0px;
+  border-bottom: 1px solid #8c8c8c;
+  border-right: 1px solid #8c8c8c;
+}
+#calendar #caltbl .b {
+  background-color: #eaeaea;
+}
+#calendar #caltbl .a {
+  background-color: #ffffcc;
+}
+#calendar #caltbl .n {
+  background-color: #ffffff;
+}
+#calendar .sun {
+  color: #ff0000;
+}
+#calendar .sat {
+  color: #0000ff;
+}
+.Outline {
+  cursor: pointer;
+}
+/* メニューフレームヘッダーテーブル用 */
+.tblh {
+  border-collapse: collapse;
+  border: 0px;
+  width: 100%;
+}
+.tblh td{
+  border: 0px;
+}
+.tblh .right {
+  text-align: right;
+}
+.tblh .top {
+  vertical-align: top;
+}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/* ==========================================
+
+  “Contact” CSS
+		
+========================================== */
+
+
+
+/* Main Content
+========================================== */
+.inner	{	width:70%; margin:0 auto;}
+
+#contact .thanks	{	width:80%; margin:20px auto;}
+
+
+	@media screen and (max-width: 1024px) {
+	.inner	{	width:80%; }
+	}
+	@media screen and (max-width: 800px) {
+	.inner	{	width:100%; }
+	}
+
+
+
+
+
+
+
