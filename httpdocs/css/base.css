@@ -301,3 +301,15 @@ border-right-width:0px
 #sanka-ba {
 	margin-top: 10px;
 }
+
+.pc-only {
+  display: block;
+}
+
+@media only screen and (max-width: 768px)  {
+  .pc-only {
+    display: none;
+  }
+}
+
+
