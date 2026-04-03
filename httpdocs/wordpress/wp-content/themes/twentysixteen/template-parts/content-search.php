@@ -6,6 +6,7 @@
  * @subpackage Twenty_Sixteen
  * @since Twenty Sixteen 1.0
  */
+
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -24,7 +25,7 @@
 			<?php
 				edit_post_link(
 					sprintf(
-						/* translators: %s: Name of current post */
+						/* translators: %s: Post title. Only visible to screen readers. */
 						__( 'Edit<span class="screen-reader-text"> "%s"</span>', 'twentysixteen' ),
 						get_the_title()
 					),
@@ -39,7 +40,7 @@
 		<?php
 			edit_post_link(
 				sprintf(
-					/* translators: %s: Name of current post */
+					/* translators: %s: Post title. Only visible to screen readers. */
 					__( 'Edit<span class="screen-reader-text"> "%s"</span>', 'twentysixteen' ),
 					get_the_title()
 				),
@@ -49,5 +50,5 @@
 		?>
 
 	<?php endif; ?>
-</article><!-- #post-## -->
+</article><!-- #post-<?php the_ID(); ?> -->
 

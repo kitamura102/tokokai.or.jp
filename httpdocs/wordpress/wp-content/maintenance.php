@@ -24,9 +24,9 @@ header('Retry-After: 600');
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" href="/favicon.ico">
-    <link rel="stylesheet" href="http://tokokai.or.jp/wordpress/wp-content/maintenance/assets/styles.css">
-    <script src="http://tokokai.or.jp/wordpress/wp-content/maintenance/assets/timer.js"></script>
-    <title>Scheduled Maintenance</title>
+    <link rel="stylesheet" href="https://tokokai.or.jp/wordpress/wp-content/maintenance/assets/styles.css">
+    <script src="https://tokokai.or.jp/wordpress/wp-content/maintenance/assets/timer.js"></script>
+    <title>予定されたメンテナンス</title>
 </head>
 
 <body>
@@ -34,8 +34,8 @@ header('Retry-After: 600');
     <div class="container">
 
     <header class="header">
-        <h1>The website is undergoing scheduled maintenance.</h1>
-        <h2>Sorry for the inconvenience. Come back a bit later, we will be ready soon!</h2>
+        <h1>このウェブサイトは予定されたメンテナンスを実行中です。</h1>
+        <h2>ご不便おかけして申し訳ありません。あと少しで完了しますので、後でもう一度お試しください。</h2>
     </header>
 
     <!--START_TIMER_BLOCK-->
@@ -44,10 +44,10 @@ header('Retry-After: 600');
     <!--START_SOCIAL_LINKS_BLOCK-->
     <section class="social-links">
                     <a class="social-links__link" href="https://www.facebook.com/Plesk" target="_blank" title="Facebook">
-                <span class="icon"><img src="http://tokokai.or.jp/wordpress/wp-content/maintenance/assets/images/facebook.svg" alt="Facebook"></span>
+                <span class="icon"><img src="https://tokokai.or.jp/wordpress/wp-content/maintenance/assets/images/facebook.svg" alt="Facebook"></span>
             </a>
-                    <a class="social-links__link" href="https://twitter.com/Plesk" target="_blank" title="Twitter">
-                <span class="icon"><img src="http://tokokai.or.jp/wordpress/wp-content/maintenance/assets/images/twitter.svg" alt="Twitter"></span>
+                    <a class="social-links__link" href="https://x.com/Plesk" target="_blank" title="Twitter">
+                <span class="icon"><img src="https://tokokai.or.jp/wordpress/wp-content/maintenance/assets/images/twitter.svg" alt="Twitter"></span>
             </a>
             </section>
     <!--END_SOCIAL_LINKS_BLOCK-->
@@ -56,7 +56,7 @@ header('Retry-After: 600');
 
 <footer class="footer">
     <div class="footer__content">
-        Powered by WP Toolkit <a href="https://www.plesk.com/" target="_blank"><img class="logo" src="http://tokokai.or.jp/wordpress/wp-content/maintenance/assets/images/plesk-logo.png" alt="Plesk"></a>
+        WP Toolkit を利用 <a href="https://www.plesk.com/" target="_blank"><img class="logo" src="https://tokokai.or.jp/wordpress/wp-content/maintenance/assets/images/plesk-logo.png" alt="Plesk"></a>
     </div>
 </footer>
 

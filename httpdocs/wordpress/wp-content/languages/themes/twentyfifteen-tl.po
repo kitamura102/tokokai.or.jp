@@ -1,304 +1,311 @@
-# Translation of Twenty Fifteen in Tagalog
-# This file is distributed under the same license as the Twenty Fifteen package.
+# Translation of Themes - Twenty Fifteen in Tagalog
+# This file is distributed under the same license as the Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-07-06 08:12:05+0000\n"
+"PO-Revision-Date: 2015-08-18 16:52:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.1.0-alpha\n"
-"Project-Id-Version: Twenty Fifteen\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: tl_PH\n"
+"Project-Id-Version: Themes - Twenty Fifteen\n"
 
-#. translators: %s: post title
-#: inc/template-tags.php:123
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
+msgstr "Ang aming 2015 default theme ay malinis, mas may pokus sa blog, at idinisenyo para sa klaridad. And 2015 ay simple, ang tipograpiya ay matapat at mababasa sa iba't-ibang klase ng mga laki ng screen, at tugma sa iba't-ibang lenguwahe. Ito ay aming dinisenyo gamit ang mobile-first na proseso, na kung saan ang mga nilalaman ay kita agad kahit na ang iyong mga bisita sa site ay gumagamit ng smartphone, tablet, laptop o kaya desktop computer. "
+
+#. Theme Name of the theme
+#: style.css inc/block-patterns.php:20
+#, gp-priority: high
+msgid "Twenty Fifteen"
+msgstr "Twenty Fifteen"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:146
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Magiwan ng komento<span class=\"screen-reader-text\"> sa %s</span> "
 
-#. Theme URI of the plugin/theme
-msgid "https://wordpress.org/themes/twentyfifteen/"
-msgstr "https://wordpress.org/themes/twentyfifteen/"
+#. translators: Hidden accessibility text.
+#: single.php:41
+msgid "Previous post:"
+msgstr "Nakaraang post: "
 
-#: inc/template-tags.php:23
+#: single.php:39
+msgid "Previous"
+msgstr "Nakalipas"
+
+#. translators: Hidden accessibility text.
+#: single.php:37
+msgid "Next post:"
+msgstr "Susunod na post:"
+
+#: single.php:35
+msgid "Next"
+msgstr "Susunod"
+
+#. translators: %s: Search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Resulta sa Paghahanap ng: %s"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:136
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Buong laki "
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:123
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Mga Tag"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:113
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Mga Kategorya "
+
+#: inc/template-tags.php:108 inc/template-tags.php:118
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ","
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:102
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "May-akda"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:66
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Pormat "
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:91
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Ipinost nuong "
+
+#: inc/template-tags.php:56
+msgid "Featured"
+msgstr "Tampok "
+
+#: inc/template-tags.php:36
+msgid "Newer Comments"
+msgstr "Mas Bagong Mga Komento "
+
+#: inc/template-tags.php:31
+msgid "Older Comments"
+msgstr "Mas Lumang Mga Komento "
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:26
 msgid "Comment navigation"
 msgstr "Comment navigation"
 
-#: comments.php:53
-msgid "Comments are closed."
-msgstr "Walang mga puna."
+#: inc/customizer.php:239
+msgid "Blue"
+msgstr "Asul "
 
-#: content-link.php:36 content-page.php:25 content.php:38 image.php:59
-msgid "Pages:"
-msgstr "Mga Pahina:"
+#: functions.php:245 inc/customizer.php:228
+msgid "Purple"
+msgstr "Lila"
 
-#: content-link.php:56 content-page.php:35 content-search.php:28
-#: content-search.php:33 content.php:57 image.php:71
-msgid "Edit"
-msgstr "Baguhin"
+#: inc/customizer.php:217
+msgid "Pink"
+msgstr "Rosas "
+
+#: functions.php:220 inc/customizer.php:206
+msgid "Yellow"
+msgstr "Dilaw "
+
+#: inc/customizer.php:195
+msgid "Dark"
+msgstr "Madilim"
+
+#: inc/customizer.php:184
+msgid "Default"
+msgstr "Default"
+
+#: inc/customizer.php:103
+msgid "Header and Sidebar Background Color"
+msgstr "Kulay ng Background ng Header at Sidebar "
+
+#: inc/customizer.php:78
+msgid "Header and Sidebar Text Color"
+msgstr "Kulay ng Teks ng Header at Sidebar "
+
+#: inc/customizer.php:79 inc/customizer.php:104 inc/customizer.php:111
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Na-apply sa header sa mga maliliit na screen at ang sidebar sa mas malawak na screen."
+
+#: inc/customizer.php:55
+msgid "Base Color Scheme"
+msgstr "Base Color Scheme"
+
+#: image.php:89
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Ipi-nublish sa</span><span class=\"post-title\">%title</span>"
+
+#. translators: %s: WordPress version.
+#: inc/back-compat.php:41 inc/back-compat.php:56 inc/back-compat.php:77
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "And 2015 ay nangangailangan ng WordPress Besyon 4.1. Ang iyong bersyon ay %s. Mangyaring mag-upgrade at subukang muli. "
+
+#: image.php:25
+msgid "Next Image"
+msgstr "Susunod na Larawan"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "Nakaraang Larawan"
+
+#: header.php:52
+msgid "Menu and widgets"
+msgstr "Menyu at mga widget"
+
+#. translators: Hidden accessibility text.
+#: header.php:27
+msgid "Skip to content"
+msgstr "Lumaktaw sa nilalaman"
+
+#. translators: Hidden accessibility text.
+#: functions.php:472
+msgid "expand child menu"
+msgstr "expand child menu"
+
+#. translators: Hidden accessibility text.
+#: functions.php:474
+msgid "collapse child menu"
+msgstr "collapse child menu"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:395
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:387
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:379
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:352
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Magdagdag ng mga widget dito upang maipakita sa iyong sidebar. "
+
+#: functions.php:350
+msgid "Widget Area"
+msgstr "Widget Area"
+
+#: functions.php:95
+msgid "Social Links Menu"
+msgstr "Social Links Menu"
+
+#: functions.php:94
+msgid "Primary Menu"
+msgstr "Pangunahing Menyu "
+
+#. translators: %s: WordPress
+#: footer.php:33
+msgid "Proudly powered by %s"
+msgstr "Pinalakas ng %s"
+
+#: content-none.php:36
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Mukhang hindi makita ang iyong gusto. Baka makatulong ang paghahanap."
+
+#: content-none.php:31
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Paumanhin, ngunit walang tumugma sa mga terminong iyong hinanap. Mangyaring subukang muli gamit ang ibang keyword."
 
 #: content-none.php:15
 msgid "Nothing Found"
 msgstr "Walang Nahanap"
 
-#: content-none.php:22
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Handa ka na ba para iyong unang post? <a href=\"%1$s\">Simulan dito</a>."
+#: content-link.php:61 content-page.php:38 content-search.php:28
+#: content-search.php:33 content.php:62 image.php:75
+msgid "Edit"
+msgstr "Baguhin"
 
-#: content-none.php:31
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Mukhang hindi makita ang iyong gusto. Baka makatulong ang paghahanap."
+#: content-link.php:39 content-page.php:26 content.php:41 image.php:61
+msgid "Pages:"
+msgstr "Mga Pahina:"
 
-#: footer.php:25
-msgid "Proudly powered by %s"
-msgstr "Pinalakas ng %s"
-
-#: header.php:26
-msgid "Skip to content"
-msgstr "Lumaktaw sa nilalaman"
-
-#: search.php:18
-msgid "Search Results for: %s"
-msgstr "Resulta sa Paghahanap ng: %s"
-
-#. Author of the plugin/theme
-msgid "the WordPress team"
-msgstr "koponan ng WordPress"
-
-#: single.php:36
-msgid "Previous"
-msgstr "Nakalipas"
-
-#: single.php:33
-msgid "Next"
-msgstr "Susunod"
-
-#: 404.php:21
-msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "Mukhang walang makita sa lokasyong ito. Subukan mo kayang maghanap?"
-
-#: inc/template-tags.php:91 inc/template-tags.php:99
-msgctxt "Used between list items, there is a space after the comma."
-msgid ", "
-msgstr ","
-
-#: image.php:24
-msgid "Previous Image"
-msgstr "Nakaraang Larawan"
-
-#: image.php:24
-msgid "Next Image"
-msgstr "Susunod na Larawan"
-
-#: functions.php:85
-msgid "Primary Menu"
-msgstr "Primary Menu"
-
-#: single.php:37
-msgid "Previous post:"
-msgstr "Nakaraang post: "
-
-#: single.php:34
-msgid "Next post:"
-msgstr "Susunod na post:"
-
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Na-apply sa header sa mga maliliit na screen at ang sidebar sa mas malawak na screen."
-
-#. Description of the plugin/theme
-msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
-msgstr "Ang aming 2015 default theme ay malinis, mas may pokus sa blog, at idinisenyo para sa klaridad. And 2015 ay simple, ang tipograpiya ay matapat at mababasa sa iba't-ibang klase ng mga laki ng screen, at tugma sa iba't-ibang lenguwahe. Ito ay aming dinisenyo gamit ang mobile-first na proseso, na kung saan ang mga nilalaman ay kita agad kahit na ang iyong mga bisita sa site ay gumagamit ng smartphone, tablet, laptop o kaya desktop computer. "
-
-#. Theme Name of the plugin/theme
-msgid "Twenty Fifteen"
-msgstr "Twenty Fifteen"
-
-#: inc/template-tags.php:113
-msgctxt "Used before full size attachment link."
-msgid "Full size"
-msgstr "Buong laki "
-
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Mga Tag"
-
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "Mga Kategorya "
-
-#: inc/template-tags.php:85
-msgctxt "Used before post author name."
-msgid "Author"
-msgstr "May-akda"
-
-#: inc/template-tags.php:76
-msgctxt "Used before publish date."
-msgid "Posted on"
-msgstr "Ipinost nuong "
-
-#: inc/template-tags.php:55
-msgctxt "Used before post format."
-msgid "Format"
-msgstr "Pormat "
-
-#: inc/template-tags.php:26
-msgid "Older Comments"
-msgstr "Mas Lumang Mga Komento "
-
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Mas Bagong Mga Komento "
-
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Tampok "
-
-#. Translators: If there are characters in your language that are not supported
-#. by Inconsolata, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:177
-msgctxt "Inconsolata font: on or off"
-msgid "on"
-msgstr "on"
-
-#. Translators: If there are characters in your language that are not supported
-#. by Noto Sans, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:161
-msgctxt "Noto Sans font: on or off"
-msgid "on"
-msgstr "on"
-
-#. Translators: If there are characters in your language that are not supported
-#. by Noto Serif, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:169
-msgctxt "Noto Serif font: on or off"
-msgid "on"
-msgstr "on"
-
-#: functions.php:135
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Magdagdag ng mga widget dito upang maipakita sa iyong sidebar. "
-
-#: functions.php:133
-msgid "Widget Area"
-msgstr "Widget Area"
-
-#: functions.php:86
-msgid "Social Links Menu"
-msgstr "Social Links Menu"
-
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3)  #-#-#-#-#
-#. Author URI of the plugin/theme
-#: footer.php:25
-msgid "https://wordpress.org/"
-msgstr "https://wordpress.org/"
-
-#: content-none.php:26
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Paumanhi, ngunit walang tumugma sa iyong mga hinanap na termino. Mangyaring subukang muli gamit anf ibang keyword. "
-
-#. translators: %s: Name of current post
-#: content-link.php:31 content.php:33 inc/template-tags.php:238
+#. translators: %s: Post title. Only visible to screen readers.
+#: content-link.php:32 content.php:34 inc/template-tags.php:267
 msgid "Continue reading %s"
 msgstr "Magpatuloy sa pagbabasa %s "
 
-#: author-bio.php:34
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Walang mga puna."
+
+#. translators: %s: Author display name.
+#: author-bio.php:36
 msgid "View all posts by %s"
-msgstr "Tingnan ang lahat ng mga post ni %s"
+msgstr "Tignan lahat ng post ni %s"
 
 #: author-bio.php:12
 msgid "Published by"
 msgstr "Ipi-nublish ni "
 
-#: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
-#: image.php:63 index.php:48 search.php:40
+#. translators: Hidden accessibility text.
+#: archive.php:54 content-link.php:44 content-page.php:31 content.php:46
+#: image.php:66 index.php:51 search.php:49
 msgid "Page"
 msgstr "Pahina "
 
-#: archive.php:50 index.php:47 search.php:39
+#: archive.php:52 index.php:49 search.php:47
 msgid "Next page"
 msgstr "Susunod na Pahina "
 
-#: archive.php:49 index.php:46 search.php:38
+#: archive.php:51 index.php:48 search.php:46
 msgid "Previous page"
 msgstr "Nakaraang Pahina "
 
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Parang walang nahanap sa lokasyong ito. Subukang maghanap muli?"
+
 #: 404.php:17
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Ang pahinang ito ay hindi mahanap / makita. "
+msgstr "Oops! Pahina na hindi matagpuan."
 
-#: inc/customizer.php:147
-msgid "Blue"
-msgstr "Asul "
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "koponan ng WordPress"
 
-#: inc/customizer.php:136
-msgid "Purple"
-msgstr "Lila"
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentyfifteen/"
+msgstr "https://wordpress.org/themes/twentyfifteen/"
 
-#: inc/customizer.php:125
-msgid "Pink"
-msgstr "Rosas "
-
-#: inc/customizer.php:103
-msgid "Dark"
-msgstr "Madilim "
-
-#: inc/customizer.php:114
-msgid "Yellow"
-msgstr "Dilaw "
-
-#: inc/customizer.php:92
-msgid "Default"
-msgstr "Default"
-
-#: inc/customizer.php:62
-msgid "Header and Sidebar Background Color"
-msgstr "Kulay ng Background ng Header at Sidebar "
-
-#: inc/customizer.php:31
-msgid "Base Color Scheme"
-msgstr "Base Color Scheme"
-
-#: inc/customizer.php:46
-msgid "Header and Sidebar Text Color"
-msgstr "Kulay ng Teks ng Header at Sidebar "
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "And 2015 ay nangangailangan ng WordPress Besyon 4.1. Ang iyong bersyon ay %s. Mangyaring mag-upgrade at subukang muli. "
-
-#: image.php:84
-msgctxt "Parent post link"
-msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
-msgstr "<span class=\"meta-nav\">Ipi-nublish sa</span><span class=\"post-title\">%title</span>"
-
-#: header.php:43
-msgid "Menu and widgets"
-msgstr "Menyu at mga widget"
-
-#: functions.php:255
-msgid "expand child menu"
-msgstr "expand child menu"
-
-#: functions.php:256
-msgid "collapse child menu"
-msgstr "collapse child menu"
-
-#. Translators: To add an additional character subset specific to your
-#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
-#. 'vietnamese'. Do not translate into your own language.
-#: functions.php:185
-msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
-msgid "no-subset"
-msgstr "no-subset"
-
-#: comments.php:28
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Isang thought (isipan) sa &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s na mga thought (isipan) sa &ldquo;%2$s&rdquo;"
+#. Author URI of the theme
+#: style.css footer.php:30
+#, gp-priority: low
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"

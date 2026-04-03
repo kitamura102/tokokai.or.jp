@@ -1,303 +1,529 @@
-# Translation of Twenty Fifteen in Chinese (Taiwan)
-# This file is distributed under the same license as the Twenty Fifteen package.
+# Translation of Themes - Twenty Fifteen in Chinese (Taiwan)
+# This file is distributed under the same license as the Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-08-13 13:22:55+0000\n"
+"PO-Revision-Date: 2022-05-25 01:03:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/2.1.0-alpha\n"
-"Project-Id-Version: Twenty Fifteen\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Themes - Twenty Fifteen\n"
 
-#. translators: %s: post title
-#: inc/template-tags.php:123
-msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "留下留言<span class=\"screen-reader-text\"> 在 %s</span>"
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
+msgstr "Twentey Fifteen 是一個簡潔、聚焦於部落格，具備清晰易讀設計的預設佈景主題；Twenty Fifteen 簡單直覺的排版方式在各種尺寸的螢幕具備良好的易讀性，並適合呈現各種語言內容。這個佈景主題以行動裝置優先為設計概念，這代表使用者無論是使用智慧型手機、平板或個人電腦，網站內容都會居中顯示。"
 
-#. Theme URI of the plugin/theme
-msgid "https://wordpress.org/themes/twentyfifteen/"
-msgstr "https://wordpress.org/themes/twentyfifteen/"
+#. Theme Name of the theme
+#: style.css inc/block-patterns.php:20
+#, gp-priority: high
+msgid "Twenty Fifteen"
+msgstr "Twenty Fifteen"
 
-#: single.php:36
-msgid "Previous"
-msgstr "前"
+#: functions.php:327
+msgid "Light Blue Gradient"
+msgstr "淺藍色漸層"
 
-#: single.php:33
-msgid "Next"
-msgstr "後"
+#: functions.php:322
+msgid "Bright Blue Gradient"
+msgstr "亮藍色漸層"
 
-#: 404.php:21
-msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "看來這裡什麼也沒有。或許試試搜尋？"
+#: functions.php:317
+msgid "Blue Gray Gradient"
+msgstr "藍灰色漸層"
 
-#: inc/template-tags.php:91 inc/template-tags.php:99
-msgctxt "Used between list items, there is a space after the comma."
-msgid ", "
-msgstr ", "
+#: functions.php:312
+msgid "Purple Gradient"
+msgstr "紫色漸層"
 
-#: image.php:24
-msgid "Previous Image"
-msgstr "前張圖片"
+#: functions.php:307
+msgid "Dark Purple Gradient"
+msgstr "深紫色漸層"
 
-#: image.php:24
-msgid "Next Image"
-msgstr "後張圖片"
+#: functions.php:302
+msgid "Light Pink Gradient"
+msgstr "淺粉紅色漸層"
 
-#: inc/template-tags.php:23
-msgid "Comment navigation"
-msgstr "迴響導覽列"
+#: functions.php:297
+msgid "Medium Pink Gradient"
+msgstr "桃紅色漸層"
 
-#: comments.php:53
-msgid "Comments are closed."
-msgstr "迴響功能已關閉。"
+#: functions.php:292
+msgid "Dark Brown Gradient"
+msgstr "深褐色漸層"
 
-#: content-link.php:36 content-page.php:25 content.php:38 image.php:59
-msgid "Pages:"
-msgstr "頁面："
+#: functions.php:287
+msgid "Yellow Gradient"
+msgstr "黃色漸層"
 
-#: content-link.php:56 content-page.php:35 content-search.php:28
-#: content-search.php:33 content.php:57 image.php:71
-msgid "Edit"
-msgstr "編輯"
+#: functions.php:282
+msgid "White Gradient"
+msgstr "白色漸層"
 
-#: footer.php:25
-msgid "Proudly powered by %s"
-msgstr "自豪的採用 %s "
+#: functions.php:277
+msgid "Light Gray Gradient"
+msgstr "淺灰色漸層"
 
-#: functions.php:85
-msgid "Primary Menu"
-msgstr "主選單"
+#: functions.php:272
+msgid "Dark Gray Gradient"
+msgstr "深灰色漸層"
 
-#: header.php:26
-msgid "Skip to content"
-msgstr "跳至內容區"
+#: inc/block-patterns.php:65
+msgid "Snacks"
+msgstr "點心"
 
-#: content-none.php:15
-msgid "Nothing Found"
-msgstr "找不到任何內容"
+#: inc/block-patterns.php:65
+msgid "Swimsuit"
+msgstr "泳裝"
 
-#: content-none.php:22
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "準備好發表你的第一篇文章了嗎？<a href=\"%1$s\">從這裡開始</a>。"
+#: inc/block-patterns.php:65
+msgid "Water Bottle"
+msgstr "水壺"
 
-#: content-none.php:26
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "抱歉，沒東西符合你的搜尋條件。請試試其他不同關鍵字。"
+#: inc/block-patterns.php:65
+msgid "Camera"
+msgstr "相機"
 
-#: content-none.php:31
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "沒有找到你要的內容。也許你可以搜尋一下看看。"
+#: inc/block-patterns.php:65
+msgid "Towels"
+msgstr "浴巾"
 
-#: search.php:18
-msgid "Search Results for: %s"
-msgstr "關於 <strong>%s</strong> 的搜尋結果"
+#: inc/block-patterns.php:65
+msgid "As I watched, the planet seemed to grow larger and smaller and to advance and recede, but that was simply that my eye was tired. Forty millions of miles it was from us — more than forty millions of miles of void. Few people realize the immensity of vacancy in which the dust of the material universe swims."
+msgstr "大自然的秩序，證明了宇宙確有它的建築家。宇宙並無敵意，然它也並不友善。它只是淡淡無情而已。宇宙是一個每分鐘鏇轉一萬次的巨大飛輪。人只是叮在它上面的一隻頭暈目眩的小蟲。宇宙中的萬事萬物，越是優秀、越是高等，他們達致成熟的時間就來得越遲。在整個宇宙裡只存在著一個實體，只是它的形式有各種變化。"
 
-#. Author of the plugin/theme
-msgid "the WordPress team"
-msgstr "WordPress 團隊"
+#: inc/block-patterns.php:65
+msgid "You don’t need a lot, trust us!"
+msgstr "請相信我們，不需要帶太多。"
 
-#: inc/customizer.php:92
-msgid "Default"
-msgstr "預設"
+#: inc/block-patterns.php:65
+msgid "What to pack for the beach"
+msgstr "海灘必備用品"
 
-#: inc/customizer.php:114
-msgid "Yellow"
-msgstr "黃色"
+#: inc/block-patterns.php:63
+msgid "Columns with a List"
+msgstr "包含清單的多欄內容"
 
-#: inc/customizer.php:103
-msgid "Dark"
-msgstr "暗黑色"
+#: inc/block-patterns.php:55
+msgid "A boatload of people putting back came leaping out as I rushed past. The stones under my feet were muddy and slippery, and the river was so low."
+msgstr "不要只是飛，展翅翱翔吧！勇敢地踏出舒適圈去冒險吧！那些回報，絕對值得。用心聆聽你內心的聲音，你就會明白。"
 
-#: inc/customizer.php:125
-msgid "Pink"
-msgstr "粉紅色"
+#: inc/block-patterns.php:55
+msgid "Travels"
+msgstr "旅程"
 
-#: inc/customizer.php:136
-msgid "Purple"
-msgstr "紫色"
+#: inc/block-patterns.php:55
+msgid "I faced about again, and rushed towards the approaching Martian, rushed right down the gravelly beach and headlong into the water. Others did the same."
+msgstr "生活總會有那麼點不順心，我們都會犯錯；天性如何並不重要，改變都由你開始。今天，就是那個值得放手一搏的好日子。"
 
-#: inc/customizer.php:147
-msgid "Blue"
-msgstr "藍色"
+#: inc/block-patterns.php:55
+msgid "Adventure"
+msgstr "冒險"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "特色"
+#: inc/block-patterns.php:53
+msgid "Two Columns with Images"
+msgstr "2 欄圖片"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "較新的迴響"
+#: inc/block-patterns.php:45
+msgid "City, State, 00000"
+msgstr "信義路五段 7 號"
 
-#: inc/template-tags.php:26
-msgid "Older Comments"
-msgstr "較舊的迴響"
+#: inc/block-patterns.php:45
+msgid "123 Main Street"
+msgstr "110615 台北市信義區"
 
-#: inc/template-tags.php:55
-msgctxt "Used before post format."
-msgid "Format"
-msgstr "格式"
+#: inc/block-patterns.php:45
+msgid "Address"
+msgstr "地址"
 
-#: inc/template-tags.php:76
-msgctxt "Used before publish date."
-msgid "Posted on"
-msgstr "發佈於"
+#: inc/block-patterns.php:45
+msgid "(123) 555-5555"
+msgstr "(02) 6666-8888"
 
-#: inc/template-tags.php:85
-msgctxt "Used before post author name."
-msgid "Author"
-msgstr "作者"
+#: inc/block-patterns.php:45
+msgid "Phone"
+msgstr "電話號碼"
 
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "分類"
+#: inc/block-patterns.php:45
+msgid "Follow us"
+msgstr "追蹤最新消息"
 
-#: inc/customizer.php:31
-msgid "Base Color Scheme"
-msgstr "基本色調"
+#: inc/block-patterns.php:45
+msgid "example@example.com"
+msgstr "example@example.com"
+
+#: inc/block-patterns.php:45
+msgid "Email"
+msgstr "電子郵件地址"
+
+#: inc/block-patterns.php:43
+msgid "Contact area"
+msgstr "聯絡資訊"
+
+#: inc/block-patterns.php:35
+msgid "Our default 2015 theme is clean, blog-focused, and designed for clarity. Twenty Fifteen’s simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages."
+msgstr "Twentey Fifteen 是一個簡潔、聚焦於部落格，具備清晰易讀設計的預設佈景主題；Twenty Fifteen 簡單直覺的排版方式在各種尺寸的螢幕具備良好的易讀性，並適合呈現各種語言內容。"
+
+#: inc/block-patterns.php:35
+msgid "A pier at sunset"
+msgstr "日落下的碼頭。"
+
+#: inc/block-patterns.php:35 inc/block-patterns.php:55
+msgid "A pier with seagulls."
+msgstr "有多隻海鷗的碼頭。"
+
+#: inc/block-patterns.php:35 inc/block-patterns.php:55
+msgid "A pier with a seagull."
+msgstr "有海鷗的碼頭。"
+
+#: inc/block-patterns.php:33
+msgid "Gallery and Description"
+msgstr "圖庫及內容說明"
+
+#: functions.php:260
+msgid "Light Blue"
+msgstr "淺藍色"
 
 #: functions.php:255
-msgid "expand child menu"
-msgstr "展開子選單"
+msgid "Bright Blue"
+msgstr "亮藍色"
 
-#: functions.php:256
-msgid "collapse child menu"
-msgstr " 收合子選單"
+#: functions.php:250
+msgid "Blue Gray"
+msgstr "藍灰色"
 
-#: functions.php:133
-msgid "Widget Area"
-msgstr "小工具區塊"
+#: functions.php:240
+msgid "Dark Purple"
+msgstr "深紫色"
 
-#: inc/template-tags.php:102
+#: functions.php:235
+msgid "Light Pink"
+msgstr "淺粉紅色"
+
+#: functions.php:230
+msgid "Medium Pink"
+msgstr "桃紅色"
+
+#: functions.php:225
+msgid "Dark Brown"
+msgstr "深褐色"
+
+#: functions.php:215
+msgid "White"
+msgstr "白色"
+
+#: functions.php:210
+msgid "Light Gray"
+msgstr "淺灰色"
+
+#: functions.php:205
+msgid "Dark Gray"
+msgstr "深灰色"
+
+#. translators: %s: Post title.
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "在〈%s〉中有 1 則留言"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:146
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "<span class=\"screen-reader-text\">在〈%s〉</span>發佈留言"
+
+#. translators: Hidden accessibility text.
+#: single.php:41
+msgid "Previous post:"
+msgstr "上一篇文章:"
+
+#: single.php:39
+msgid "Previous"
+msgstr "上一篇文章"
+
+#. translators: Hidden accessibility text.
+#: single.php:37
+msgid "Next post:"
+msgstr "下一篇文章:"
+
+#: single.php:35
+msgid "Next"
+msgstr "下一篇文章"
+
+#. translators: %s: Search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "「%s」的搜尋結果"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:136
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "完整尺寸"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:123
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "標籤"
 
-#: inc/customizer.php:46
-msgid "Header and Sidebar Text Color"
-msgstr "頁首與側邊欄文字顏色"
-
-#: inc/customizer.php:62
-msgid "Header and Sidebar Background Color"
-msgstr "頁首與側邊欄背景顏色"
-
-#. Translators: To add an additional character subset specific to your
-#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
-#. 'vietnamese'. Do not translate into your own language.
-#: functions.php:185
-msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
-msgid "no-subset"
-msgstr "no-subset"
-
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "在較小的螢幕上將顯示在頂部，在較寬的螢幕上將顯示到側邊欄。"
-
+#. translators: Hidden accessibility text.
 #: inc/template-tags.php:113
-msgctxt "Used before full size attachment link."
-msgid "Full size"
-msgstr "原始尺寸"
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "分類"
 
-#: 404.php:17
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "糟糕！找不到該頁面。"
+#: inc/template-tags.php:108 inc/template-tags.php:118
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr "、"
 
-#: author-bio.php:12
-msgid "Published by"
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:102
+msgctxt "Used before post author name."
+msgid "Author"
 msgstr "作者"
 
-#: author-bio.php:34
-msgid "View all posts by %s"
-msgstr "瀏覽 %s 的所有文章"
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:91
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "發佈日期:"
 
-#: comments.php:28
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%2$s 有 &ldquo; %1$s 則迴響 &rdquo;"
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:66
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "文章格式"
 
-#. translators: %s: Name of current post
-#: content-link.php:31 content.php:33 inc/template-tags.php:238
-msgid "Continue reading %s"
-msgstr "繼續閱讀 %s"
+#: inc/template-tags.php:56
+msgid "Featured"
+msgstr "精選內容"
 
-#: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
-#: image.php:63 index.php:48 search.php:40
-msgid "Page"
-msgstr "頁"
+#: inc/template-tags.php:36
+msgid "Newer Comments"
+msgstr "較新的留言"
 
-#: archive.php:49 index.php:46 search.php:38
-msgid "Previous page"
-msgstr "上一頁"
+#: inc/template-tags.php:31
+msgid "Older Comments"
+msgstr "較舊的留言"
 
-#: archive.php:50 index.php:47 search.php:39
-msgid "Next page"
-msgstr "下一頁"
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:26
+msgid "Comment navigation"
+msgstr "留言導覽"
 
-#: header.php:43
-msgid "Menu and widgets"
-msgstr "選單與小工具"
+#: inc/customizer.php:239
+msgid "Blue"
+msgstr "藍色"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3)  #-#-#-#-#
-#. Author URI of the plugin/theme
-#: footer.php:25
-msgid "https://wordpress.org/"
-msgstr "http://tw.wordpress.org/"
+#: functions.php:245 inc/customizer.php:228
+msgid "Purple"
+msgstr "紫色"
 
-#: image.php:84
+#: inc/customizer.php:217
+msgid "Pink"
+msgstr "粉紅色"
+
+#: functions.php:220 inc/customizer.php:206
+msgid "Yellow"
+msgstr "黃色"
+
+#: inc/customizer.php:195
+msgid "Dark"
+msgstr "深色"
+
+#: inc/customizer.php:184
+msgid "Default"
+msgstr "預設"
+
+#: inc/customizer.php:103
+msgid "Header and Sidebar Background Color"
+msgstr "頁首及資訊欄背景色彩"
+
+#: inc/customizer.php:79 inc/customizer.php:104 inc/customizer.php:111
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "適用於顯示於小螢幕的頁首及寬螢幕的資訊欄。"
+
+#: inc/customizer.php:78
+msgid "Header and Sidebar Text Color"
+msgstr "頁首及資訊欄文字色彩"
+
+#: inc/customizer.php:55
+msgid "Base Color Scheme"
+msgstr "基本色彩配置"
+
+#. translators: %s: WordPress version.
+#: inc/back-compat.php:41 inc/back-compat.php:56 inc/back-compat.php:77
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen 最低需求為 WordPress 4.1，而這個網站執行的是 %s，請於網站完成升級後再試一次。"
+
+#: image.php:89
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
-msgstr "<span class=\"meta-nav\">發佈於</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">上層內容:</span><span class=\"post-title\">%title</span>"
 
-#. Theme Name of the plugin/theme
-msgid "Twenty Fifteen"
-msgstr "貳零壹伍"
+#: image.php:25
+msgid "Next Image"
+msgstr "下一張圖片"
 
-#: single.php:37
-msgid "Previous post:"
-msgstr "上一篇文章："
+#: image.php:25
+msgid "Previous Image"
+msgstr "上一張圖片"
 
-#: single.php:34
-msgid "Next post:"
-msgstr "下一篇文章："
+#: header.php:52
+msgid "Menu and widgets"
+msgstr "選單及小工具"
 
-#: functions.php:86
-msgid "Social Links Menu"
-msgstr "社交網路鏈結選單"
+#. translators: Hidden accessibility text.
+#: header.php:27
+msgid "Skip to content"
+msgstr "跳至主要內容"
 
-#. Translators: If there are characters in your language that are not supported
+#. translators: Hidden accessibility text.
+#: functions.php:474
+msgid "collapse child menu"
+msgstr "收合子選單"
+
+#. translators: Hidden accessibility text.
+#: functions.php:472
+msgid "expand child menu"
+msgstr "展開子選單"
+
+#. translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:177
+#: functions.php:395
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "on"
 
-#. Translators: If there are characters in your language that are not supported
-#. by Noto Sans, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:161
-msgctxt "Noto Sans font: on or off"
-msgid "on"
-msgstr "on"
-
-#. Translators: If there are characters in your language that are not supported
+#. translators: If there are characters in your language that are not supported
 #. by Noto Serif, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:169
+#: functions.php:387
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#. Description of the plugin/theme
-msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
-msgstr "我們的預設主題「貳零壹伍」是簡潔、著重於部落格，並採用明快的設計。「貳零壹伍」的簡潔排版在多種螢幕尺寸之下是易讀的，並適用於多種語言。我們設計以行動裝置優先的方式，這意味著不管訪問者使用智慧型手機、平板、筆記型電腦亦或是桌機，你的內容都將居於正中央。"
+#. translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:379
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr "on"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "「貳零壹伍」要求 WordPress 4.1 版或以上。你現在使用的是 %s 版。請升級並重試。"
-
-#: functions.php:135
+#: functions.php:352
 msgid "Add widgets here to appear in your sidebar."
-msgstr "在這裡加入小工具來讓它顯示於側邊欄。"
+msgstr "在這裡新增小工具便能顯示於資訊欄。"
+
+#: functions.php:350
+msgid "Widget Area"
+msgstr "小工具區域"
+
+#: functions.php:95
+msgid "Social Links Menu"
+msgstr "社交網路服務連結選單"
+
+#: functions.php:94
+msgid "Primary Menu"
+msgstr "主要選單"
+
+#. translators: %s: WordPress
+#: footer.php:33
+msgid "Proudly powered by %s"
+msgstr "本站採用 %s 建置"
+
+#: content-none.php:36
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "找不到符合條件的內容。請使用搜尋功能，應會有所幫助。"
+
+#: content-none.php:31
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "很抱歉，找不到符合搜尋條件的結果，請以不同的關鍵字重試。"
+
+#. translators: %s: Post editor URL.
+#: content-none.php:25
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "準備發佈第一篇文章了嗎？請從<a href=\"%s\">這裡</a>開始。"
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "找不到符合條件的結果"
+
+#: content-link.php:61 content-page.php:38 content-search.php:28
+#: content-search.php:33 content.php:62 image.php:75
+msgid "Edit"
+msgstr "編輯"
+
+#: content-link.php:39 content-page.php:26 content.php:41 image.php:61
+msgid "Pages:"
+msgstr "頁次:"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: content-link.php:32 content.php:34 inc/template-tags.php:267
+msgid "Continue reading %s"
+msgstr "閱讀全文 %s"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "留言功能已關閉。"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "在〈%2$s〉中有 %1$s 則留言"
+
+#. translators: %s: Author display name.
+#: author-bio.php:36
+msgid "View all posts by %s"
+msgstr "檢視「%s」的全部文章"
+
+#: author-bio.php:12
+msgid "Published by"
+msgstr "作者:"
+
+#. translators: Hidden accessibility text.
+#: archive.php:54 content-link.php:44 content-page.php:31 content.php:46
+#: image.php:66 index.php:51 search.php:49
+msgid "Page"
+msgstr "頁次"
+
+#: archive.php:52 index.php:49 search.php:47
+msgid "Next page"
+msgstr "下一頁"
+
+#: archive.php:51 index.php:48 search.php:46
+msgid "Previous page"
+msgstr "上一頁"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "在這裡找不到符合條件的項目，請使用搜尋功能進行查詢。"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "很抱歉，找不到符合條件的頁面。"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "WordPress 團隊"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentyfifteen/"
+msgstr "https://tw.wordpress.org/themes/twentyfifteen/"
+
+#. Author URI of the theme
+#: style.css footer.php:30
+#, gp-priority: low
+msgid "https://wordpress.org/"
+msgstr "https://tw.wordpress.org/"

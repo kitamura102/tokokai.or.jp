@@ -63,7 +63,7 @@ define('NONCE_SALT',       'qB9oR&o4ThDdVV7BfhOaH%ctc%PhGIWaha0EDn)(mRQWsVWAfs8Q
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix = 'PYcB3Xc_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -79,6 +79,10 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+define( 'DISALLOW_FILE_EDIT', true );
+define( 'CONCATENATE_SCRIPTS', false );
+define( 'DISABLE_WP_CRON', true );
+define( 'WP_DEBUG_DISPLAY', false );
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */

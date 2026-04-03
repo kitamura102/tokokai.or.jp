@@ -1,272 +1,487 @@
-# Translation of Twenty Fifteen in Swedish
-# This file is distributed under the same license as the Twenty Fifteen package.
+# Translation of Themes - Twenty Fifteen in Swedish
+# This file is distributed under the same license as the Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-07-11 23:51:56+0000\n"
+"PO-Revision-Date: 2022-05-25 07:03:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.1.0-alpha\n"
-"Project-Id-Version: Twenty Fifteen\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Themes - Twenty Fifteen\n"
 
-#. translators: %s: post title
-#: inc/template-tags.php:123
-msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "Lämna en kommentar<span class=\"screen-reader-text\"> på %s</span>"
-
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Taggar"
-
-#. Author of the plugin/theme
-msgid "the WordPress team"
-msgstr "WordPress-teamet"
-
-#. Description of the plugin/theme
+#. Description of the theme
+#: style.css
+#, gp-priority: high
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
-msgstr "Twenty Fifteen, standardtemat för 2015, är rent, bloggfokuserat, och utformat för tydlighet. Dess enkla, okomplicerade typografi är läsbar på en mängd olika skärmstorlekar och lämpar sig för flera språk. Vi designade temat enligt strategin \"mobile first\" vilket innebär fokus på ditt innehåll i första hand, oavsett om dina besökare kommer till din sida med smartmobil, surfplatta, bärbar dator eller stationär dator. "
+msgstr "Vårt 2015-års standardtema är rent, bloggfokuserat, och utformat för tydlighet. Twenty Fifteens enkla, okomplicerad typografi är läsbar på en mängd olika skärmstorlekar och lämpar sig för flera språk. Vi designade det med 'mobile first'-metoden, vilket innebär att ditt innehåll tar första parkett, oavsett om dina besökare besöker din sida med smartphone, surfplatta, laptop eller stationär dator."
 
-#. Theme URI of the plugin/theme
-msgid "https://wordpress.org/themes/twentyfifteen/"
-msgstr "https://wordpress.org/themes/twentyfifteen/"
-
-#: single.php:36
-msgid "Previous"
-msgstr "Föregående"
-
-#: single.php:33
-msgid "Next"
-msgstr "Nästa"
-
-#: 404.php:21
-msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "Det verkar inte som något kunde hittas för den här platsen. Testa en sökning kanske?"
-
-#: inc/template-tags.php:91 inc/template-tags.php:99
-msgctxt "Used between list items, there is a space after the comma."
-msgid ", "
-msgstr ", "
-
-#: image.php:24
-msgid "Previous Image"
-msgstr "Föregående bild"
-
-#: image.php:24
-msgid "Next Image"
-msgstr "Nästa bild"
-
-#: inc/template-tags.php:23
-msgid "Comment navigation"
-msgstr "Kommentarsnavigering"
-
-#: comments.php:53
-msgid "Comments are closed."
-msgstr "Kommentarer inaktiverade."
-
-#: content-link.php:36 content-page.php:25 content.php:38 image.php:59
-msgid "Pages:"
-msgstr "Sidor:"
-
-#: content-link.php:56 content-page.php:35 content-search.php:28
-#: content-search.php:33 content.php:57 image.php:71
-msgid "Edit"
-msgstr "Redigera"
-
-#: footer.php:25
-msgid "Proudly powered by %s"
-msgstr "Drivs med %s"
-
-#: functions.php:85
-msgid "Primary Menu"
-msgstr "Primär meny"
-
-#: header.php:26
-msgid "Skip to content"
-msgstr "Hoppa till innehåll"
-
-#: content-none.php:15
-msgid "Nothing Found"
-msgstr "Inget funnet"
-
-#: content-none.php:22
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Är du redo att posta ditt första inlägg? <a href=\"%1$s\">Starta här</a>."
-
-#: content-none.php:26
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Ledsen, inget matchade dina sökkriterier. Vänligen försök igen med andra nyckelord."
-
-#: content-none.php:31
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Det verkar inte som om vi kan hitta det du letar efter. Kanske kan en sökning hjälpa."
-
-#: search.php:18
-msgid "Search Results for: %s"
-msgstr "Sökresultat för: %s"
-
-#. Theme Name of the plugin/theme
+#. Theme Name of the theme
+#: style.css inc/block-patterns.php:20
+#, gp-priority: high
 msgid "Twenty Fifteen"
 msgstr "Twenty Fifteen"
 
-#: inc/template-tags.php:113
+#: functions.php:327
+msgid "Light Blue Gradient"
+msgstr "Ljusblå gradient"
+
+#: functions.php:322
+msgid "Bright Blue Gradient"
+msgstr "Ljust blå gradient"
+
+#: functions.php:317
+msgid "Blue Gray Gradient"
+msgstr "Blågrå gradient"
+
+#: functions.php:312
+msgid "Purple Gradient"
+msgstr "Lila gradient"
+
+#: functions.php:307
+msgid "Dark Purple Gradient"
+msgstr "Mörkt lila gradient"
+
+#: functions.php:302
+msgid "Light Pink Gradient"
+msgstr "Ljust rosa gradient"
+
+#: functions.php:297
+msgid "Medium Pink Gradient"
+msgstr "Mellanrosa gradient"
+
+#: functions.php:292
+msgid "Dark Brown Gradient"
+msgstr "Mörkt brun gradient"
+
+#: functions.php:287
+msgid "Yellow Gradient"
+msgstr "Gul gradient"
+
+#: functions.php:282
+msgid "White Gradient"
+msgstr "Vit gradient"
+
+#: functions.php:277
+msgid "Light Gray Gradient"
+msgstr "Ljust grå gradient"
+
+#: functions.php:272
+msgid "Dark Gray Gradient"
+msgstr "Mörkt grå gradient"
+
+#: inc/block-patterns.php:65
+msgid "Snacks"
+msgstr "Snacks"
+
+#: inc/block-patterns.php:65
+msgid "Swimsuit"
+msgstr "Baddräkt"
+
+#: inc/block-patterns.php:65
+msgid "Water Bottle"
+msgstr "Vattenflaska"
+
+#: inc/block-patterns.php:65
+msgid "Camera"
+msgstr "Kamera"
+
+#: inc/block-patterns.php:65
+msgid "Towels"
+msgstr "Handduk"
+
+#: inc/block-patterns.php:65
+msgid "As I watched, the planet seemed to grow larger and smaller and to advance and recede, but that was simply that my eye was tired. Forty millions of miles it was from us — more than forty millions of miles of void. Few people realize the immensity of vacancy in which the dust of the material universe swims."
+msgstr "As I watched, the planet seemed to grow larger and smaller and to advance and recede, but that was simply that my eye was tired. Forty millions of miles it was from us — more than forty millions of miles of void. Few people realize the immensity of vacancy in which the dust of the material universe swims."
+
+#: inc/block-patterns.php:65
+msgid "You don’t need a lot, trust us!"
+msgstr "Du behöver inte mycket, lita på oss!"
+
+#: inc/block-patterns.php:65
+msgid "What to pack for the beach"
+msgstr "Vad man ska packa för stranden"
+
+#: inc/block-patterns.php:63
+msgid "Columns with a List"
+msgstr "Kolumn med en lista"
+
+#: inc/block-patterns.php:55
+msgid "A boatload of people putting back came leaping out as I rushed past. The stones under my feet were muddy and slippery, and the river was so low."
+msgstr "A boatload of people putting back came leaping out as I rushed past. The stones under my feet were muddy and slippery, and the river was so low."
+
+#: inc/block-patterns.php:55
+msgid "Travels"
+msgstr "Resor"
+
+#: inc/block-patterns.php:55
+msgid "I faced about again, and rushed towards the approaching Martian, rushed right down the gravelly beach and headlong into the water. Others did the same."
+msgstr "I faced about again, and rushed towards the approaching Martian, rushed right down the gravelly beach and headlong into the water. Others did the same."
+
+#: inc/block-patterns.php:55
+msgid "Adventure"
+msgstr "Äventyr"
+
+#: inc/block-patterns.php:53
+msgid "Two Columns with Images"
+msgstr "Två kolumner med bilder"
+
+#: inc/block-patterns.php:45
+msgid "City, State, 00000"
+msgstr "Ort, delstat, 00000"
+
+#: inc/block-patterns.php:45
+msgid "123 Main Street"
+msgstr "Storgatan 123"
+
+#: inc/block-patterns.php:45
+msgid "Address"
+msgstr "Adress"
+
+#: inc/block-patterns.php:45
+msgid "(123) 555-5555"
+msgstr "(123) 555-5555"
+
+#: inc/block-patterns.php:45
+msgid "Phone"
+msgstr "Telefon"
+
+#: inc/block-patterns.php:45
+msgid "Follow us"
+msgstr "Följ oss"
+
+#: inc/block-patterns.php:45
+msgid "example@example.com"
+msgstr "example@example.com"
+
+#: inc/block-patterns.php:45
+msgid "Email"
+msgstr "E-post"
+
+#: inc/block-patterns.php:43
+msgid "Contact area"
+msgstr "Kontaktområde"
+
+#: inc/block-patterns.php:35
+msgid "Our default 2015 theme is clean, blog-focused, and designed for clarity. Twenty Fifteen’s simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages."
+msgstr "Vårt standardteam för 2015 theme har ren layout, är bloggfokuserat och utformat för maximal klarhet. Den enkla och okomplicerade typografin i Twenty Fifteen går bra att läsa på skärmar i många olika storlekar och fungerar för många olika språk."
+
+#: inc/block-patterns.php:35
+msgid "A pier at sunset"
+msgstr "En pir vid solnedgången"
+
+#: inc/block-patterns.php:35 inc/block-patterns.php:55
+msgid "A pier with seagulls."
+msgstr "En pir med fiskmåsar."
+
+#: inc/block-patterns.php:35 inc/block-patterns.php:55
+msgid "A pier with a seagull."
+msgstr "En pir med en fiskmås."
+
+#: inc/block-patterns.php:33
+msgid "Gallery and Description"
+msgstr "Galleri och beskrivning"
+
+#: functions.php:260
+msgid "Light Blue"
+msgstr "Ljusblått"
+
+#: functions.php:255
+msgid "Bright Blue"
+msgstr "Djupblått"
+
+#: functions.php:250
+msgid "Blue Gray"
+msgstr "Blågrått"
+
+#: functions.php:240
+msgid "Dark Purple"
+msgstr "Mörklila"
+
+#: functions.php:235
+msgid "Light Pink"
+msgstr "Ljusrosa"
+
+#: functions.php:230
+msgid "Medium Pink"
+msgstr "Mellanrosa"
+
+#: functions.php:225
+msgid "Dark Brown"
+msgstr "Mörkbrunt"
+
+#: functions.php:215
+msgid "White"
+msgstr "Vitt"
+
+#: functions.php:210
+msgid "Light Gray"
+msgstr "Ljusgrått"
+
+#: functions.php:205
+msgid "Dark Gray"
+msgstr "Mörkgrått"
+
+#. translators: %s: Post title.
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "En kommentar till &ldquo;%s&rdquo;"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:146
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Lämna en kommentar<span class=\"screen-reader-text\"> till %s</span>"
+
+#. translators: Hidden accessibility text.
+#: single.php:41
+msgid "Previous post:"
+msgstr "Föregående inlägg:"
+
+#: single.php:39
+msgid "Previous"
+msgstr "Föregående"
+
+#. translators: Hidden accessibility text.
+#: single.php:37
+msgid "Next post:"
+msgstr "Nästa inlägg:"
+
+#: single.php:35
+msgid "Next"
+msgstr "Nästa"
+
+#. translators: %s: Search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:136
 msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Full storlek"
 
-#: inc/template-tags.php:94
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:123
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Taggar"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:113
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Kategorier"
 
-#: inc/template-tags.php:85
+#: inc/template-tags.php:108 inc/template-tags.php:118
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:102
 msgctxt "Used before post author name."
 msgid "Author"
 msgstr "Författare"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Utvalda"
-
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Nyare kommentarer"
-
-#: inc/template-tags.php:26
-msgid "Older Comments"
-msgstr "Äldre kommentarer"
-
-#: inc/template-tags.php:55
-msgctxt "Used before post format."
-msgid "Format"
-msgstr "Format"
-
-#: inc/template-tags.php:76
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:91
 msgctxt "Used before publish date."
 msgid "Posted on"
 msgstr "Postat"
 
-#: inc/customizer.php:147
-msgid "Blue"
-msgstr "Blått"
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:66
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Format"
 
-#: inc/customizer.php:136
+#: inc/template-tags.php:56
+msgid "Featured"
+msgstr "Utvalda"
+
+#: inc/template-tags.php:36
+msgid "Newer Comments"
+msgstr "Nyare kommentarer"
+
+#: inc/template-tags.php:31
+msgid "Older Comments"
+msgstr "Äldre kommentarer"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:26
+msgid "Comment navigation"
+msgstr "Kommentarsnavigering"
+
+#: inc/customizer.php:239
+msgid "Blue"
+msgstr "Blå"
+
+#: functions.php:245 inc/customizer.php:228
 msgid "Purple"
 msgstr "Lila"
 
-#: inc/customizer.php:125
+#: inc/customizer.php:217
 msgid "Pink"
 msgstr "Rosa"
 
-#: inc/customizer.php:103
-msgid "Dark"
-msgstr "Mörkt"
-
-#: inc/customizer.php:114
+#: functions.php:220 inc/customizer.php:206
 msgid "Yellow"
 msgstr "Gult"
 
-#: inc/customizer.php:92
+#: inc/customizer.php:195
+msgid "Dark"
+msgstr "Mörkt"
+
+#: inc/customizer.php:184
 msgid "Default"
 msgstr "Standard"
 
-#: inc/customizer.php:62
+#: inc/customizer.php:103
 msgid "Header and Sidebar Background Color"
 msgstr "Bakgrundsfärg för sidhuvud och sidofält"
 
-#: inc/customizer.php:31
-msgid "Base Color Scheme"
-msgstr "Huvudfärgschema"
+#: inc/customizer.php:79 inc/customizer.php:104 inc/customizer.php:111
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Anges som sidhuvud på små skärmar och sidofält på större skärmar."
 
-#: inc/customizer.php:46
+#: inc/customizer.php:78
 msgid "Header and Sidebar Text Color"
 msgstr "Textfärg för sidhuvud och sidofält"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+#: inc/customizer.php:55
+msgid "Base Color Scheme"
+msgstr "Huvudfärgschema"
+
+#. translators: %s: WordPress version.
+#: inc/back-compat.php:41 inc/back-compat.php:56 inc/back-compat.php:77
 msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Fifteen kräver minst WordPress version 4.1. Du använder version %s. Uppdatera och försök igen."
 
-#: image.php:84
+#: image.php:89
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Publicerat i</span><span class=\"post-title\">%title</span>"
 
-#: header.php:43
+#: image.php:25
+msgid "Next Image"
+msgstr "Nästa bild"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "Föregående bild"
+
+#: header.php:52
 msgid "Menu and widgets"
 msgstr "Meny och widgets"
 
-#: functions.php:255
-msgid "expand child menu"
-msgstr "expandera undermeny"
+#. translators: Hidden accessibility text.
+#: header.php:27
+msgid "Skip to content"
+msgstr "Hoppa till innehåll"
 
-#: functions.php:256
+#. translators: Hidden accessibility text.
+#: functions.php:474
 msgid "collapse child menu"
 msgstr "minimera undermeny"
 
-#. Translators: To add an additional character subset specific to your
-#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
-#. 'vietnamese'. Do not translate into your own language.
-#: functions.php:185
-msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
-msgid "no-subset"
-msgstr "no-subset"
+#. translators: Hidden accessibility text.
+#: functions.php:472
+msgid "expand child menu"
+msgstr "expandera undermeny"
 
-#. Translators: If there are characters in your language that are not supported
-#. by Noto Sans, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:161
-msgctxt "Noto Sans font: on or off"
-msgid "on"
-msgstr "på"
-
-#. Translators: If there are characters in your language that are not supported
-#. by Noto Serif, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:169
-msgctxt "Noto Serif font: on or off"
-msgid "on"
-msgstr "på"
-
-#. Translators: If there are characters in your language that are not supported
+#. translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:177
+#: functions.php:395
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "på"
 
-#: functions.php:135
+#. translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:387
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "på"
+
+#. translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:379
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr "på"
+
+#: functions.php:352
 msgid "Add widgets here to appear in your sidebar."
 msgstr "Lägg till widgets som ska visas i din sidopanel här."
 
-#: functions.php:133
+#: functions.php:350
 msgid "Widget Area"
 msgstr "Widgetfält"
 
-#: functions.php:86
+#: functions.php:95
 msgid "Social Links Menu"
 msgstr "Meny för sociala länkar"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3)  #-#-#-#-#
-#. Author URI of the plugin/theme
-#: footer.php:25
-msgid "https://wordpress.org/"
-msgstr "https://wordpress.org/"
+#: functions.php:94
+msgid "Primary Menu"
+msgstr "Primär meny"
 
-#. translators: %s: Name of current post
-#: content-link.php:31 content.php:33 inc/template-tags.php:238
+#. translators: %s: WordPress
+#: footer.php:33
+msgid "Proudly powered by %s"
+msgstr "Drivs med %s"
+
+#: content-none.php:36
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det verkar inte som om vi kan hitta det du letar efter. Kanske kan en sökning hjälpa."
+
+#: content-none.php:31
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Ledsen, inget matchade dina sökkriterier. Vänligen försök igen med andra nyckelord."
+
+#. translators: %s: Post editor URL.
+#: content-none.php:25
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Redo att publicera ditt första inlägg? <a href=\"%s\">Kom igång här</a>."
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "Kunde inte hittas"
+
+#: content-link.php:61 content-page.php:38 content-search.php:28
+#: content-search.php:33 content.php:62 image.php:75
+msgid "Edit"
+msgstr "Redigera"
+
+#: content-link.php:39 content-page.php:26 content.php:41 image.php:61
+msgid "Pages:"
+msgstr "Sidor:"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: content-link.php:32 content.php:34 inc/template-tags.php:267
 msgid "Continue reading %s"
 msgstr "Fortsätt läsa %s"
 
-#: comments.php:28
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Kommentarer inaktiverade."
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:35
 msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "En reaktion till &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s reaktion till &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s reaktioner till &ldquo;%2$s&rdquo;"
 
-#: author-bio.php:34
+#. translators: %s: Author display name.
+#: author-bio.php:36
 msgid "View all posts by %s"
 msgstr "Visa alla inlägg av %s"
 
@@ -274,31 +489,42 @@ msgstr "Visa alla inlägg av %s"
 msgid "Published by"
 msgstr "Publicerat av"
 
-#: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
-#: image.php:63 index.php:48 search.php:40
+#. translators: Hidden accessibility text.
+#: archive.php:54 content-link.php:44 content-page.php:31 content.php:46
+#: image.php:66 index.php:51 search.php:49
 msgid "Page"
 msgstr "Sida"
 
-#: archive.php:50 index.php:47 search.php:39
+#: archive.php:52 index.php:49 search.php:47
 msgid "Next page"
 msgstr "Nästa sida"
 
-#: archive.php:49 index.php:46 search.php:38
+#: archive.php:51 index.php:48 search.php:46
 msgid "Previous page"
 msgstr "Föregående sida"
 
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Det verkar inte som något kunde hittas för den här platsen. Testa en sökning kanske?"
+
 #: 404.php:17
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Oops! Sidan kunde inte hittas."
+msgstr "Ojdå! Sidan kunde inte hittas."
 
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Anges som sidhuvud på små skärmar och sidofält på större skärmar."
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "WordPress-teamet"
 
-#: single.php:34
-msgid "Next post:"
-msgstr "Nästa inlägg:"
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentyfifteen/"
+msgstr "https://wordpress.org/themes/twentyfifteen/"
 
-#: single.php:37
-msgid "Previous post:"
-msgstr "Föregående inlägg:"
+#. Author URI of the theme
+#: style.css footer.php:30
+#, gp-priority: low
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"

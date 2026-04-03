@@ -1,305 +1,531 @@
-# Translation of Twenty Fifteen in Ukrainian
-# This file is distributed under the same license as the Twenty Fifteen package.
+# Translation of Themes - Twenty Fifteen in Ukrainian
+# This file is distributed under the same license as the Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-07-05 10:40:42+0000\n"
+"PO-Revision-Date: 2025-01-13 19:37:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: GlotPress/2.1.0-alpha\n"
-"Project-Id-Version: Twenty Fifteen\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Themes - Twenty Fifteen\n"
 
-#. translators: %s: post title
-#: inc/template-tags.php:123
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
+msgstr "Наша стандартна яскрава тема 2015 року створена для чіткості та націлена на блоги. Її просте оформлення дозволяє легко читати вміст на ріноманітних розширеннях екранів, також вона сумісна з багатьма мовами. Ми створювали її орієнтуючись на мобільні пристрої, це означає що ваш вміст буде на першому місці незалежно від того, який пристрій використовується: смартфон, планшет, чи комп’ютер."
+
+#. Theme Name of the theme
+#: style.css inc/block-patterns.php:20
+#, gp-priority: high
+msgid "Twenty Fifteen"
+msgstr "Twenty Fifteen"
+
+#: functions.php:327
+msgid "Light Blue Gradient"
+msgstr "Світло-блакитний градієнт"
+
+#: functions.php:322
+msgid "Bright Blue Gradient"
+msgstr "Яскраво-синій градієнт"
+
+#: functions.php:317
+msgid "Blue Gray Gradient"
+msgstr "Синьо-сірий градієнт"
+
+#: functions.php:312
+msgid "Purple Gradient"
+msgstr "Фіолетовий градієнт"
+
+#: functions.php:307
+msgid "Dark Purple Gradient"
+msgstr "Темно-фіолетовий градієнт"
+
+#: functions.php:302
+msgid "Light Pink Gradient"
+msgstr "Світло-рожевий градієнт"
+
+#: functions.php:297
+msgid "Medium Pink Gradient"
+msgstr "Середній рожевий градієнт"
+
+#: functions.php:292
+msgid "Dark Brown Gradient"
+msgstr "Темно-коричневий градієнт"
+
+#: functions.php:287
+msgid "Yellow Gradient"
+msgstr "Жовтий градієнт"
+
+#: functions.php:282
+msgid "White Gradient"
+msgstr "Білий градієнт"
+
+#: functions.php:277
+msgid "Light Gray Gradient"
+msgstr "Світло-сірий градієнт"
+
+#: functions.php:272
+msgid "Dark Gray Gradient"
+msgstr "Темно-сірий градієнт"
+
+#: inc/block-patterns.php:65
+msgid "Snacks"
+msgstr "Закуски"
+
+#: inc/block-patterns.php:65
+msgid "Swimsuit"
+msgstr "Купальник"
+
+#: inc/block-patterns.php:65
+msgid "Water Bottle"
+msgstr "Пляшка для води"
+
+#: inc/block-patterns.php:65
+msgid "Camera"
+msgstr "Камера"
+
+#: inc/block-patterns.php:65
+msgid "Towels"
+msgstr "Рушники"
+
+#: inc/block-patterns.php:65
+msgid "As I watched, the planet seemed to grow larger and smaller and to advance and recede, but that was simply that my eye was tired. Forty millions of miles it was from us — more than forty millions of miles of void. Few people realize the immensity of vacancy in which the dust of the material universe swims."
+msgstr "Коли я дивився, здавалося, що планета то збільшується, то зменшується, то насувається, то відступає, але це було просто тому, що моє око втомилося. Сорок мільйонів миль віддаляло її від нас - понад сорок мільйонів миль порожнечі. Мало хто усвідомлює безмежність порожнечі, в якій плаває пил матеріального всесвіту."
+
+#: inc/block-patterns.php:65
+msgid "You don’t need a lot, trust us!"
+msgstr "Вам не потрібно багато, повірте нам!"
+
+#: inc/block-patterns.php:65
+msgid "What to pack for the beach"
+msgstr "Що взяти з собою на пляж"
+
+#: inc/block-patterns.php:63
+msgid "Columns with a List"
+msgstr "Колонки зі списком"
+
+#: inc/block-patterns.php:55
+msgid "A boatload of people putting back came leaping out as I rushed past. The stones under my feet were muddy and slippery, and the river was so low."
+msgstr "Коли я пробігав повз, вискочив човен з людьми, які поверталися назад. Каміння під моїми ногами було брудним і слизьким, а річка була дуже низькою."
+
+#: inc/block-patterns.php:55
+msgid "Travels"
+msgstr "Подорожі"
+
+#: inc/block-patterns.php:55
+msgid "I faced about again, and rushed towards the approaching Martian, rushed right down the gravelly beach and headlong into the water. Others did the same."
+msgstr "Я знову повернувся обличчям і кинувся назустріч марсіанину, що наближався, промчав прямо по гравійному пляжу і стрімголов кинувся у воду. Інші зробили те саме."
+
+#: inc/block-patterns.php:55
+msgid "Adventure"
+msgstr "Пригода"
+
+#: inc/block-patterns.php:53
+msgid "Two Columns with Images"
+msgstr "Дві колонки з зображеннями"
+
+#: inc/block-patterns.php:45
+msgid "City, State, 00000"
+msgstr "Місто, штат, 00000"
+
+#: inc/block-patterns.php:45
+msgid "123 Main Street"
+msgstr "Вулиця Ювілейна, 23"
+
+#: inc/block-patterns.php:45
+msgid "Address"
+msgstr "Адреса"
+
+#: inc/block-patterns.php:45
+msgid "(123) 555-5555"
+msgstr "(123) 555-5555"
+
+#: inc/block-patterns.php:45
+msgid "Phone"
+msgstr "Телефон"
+
+#: inc/block-patterns.php:45
+msgid "Follow us"
+msgstr "Приєднуйтесь до нас"
+
+#: inc/block-patterns.php:45
+msgid "example@example.com"
+msgstr "example@example.com"
+
+#: inc/block-patterns.php:45
+msgid "Email"
+msgstr "Email"
+
+#: inc/block-patterns.php:43
+msgid "Contact area"
+msgstr "Область контакту"
+
+#: inc/block-patterns.php:35
+msgid "Our default 2015 theme is clean, blog-focused, and designed for clarity. Twenty Fifteen’s simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages."
+msgstr "Наша стандартна тема 2015 року - чиста, орієнтована на блог і створена для ясності. Проста, зрозуміла типографіка Twenty Fifteen читається на екранах різних розмірів і підходить для різних мов."
+
+#: inc/block-patterns.php:35
+msgid "A pier at sunset"
+msgstr "Причал на заході сонця"
+
+#: inc/block-patterns.php:35 inc/block-patterns.php:55
+msgid "A pier with seagulls."
+msgstr "Пірс з чайками."
+
+#: inc/block-patterns.php:35 inc/block-patterns.php:55
+msgid "A pier with a seagull."
+msgstr "Пірс з чайкою."
+
+#: inc/block-patterns.php:33
+msgid "Gallery and Description"
+msgstr "Галерея та опис"
+
+#: functions.php:260
+msgid "Light Blue"
+msgstr "Світло-блакитний"
+
+#: functions.php:255
+msgid "Bright Blue"
+msgstr "Яскраво-синя"
+
+#: functions.php:250
+msgid "Blue Gray"
+msgstr "Блакитно-сіра"
+
+#: functions.php:240
+msgid "Dark Purple"
+msgstr "Темно-фіолетова"
+
+#: functions.php:235
+msgid "Light Pink"
+msgstr "Світло-рожева"
+
+#: functions.php:230
+msgid "Medium Pink"
+msgstr "Середньо-рожева"
+
+#: functions.php:225
+msgid "Dark Brown"
+msgstr "Темно-коричнева"
+
+#: functions.php:215
+msgid "White"
+msgstr "Біла"
+
+#: functions.php:210
+msgid "Light Gray"
+msgstr "Світло-сірий"
+
+#: functions.php:205
+msgid "Dark Gray"
+msgstr "Темно-сіра"
+
+#. translators: %s: Post title.
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Один коментар до &ldquo;%s&rdquo;"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:146
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Залишити коментар<span class=\"screen-reader-text\"> до %s</span>"
 
-#: functions.php:133
-msgid "Widget Area"
-msgstr "Область віджетів"
+#. translators: Hidden accessibility text.
+#: single.php:41
+msgid "Previous post:"
+msgstr "Попередній запис:"
 
-#. Translators: If there are characters in your language that are not supported
-#. by Noto Serif, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:169
-msgctxt "Noto Serif font: on or off"
-msgid "on"
-msgstr "on"
+#: single.php:39
+msgid "Previous"
+msgstr "Назад"
 
-#. Translators: If there are characters in your language that are not supported
+#. translators: Hidden accessibility text.
+#: single.php:37
+msgid "Next post:"
+msgstr "Наступний запис:"
+
+#: single.php:35
+msgid "Next"
+msgstr "Наступн."
+
+#. translators: %s: Search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Результати пошуку для фрази: %s"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:136
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Повний розмір"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:123
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Позначки"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:113
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Категорії"
+
+#: inc/template-tags.php:108 inc/template-tags.php:118
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:102
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Автор"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:91
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Опубліковано"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:66
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Формат"
+
+#: inc/template-tags.php:56
+msgid "Featured"
+msgstr "Обране"
+
+#: inc/template-tags.php:36
+msgid "Newer Comments"
+msgstr "Новіші коментарі"
+
+#: inc/template-tags.php:31
+msgid "Older Comments"
+msgstr "Старіші коментарі"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:26
+msgid "Comment navigation"
+msgstr "Навігація по коментарях"
+
+#: inc/customizer.php:239
+msgid "Blue"
+msgstr "Блакитний"
+
+#: functions.php:245 inc/customizer.php:228
+msgid "Purple"
+msgstr "Фіолетовий"
+
+#: inc/customizer.php:217
+msgid "Pink"
+msgstr "Рожевий"
+
+#: functions.php:220 inc/customizer.php:206
+msgid "Yellow"
+msgstr "Жовтий"
+
+#: inc/customizer.php:195
+msgid "Dark"
+msgstr "Темний"
+
+#: inc/customizer.php:184
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: inc/customizer.php:103
+msgid "Header and Sidebar Background Color"
+msgstr "Колір фону заголовка та бічної колонки"
+
+#: inc/customizer.php:79 inc/customizer.php:104 inc/customizer.php:111
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Застосовується до заголовка на маленьких екранах і до бічної колонки на широких."
+
+#: inc/customizer.php:78
+msgid "Header and Sidebar Text Color"
+msgstr "Колір тексту заголовка та бічної колонки"
+
+#: inc/customizer.php:55
+msgid "Base Color Scheme"
+msgstr "Основна кольорова схема"
+
+#. translators: %s: WordPress version.
+#: inc/back-compat.php:41 inc/back-compat.php:56 inc/back-compat.php:77
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Тема Twenty Fifteen вимагає WordPress 4.1 або вище. У вас версія %s. Будь ласка, оновіть WordPress і спробуйте ще раз."
+
+#: image.php:89
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Опубліковано в</span><span class=\"post-title\">%title</span>"
+
+#: image.php:25
+msgid "Next Image"
+msgstr "Наступне зображення"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "Попереднє зображення"
+
+#: header.php:52
+msgid "Menu and widgets"
+msgstr "Меню та віджети"
+
+#. translators: Hidden accessibility text.
+#: header.php:27
+msgid "Skip to content"
+msgstr "Перейти до контенту"
+
+#. translators: Hidden accessibility text.
+#: functions.php:474
+msgid "collapse child menu"
+msgstr "згорнути підменю"
+
+#. translators: Hidden accessibility text.
+#: functions.php:472
+msgid "expand child menu"
+msgstr "розгорнути підменю"
+
+#. translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:177
+#: functions.php:395
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "off"
 
-#. Translators: If there are characters in your language that are not supported
+#. translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:387
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
 #. by Noto Sans, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:161
+#: functions.php:379
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#. Translators: To add an additional character subset specific to your
-#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
-#. 'vietnamese'. Do not translate into your own language.
-#: functions.php:185
-msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
-msgid "no-subset"
-msgstr "cyrillic"
-
-#: inc/template-tags.php:76
-msgctxt "Used before publish date."
-msgid "Posted on"
-msgstr "Оприлюднено"
-
-#: image.php:84
-msgctxt "Parent post link"
-msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
-msgstr "<span class=\"meta-nav\">Оприлюднено в</span><span class=\"post-title\">%title</span>"
-
-#: functions.php:135
+#: functions.php:352
 msgid "Add widgets here to appear in your sidebar."
 msgstr "Додайте сюди віджети для показу в бічній колонці."
 
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Застосовується до заголовка на маленьких екранах і до бічної колонки на широких."
+#: functions.php:350
+msgid "Widget Area"
+msgstr "Область для віджетів"
 
-#: inc/customizer.php:31
-msgid "Base Color Scheme"
-msgstr "Основна кольорова схема"
+#: functions.php:95
+msgid "Social Links Menu"
+msgstr "Меню соціальних посилань"
 
-#: inc/customizer.php:46
-msgid "Header and Sidebar Text Color"
-msgstr "Колір тексту заголовка та бічної колонки"
+#: functions.php:94
+msgid "Primary Menu"
+msgstr "Головне меню"
 
-#: inc/customizer.php:62
-msgid "Header and Sidebar Background Color"
-msgstr "Колір фону заголовка та бічної колонки"
+#. translators: %s: WordPress
+#: footer.php:33
+msgid "Proudly powered by %s"
+msgstr "Сайт працює на %s"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Новіші коментарі"
+#: content-none.php:36
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Інформацію на запит знайти не вдалося. Можливо, буде корисний пошук по сайту."
 
-#: image.php:24
-msgid "Next Image"
-msgstr "Наступне зображення"
+#: content-none.php:31
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Вибачте, за вашим запитом нічого не знайдено. Спробуйте інші ключові слова."
+
+#. translators: %s: Post editor URL.
+#: content-none.php:25
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Готові опублікувати свій перший запис? <a href=\"%s\">Почніть звідси</a>."
 
 #: content-none.php:15
 msgid "Nothing Found"
 msgstr "Нічого не знайдено"
 
-#: image.php:24
-msgid "Previous Image"
-msgstr "Попереднє зображення"
+#: content-link.php:61 content-page.php:38 content-search.php:28
+#: content-search.php:33 content.php:62 image.php:75
+msgid "Edit"
+msgstr "Редагувати"
 
-#: functions.php:86
-msgid "Social Links Menu"
-msgstr "Меню соціальних посилань"
+#: content-link.php:39 content-page.php:26 content.php:41 image.php:61
+msgid "Pages:"
+msgstr "Сторінки:"
 
-#: functions.php:85
-msgid "Primary Menu"
-msgstr "Головне меню"
-
-#: footer.php:25
-msgid "Proudly powered by %s"
-msgstr "Сайт працює на %s"
-
-#: inc/template-tags.php:26
-msgid "Older Comments"
-msgstr "Старіші коментарі"
-
-#. Author of the plugin/theme
-msgid "the WordPress team"
-msgstr "команда WordPress"
-
-#: inc/template-tags.php:23
-msgid "Comment navigation"
-msgstr "Навігація по коментарях"
-
-#. translators: %s: Name of current post
-#: content-link.php:31 content.php:33 inc/template-tags.php:238
+#. translators: %s: Post title. Only visible to screen readers.
+#: content-link.php:32 content.php:34 inc/template-tags.php:267
 msgid "Continue reading %s"
 msgstr "Продовжувати читання %s"
 
-#: comments.php:28
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Коментарі закриті."
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:35
 msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "%1$s коментар до &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s коментарі до &ldquo;%2$s&rdquo;"
 msgstr[2] "%1$s коментарів до &ldquo;%2$s&rdquo;"
 
-#: functions.php:255
-msgid "expand child menu"
-msgstr "розгорнути підменю"
-
-#: functions.php:256
-msgid "collapse child menu"
-msgstr "згорнути підменю"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Тема Twenty Fifteen вимагає WordPress 4.1 або вище. У вас версія %s. Будь ласка, оновіть WordPress і спробуйте ще раз."
-
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "Категорії"
-
-#. Theme URI of the plugin/theme
-msgid "https://wordpress.org/themes/twentyfifteen/"
-msgstr "https://wordpress.org/themes/twentyfifteen/"
-
-#. Description of the plugin/theme
-msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
-msgstr "Наша стандартна яскрава тема 2015 року створена для чіткості та націлена на блоги. Її просте оформлення дозволяє легко читати вміст на ріноманітних розширеннях екранів, також вона сумісна з багатьма мовами. Ми створювали її орієнтуючись на мобільні пристрої, це означає що ваш вміст буде на першому місці незалежно від того, який пристрій використовується: смартфон, планшет, чи комп’ютер."
-
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Позначки"
-
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Вибране"
-
-#: inc/template-tags.php:55
-msgctxt "Used before post format."
-msgid "Format"
-msgstr "Формат"
-
-#: inc/template-tags.php:85
-msgctxt "Used before post author name."
-msgid "Author"
-msgstr "Автор"
-
-#: author-bio.php:34
+#. translators: %s: Author display name.
+#: author-bio.php:36
 msgid "View all posts by %s"
 msgstr "Подивитися всі записи автора %s"
-
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3)  #-#-#-#-#
-#. Author URI of the plugin/theme
-#: footer.php:25
-msgid "https://wordpress.org/"
-msgstr "https://uk.wordpress.org/"
-
-#: header.php:43
-msgid "Menu and widgets"
-msgstr "Меню та віджети"
-
-#: inc/customizer.php:92
-msgid "Default"
-msgstr "За замовчуванням"
-
-#: inc/customizer.php:114
-msgid "Yellow"
-msgstr "Жовтий"
-
-#: inc/customizer.php:103
-msgid "Dark"
-msgstr "Темний"
-
-#: inc/customizer.php:125
-msgid "Pink"
-msgstr "Рожевий"
-
-#: inc/customizer.php:136
-msgid "Purple"
-msgstr "Фіолетовий"
-
-#: inc/customizer.php:147
-msgid "Blue"
-msgstr "Синій"
-
-#: header.php:26
-msgid "Skip to content"
-msgstr "Перейти до вмісту"
-
-#: archive.php:49 index.php:46 search.php:38
-msgid "Previous page"
-msgstr "Попередня сторінка"
-
-#: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
-#: image.php:63 index.php:48 search.php:40
-msgid "Page"
-msgstr "Сторінка"
 
 #: author-bio.php:12
 msgid "Published by"
 msgstr "Автор"
 
-#. Theme Name of the plugin/theme
-msgid "Twenty Fifteen"
-msgstr "Twenty Fifteen"
+#. translators: Hidden accessibility text.
+#: archive.php:54 content-link.php:44 content-page.php:31 content.php:46
+#: image.php:66 index.php:51 search.php:49
+msgid "Page"
+msgstr "Сторінка"
 
-#: inc/template-tags.php:113
-msgctxt "Used before full size attachment link."
-msgid "Full size"
-msgstr "Повний розмір"
-
-#: 404.php:17
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Ой! Сторінка не знайдена."
-
-#: archive.php:50 index.php:47 search.php:39
+#: archive.php:52 index.php:49 search.php:47
 msgid "Next page"
 msgstr "Наступна сторінка"
 
-#: single.php:37
-msgid "Previous post:"
-msgstr "Попередній запис:"
-
-#: single.php:34
-msgid "Next post:"
-msgstr "Наступний запис:"
-
-#: single.php:36
-msgid "Previous"
-msgstr "Назад"
-
-#: single.php:33
-msgid "Next"
-msgstr "Вперед"
+#: archive.php:51 index.php:48 search.php:46
+msgid "Previous page"
+msgstr "Попередня сторінка"
 
 #: 404.php:21
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr "За даною адресою нічого не знайдено. Спробуйте скористатися пошуком."
 
-#: inc/template-tags.php:91 inc/template-tags.php:99
-msgctxt "Used between list items, there is a space after the comma."
-msgid ", "
-msgstr ","
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Отакої! Цю сторінку не знайдено."
 
-#: comments.php:53
-msgid "Comments are closed."
-msgstr "Коментування вимкнено."
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "Команда WordPress"
 
-#: content-link.php:36 content-page.php:25 content.php:38 image.php:59
-msgid "Pages:"
-msgstr "Сторінки:"
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentyfifteen/"
+msgstr "https://uk.wordpress.org/themes/twentyfifteen/"
 
-#: content-link.php:56 content-page.php:35 content-search.php:28
-#: content-search.php:33 content.php:57 image.php:71
-msgid "Edit"
-msgstr "Редагувати"
-
-#: content-none.php:22
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Готові опублікувати свій перший запис? <a href=\"%1$s\">Почніть звідси</a>."
-
-#: content-none.php:26
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Вибачте, за вашим запитом нічого не знайдено. Спробуйте інші ключові слова."
-
-#: content-none.php:31
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Інформацію за запитом знайти не вдалося. Можливо, буде корисний пошук по сайту."
-
-#: search.php:18
-msgid "Search Results for: %s"
-msgstr "Результати пошуку для фрази: %s"
+#. Author URI of the theme
+#: style.css footer.php:30
+#, gp-priority: low
+msgid "https://wordpress.org/"
+msgstr "https://uk.wordpress.org/"
