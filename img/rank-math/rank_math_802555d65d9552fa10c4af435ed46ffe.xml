@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//tokokai.or.jp/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://tokokai.or.jp/news/important/</loc>
+		<lastmod>2026-05-13T04:05:57+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/notice/</loc>
+		<lastmod>2026-05-13T04:06:16+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/shinryou/</loc>
+		<lastmod>2026-05-13T04:05:52+00:00</lastmod>
+	</url>
+</urlset>

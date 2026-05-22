@@ -1,0 +1,274 @@
+# Translation of Plugins - Snow Monkey Forms - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Snow Monkey Forms - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-11-29 13:17:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Snow Monkey Forms - Stable (latest release)\n"
+
+#: dist/blocks/month/block.json src/blocks/month/block.json
+msgctxt "block title"
+msgid "Month"
+msgstr "月"
+
+#: dist/blocks/date/block.json src/blocks/date/block.json
+msgctxt "block title"
+msgid "Date"
+msgstr "日付"
+
+#: App/Validation/Month.php:42
+msgid "Please enter a valid month."
+msgstr "有効な月を入力してください。"
+
+#: App/Validation/Date.php:42
+msgid "Please enter a valid date."
+msgstr "有効な日付を入力してください。"
+
+#: App/Control/File.php:136
+msgid "Clear"
+msgstr "クリア"
+
+#: App/Rest/Route/View.php:118
+msgid "Attachment of file failed."
+msgstr "ファイルの添付に失敗しました。"
+
+#: App/Rest/Route/View.php:98
+msgid "An error occurred during file upload."
+msgstr "ファイルアップロード中に、エラーが発生しました。"
+
+#: dist/blocks/url/block.json src/blocks/url/block.json
+msgctxt "block title"
+msgid "URL"
+msgstr "URL"
+
+#: dist/blocks/textarea/block.json src/blocks/textarea/block.json
+msgctxt "block title"
+msgid "Textarea"
+msgstr "テキストエリア"
+
+#: dist/blocks/text/block.json src/blocks/text/block.json
+msgctxt "block title"
+msgid "Text"
+msgstr "テキスト"
+
+#: dist/blocks/tel/block.json src/blocks/tel/block.json
+msgctxt "block title"
+msgid "Tel"
+msgstr "電話番号"
+
+#: dist/blocks/snow-monkey-form/block.json
+#: src/blocks/snow-monkey-form/block.json
+msgctxt "block title"
+msgid "Snow Monkey Form"
+msgstr "Snow Monkey Form"
+
+#: dist/blocks/select/block.json src/blocks/select/block.json
+msgctxt "block title"
+msgid "Select"
+msgstr "セレクト"
+
+#: dist/blocks/radio-buttons/block.json src/blocks/radio-buttons/block.json
+msgctxt "block title"
+msgid "Radio buttons"
+msgstr "ラジオボタン"
+
+#: dist/blocks/item/block.json src/blocks/item/block.json
+msgctxt "block title"
+msgid "Item"
+msgstr "項目"
+
+#: dist/blocks/form/input/block.json src/blocks/form/input/block.json
+msgctxt "block title"
+msgid "Form"
+msgstr "フォーム"
+
+#: dist/blocks/form/complete/block.json src/blocks/form/complete/block.json
+msgctxt "block title"
+msgid "Complete page"
+msgstr "ページ完成"
+
+#: dist/blocks/file/block.json src/blocks/file/block.json
+msgctxt "block title"
+msgid "File"
+msgstr "ファイル"
+
+#: dist/blocks/email/block.json src/blocks/email/block.json
+msgctxt "block title"
+msgid "email"
+msgstr "メール"
+
+#: dist/blocks/checkboxes/block.json src/blocks/checkboxes/block.json
+msgctxt "block title"
+msgid "Checkboxes"
+msgstr "チェックボックス"
+
+#: App/Validation/Uploaded.php:35
+msgid "Upload failed."
+msgstr "アップロードが失敗しました。"
+
+#: App/Service/ReCaptcha/Controller/Controller.php:95
+#: App/Service/Turnstile/Controller/Controller.php:102
+msgid "Settings saved."
+msgstr "設定が保存されました。"
+
+#: App/Service/ReCaptcha/Controller/Controller.php:144
+#: App/Service/Turnstile/Controller/Controller.php:151
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: App/Service/ReCaptcha/Controller/Controller.php:126
+#: App/Service/Turnstile/Controller/Controller.php:133
+msgid "Site Key"
+msgstr "Site Key"
+
+#. translators: %1$s: <a> open tag, %2$s: </a> close tag.
+#: App/Service/ReCaptcha/Controller/Controller.php:112
+msgid "For detail see %1$sreCAPTCHA%2$s."
+msgstr "詳細については、%1$sreCAPTCHA%2$sを参照してください。"
+
+#: App/Service/ReCaptcha/Controller/Controller.php:103
+msgid "reCAPTCHA protects your contact form from fraud and abuse."
+msgstr "reCAPTCHA は問い合わせフォームを詐欺や悪用から保護します。"
+
+#: App/Service/ReCaptcha/Controller/Controller.php:40
+#: App/Service/ReCaptcha/Controller/Controller.php:41
+#: App/Service/ReCaptcha/Controller/Controller.php:54
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: App/Rest/Route/View.php:78
+msgid "There is a possibility of spamming."
+msgstr "スパム送信の可能性があります。"
+
+#: snow-monkey-forms.php:486
+msgid "Automatic reply notification"
+msgstr "自動返信通知"
+
+#: snow-monkey-forms.php:411
+msgid "Admin notification"
+msgstr "管理者通知"
+
+#: dist/blocks/snow-monkey-form/render.php:80
+#: src/blocks/snow-monkey-form/render.php:80
+msgctxt "progress-tracker"
+msgid "3"
+msgstr "3"
+
+#: dist/blocks/snow-monkey-form/render.php:68
+#: dist/blocks/snow-monkey-form/render.php:82
+#: src/blocks/snow-monkey-form/render.php:68
+#: src/blocks/snow-monkey-form/render.php:82
+msgctxt "progress-tracker"
+msgid "2"
+msgstr "2"
+
+#: dist/blocks/snow-monkey-form/render.php:57
+#: src/blocks/snow-monkey-form/render.php:57
+msgctxt "progress-tracker"
+msgid "1"
+msgstr "1"
+
+#: snow-monkey-forms.php:348
+msgid "Complete !"
+msgstr "完了しました。"
+
+#: snow-monkey-forms.php:320
+msgctxt "form-field-label"
+msgid "Message"
+msgstr "メッセージ"
+
+#: snow-monkey-forms.php:300
+msgctxt "form-field-label"
+msgid "Email"
+msgstr "Eメール"
+
+#: snow-monkey-forms.php:280
+msgctxt "form-field-label"
+msgid "Name"
+msgstr "お名前"
+
+#: App/Control/File.php:135 dist/blocks/file/index.js:1
+#: src/blocks/file/edit.js:120
+msgid "No file chosen"
+msgstr "選択されていません"
+
+#: App/Control/File.php:134 dist/blocks/file/index.js:1
+#: src/blocks/file/edit.js:117
+msgid "Choose file"
+msgstr "ファイルを選択"
+
+#: App/Control/File.php:80
+msgid "Uploaded file"
+msgstr "アップロード済みのファイル"
+
+#: App/Rest/Route/View.php:182 dist/blocks/snow-monkey-form/render.php:107
+#: src/blocks/snow-monkey-form/render.php:107
+msgid "An unexpected problem has occurred."
+msgstr "予期しない問題が発生しました。"
+
+#: App/Rest/Route/View.php:149
+msgid "Failed to send auto reply email."
+msgstr "自動返信メールの送信に失敗しました。"
+
+#: App/Rest/Route/View.php:138 App/Rest/Route/View.php:184
+#: dist/blocks/snow-monkey-form/render.php:109
+#: src/blocks/snow-monkey-form/render.php:109
+msgid "Please try again later or contact your administrator by other means."
+msgstr "後でもう一度やり直すか、他の方法で管理者に連絡してください。"
+
+#: App/Rest/Route/View.php:136
+msgid "Failed to send administrator email."
+msgstr "管理者メールの送信に失敗しました。"
+
+#: App/Rest/Route/View.php:73
+msgid "Invalid access."
+msgstr "無効なアクセスです。"
+
+#: App/Model/Setting.php:183
+msgid "Back"
+msgstr "戻る"
+
+#: App/Model/Setting.php:188
+msgid "Send"
+msgstr "送信する"
+
+#: App/Model/Setting.php:178
+msgid "Confirm"
+msgstr "確認画面へ"
+
+#: App/Validation/Url.php:34
+msgid "Please enter a valid URL."
+msgstr "有効な URL を入力してください。"
+
+#: App/Validation/Required.php:34
+msgid "Please enter."
+msgstr "入力してください。"
+
+#: App/Validation/Email.php:40
+msgid "Please enter a valid email address."
+msgstr "有効なメールアドレスを入力してください。"
+
+#. Author URI of the plugin
+#: snow-monkey-forms.php
+msgid "https://2inc.org"
+msgstr "https://2inc.org"
+
+#. Author of the plugin
+#: snow-monkey-forms.php
+msgid "inc2734"
+msgstr "inc2734"
+
+#. Description of the plugin
+#: snow-monkey-forms.php
+msgid "The Snow Monkey Forms is a mail form plugin for the block editor."
+msgstr "Snow Monkey Forms はブロックエディターのためのメールフォームプラグインです。"
+
+#. Plugin Name of the plugin
+#: snow-monkey-forms.php snow-monkey-forms.php:264 snow-monkey-forms.php:587
+msgid "Snow Monkey Forms"
+msgstr "Snow Monkey Forms"

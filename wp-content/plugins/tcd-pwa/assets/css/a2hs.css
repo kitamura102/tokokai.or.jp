@@ -1,0 +1,261 @@
+.p-a2hs-footer {
+  position: fixed;
+  inset: auto 0 0;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  height: fit-content;
+  min-height: 60px;
+  padding-block: 15px;
+  padding-inline: 0 15px;
+  color: var(--tcd-pwa-a2hs-footer-font-color, #ffffff);
+  background: var(--tcd-pwa-a2hs-footer-bg-color, #222222);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition-property: opacity, visibility;
+  transition-duration: 0.3s;
+}
+
+.p-a2hs-footer,
+.p-a2hs-footer * {
+  box-sizing: border-box;
+}
+
+.p-a2hs-footer.is-installable.is-active,
+.p-a2hs-footer.is-uninstallable.is-active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.p-a2hs-footer-button {
+  display: grid;
+  min-inline-size: 0;
+  cursor: pointer;
+  color: inherit;
+  padding: 0;
+  border: initial;
+  outline: initial;
+  background: initial;
+  transition-timing-function: ease;
+  transition-duration: 0.3s;
+  transition-property: background-color, border-color, color, opacity;
+}
+
+.p-a2hs-footer-close {
+  flex: 0 0 min-content;
+  place-items: center;
+  line-height: 1;
+  font-size: 20px;
+  padding-inline: 15px;
+  margin-right: -15px;
+}
+
+.p-a2hs-footer-close svg {
+  margin: -0.2em;
+}
+
+.p-a2hs-footer-icon {
+  flex: 0 0 50px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.p-a2hs-footer-icon-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.p-a2hs-footer-contents {
+  flex: 1;
+  display: grid;
+  gap: 10px;
+}
+
+.p-a2hs-footer-contents-title {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-block: -0.3em;
+}
+
+.p-a2hs-footer-contents-desc {
+  font-size: 11px;
+  line-height: 1.8;
+  margin-block: -0.4em;
+}
+
+.p-a2hs-footer-install {
+  height: 32px;
+  place-items: center start;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  padding-top: 1px;
+  padding-inline: 20px;
+  color: var(--tcd-pwa-a2hs-footer-button-font-color, #ffffff);
+  background: var(--tcd-pwa-a2hs-footer-button-bg-color, #0066cc);
+  border-radius: calc(infinity * 1px);
+  margin-left: -5px;
+}
+
+@media (any-hover: hover) {
+  .p-a2hs-footer-button:hover {
+    opacity: 0.5;
+  }
+}
+
+@media not all and (max-width: 767px) {
+  .p-a2hs-footer {
+    display: none;
+  }
+}
+
+/* インストール可能な場合は、iOSテキストを非表示 */
+.p-a2hs-footer.is-installable .p-a2hs-el-ios {
+  display: none;
+}
+
+/* インストール不可の場合は、Androidテキストを非表示 */
+.p-a2hs-footer.is-uninstallable .p-a2hs-el-android {
+  display: none;
+}
+
+/* 固定フッターバー対策 */
+
+/* GRAVITY以降 */
+body:has(.p-a2hs-footer.is-installable) .p-footer-fix,
+body:has(.p-a2hs-footer.is-uninstallable) .p-footer-fix {
+  display: none;
+}
+
+/* bodyのpadding-bottom */
+body:has(.p-a2hs-footer.is-installable),
+body:has(.p-a2hs-footer.is-uninstallable),
+body.show_footer_bar:has(.p-a2hs-footer.is-installable),
+body.show_footer_bar:has(.p-a2hs-footer.is-uninstallable),
+body.show_footer_bar:has(.p-a2hs-footer.is-installable) #container,
+body.show_footer_bar:has(.p-a2hs-footer.is-uninstallable) #container {
+  padding-bottom: 0 !important;
+}
+
+/* フッターバーのスペーサー */
+body:has(.p-a2hs-footer.is-installable) .p-footer-bar--spacer,
+body:has(.p-a2hs-footer.is-uninstallable) .p-footer-bar--spacer {
+  display: none;
+}
+
+/* 旧テーマ（〜110） */
+body:has(.p-a2hs-footer.is-installable) .p-footer-bar:not(.p-product-footer-bar),
+body:has(.p-a2hs-footer.is-uninstallable) .p-footer-bar:not(.p-product-footer-bar),
+/* 〜HORIZON */
+body:has(.p-a2hs-footer.is-installable) .dp-footer-bar,
+body:has(.p-a2hs-footer.is-uninstallable) .dp-footer-bar,
+body:has(.p-a2hs-footer.is-installable) #dp-footer-bar,
+body:has(.p-a2hs-footer.is-uninstallable) #dp-footer-bar,
+/* EGO */
+body:has(.p-a2hs-footer.is-installable) .c-footer-bar,
+body:has(.p-a2hs-footer.is-uninstallable) .c-footer-bar {
+  display: none !important;
+}
+
+/* トップに戻るボタン対策 */
+
+/* 旧テーマ（〜110） */
+body:has(.p-a2hs-footer.is-installable) .p-return-top-button-wrapper,
+body:has(.p-a2hs-footer.is-uninstallable) .p-return-top-button-wrapper,
+/* トップに戻るボタン 追従じゃないタイプは除去する */
+/* CANON, HOLOS、HEAL フッター前に設置している場合は非表示にしない */
+body:has(.p-a2hs-footer.is-installable) #return_top:not(:has(~#footer)),
+body:has(.p-a2hs-footer.is-uninstallable) #return_top:not(:has(~#footer)),
+body:has(.p-a2hs-footer.is-installable) #return_top_mobile,
+body:has(.p-a2hs-footer.is-uninstallable) #return_top_mobile,
+/* Basara */
+body:has(.p-a2hs-footer.is-installable) .p-pagetop,
+body:has(.p-a2hs-footer.is-uninstallable) .p-pagetop,
+/* STORY */
+body:has(.p-a2hs-footer.is-installable) .footer .pagetop,
+body:has(.p-a2hs-footer.is-uninstallable) .footer .pagetop,
+/* AGENT */
+body:has(.p-a2hs-footer.is-installable) .returntop,
+body:has(.p-a2hs-footer.is-uninstallable) .returntop {
+  display: none !important;
+}
+
+/* テーマ別特殊フッター */
+
+/* WCの商品ページ用フッターバーがあればA2HSを非表示 */
+body:has(.p-product-footer-bar) .p-a2hs-footer,
+/* Ankle 商品フッターバー */
+body:has(.product_footer_bar) .p-a2hs-footer {
+  display: none !important;
+}
+
+/* REHUBレビューフッターバー */
+body:has(.p-a2hs-footer.is-installable) .p-review-footer-bar,
+body:has(.p-a2hs-footer.is-uninstallable) .p-review-footer-bar {
+  display: none !important;
+}
+
+/* CODE、Ankle ポップアップCTA */
+body:has(.p-a2hs-footer.is-installable) .p-mini-cta,
+body:has(.p-a2hs-footer.is-uninstallable) .p-mini-cta {
+  display: none !important;
+}
+
+/* CODE、DROP、meets、Muum フッターCTA */
+body:has(.p-a2hs-footer.is-installable) .p-footer-cta,
+body:has(.p-a2hs-footer.is-uninstallable) .p-footer-cta {
+  display: none !important;
+}
+
+/* NOEL フッターボタン */
+body:has(.p-a2hs-footer.is-installable) #footer_button,
+body:has(.p-a2hs-footer.is-uninstallable) #footer_button {
+  display: none !important;
+}
+
+/* STYLY, BRIDGE 固定フッターボタン */
+body:has(.p-a2hs-footer.is-installable) #fixed_footer_content,
+body:has(.p-a2hs-footer.is-uninstallable) #fixed_footer_content {
+  display: none !important;
+}
+
+/* VOGUE フッター固定広告 */
+body:has(.p-a2hs-footer.is-installable) .l-footer .p-request,
+body:has(.p-a2hs-footer.is-uninstallable) .l-footer .p-request {
+  display: none !important;
+}
+
+/* LAW 独自フッター */
+body:has(.p-a2hs-footer.is-installable) #return_top2,
+body:has(.p-a2hs-footer.is-installable) #footer_menu_button,
+body:has(.p-a2hs-footer.is-uninstallable) #footer_menu_button {
+  display: none !important;
+}
+
+/* 目次 cherie, SEEED */
+body:has(.p-a2hs-footer.is-installable) .open_tcd_toc_modal,
+body:has(.p-a2hs-footer.is-uninstallable) .open_tcd_toc_modal {
+  display: none !important;
+}
+
+/* 目次 tcdce */
+body:has(.p-a2hs-footer.is-installable) .p-toc-open,
+body:has(.p-a2hs-footer.is-uninstallable) .p-toc-open {
+  display: none !important;
+}
+
+/* ONE 独自対応 */
+#container+#mobile_menu~.p-a2hs-footer {
+  z-index: 9999;
+}
+
+body.open_menu .p-a2hs-footer {
+  display: none;
+}

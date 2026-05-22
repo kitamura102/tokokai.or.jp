@@ -1,0 +1,573 @@
+0000.002 () Opened log file at time: Tue, 14 Apr 2026 07:36:46 +0000 on https://tokokai.or.jp/
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.2 WP: 6.9.4 PHP: 8.2.29 (fpm-fcgi, Linux sv01.ssl-site.com 4.18.0 #1 SMP Mon Sep 30 15:36:27 MSK 2024 x86_64) MySQL: 10.3.39-MariaDB (max packet size=16777216) WPLANG: ja Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 512M (used: 8.2M | 10M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: 148963.1 MB
+0000.038 () Restore setup, now closing connection and starting restore over AJAX.
+0000.002 () Opened log file at time: Tue, 14 Apr 2026 07:36:46 +0000 on https://tokokai.or.jp/
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.2 WP: 6.9.4 PHP: 8.2.29 (fpm-fcgi, Linux sv01.ssl-site.com 4.18.0 #1 SMP Mon Sep 30 15:36:27 MSK 2024 x86_64) MySQL: 10.3.39-MariaDB (max packet size=16777216) WPLANG: ja Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 512M (used: 6.3M | 8M) multisite: Y (sub-folder) openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: 148963.1 MB
+0000.010 () Ensuring WP_Filesystem is setup for a restore
+0000.010 () WP_Filesystem is setup and ready for a restore
+0000.013 () Restore job started. Entities to restore: plugins, themes, uploads, mu-plugins, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wOtckM_options","wOtckM_site","wOtckM_blogs","wOtckM_users","wOtckM_usermeta","wOtckM_blogmeta","wOtckM_commentmeta","wOtckM_comments","wOtckM_links","wOtckM_postmeta","wOtckM_posts","wOtckM_registration_log","wOtckM_signups","wOtckM_sitemeta","wOtckM_term_relationships","wOtckM_term_taxonomy","wOtckM_termmeta","wOtckM_terms","wOtckM_10_wpmm_subscribers","wOtckM_4_aiowps_events","wOtckM_4_aiowps_global_meta","wOtckM_4_aiowps_login_lockdown","wOtckM_4_aiowps_permanent_block","wOtckM_4_burst_archived_months","wOtckM_4_burst_browser_versions","wOtckM_4_burst_browsers","wOtckM_4_burst_devices","wOtckM_4_burst_goal_statistics","wOtckM_4_burst_goals","wOtckM_4_burst_known_uids","wOtckM_4_burst_platforms","wOtckM_4_burst_query_stats","wOtckM_4_burst_referrers","wOtckM_4_burst_report_logs","wOtckM_4_burst_reports","wOtckM_4_burst_sessions","wOtckM_4_burst_statistics","wOtckM_4_commentmeta","wOtckM_4_comments","wOtckM_4_links","wOtckM_4_options","wOtckM_4_postmeta","wOtckM_4_posts","wOtckM_4_term_relationships","wOtckM_4_term_taxonomy","wOtckM_4_termmeta","wOtckM_4_terms","wOtckM_4_wpmm_subscribers","wOtckM_8_aiowps_events","wOtckM_8_aiowps_global_meta","wOtckM_8_aiowps_login_lockdown","wOtckM_8_aiowps_permanent_block","wOtckM_8_burst_archived_months","wOtckM_8_burst_browser_versions","wOtckM_8_burst_browsers","wOtckM_8_burst_devices","wOtckM_8_burst_goal_statistics","wOtckM_8_burst_goals","wOtckM_8_burst_known_uids","wOtckM_8_burst_platforms","wOtckM_8_burst_query_stats","wOtckM_8_burst_referrers","wOtckM_8_burst_report_logs","wOtckM_8_burst_reports","wOtckM_8_burst_sessions","wOtckM_8_burst_statistics","wOtckM_8_commentmeta","wOtckM_8_comments","wOtckM_8_links","wOtckM_8_options","wOtckM_8_postmeta","wOtckM_8_posts","wOtckM_8_term_relationships","wOtckM_8_term_taxonomy","wOtckM_8_termmeta","wOtckM_8_terms","wOtckM_8_wpmm_subscribers","wOtckM_9_aiowps_events","wOtckM_9_aiowps_global_meta","wOtckM_9_aiowps_login_lockdown","wOtckM_9_aiowps_permanent_block","wOtckM_9_burst_archived_months","wOtckM_9_burst_browser_versions","wOtckM_9_burst_browsers","wOtckM_9_burst_devices","wOtckM_9_burst_goal_statistics","wOtckM_9_burst_goals","wOtckM_9_burst_known_uids","wOtckM_9_burst_platforms","wOtckM_9_burst_query_stats","wOtckM_9_burst_referrers","wOtckM_9_burst_report_logs","wOtckM_9_burst_reports","wOtckM_9_burst_sessions","wOtckM_9_burst_statistics","wOtckM_9_commentmeta","wOtckM_9_comments","wOtckM_9_links","wOtckM_9_options","wOtckM_9_postmeta","wOtckM_9_posts","wOtckM_9_term_relationships","wOtckM_9_term_taxonomy","wOtckM_9_termmeta","wOtckM_9_terms","wOtckM_9_wpmm_subscribers","wOtckM_actionscheduler_actions","wOtckM_actionscheduler_claims","wOtckM_actionscheduler_groups","wOtckM_actionscheduler_logs","wOtckM_aioseo_blc_cache","wOtckM_aioseo_blc_link_status","wOtckM_aioseo_blc_links","wOtckM_aioseo_blc_notifications","wOtckM_aioseo_blc_posts","wOtckM_aioseo_cache","wOtckM_aioseo_crawl_cleanup_blocked_args","wOtckM_aioseo_crawl_cleanup_logs","wOtckM_aioseo_notifications","wOtckM_aioseo_posts","wOtckM_aioseo_seo_analyzer_results","wOtckM_aioseo_writing_assistant_keywords","wOtckM_aioseo_writing_assistant_posts","wOtckM_aiowps_audit_log","wOtckM_aiowps_debug_log","wOtckM_aiowps_events","wOtckM_aiowps_global_meta","wOtckM_aiowps_logged_in_users","wOtckM_aiowps_login_lockdown","wOtckM_aiowps_message_store","wOtckM_aiowps_permanent_block","wOtckM_burst_archived_months","wOtckM_burst_browser_versions","wOtckM_burst_browsers","wOtckM_burst_devices","wOtckM_burst_goal_statistics","wOtckM_burst_goals","wOtckM_burst_known_uids","wOtckM_burst_platforms","wOtckM_burst_query_stats","wOtckM_burst_referrers","wOtckM_burst_report_logs","wOtckM_burst_reports","wOtckM_burst_sessions","wOtckM_burst_statistics","wOtckM_sticky_cta","wOtckM_sticky_cta_options","wOtckM_tm_taskmeta","wOtckM_tm_tasks","wOtckM_wow_fmp","wOtckM_wpmm_subscribers","wOtckM_wpo_404_detector"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.017 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.019 () Entity: db
+0000.019 () restore_backup(backup_file=backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-db.gz, type=db, info=a:0:{}, last_one=)
+0000.019 () バックアップを解凍中... (backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-db.gz, 116.1 Mb)
+0000.270 () Database successfully unpacked
+0000.271 () データベースを復元しています...
+(大きいサイトは時間がかかります - タイムアウトが起こった (ホスティング会社があなたのリソースを制限しているときに起こる) 場合、 phpMyAdmin など別の方法で復元したほうがいいでしょう。
+0000.271 () Using direct MySQL access; value of use_mysqli is: 1
+0000.271 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.302 () Tried to raise max_allowed_packet from 16 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.302 () Max packet size: 16 MB
+0000.302 () Entering maintenance mode
+0000.302 () メンテナンスモードを有効化中&#8230;
+0000.313 () Backup of: https://tokokai.or.jp
+0000.314 () Content URL: https://tokokai.or.jp/wp-content
+0000.314 () Old table prefix: wOtckM_
+0000.314 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.315 () Site information: multisite=1
+0000.315 () Site information: multisite_data=[{"blog_id":1,"domain":"tokokai.or.jp","path":"\/","siteurl":"https:\/\/tokokai.or.jp","home":"https:\/\/tokokai.or.jp","uploads_url":"\/img"},{"blog_id":4,"domain":"tokokai.or.jp","path":"\/sanka\/","siteurl":"https:\/\/tokokai.or.jp\/sanka","home":"https:\/\/tokokai.or.jp\/sanka","uploads_url":"\/img\/sites\/4"},{"blog_id":8,"domain":"tokokai.or.jp","path":"\/roken\/","siteurl":"https:\/\/tokokai.or.jp\/roken","home":"https:\/\/tokokai.or.jp\/roken","uploads_url":"\/img\/sites\/8"},{"blog_id":9,"domain":"tokokai.or.jp","path":"\/hokan\/","siteurl":"https:\/\/tokokai.or.jp\/hokan","home":"https:\/\/tokokai.or.jp\/hokan","uploads_url":"\/img\/sites\/9"}]
+0000.315 () Site information: multisite_main_site_id=1
+0000.315 () Site information: sql_mode=ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.315 () Skipped tables: ERDGHyZari_commentmeta, ERDGHyZari_comments, ERDGHyZari_links, ERDGHyZari_options, ERDGHyZari_postmeta, ERDGHyZari_posts, ERDGHyZari_term_relationships, ERDGHyZari_term_taxonomy, ERDGHyZari_termmeta, ERDGHyZari_terms, ERDGHyZari_usermeta, ERDGHyZari_users, PYcB3Xc_commentmeta, PYcB3Xc_comments, PYcB3Xc_links, PYcB3Xc_options, PYcB3Xc_postmeta, PYcB3Xc_posts, PYcB3Xc_term_relationships, PYcB3Xc_term_taxonomy, PYcB3Xc_termmeta, PYcB3Xc_terms, PYcB3Xc_usermeta, PYcB3Xc_users, PYcB3Xc_wpmm_subscribers
+0000.316 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.316 () New table prefix: sb_
+0000.318 () Processing table (InnoDB): wOtckM_options - will restore as: sb_options
+0000.558 () Atomic restore: dropping original table (wOtckM_options)
+0000.561 () Atomic restore: renaming new table (sb_options) to final table name (wOtckM_options)
+0000.563 () Restoring prior UD configuration (table: wOtckM_options; keys: 4)
+0000.570 () Processing table (InnoDB): wOtckM_site - will restore as: sb_site
+0000.582 () Atomic restore: dropping original table (wOtckM_site)
+0000.585 () Atomic restore: renaming new table (sb_site) to final table name (wOtckM_site)
+0000.588 () Processing table (InnoDB): wOtckM_blogs - will restore as: sb_blogs
+0000.599 () Atomic restore: dropping original table (wOtckM_blogs)
+0000.602 () Atomic restore: renaming new table (sb_blogs) to final table name (wOtckM_blogs)
+0000.604 () Processing table (InnoDB): wOtckM_users - will restore as: sb_users
+0000.617 () Atomic restore: dropping original table (wOtckM_users)
+0000.620 () Atomic restore: renaming new table (sb_users) to final table name (wOtckM_users)
+0000.623 () Processing table (InnoDB): wOtckM_usermeta - will restore as: sb_usermeta
+0000.637 () Atomic restore: dropping original table (wOtckM_usermeta)
+0000.640 () Atomic restore: renaming new table (sb_usermeta) to final table name (wOtckM_usermeta)
+0000.642 () Processing table (InnoDB): wOtckM_blogmeta - will restore as: sb_blogmeta
+0000.653 () Atomic restore: dropping original table (wOtckM_blogmeta)
+0000.656 () Atomic restore: renaming new table (sb_blogmeta) to final table name (wOtckM_blogmeta)
+0000.658 () Processing table (InnoDB): wOtckM_commentmeta - will restore as: sb_commentmeta
+0000.669 () Atomic restore: dropping original table (wOtckM_commentmeta)
+0000.671 () Atomic restore: renaming new table (sb_commentmeta) to final table name (wOtckM_commentmeta)
+0000.673 () Processing table (InnoDB): wOtckM_comments - will restore as: sb_comments
+0000.687 () Atomic restore: dropping original table (wOtckM_comments)
+0000.690 () Atomic restore: renaming new table (sb_comments) to final table name (wOtckM_comments)
+0000.693 () Processing table (InnoDB): wOtckM_links - will restore as: sb_links
+0000.703 () Atomic restore: dropping original table (wOtckM_links)
+0000.705 () Atomic restore: renaming new table (sb_links) to final table name (wOtckM_links)
+0000.708 () Processing table (InnoDB): wOtckM_postmeta - will restore as: sb_postmeta
+0000.916 () Atomic restore: dropping original table (wOtckM_postmeta)
+0000.919 () Atomic restore: renaming new table (sb_postmeta) to final table name (wOtckM_postmeta)
+0000.921 () Processing table (InnoDB): wOtckM_posts - will restore as: sb_posts
+0001.214 () Database queries processed: 50 in 0.94 seconds
+0002.266 () Database queries processed: 100 in 1.99 seconds
+0003.807 () Database queries processed: 150 in 3.53 seconds
+0005.014 () Database queries processed: 200 in 4.74 seconds
+0006.428 () Database queries processed: 250 in 6.16 seconds
+0012.869 () Database queries processed: 500 in 12.60 seconds
+0021.913 () Database queries processed: 750 in 21.64 seconds
+0030.439 () Database queries processed: 1000 in 30.17 seconds
+0037.364 () Database queries processed: 1250 in 37.09 seconds
+0039.287 () Atomic restore: dropping original table (wOtckM_posts)
+0039.387 () Atomic restore: renaming new table (sb_posts) to final table name (wOtckM_posts)
+0039.395 () Processing table (InnoDB): wOtckM_registration_log - will restore as: sb_registration_log
+0039.422 () Atomic restore: dropping original table (wOtckM_registration_log)
+0039.461 () Atomic restore: renaming new table (sb_registration_log) to final table name (wOtckM_registration_log)
+0039.594 () Processing table (InnoDB): wOtckM_signups - will restore as: sb_signups
+0039.634 () Atomic restore: dropping original table (wOtckM_signups)
+0039.833 () Atomic restore: renaming new table (sb_signups) to final table name (wOtckM_signups)
+0039.866 () Processing table (InnoDB): wOtckM_sitemeta - will restore as: sb_sitemeta
+0040.111 () Atomic restore: dropping original table (wOtckM_sitemeta)
+0040.114 () Atomic restore: renaming new table (sb_sitemeta) to final table name (wOtckM_sitemeta)
+0040.117 () Processing table (InnoDB): wOtckM_term_relationships - will restore as: sb_term_relationships
+0040.128 () Atomic restore: dropping original table (wOtckM_term_relationships)
+0040.131 () Atomic restore: renaming new table (sb_term_relationships) to final table name (wOtckM_term_relationships)
+0040.133 () Processing table (InnoDB): wOtckM_term_taxonomy - will restore as: sb_term_taxonomy
+0040.209 () Atomic restore: dropping original table (wOtckM_term_taxonomy)
+0040.211 () Atomic restore: renaming new table (sb_term_taxonomy) to final table name (wOtckM_term_taxonomy)
+0040.214 () Processing table (InnoDB): wOtckM_termmeta - will restore as: sb_termmeta
+0040.225 () Atomic restore: dropping original table (wOtckM_termmeta)
+0040.228 () Atomic restore: renaming new table (sb_termmeta) to final table name (wOtckM_termmeta)
+0040.231 () Processing table (InnoDB): wOtckM_terms - will restore as: sb_terms
+0040.244 () Atomic restore: dropping original table (wOtckM_terms)
+0040.246 () Atomic restore: renaming new table (sb_terms) to final table name (wOtckM_terms)
+0040.249 () Processing table (InnoDB): wOtckM_10_wpmm_subscribers - will restore as: sb_10_wpmm_subscribers
+0040.256 () Atomic restore: dropping original table (wOtckM_10_wpmm_subscribers)
+0040.259 () Atomic restore: renaming new table (sb_10_wpmm_subscribers) to final table name (wOtckM_10_wpmm_subscribers)
+0040.261 () Processing table (InnoDB): wOtckM_4_aiowps_events - will restore as: sb_4_aiowps_events
+0040.286 () Atomic restore: dropping original table (wOtckM_4_aiowps_events)
+0040.289 () Atomic restore: renaming new table (sb_4_aiowps_events) to final table name (wOtckM_4_aiowps_events)
+0040.291 () Processing table (InnoDB): wOtckM_4_aiowps_global_meta - will restore as: sb_4_aiowps_global_meta
+0040.301 () Atomic restore: dropping original table (wOtckM_4_aiowps_global_meta)
+0040.303 () Atomic restore: renaming new table (sb_4_aiowps_global_meta) to final table name (wOtckM_4_aiowps_global_meta)
+0040.305 () Processing table (InnoDB): wOtckM_4_aiowps_login_lockdown - will restore as: sb_4_aiowps_login_lockdown
+0040.317 () Atomic restore: dropping original table (wOtckM_4_aiowps_login_lockdown)
+0040.319 () Atomic restore: renaming new table (sb_4_aiowps_login_lockdown) to final table name (wOtckM_4_aiowps_login_lockdown)
+0040.322 () Processing table (InnoDB): wOtckM_4_aiowps_permanent_block - will restore as: sb_4_aiowps_permanent_block
+0040.332 () Atomic restore: dropping original table (wOtckM_4_aiowps_permanent_block)
+0040.334 () Atomic restore: renaming new table (sb_4_aiowps_permanent_block) to final table name (wOtckM_4_aiowps_permanent_block)
+0040.336 () Processing table (InnoDB): wOtckM_4_burst_archived_months - will restore as: sb_4_burst_archived_months
+0040.345 () Atomic restore: dropping original table (wOtckM_4_burst_archived_months)
+0040.348 () Atomic restore: renaming new table (sb_4_burst_archived_months) to final table name (wOtckM_4_burst_archived_months)
+0040.351 () Processing table (InnoDB): wOtckM_4_burst_browser_versions - will restore as: sb_4_burst_browser_versions
+0040.359 () Atomic restore: dropping original table (wOtckM_4_burst_browser_versions)
+0040.361 () Atomic restore: renaming new table (sb_4_burst_browser_versions) to final table name (wOtckM_4_burst_browser_versions)
+0040.364 () Processing table (InnoDB): wOtckM_4_burst_browsers - will restore as: sb_4_burst_browsers
+0040.371 () Atomic restore: dropping original table (wOtckM_4_burst_browsers)
+0040.374 () Atomic restore: renaming new table (sb_4_burst_browsers) to final table name (wOtckM_4_burst_browsers)
+0040.376 () Processing table (InnoDB): wOtckM_4_burst_devices - will restore as: sb_4_burst_devices
+0040.384 () Atomic restore: dropping original table (wOtckM_4_burst_devices)
+0040.387 () Atomic restore: renaming new table (sb_4_burst_devices) to final table name (wOtckM_4_burst_devices)
+0040.389 () Processing table (InnoDB): wOtckM_4_burst_goal_statistics - will restore as: sb_4_burst_goal_statistics
+0040.400 () Atomic restore: dropping original table (wOtckM_4_burst_goal_statistics)
+0040.402 () Atomic restore: renaming new table (sb_4_burst_goal_statistics) to final table name (wOtckM_4_burst_goal_statistics)
+0040.405 () Processing table (InnoDB): wOtckM_4_burst_goals - will restore as: sb_4_burst_goals
+0040.414 () Atomic restore: dropping original table (wOtckM_4_burst_goals)
+0040.416 () Atomic restore: renaming new table (sb_4_burst_goals) to final table name (wOtckM_4_burst_goals)
+0040.419 () Processing table (InnoDB): wOtckM_4_burst_known_uids - will restore as: sb_4_burst_known_uids
+0040.429 () Atomic restore: dropping original table (wOtckM_4_burst_known_uids)
+0040.432 () Atomic restore: renaming new table (sb_4_burst_known_uids) to final table name (wOtckM_4_burst_known_uids)
+0040.435 () Processing table (InnoDB): wOtckM_4_burst_platforms - will restore as: sb_4_burst_platforms
+0040.458 () Atomic restore: dropping original table (wOtckM_4_burst_platforms)
+0040.461 () Atomic restore: renaming new table (sb_4_burst_platforms) to final table name (wOtckM_4_burst_platforms)
+0040.465 () Processing table (InnoDB): wOtckM_4_burst_query_stats - will restore as: sb_4_burst_query_stats
+0040.476 () Atomic restore: dropping original table (wOtckM_4_burst_query_stats)
+0040.478 () Atomic restore: renaming new table (sb_4_burst_query_stats) to final table name (wOtckM_4_burst_query_stats)
+0040.482 () Processing table (InnoDB): wOtckM_4_burst_referrers - will restore as: sb_4_burst_referrers
+0040.492 () Atomic restore: dropping original table (wOtckM_4_burst_referrers)
+0040.495 () Atomic restore: renaming new table (sb_4_burst_referrers) to final table name (wOtckM_4_burst_referrers)
+0040.497 () Processing table (InnoDB): wOtckM_4_burst_report_logs - will restore as: sb_4_burst_report_logs
+0040.516 () Atomic restore: dropping original table (wOtckM_4_burst_report_logs)
+0040.518 () Atomic restore: renaming new table (sb_4_burst_report_logs) to final table name (wOtckM_4_burst_report_logs)
+0040.522 () Processing table (InnoDB): wOtckM_4_burst_reports - will restore as: sb_4_burst_reports
+0040.534 () Atomic restore: dropping original table (wOtckM_4_burst_reports)
+0040.537 () Atomic restore: renaming new table (sb_4_burst_reports) to final table name (wOtckM_4_burst_reports)
+0040.541 () Processing table (InnoDB): wOtckM_4_burst_sessions - will restore as: sb_4_burst_sessions
+0040.563 () Atomic restore: dropping original table (wOtckM_4_burst_sessions)
+0040.567 () Atomic restore: renaming new table (sb_4_burst_sessions) to final table name (wOtckM_4_burst_sessions)
+0040.572 () Processing table (InnoDB): wOtckM_4_burst_statistics - will restore as: sb_4_burst_statistics
+0040.598 () Atomic restore: dropping original table (wOtckM_4_burst_statistics)
+0040.601 () Atomic restore: renaming new table (sb_4_burst_statistics) to final table name (wOtckM_4_burst_statistics)
+0040.604 () Processing table (InnoDB): wOtckM_4_commentmeta - will restore as: sb_4_commentmeta
+0040.616 () Atomic restore: dropping original table (wOtckM_4_commentmeta)
+0040.618 () Atomic restore: renaming new table (sb_4_commentmeta) to final table name (wOtckM_4_commentmeta)
+0040.621 () Processing table (InnoDB): wOtckM_4_comments - will restore as: sb_4_comments
+0040.637 () Atomic restore: dropping original table (wOtckM_4_comments)
+0040.639 () Atomic restore: renaming new table (sb_4_comments) to final table name (wOtckM_4_comments)
+0040.642 () Processing table (InnoDB): wOtckM_4_links - will restore as: sb_4_links
+0040.650 () Atomic restore: dropping original table (wOtckM_4_links)
+0040.653 () Atomic restore: renaming new table (sb_4_links) to final table name (wOtckM_4_links)
+0040.655 () Processing table (InnoDB): wOtckM_4_options - will restore as: sb_4_options
+0040.684 () Atomic restore: dropping original table (wOtckM_4_options)
+0040.687 () Atomic restore: renaming new table (sb_4_options) to final table name (wOtckM_4_options)
+0040.691 () Processing table (InnoDB): wOtckM_4_postmeta - will restore as: sb_4_postmeta
+0040.723 () Atomic restore: dropping original table (wOtckM_4_postmeta)
+0040.726 () Atomic restore: renaming new table (sb_4_postmeta) to final table name (wOtckM_4_postmeta)
+0040.728 () Processing table (InnoDB): wOtckM_4_posts - will restore as: sb_4_posts
+0044.221 () Atomic restore: dropping original table (wOtckM_4_posts)
+0044.229 () Atomic restore: renaming new table (sb_4_posts) to final table name (wOtckM_4_posts)
+0044.232 () Processing table (InnoDB): wOtckM_4_term_relationships - will restore as: sb_4_term_relationships
+0044.265 () Atomic restore: dropping original table (wOtckM_4_term_relationships)
+0044.268 () Atomic restore: renaming new table (sb_4_term_relationships) to final table name (wOtckM_4_term_relationships)
+0044.271 () Processing table (InnoDB): wOtckM_4_term_taxonomy - will restore as: sb_4_term_taxonomy
+0044.284 () Atomic restore: dropping original table (wOtckM_4_term_taxonomy)
+0044.307 () Atomic restore: renaming new table (sb_4_term_taxonomy) to final table name (wOtckM_4_term_taxonomy)
+0044.310 () Processing table (InnoDB): wOtckM_4_termmeta - will restore as: sb_4_termmeta
+0044.321 () Atomic restore: dropping original table (wOtckM_4_termmeta)
+0044.324 () Atomic restore: renaming new table (sb_4_termmeta) to final table name (wOtckM_4_termmeta)
+0044.327 () Processing table (InnoDB): wOtckM_4_terms - will restore as: sb_4_terms
+0044.340 () Atomic restore: dropping original table (wOtckM_4_terms)
+0044.343 () Atomic restore: renaming new table (sb_4_terms) to final table name (wOtckM_4_terms)
+0044.345 () Processing table (InnoDB): wOtckM_4_wpmm_subscribers - will restore as: sb_4_wpmm_subscribers
+0044.356 () Atomic restore: dropping original table (wOtckM_4_wpmm_subscribers)
+0044.359 () Atomic restore: renaming new table (sb_4_wpmm_subscribers) to final table name (wOtckM_4_wpmm_subscribers)
+0044.363 () Processing table (InnoDB): wOtckM_8_aiowps_events - will restore as: sb_8_aiowps_events
+0044.372 () Atomic restore: dropping original table (wOtckM_8_aiowps_events)
+0044.375 () Atomic restore: renaming new table (sb_8_aiowps_events) to final table name (wOtckM_8_aiowps_events)
+0044.379 () Processing table (InnoDB): wOtckM_8_aiowps_global_meta - will restore as: sb_8_aiowps_global_meta
+0044.389 () Atomic restore: dropping original table (wOtckM_8_aiowps_global_meta)
+0044.392 () Atomic restore: renaming new table (sb_8_aiowps_global_meta) to final table name (wOtckM_8_aiowps_global_meta)
+0044.394 () Processing table (InnoDB): wOtckM_8_aiowps_login_lockdown - will restore as: sb_8_aiowps_login_lockdown
+0044.412 () Atomic restore: dropping original table (wOtckM_8_aiowps_login_lockdown)
+0044.416 () Atomic restore: renaming new table (sb_8_aiowps_login_lockdown) to final table name (wOtckM_8_aiowps_login_lockdown)
+0044.418 () Processing table (InnoDB): wOtckM_8_aiowps_permanent_block - will restore as: sb_8_aiowps_permanent_block
+0044.427 () Atomic restore: dropping original table (wOtckM_8_aiowps_permanent_block)
+0044.429 () Atomic restore: renaming new table (sb_8_aiowps_permanent_block) to final table name (wOtckM_8_aiowps_permanent_block)
+0044.432 () Processing table (InnoDB): wOtckM_8_burst_archived_months - will restore as: sb_8_burst_archived_months
+0044.441 () Atomic restore: dropping original table (wOtckM_8_burst_archived_months)
+0044.443 () Atomic restore: renaming new table (sb_8_burst_archived_months) to final table name (wOtckM_8_burst_archived_months)
+0044.447 () Processing table (InnoDB): wOtckM_8_burst_browser_versions - will restore as: sb_8_burst_browser_versions
+0044.454 () Atomic restore: dropping original table (wOtckM_8_burst_browser_versions)
+0044.457 () Atomic restore: renaming new table (sb_8_burst_browser_versions) to final table name (wOtckM_8_burst_browser_versions)
+0044.460 () Processing table (InnoDB): wOtckM_8_burst_browsers - will restore as: sb_8_burst_browsers
+0044.503 () Atomic restore: dropping original table (wOtckM_8_burst_browsers)
+0044.508 () Atomic restore: renaming new table (sb_8_burst_browsers) to final table name (wOtckM_8_burst_browsers)
+0044.510 () Processing table (InnoDB): wOtckM_8_burst_devices - will restore as: sb_8_burst_devices
+0044.518 () Atomic restore: dropping original table (wOtckM_8_burst_devices)
+0044.520 () Database queries processed: 1500 in 44.25 seconds
+0044.520 () Atomic restore: renaming new table (sb_8_burst_devices) to final table name (wOtckM_8_burst_devices)
+0044.522 () Processing table (InnoDB): wOtckM_8_burst_goal_statistics - will restore as: sb_8_burst_goal_statistics
+0044.535 () Atomic restore: dropping original table (wOtckM_8_burst_goal_statistics)
+0044.538 () Atomic restore: renaming new table (sb_8_burst_goal_statistics) to final table name (wOtckM_8_burst_goal_statistics)
+0044.542 () Processing table (InnoDB): wOtckM_8_burst_goals - will restore as: sb_8_burst_goals
+0044.554 () Atomic restore: dropping original table (wOtckM_8_burst_goals)
+0044.557 () Atomic restore: renaming new table (sb_8_burst_goals) to final table name (wOtckM_8_burst_goals)
+0044.559 () Processing table (InnoDB): wOtckM_8_burst_known_uids - will restore as: sb_8_burst_known_uids
+0044.573 () Atomic restore: dropping original table (wOtckM_8_burst_known_uids)
+0044.577 () Atomic restore: renaming new table (sb_8_burst_known_uids) to final table name (wOtckM_8_burst_known_uids)
+0044.582 () Processing table (InnoDB): wOtckM_8_burst_platforms - will restore as: sb_8_burst_platforms
+0044.595 () Atomic restore: dropping original table (wOtckM_8_burst_platforms)
+0044.599 () Atomic restore: renaming new table (sb_8_burst_platforms) to final table name (wOtckM_8_burst_platforms)
+0044.603 () Processing table (InnoDB): wOtckM_8_burst_query_stats - will restore as: sb_8_burst_query_stats
+0044.625 () Atomic restore: dropping original table (wOtckM_8_burst_query_stats)
+0044.631 () Atomic restore: renaming new table (sb_8_burst_query_stats) to final table name (wOtckM_8_burst_query_stats)
+0044.636 () Processing table (InnoDB): wOtckM_8_burst_referrers - will restore as: sb_8_burst_referrers
+0044.658 () Atomic restore: dropping original table (wOtckM_8_burst_referrers)
+0044.663 () Atomic restore: renaming new table (sb_8_burst_referrers) to final table name (wOtckM_8_burst_referrers)
+0044.668 () Processing table (InnoDB): wOtckM_8_burst_report_logs - will restore as: sb_8_burst_report_logs
+0044.705 () Atomic restore: dropping original table (wOtckM_8_burst_report_logs)
+0044.713 () Atomic restore: renaming new table (sb_8_burst_report_logs) to final table name (wOtckM_8_burst_report_logs)
+0044.721 () Processing table (InnoDB): wOtckM_8_burst_reports - will restore as: sb_8_burst_reports
+0044.751 () Atomic restore: dropping original table (wOtckM_8_burst_reports)
+0044.758 () Atomic restore: renaming new table (sb_8_burst_reports) to final table name (wOtckM_8_burst_reports)
+0044.766 () Processing table (InnoDB): wOtckM_8_burst_sessions - will restore as: sb_8_burst_sessions
+0045.016 () Atomic restore: dropping original table (wOtckM_8_burst_sessions)
+0045.021 () Atomic restore: renaming new table (sb_8_burst_sessions) to final table name (wOtckM_8_burst_sessions)
+0045.027 () Processing table (InnoDB): wOtckM_8_burst_statistics - will restore as: sb_8_burst_statistics
+0045.053 () Atomic restore: dropping original table (wOtckM_8_burst_statistics)
+0045.060 () Atomic restore: renaming new table (sb_8_burst_statistics) to final table name (wOtckM_8_burst_statistics)
+0045.068 () Processing table (InnoDB): wOtckM_8_commentmeta - will restore as: sb_8_commentmeta
+0045.109 () Atomic restore: dropping original table (wOtckM_8_commentmeta)
+0045.112 () Atomic restore: renaming new table (sb_8_commentmeta) to final table name (wOtckM_8_commentmeta)
+0045.114 () Processing table (InnoDB): wOtckM_8_comments - will restore as: sb_8_comments
+0045.152 () Atomic restore: dropping original table (wOtckM_8_comments)
+0045.205 () Atomic restore: renaming new table (sb_8_comments) to final table name (wOtckM_8_comments)
+0045.209 () Processing table (InnoDB): wOtckM_8_links - will restore as: sb_8_links
+0045.218 () Atomic restore: dropping original table (wOtckM_8_links)
+0045.220 () Atomic restore: renaming new table (sb_8_links) to final table name (wOtckM_8_links)
+0045.223 () Processing table (InnoDB): wOtckM_8_options - will restore as: sb_8_options
+0045.288 () Atomic restore: dropping original table (wOtckM_8_options)
+0045.290 () Atomic restore: renaming new table (sb_8_options) to final table name (wOtckM_8_options)
+0045.294 () Processing table (InnoDB): wOtckM_8_postmeta - will restore as: sb_8_postmeta
+0045.335 () Atomic restore: dropping original table (wOtckM_8_postmeta)
+0045.338 () Atomic restore: renaming new table (sb_8_postmeta) to final table name (wOtckM_8_postmeta)
+0045.340 () Processing table (InnoDB): wOtckM_8_posts - will restore as: sb_8_posts
+0047.417 () Atomic restore: dropping original table (wOtckM_8_posts)
+0047.428 () Atomic restore: renaming new table (sb_8_posts) to final table name (wOtckM_8_posts)
+0047.437 () Processing table (InnoDB): wOtckM_8_term_relationships - will restore as: sb_8_term_relationships
+0047.470 () Atomic restore: dropping original table (wOtckM_8_term_relationships)
+0047.475 () Atomic restore: renaming new table (sb_8_term_relationships) to final table name (wOtckM_8_term_relationships)
+0047.479 () Processing table (InnoDB): wOtckM_8_term_taxonomy - will restore as: sb_8_term_taxonomy
+0047.505 () Atomic restore: dropping original table (wOtckM_8_term_taxonomy)
+0047.513 () Atomic restore: renaming new table (sb_8_term_taxonomy) to final table name (wOtckM_8_term_taxonomy)
+0047.521 () Processing table (InnoDB): wOtckM_8_termmeta - will restore as: sb_8_termmeta
+0047.549 () Atomic restore: dropping original table (wOtckM_8_termmeta)
+0047.557 () Atomic restore: renaming new table (sb_8_termmeta) to final table name (wOtckM_8_termmeta)
+0047.619 () Processing table (InnoDB): wOtckM_8_terms - will restore as: sb_8_terms
+0047.635 () Atomic restore: dropping original table (wOtckM_8_terms)
+0047.638 () Atomic restore: renaming new table (sb_8_terms) to final table name (wOtckM_8_terms)
+0047.641 () Processing table (InnoDB): wOtckM_8_wpmm_subscribers - will restore as: sb_8_wpmm_subscribers
+0047.650 () Atomic restore: dropping original table (wOtckM_8_wpmm_subscribers)
+0047.654 () Atomic restore: renaming new table (sb_8_wpmm_subscribers) to final table name (wOtckM_8_wpmm_subscribers)
+0047.687 () Processing table (InnoDB): wOtckM_9_aiowps_events - will restore as: sb_9_aiowps_events
+0047.696 () Atomic restore: dropping original table (wOtckM_9_aiowps_events)
+0047.699 () Atomic restore: renaming new table (sb_9_aiowps_events) to final table name (wOtckM_9_aiowps_events)
+0047.703 () Processing table (InnoDB): wOtckM_9_aiowps_global_meta - will restore as: sb_9_aiowps_global_meta
+0047.712 () Atomic restore: dropping original table (wOtckM_9_aiowps_global_meta)
+0047.716 () Atomic restore: renaming new table (sb_9_aiowps_global_meta) to final table name (wOtckM_9_aiowps_global_meta)
+0047.720 () Processing table (InnoDB): wOtckM_9_aiowps_login_lockdown - will restore as: sb_9_aiowps_login_lockdown
+0047.770 () Atomic restore: dropping original table (wOtckM_9_aiowps_login_lockdown)
+0047.804 () Atomic restore: renaming new table (sb_9_aiowps_login_lockdown) to final table name (wOtckM_9_aiowps_login_lockdown)
+0047.837 () Processing table (InnoDB): wOtckM_9_aiowps_permanent_block - will restore as: sb_9_aiowps_permanent_block
+0047.848 () Atomic restore: dropping original table (wOtckM_9_aiowps_permanent_block)
+0047.851 () Atomic restore: renaming new table (sb_9_aiowps_permanent_block) to final table name (wOtckM_9_aiowps_permanent_block)
+0047.853 () Processing table (InnoDB): wOtckM_9_burst_archived_months - will restore as: sb_9_burst_archived_months
+0047.864 () Atomic restore: dropping original table (wOtckM_9_burst_archived_months)
+0047.866 () Atomic restore: renaming new table (sb_9_burst_archived_months) to final table name (wOtckM_9_burst_archived_months)
+0047.869 () Processing table (InnoDB): wOtckM_9_burst_browser_versions - will restore as: sb_9_burst_browser_versions
+0047.901 () Atomic restore: dropping original table (wOtckM_9_burst_browser_versions)
+0047.904 () Atomic restore: renaming new table (sb_9_burst_browser_versions) to final table name (wOtckM_9_burst_browser_versions)
+0047.906 () Processing table (InnoDB): wOtckM_9_burst_browsers - will restore as: sb_9_burst_browsers
+0047.916 () Atomic restore: dropping original table (wOtckM_9_burst_browsers)
+0047.918 () Atomic restore: renaming new table (sb_9_burst_browsers) to final table name (wOtckM_9_burst_browsers)
+0047.921 () Processing table (InnoDB): wOtckM_9_burst_devices - will restore as: sb_9_burst_devices
+0047.930 () Atomic restore: dropping original table (wOtckM_9_burst_devices)
+0047.932 () Atomic restore: renaming new table (sb_9_burst_devices) to final table name (wOtckM_9_burst_devices)
+0047.936 () Processing table (InnoDB): wOtckM_9_burst_goal_statistics - will restore as: sb_9_burst_goal_statistics
+0047.993 () Atomic restore: dropping original table (wOtckM_9_burst_goal_statistics)
+0047.997 () Atomic restore: renaming new table (sb_9_burst_goal_statistics) to final table name (wOtckM_9_burst_goal_statistics)
+0047.999 () Processing table (InnoDB): wOtckM_9_burst_goals - will restore as: sb_9_burst_goals
+0048.009 () Atomic restore: dropping original table (wOtckM_9_burst_goals)
+0048.037 () Atomic restore: renaming new table (sb_9_burst_goals) to final table name (wOtckM_9_burst_goals)
+0048.086 () Processing table (InnoDB): wOtckM_9_burst_known_uids - will restore as: sb_9_burst_known_uids
+0048.096 () Atomic restore: dropping original table (wOtckM_9_burst_known_uids)
+0048.099 () Atomic restore: renaming new table (sb_9_burst_known_uids) to final table name (wOtckM_9_burst_known_uids)
+0048.101 () Processing table (InnoDB): wOtckM_9_burst_platforms - will restore as: sb_9_burst_platforms
+0048.109 () Atomic restore: dropping original table (wOtckM_9_burst_platforms)
+0048.130 () Atomic restore: renaming new table (sb_9_burst_platforms) to final table name (wOtckM_9_burst_platforms)
+0048.151 () Processing table (InnoDB): wOtckM_9_burst_query_stats - will restore as: sb_9_burst_query_stats
+0048.187 () Atomic restore: dropping original table (wOtckM_9_burst_query_stats)
+0048.190 () Atomic restore: renaming new table (sb_9_burst_query_stats) to final table name (wOtckM_9_burst_query_stats)
+0048.192 () Processing table (InnoDB): wOtckM_9_burst_referrers - will restore as: sb_9_burst_referrers
+0048.202 () Atomic restore: dropping original table (wOtckM_9_burst_referrers)
+0048.205 () Atomic restore: renaming new table (sb_9_burst_referrers) to final table name (wOtckM_9_burst_referrers)
+0048.207 () Processing table (InnoDB): wOtckM_9_burst_report_logs - will restore as: sb_9_burst_report_logs
+0048.222 () Atomic restore: dropping original table (wOtckM_9_burst_report_logs)
+0048.225 () Atomic restore: renaming new table (sb_9_burst_report_logs) to final table name (wOtckM_9_burst_report_logs)
+0048.228 () Processing table (InnoDB): wOtckM_9_burst_reports - will restore as: sb_9_burst_reports
+0048.241 () Atomic restore: dropping original table (wOtckM_9_burst_reports)
+0048.243 () Atomic restore: renaming new table (sb_9_burst_reports) to final table name (wOtckM_9_burst_reports)
+0048.246 () Processing table (InnoDB): wOtckM_9_burst_sessions - will restore as: sb_9_burst_sessions
+0048.262 () Atomic restore: dropping original table (wOtckM_9_burst_sessions)
+0048.265 () Atomic restore: renaming new table (sb_9_burst_sessions) to final table name (wOtckM_9_burst_sessions)
+0048.268 () Processing table (InnoDB): wOtckM_9_burst_statistics - will restore as: sb_9_burst_statistics
+0048.282 () Atomic restore: dropping original table (wOtckM_9_burst_statistics)
+0048.285 () Atomic restore: renaming new table (sb_9_burst_statistics) to final table name (wOtckM_9_burst_statistics)
+0048.289 () Processing table (InnoDB): wOtckM_9_commentmeta - will restore as: sb_9_commentmeta
+0048.301 () Atomic restore: dropping original table (wOtckM_9_commentmeta)
+0048.306 () Atomic restore: renaming new table (sb_9_commentmeta) to final table name (wOtckM_9_commentmeta)
+0048.311 () Processing table (InnoDB): wOtckM_9_comments - will restore as: sb_9_comments
+0048.330 () Atomic restore: dropping original table (wOtckM_9_comments)
+0048.335 () Atomic restore: renaming new table (sb_9_comments) to final table name (wOtckM_9_comments)
+0048.339 () Processing table (InnoDB): wOtckM_9_links - will restore as: sb_9_links
+0048.350 () Atomic restore: dropping original table (wOtckM_9_links)
+0048.352 () Atomic restore: renaming new table (sb_9_links) to final table name (wOtckM_9_links)
+0048.354 () Processing table (InnoDB): wOtckM_9_options - will restore as: sb_9_options
+0048.392 () Atomic restore: dropping original table (wOtckM_9_options)
+0048.395 () Atomic restore: renaming new table (sb_9_options) to final table name (wOtckM_9_options)
+0048.400 () Processing table (InnoDB): wOtckM_9_postmeta - will restore as: sb_9_postmeta
+0048.418 () Atomic restore: dropping original table (wOtckM_9_postmeta)
+0048.421 () Atomic restore: renaming new table (sb_9_postmeta) to final table name (wOtckM_9_postmeta)
+0048.424 () Processing table (InnoDB): wOtckM_9_posts - will restore as: sb_9_posts
+0048.809 () Atomic restore: dropping original table (wOtckM_9_posts)
+0048.812 () Atomic restore: renaming new table (sb_9_posts) to final table name (wOtckM_9_posts)
+0048.815 () Processing table (InnoDB): wOtckM_9_term_relationships - will restore as: sb_9_term_relationships
+0048.827 () Atomic restore: dropping original table (wOtckM_9_term_relationships)
+0048.829 () Atomic restore: renaming new table (sb_9_term_relationships) to final table name (wOtckM_9_term_relationships)
+0048.832 () Processing table (InnoDB): wOtckM_9_term_taxonomy - will restore as: sb_9_term_taxonomy
+0048.844 () Atomic restore: dropping original table (wOtckM_9_term_taxonomy)
+0048.846 () Atomic restore: renaming new table (sb_9_term_taxonomy) to final table name (wOtckM_9_term_taxonomy)
+0048.849 () Processing table (InnoDB): wOtckM_9_termmeta - will restore as: sb_9_termmeta
+0048.859 () Atomic restore: dropping original table (wOtckM_9_termmeta)
+0048.863 () Atomic restore: renaming new table (sb_9_termmeta) to final table name (wOtckM_9_termmeta)
+0048.866 () Processing table (InnoDB): wOtckM_9_terms - will restore as: sb_9_terms
+0048.879 () Atomic restore: dropping original table (wOtckM_9_terms)
+0048.883 () Atomic restore: renaming new table (sb_9_terms) to final table name (wOtckM_9_terms)
+0048.887 () Processing table (InnoDB): wOtckM_9_wpmm_subscribers - will restore as: sb_9_wpmm_subscribers
+0048.895 () Atomic restore: dropping original table (wOtckM_9_wpmm_subscribers)
+0048.897 () Atomic restore: renaming new table (sb_9_wpmm_subscribers) to final table name (wOtckM_9_wpmm_subscribers)
+0048.900 () Processing table (InnoDB): wOtckM_actionscheduler_actions - will restore as: sb_actionscheduler_actions
+0048.922 () Atomic restore: dropping original table (wOtckM_actionscheduler_actions)
+0048.925 () Atomic restore: renaming new table (sb_actionscheduler_actions) to final table name (wOtckM_actionscheduler_actions)
+0048.928 () Processing table (InnoDB): wOtckM_actionscheduler_claims - will restore as: sb_actionscheduler_claims
+0048.937 () Atomic restore: dropping original table (wOtckM_actionscheduler_claims)
+0048.939 () Atomic restore: renaming new table (sb_actionscheduler_claims) to final table name (wOtckM_actionscheduler_claims)
+0048.941 () Processing table (InnoDB): wOtckM_actionscheduler_groups - will restore as: sb_actionscheduler_groups
+0048.951 () Atomic restore: dropping original table (wOtckM_actionscheduler_groups)
+0048.954 () Atomic restore: renaming new table (sb_actionscheduler_groups) to final table name (wOtckM_actionscheduler_groups)
+0048.956 () Processing table (InnoDB): wOtckM_actionscheduler_logs - will restore as: sb_actionscheduler_logs
+0048.971 () Atomic restore: dropping original table (wOtckM_actionscheduler_logs)
+0048.973 () Atomic restore: renaming new table (sb_actionscheduler_logs) to final table name (wOtckM_actionscheduler_logs)
+0048.976 () Processing table (InnoDB): wOtckM_aioseo_blc_cache - will restore as: sb_aioseo_blc_cache
+0048.988 () Atomic restore: dropping original table (wOtckM_aioseo_blc_cache)
+0048.990 () Atomic restore: renaming new table (sb_aioseo_blc_cache) to final table name (wOtckM_aioseo_blc_cache)
+0048.993 () Processing table (InnoDB): wOtckM_aioseo_blc_link_status - will restore as: sb_aioseo_blc_link_status
+0049.004 () Atomic restore: dropping original table (wOtckM_aioseo_blc_link_status)
+0049.006 () Atomic restore: renaming new table (sb_aioseo_blc_link_status) to final table name (wOtckM_aioseo_blc_link_status)
+0049.008 () Processing table (InnoDB): wOtckM_aioseo_blc_links - will restore as: sb_aioseo_blc_links
+0049.020 () Atomic restore: dropping original table (wOtckM_aioseo_blc_links)
+0049.022 () Atomic restore: renaming new table (sb_aioseo_blc_links) to final table name (wOtckM_aioseo_blc_links)
+0049.025 () Processing table (InnoDB): wOtckM_aioseo_blc_notifications - will restore as: sb_aioseo_blc_notifications
+0049.037 () Atomic restore: dropping original table (wOtckM_aioseo_blc_notifications)
+0049.039 () Atomic restore: renaming new table (sb_aioseo_blc_notifications) to final table name (wOtckM_aioseo_blc_notifications)
+0049.042 () Processing table (InnoDB): wOtckM_aioseo_blc_posts - will restore as: sb_aioseo_blc_posts
+0049.052 () Atomic restore: dropping original table (wOtckM_aioseo_blc_posts)
+0049.054 () Atomic restore: renaming new table (sb_aioseo_blc_posts) to final table name (wOtckM_aioseo_blc_posts)
+0049.056 () Processing table (InnoDB): wOtckM_aioseo_cache - will restore as: sb_aioseo_cache
+0049.066 () Atomic restore: dropping original table (wOtckM_aioseo_cache)
+0049.068 () Atomic restore: renaming new table (sb_aioseo_cache) to final table name (wOtckM_aioseo_cache)
+0049.070 () Processing table (InnoDB): wOtckM_aioseo_crawl_cleanup_blocked_args - will restore as: sb_aioseo_crawl_cleanup_blocked_args
+0049.096 () Atomic restore: dropping original table (wOtckM_aioseo_crawl_cleanup_blocked_args)
+0049.098 () Atomic restore: renaming new table (sb_aioseo_crawl_cleanup_blocked_args) to final table name (wOtckM_aioseo_crawl_cleanup_blocked_args)
+0049.101 () Processing table (InnoDB): wOtckM_aioseo_crawl_cleanup_logs - will restore as: sb_aioseo_crawl_cleanup_logs
+0049.109 () Atomic restore: dropping original table (wOtckM_aioseo_crawl_cleanup_logs)
+0049.112 () Atomic restore: renaming new table (sb_aioseo_crawl_cleanup_logs) to final table name (wOtckM_aioseo_crawl_cleanup_logs)
+0049.114 () Processing table (InnoDB): wOtckM_aioseo_notifications - will restore as: sb_aioseo_notifications
+0049.127 () Atomic restore: dropping original table (wOtckM_aioseo_notifications)
+0049.130 () Atomic restore: renaming new table (sb_aioseo_notifications) to final table name (wOtckM_aioseo_notifications)
+0049.132 () Processing table (InnoDB): wOtckM_aioseo_posts - will restore as: sb_aioseo_posts
+0049.145 () Atomic restore: dropping original table (wOtckM_aioseo_posts)
+0049.147 () Atomic restore: renaming new table (sb_aioseo_posts) to final table name (wOtckM_aioseo_posts)
+0049.150 () Processing table (InnoDB): wOtckM_aioseo_seo_analyzer_results - will restore as: sb_aioseo_seo_analyzer_results
+0049.158 () Atomic restore: dropping original table (wOtckM_aioseo_seo_analyzer_results)
+0049.161 () Atomic restore: renaming new table (sb_aioseo_seo_analyzer_results) to final table name (wOtckM_aioseo_seo_analyzer_results)
+0049.163 () Processing table (InnoDB): wOtckM_aioseo_writing_assistant_keywords - will restore as: sb_aioseo_writing_assistant_keywords
+0049.176 () Atomic restore: dropping original table (wOtckM_aioseo_writing_assistant_keywords)
+0049.178 () Atomic restore: renaming new table (sb_aioseo_writing_assistant_keywords) to final table name (wOtckM_aioseo_writing_assistant_keywords)
+0049.181 () Processing table (InnoDB): wOtckM_aioseo_writing_assistant_posts - will restore as: sb_aioseo_writing_assistant_posts
+0049.239 () Atomic restore: dropping original table (wOtckM_aioseo_writing_assistant_posts)
+0049.285 () Atomic restore: renaming new table (sb_aioseo_writing_assistant_posts) to final table name (wOtckM_aioseo_writing_assistant_posts)
+0049.334 () Processing table (InnoDB): wOtckM_aiowps_audit_log - will restore as: sb_aiowps_audit_log
+0049.357 () Atomic restore: dropping original table (wOtckM_aiowps_audit_log)
+0049.462 () Atomic restore: renaming new table (sb_aiowps_audit_log) to final table name (wOtckM_aiowps_audit_log)
+0049.480 () Processing table (InnoDB): wOtckM_aiowps_debug_log - will restore as: sb_aiowps_debug_log
+0049.507 () Atomic restore: dropping original table (wOtckM_aiowps_debug_log)
+0049.510 () Atomic restore: renaming new table (sb_aiowps_debug_log) to final table name (wOtckM_aiowps_debug_log)
+0049.512 () Processing table (InnoDB): wOtckM_aiowps_events - will restore as: sb_aiowps_events
+0049.520 () Atomic restore: dropping original table (wOtckM_aiowps_events)
+0049.523 () Atomic restore: renaming new table (sb_aiowps_events) to final table name (wOtckM_aiowps_events)
+0049.525 () Processing table (InnoDB): wOtckM_aiowps_global_meta - will restore as: sb_aiowps_global_meta
+0049.533 () Atomic restore: dropping original table (wOtckM_aiowps_global_meta)
+0049.535 () Atomic restore: renaming new table (sb_aiowps_global_meta) to final table name (wOtckM_aiowps_global_meta)
+0049.537 () Processing table (InnoDB): wOtckM_aiowps_logged_in_users - will restore as: sb_aiowps_logged_in_users
+0049.551 () Atomic restore: dropping original table (wOtckM_aiowps_logged_in_users)
+0049.553 () Atomic restore: renaming new table (sb_aiowps_logged_in_users) to final table name (wOtckM_aiowps_logged_in_users)
+0049.556 () Processing table (InnoDB): wOtckM_aiowps_login_lockdown - will restore as: sb_aiowps_login_lockdown
+0049.567 () Atomic restore: dropping original table (wOtckM_aiowps_login_lockdown)
+0049.570 () Atomic restore: renaming new table (sb_aiowps_login_lockdown) to final table name (wOtckM_aiowps_login_lockdown)
+0049.572 () Processing table (InnoDB): wOtckM_aiowps_message_store - will restore as: sb_aiowps_message_store
+0049.581 () Atomic restore: dropping original table (wOtckM_aiowps_message_store)
+0049.583 () Atomic restore: renaming new table (sb_aiowps_message_store) to final table name (wOtckM_aiowps_message_store)
+0049.585 () Processing table (InnoDB): wOtckM_aiowps_permanent_block - will restore as: sb_aiowps_permanent_block
+0049.594 () Atomic restore: dropping original table (wOtckM_aiowps_permanent_block)
+0049.597 () Atomic restore: renaming new table (sb_aiowps_permanent_block) to final table name (wOtckM_aiowps_permanent_block)
+0049.599 () Processing table (InnoDB): wOtckM_burst_archived_months - will restore as: sb_burst_archived_months
+0049.608 () Atomic restore: dropping original table (wOtckM_burst_archived_months)
+0049.610 () Atomic restore: renaming new table (sb_burst_archived_months) to final table name (wOtckM_burst_archived_months)
+0049.613 () Processing table (InnoDB): wOtckM_burst_browser_versions - will restore as: sb_burst_browser_versions
+0049.622 () Database queries processed: 1750 in 49.35 seconds
+0049.623 () Atomic restore: dropping original table (wOtckM_burst_browser_versions)
+0049.625 () Atomic restore: renaming new table (sb_burst_browser_versions) to final table name (wOtckM_burst_browser_versions)
+0049.627 () Processing table (InnoDB): wOtckM_burst_browsers - will restore as: sb_burst_browsers
+0049.645 () Atomic restore: dropping original table (wOtckM_burst_browsers)
+0049.649 () Atomic restore: renaming new table (sb_burst_browsers) to final table name (wOtckM_burst_browsers)
+0049.654 () Processing table (InnoDB): wOtckM_burst_devices - will restore as: sb_burst_devices
+0049.671 () Atomic restore: dropping original table (wOtckM_burst_devices)
+0049.673 () Atomic restore: renaming new table (sb_burst_devices) to final table name (wOtckM_burst_devices)
+0049.676 () Processing table (InnoDB): wOtckM_burst_goal_statistics - will restore as: sb_burst_goal_statistics
+0049.692 () Atomic restore: dropping original table (wOtckM_burst_goal_statistics)
+0049.698 () Atomic restore: renaming new table (sb_burst_goal_statistics) to final table name (wOtckM_burst_goal_statistics)
+0049.703 () Processing table (InnoDB): wOtckM_burst_goals - will restore as: sb_burst_goals
+0049.714 () Atomic restore: dropping original table (wOtckM_burst_goals)
+0049.716 () Atomic restore: renaming new table (sb_burst_goals) to final table name (wOtckM_burst_goals)
+0049.719 () Processing table (InnoDB): wOtckM_burst_known_uids - will restore as: sb_burst_known_uids
+0049.732 () Atomic restore: dropping original table (wOtckM_burst_known_uids)
+0049.734 () Atomic restore: renaming new table (sb_burst_known_uids) to final table name (wOtckM_burst_known_uids)
+0049.737 () Processing table (InnoDB): wOtckM_burst_platforms - will restore as: sb_burst_platforms
+0049.747 () Atomic restore: dropping original table (wOtckM_burst_platforms)
+0049.749 () Atomic restore: renaming new table (sb_burst_platforms) to final table name (wOtckM_burst_platforms)
+0049.751 () Processing table (InnoDB): wOtckM_burst_query_stats - will restore as: sb_burst_query_stats
+0049.763 () Atomic restore: dropping original table (wOtckM_burst_query_stats)
+0049.765 () Atomic restore: renaming new table (sb_burst_query_stats) to final table name (wOtckM_burst_query_stats)
+0049.768 () Processing table (InnoDB): wOtckM_burst_referrers - will restore as: sb_burst_referrers
+0049.776 () Atomic restore: dropping original table (wOtckM_burst_referrers)
+0049.778 () Atomic restore: renaming new table (sb_burst_referrers) to final table name (wOtckM_burst_referrers)
+0049.780 () Processing table (InnoDB): wOtckM_burst_report_logs - will restore as: sb_burst_report_logs
+0049.796 () Atomic restore: dropping original table (wOtckM_burst_report_logs)
+0049.798 () Atomic restore: renaming new table (sb_burst_report_logs) to final table name (wOtckM_burst_report_logs)
+0049.801 () Processing table (InnoDB): wOtckM_burst_reports - will restore as: sb_burst_reports
+0049.814 () Atomic restore: dropping original table (wOtckM_burst_reports)
+0049.816 () Atomic restore: renaming new table (sb_burst_reports) to final table name (wOtckM_burst_reports)
+0049.819 () Processing table (InnoDB): wOtckM_burst_sessions - will restore as: sb_burst_sessions
+0049.838 () Atomic restore: dropping original table (wOtckM_burst_sessions)
+0049.840 () Atomic restore: renaming new table (sb_burst_sessions) to final table name (wOtckM_burst_sessions)
+0049.844 () Processing table (InnoDB): wOtckM_burst_statistics - will restore as: sb_burst_statistics
+0049.864 () Atomic restore: dropping original table (wOtckM_burst_statistics)
+0049.867 () Atomic restore: renaming new table (sb_burst_statistics) to final table name (wOtckM_burst_statistics)
+0049.871 () Processing table (InnoDB): wOtckM_sticky_cta - will restore as: sb_sticky_cta
+0049.884 () Atomic restore: dropping original table (wOtckM_sticky_cta)
+0049.888 () Atomic restore: renaming new table (sb_sticky_cta) to final table name (wOtckM_sticky_cta)
+0049.891 () Processing table (InnoDB): wOtckM_sticky_cta_options - will restore as: sb_sticky_cta_options
+0049.901 () Atomic restore: dropping original table (wOtckM_sticky_cta_options)
+0049.904 () Atomic restore: renaming new table (sb_sticky_cta_options) to final table name (wOtckM_sticky_cta_options)
+0049.906 () Processing table (InnoDB): wOtckM_tm_taskmeta - will restore as: sb_tm_taskmeta
+0049.916 () Atomic restore: dropping original table (wOtckM_tm_taskmeta)
+0049.918 () Atomic restore: renaming new table (sb_tm_taskmeta) to final table name (wOtckM_tm_taskmeta)
+0049.921 () Processing table (InnoDB): wOtckM_tm_tasks - will restore as: sb_tm_tasks
+0049.929 () Atomic restore: dropping original table (wOtckM_tm_tasks)
+0049.932 () Atomic restore: renaming new table (sb_tm_tasks) to final table name (wOtckM_tm_tasks)
+0049.934 () Processing table (InnoDB): wOtckM_wow_fmp - will restore as: sb_wow_fmp
+0049.943 () Atomic restore: dropping original table (wOtckM_wow_fmp)
+0049.945 () Atomic restore: renaming new table (sb_wow_fmp) to final table name (wOtckM_wow_fmp)
+0049.947 () Processing table (InnoDB): wOtckM_wpmm_subscribers - will restore as: sb_wpmm_subscribers
+0049.956 () Atomic restore: dropping original table (wOtckM_wpmm_subscribers)
+0049.958 () Atomic restore: renaming new table (sb_wpmm_subscribers) to final table name (wOtckM_wpmm_subscribers)
+0049.983 () Processing table (InnoDB): wOtckM_wpo_404_detector - will restore as: sb_wpo_404_detector
+0050.063 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0053.237 () Unlocking database and leaving maintenance mode
+0053.237 () メンテナンスモードを無効にします…
+0053.237 () Atomic restore: dropping original table (wOtckM_wpo_404_detector)
+0053.240 () Atomic restore: renaming new table (sb_wpo_404_detector) to final table name (wOtckM_wpo_404_detector)
+0053.243 () Finished: lines processed: 1798 in 52.97 seconds
+0053.263 () 不要なものをクリーニング中…
+0053.264 () Begin search and replace (updraftplus_restored_db)
+0053.264 () [Database-replace-site-url] データベース: サイト URL の検索と置換
+0053.264 () This option was not selected.
+0053.268 () Entity: mu-plugins
+0053.268 () restore_backup(backup_file=backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-mu-plugins.zip, type=mu-plugins, info=a:2:{s:4:"path";s:60:"/var/www/vhosts/tokokai.or.jp/httpdocs/wp-content/mu-plugins";s:11:"description";s:21:"必須プラグイン";}, last_one=)
+0053.269 () バックアップを解凍中... (backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-mu-plugins.zip, 0 MB)
+0053.270 () Unzipping backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-mu-plugins.zip to /var/www/vhosts/tokokai.or.jp/httpdocs/wp-content/upgrade/63049279/ using UpdraftPlus_ZipArchive, starting index 0
+0053.273 () Unzip progress: 2 out of 2 files (4.8 KB, mu-plugins/burst_rest_api_optimizer.php)
+0053.274 () Moving old data: filesystem method / updraft_dir is potentially possible
+0053.274 () Moving old data: can potentially use wp_filesystem method / -old
+0053.274 () 古いデータを別の場所に移動中...
+0053.275 () 展開したバックアップを正しい場所に移動中...
+0053.275 () 不要なものをクリーニング中…
+0053.279 () Entity: plugins
+0053.279 () restore_backup(backup_file=backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:57:"/var/www/vhosts/tokokai.or.jp/httpdocs/wp-content/plugins";s:11:"description";s:15:"プラグイン";s:20:"singular_description";s:15:"プラグイン";}, last_one=)
+0053.280 () バックアップを解凍中... (backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-plugins.zip, 50.8 MB)
+0053.280 () Unzipping backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-plugins.zip to /var/www/vhosts/tokokai.or.jp/httpdocs/wp-content/upgrade/779bdbfb/ using UpdraftPlus_ZipArchive, starting index 0
+0054.388 () Unzip progress: 1645 out of 9537 files (6 KB, plugins/akismet/readme.txt)
+0054.810 () Unzip progress: 2646 out of 9537 files (18 MB, plugins/jetpack/modules/widgets/internet-defense-league/shield_badge.png)
+0055.105 () Unzip progress: 3647 out of 9537 files (31.7 MB, plugins/jetpack/jetpack_vendor/automattic/jetpack-publicize/build/block-editor-jetpack.rtl.css)
+0055.479 () Unzip progress: 4648 out of 9537 files (50.8 MB, plugins/jetpack/jetpack_vendor/automattic/jetpack-account-protection/LICENSE.txt)
+0055.961 () Unzip progress: 5649 out of 9537 files (78.3 MB, plugins/updraftplus/vendor/guzzlehttp/psr7/src/LazyOpenStream.php)
+0056.204 () Unzip progress: 6650 out of 9537 files (86.1 MB, plugins/snow-monkey-forms/dist/blocks/form/input/index.js)
+0056.456 () Unzip progress: 7651 out of 9537 files (93.6 MB, plugins/wp-optimize/js/delay-js.js)
+0056.783 () Unzip progress: 8652 out of 9537 files (111 MB, plugins/burst-statistics/includes/Admin/App/src/hooks/useABTest.ts)
+0057.076 () Unzip progress: 9537 out of 9537 files (128.7 MB, plugins/wp-multibyte-patch/includes/class-wpmp-phpmailer.php)
+0057.079 () Moving old data: filesystem method / updraft_dir is potentially possible
+0057.080 () Moving old data: can potentially use wp_filesystem method / -old
+0057.080 () 古いデータを別の場所に移動中...
+0058.313 () Top-level entities being moved: akismet, flying-scripts, jetpack, jonradio-multiple-themes, custom-post-type-ui, updraftplus, enable-media-replace, index.php, snow-monkey-forms, wp-optimize, google-sitemap-generator, tcd-pwa, wp-maintenance-mode, child-theme-configurator, burst-statistics, all-in-one-wp-security-and-firewall, autoptimize, easy-sticky-sidebar, list-category-posts, wp-multibyte-patch
+0058.323 () 展開したバックアップを正しい場所に移動中...
+0059.563 () Top-level entities being moved: akismet, flying-scripts, jetpack, jonradio-multiple-themes, custom-post-type-ui, updraftplus, enable-media-replace, index.php, snow-monkey-forms, wp-optimize, google-sitemap-generator, tcd-pwa, wp-maintenance-mode, child-theme-configurator, burst-statistics, all-in-one-wp-security-and-firewall, easy-sticky-sidebar, list-category-posts, wp-multibyte-patch
+0059.570 () 不要なものをクリーニング中…
+0059.574 () Entity: themes
+0059.574 () restore_backup(backup_file=backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-themes.zip, type=themes, info=a:3:{s:4:"path";s:56:"/var/www/vhosts/tokokai.or.jp/httpdocs/wp-content/themes";s:11:"description";s:9:"テーマ";s:20:"singular_description";s:9:"テーマ";}, last_one=)
+0059.574 () バックアップを解凍中... (backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-themes.zip, 19 MB)
+0059.575 () Unzipping backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-themes.zip to /var/www/vhosts/tokokai.or.jp/httpdocs/wp-content/upgrade/dbfad9fe/ using UpdraftPlus_ZipArchive, starting index 0
+0060.274 () Unzip progress: 867 out of 867 files (23.9 MB, themes/SERUMChild_Sanka/functions.php)
+0060.275 () Moving old data: filesystem method / updraft_dir is potentially possible
+0060.275 () Moving old data: can potentially use wp_filesystem method / -old
+0060.275 () 古いデータを別の場所に移動中...
+0060.359 () Top-level entities being moved: tpl_053_rwd, serum-child, index.php, businesspress, twentytwentythree, twentytwentyfour, twentytwentyfive, serum_tcd096, tpl_011_rwd, serum_roken, List category posts, serum_hokan, SERUMChild_Sanka
+0060.364 () 展開したバックアップを正しい場所に移動中...
+0060.458 () Top-level entities being moved: tpl_053_rwd, serum-child, index.php, businesspress, twentytwentythree, twentytwentyfour, twentytwentyfive, serum_tcd096, tpl_011_rwd, serum_roken, List category posts, serum_hokan, SERUMChild_Sanka
+0060.462 () 不要なものをクリーニング中…
+0060.465 () Entity: uploads
+0060.465 () restore_backup(backup_file=backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:42:"/var/www/vhosts/tokokai.or.jp/httpdocs/img";s:11:"description";s:18:"アップロード";}, last_one=)
+0060.466 () バックアップを解凍中... (backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-uploads.zip, 69.9 MB)
+0060.466 () Unzipping backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-uploads.zip to /var/www/vhosts/tokokai.or.jp/httpdocs/wp-content/upgrade/8ae3b46e/ using UpdraftPlus_ZipArchive, starting index 0
+0062.975 () Unzip progress: 1002 out of 1478 files (46.2 MB, img/traning_movie_04-1024x572.png)
+0063.331 () Unzip progress: 1478 out of 1478 files (69.7 MB, img/staff_sample_04-830x480.png)
+0063.332 () Moving old data: filesystem method / updraft_dir is potentially possible
+0063.332 () Moving old data: can potentially use wp_filesystem method / -old
+0063.332 () 古いデータを別の場所に移動中...
+0063.910 () 展開したバックアップを正しい場所に移動中...
+0064.219 () 不要なものをクリーニング中…
+0064.223 () Entity: others
+0064.223 () restore_backup(backup_file=backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-others.zip, type=others, info=a:2:{s:4:"path";s:49:"/var/www/vhosts/tokokai.or.jp/httpdocs/wp-content";s:11:"description";s:9:"その他";}, last_one=1)
+0064.223 () バックアップを解凍中... (backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-others.zip, 66.7 MB)
+0064.224 () Unzipping backup_2026-04-14-1230_tokokaiorjp_44197e4a9e27-others.zip to /var/www/vhosts/tokokai.or.jp/httpdocs/wp-content/upgrade/369b21db/ using UpdraftPlus_ZipArchive, starting index 0
+0066.412 () Unzip progress: 954 out of 954 files (74.5 MB, maintenance.php)
+0066.415 () 不要なものをクリーニング中…
+0066.415 () Error: 復元後、作業用ディレクトリの削除に失敗しました。 (/var/www/vhosts/tokokai.or.jp/httpdocs/wp-content/upgrade/369b21db)
+0066.520 () Purging cache directory: /var/www/vhosts/tokokai.or.jp/httpdocs/wp-content/cache
+0066.608 () Restore successful!
+0066.608 () Restore successful

@@ -1,0 +1,7 @@
+
+# BEGIN INDEX
+# "BEGIN INDEX" から "END INDEX" までのディレクティブ (行) は
+# 動的に生成され、WordPress フィルターによってのみ修正が可能です。
+# これらのマーカー間にあるディレクティブへのいかなる変更も上書きされてしまいます。
+Options -Indexes
+# END INDEX

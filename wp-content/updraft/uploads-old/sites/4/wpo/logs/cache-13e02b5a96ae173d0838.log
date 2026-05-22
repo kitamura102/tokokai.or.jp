@@ -1,0 +1,5 @@
+[2026-04-14 07:19:17 : INFO] - Pruning the Cache log file 
+[2026-04-14 07:21:42 : INFO] - Cache for URL: https://tokokai.or.jp/sanka/gynecology/ has been purged, triggered by action: save_post 
+[2026-04-14 07:21:42 : INFO] - Cache for author page URL: https://tokokai.or.jp/sanka/author/v1067/ associated with post_type: page and Title: "婦人科のご案内" has been purged, triggered by action: save_post 
+[2026-04-14 07:21:45 : INFO] - Cache for URL: https://tokokai.or.jp/sanka/gynecology/ has been purged, triggered by action: save_post 
+[2026-04-14 07:21:45 : INFO] - Cache for author page URL: https://tokokai.or.jp/sanka/author/v1067/ associated with post_type: page and Title: "婦人科のご案内" has been purged, triggered by action: save_post 

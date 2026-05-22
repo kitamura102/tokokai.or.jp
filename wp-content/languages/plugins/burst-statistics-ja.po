@@ -1,0 +1,3290 @@
+# Translation of Plugins - Burst Statistics &#8211; Privacy-Friendly WordPress Analytics (Google Analytics Alternative) - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Burst Statistics &#8211; Privacy-Friendly WordPress Analytics (Google Analytics Alternative) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-04-02 12:35:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Burst Statistics &#8211; Privacy-Friendly WordPress Analytics (Google Analytics Alternative) - Stable (latest release)\n"
+
+#: includes/Admin/Reports/class-report-logs.php:568
+msgid "Ready to share"
+msgstr "共有する準備ができました"
+
+#: includes/Admin/App/config/tasks.php:178
+msgid "You have cookieless tracking enabled, but Turbo mode is not enabled on your site. For best performance results, we recommend to enable Turbo mode."
+msgstr "クッキーレストラッキングは有効になっていますが、Turboモードはサイトで有効になっていません。最高のパフォーマンスを得るために、Turboモードを有効にすることをお勧めします。"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/routes/reporting.$reportingId.jsx:22
+msgid "Reporting page not found"
+msgstr "レポートページが見つかりません"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/routes/reporting.$reportingId.jsx:14
+msgid "Reporting section not found"
+msgstr "レポートセクションが見つかりません"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/AnonymousUsageDataField.jsx:120
+#: includes/TeamUpdraft/Onboarding/build/index.js:1
+#: includes/TeamUpdraft/Onboarding/src/components/Fields/AnonymousUsageData.jsx:58
+msgid "Learn more about how we handle data"
+msgstr "データの取り扱いについて詳しく知る"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/AnonymousUsageDataField.jsx:107
+msgid "Visitor IP addresses or specific page URLs"
+msgstr "訪問者のIPアドレスや特定のページURL"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/AnonymousUsageDataField.jsx:103
+msgid "Your site URL, admin emails, or user data"
+msgstr "あなたのサイトURL、管理者メール、またはユーザーデータ"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/AnonymousUsageDataField.jsx:98
+msgid "What we never collect"
+msgstr "私たちが絶対に集めないもの"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/AnonymousUsageDataField.jsx:89
+msgid "Burst settings you use"
+msgstr "使っているBurstの設定"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/AnonymousUsageDataField.jsx:85
+msgid "Active plugins & WordPress/PHP versions"
+msgstr "有効なプラグイン & WordPress/PHP バージョン"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/AnonymousUsageDataField.jsx:81
+msgid "General site metrics (e.g., monthly visitors, bounce rate)"
+msgstr "サイトの一般的な指標（例：月間訪問者数、直帰率）"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/AnonymousUsageDataField.jsx:76
+msgid "What we collect"
+msgstr "収集するデータ"
+
+#: includes/Admin/App/config/tasks.php:170
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/AnonymousUsageDataField.jsx:64
+msgid "Help us build better features, prioritize integrations, and improve recommendations by sharing anonymous usage data. We never collect personal information, your site URL, or IP addresses. Everything stays completely anonymous."
+msgstr "匿名の使用データを共有して、より良い機能を作り、統合を優先し、推奨を改善するのを手伝ってください。個人情報やサイトのURL、IPアドレスは一切収集しません。すべて完全に匿名のままです。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/AnonymousUsageDataField.jsx:48
+#: includes/TeamUpdraft/Onboarding/build/index.js:1
+#: includes/TeamUpdraft/Onboarding/src/components/Fields/AnonymousUsageData.jsx:39
+msgid "Enabled — thank you for helping us improve!"
+msgstr "有効化されました — 改善にご協力いただきありがとうございます！"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/AnonymousUsageDataField.jsx:44
+#: includes/TeamUpdraft/Onboarding/build/index.js:1
+#: includes/TeamUpdraft/Onboarding/src/components/Fields/AnonymousUsageData.jsx:35
+msgid "Share anonymous usage data"
+msgstr "匿名の使用データを共有する"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/ReportingField.jsx:226
+msgid "There are no reports available."
+msgstr "レポートは利用できません。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/ReportingField.jsx:218
+msgid "Loading reports..."
+msgstr "レポートを読み込んでいます..."
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/ReportingField.jsx:213
+msgid "New report"
+msgstr "新しいレポート"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/ReportingField.jsx:207
+msgid "Share Burst Insights with your team on a schedule that works for them. All reports are generated locally on your site and sent directly to your chosen emails."
+msgstr "Burst Insightsをチームと共有しよう。チームに合ったスケジュールで。すべてのレポートはあなたのサイトでローカルに生成され、選択したメールアドレスに直接送信されます。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/ReportingField.jsx:169
+msgid "This report is paused. Toggle to activate and resume scheduled sending."
+msgstr "このレポートは一時停止中です。トグルを切り替えて、スケジュールされた送信を再開してください。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/ReportingField.jsx:168
+msgid "This report is active and will be sent on schedule. Toggle to pause."
+msgstr "このレポートはアクティブで、スケジュール通りに送信されます。停止するにはトグルしてください。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/ReportingField.jsx:147
+msgid "N/A"
+msgstr "該当なし"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/ReportingField.jsx:143
+msgid "Last edit"
+msgstr "最終編集"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/ReportingField.jsx:131
+msgid "Schedule"
+msgstr "スケジュール"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/ReportingField.jsx:117
+msgid "Format"
+msgstr "フォーマット"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/ReportingField.jsx:102
+msgid "Last status"
+msgstr "最後のステータス"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/ReportingField.jsx:83
+msgid "Report name"
+msgstr "レポート名"
+
+#: includes/Admin/App/build/677.7ef36eb64ad9543ade89.js:1
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/routes/story.jsx:142
+msgid "Download PDF"
+msgstr "PDFをダウンロード"
+
+#: includes/Admin/App/build/479.236a6d3a2cbbb8e8a6c3.js:1
+#: includes/Admin/App/src/routes/reporting.$reportingId.jsx:48
+msgid "An error occurred loading reports"
+msgstr "レポートの読み込み中にエラーが発生しました"
+
+#: includes/Admin/Share/class-share.php:315
+msgid "Burst Statistics Viewer"
+msgstr "バースト統計ビューアー"
+
+#: includes/Admin/Share/class-share.php:254
+msgid "You are already logged in, but with a user account with insufficient permissions to view this page. Log out first, or use this link in a private window."
+msgstr "すでにログインしていますが、このページを表示するには権限が不足しているユーザーアカウントです。まずログアウトするか、このリンクをプライベートウィンドウで使用してください。"
+
+#: includes/Admin/Share/class-share.php:243
+#: includes/Frontend/Share/class-share-expired.php:56
+msgid "This share link has expired or is invalid."
+msgstr "この共有リンクは期限切れか無効です。"
+
+#: includes/Admin/Reports/DomainTypes/class-report-log-status.php:86
+msgid "In progress"
+msgstr "進行中"
+
+#: includes/Admin/Reports/DomainTypes/class-report-log-status.php:85
+msgid "Sending missed"
+msgstr "送信できませんでした"
+
+#: includes/Admin/Reports/DomainTypes/class-report-log-status.php:84
+msgid "Sending failed"
+msgstr "送信に失敗しました"
+
+#: includes/Admin/Reports/DomainTypes/class-report-log-status.php:83
+msgid "Sent successfully"
+msgstr "送信成功"
+
+#: includes/Admin/Reports/DomainTypes/class-report-log-status.php:82
+msgid "Email domain error"
+msgstr "メールドメインエラー"
+
+#: includes/Admin/Reports/DomainTypes/class-report-log-status.php:81
+msgid "Email address error"
+msgstr "メールアドレスのエラー"
+
+#: includes/Admin/Reports/DomainTypes/class-report-log-status.php:80
+msgid "Partly sent"
+msgstr "一部送信済み"
+
+#. translators: %s is the website's domain name (e.g., example.com).
+#: includes/Admin/Reports/class-reports.php:988
+msgid "A new report is available for %s."
+msgstr "%s の新しいレポートが利用可能です。"
+
+#: includes/Admin/Reports/class-reports.php:985
+msgid "View story"
+msgstr "ストーリーを見る"
+
+#. translators: %s is the domain name.
+#: includes/Admin/Reports/class-reports.php:944
+msgctxt "domain name"
+msgid "Your daily insights for %s are here!"
+msgstr "%s の毎日のインサイトが届きました！"
+
+#. translators: %s is the domain name.
+#: includes/Admin/Reports/class-reports.php:939
+msgctxt "domain name"
+msgid "Your analytics insights for %s are here!"
+msgstr "%s のアナリティクスインサイトがここにありますよ！"
+
+#: includes/Admin/Reports/class-reports.php:694
+msgid "Sending of report scheduled."
+msgstr "レポートの送信がスケジュールされました。"
+
+#: includes/Admin/Reports/class-reports.php:669
+msgid "Report sent."
+msgstr "レポートが送信されました。"
+
+#: includes/Admin/Reports/class-reports.php:646
+msgid "No recipients specified for the report."
+msgstr "レポートの受取人が指定されていません。"
+
+#: includes/Admin/Reports/class-reports.php:225
+msgid "Report deleted successfully."
+msgstr "レポートが正常に削除されました。"
+
+#: includes/Admin/Reports/class-reports.php:55
+msgid "Weekly Summary"
+msgstr "週間サマリー"
+
+#: includes/Admin/Reports/class-report.php:477
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+msgid "Untitled report"
+msgstr "無題のレポート"
+
+#: includes/Admin/Reports/class-report-logs.php:585
+msgid "Scheduled"
+msgstr "スケジュール済み"
+
+#: includes/Admin/Reports/class-report-logs.php:575
+msgid "Concept"
+msgstr "コンセプト"
+
+#: includes/Admin/Reports/class-report-logs.php:532
+msgid "No batches were processed."
+msgstr "バッチは処理されませんでした。"
+
+#: includes/Admin/Reports/class-report-logs.php:440
+msgid "Deleted Report"
+msgstr "削除されたレポート"
+
+#: includes/Admin/Reports/class-report-logs.php:387
+msgid "Email sending has not been triggered in time. Please check if cron jobs are configured correctly."
+msgstr "メール送信が時間通りに開始されませんでした。cronジョブが正しく設定されているか確認してください。"
+
+#. translators: %s is a list of invalid email domains.
+#: includes/Admin/Mailer/class-mailer.php:711
+msgid "Invalid email domain: %s"
+msgstr "無効なメールドメイン: %s"
+
+#. translators: %s is a list of invalid email addresses.
+#: includes/Admin/Mailer/class-mailer.php:703
+msgid "Invalid email address: %s"
+msgstr "無効なメールアドレス: %s"
+
+#. translators: 1: number of failed emails, 2: total number of emails, 3: error
+#. message.
+#: includes/Admin/Mailer/class-mailer.php:599
+msgid "%1$d out of %2$d emails failed sending with reason(s): %3$s."
+msgstr "%2$d 件のメールのうち %1$d 件が送信に失敗しました。理由: %3$s。"
+
+#: includes/Admin/Burst_Onboarding/steps.php:119
+msgid "Help us build better features and improve recommendations by sharing anonymous usage data. We never collect personal information."
+msgstr "匿名の使用データを共有して、より良い機能を作り、推奨を改善するのを手伝ってください。個人情報は一切収集しません。"
+
+#: includes/Admin/Burst_Onboarding/steps.php:118
+msgid "Help improve Burst"
+msgstr "Burstをもっと良くするために協力してね"
+
+#: includes/Admin/App/config/tasks.php:59
+msgid "Join the Burst community on Team Updraft Discord to discuss features, get help, and shape the future of Burst."
+msgstr "Team UpdraftのDiscordでBurstコミュニティに参加して、機能について話し合ったり、サポートを受けたり、Burstの未来を一緒に作りましょう。"
+
+#: includes/Admin/App/config/reporting-fields.php:33
+msgid "View detailed logs for sent email reports, including delivery status, errors, and cron execution results."
+msgstr "送信されたメールレポートの詳細ログを表示し、配信状況、エラー、cron実行結果を確認できます。"
+
+#: includes/Admin/App/config/reporting-fields.php:32
+msgid "Email report logs"
+msgstr "メールレポートログ"
+
+#: includes/Admin/App/config/menu.php:103
+msgid "Anonymous usage data"
+msgstr "匿名の使用データ"
+
+#: includes/Admin/App/config/menu.php:72 includes/Admin/App/config/menu.php:76
+msgid "Logs"
+msgstr "ログ"
+
+#: includes/Admin/App/config/menu.php:61 includes/Admin/App/config/menu.php:65
+msgid "Customization"
+msgstr "カスタマイズ"
+
+#: includes/Admin/App/config/menu.php:50 includes/Admin/App/config/menu.php:54
+msgid "Reports"
+msgstr "レポート"
+
+#: includes/Admin/App/config/menu.php:39
+msgid "Reporting"
+msgstr "レポート"
+
+#: includes/Admin/App/config/fields.php:245
+msgid "The hit will be blocked if this string is found in the referrer, user agent, or URL. You can also use regex patterns, e.g. /facebook(externalhit|bot|crawler|preview)/i"
+msgstr "この文字列がリファラー、ユーザーエージェント、またはURLに見つかった場合、ヒットはブロックされます。正規表現パターンも使えます。例えば、/facebook(externalhit|bot|crawler|preview)/i"
+
+#: includes/Admin/App/config/fields.php:244
+msgid "Using custom block rules"
+msgstr "カスタムブロックルールを使う"
+
+#: includes/Admin/App/config/fields.php:239
+msgid "Enter one string per line."
+msgstr "1行に1つの文字列を入力してください。"
+
+#: includes/Admin/App/config/fields.php:238
+msgid "Exclude requests with a specific text in the url or the referrer."
+msgstr "URLやリファラーに特定のテキストが含まれるリクエストを除外する。"
+
+#. translators: 1: filter label, 2: filter value
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:242
+msgid " and %1$s is %2$s"
+msgstr " そして%1$sは%2$s"
+
+#. translators: 1: filter label, 2: filter value
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:8
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:8
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:8
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:222
+msgid "%1$s is %2$s"
+msgstr "%1$s は %2$s"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:937
+msgid "Generate shareable link"
+msgstr "共有可能なリンクを生成する"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:936
+msgid "Generating…"
+msgstr "生成中…"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:905
+msgid "Link expires in:"
+msgstr "リンクの有効期限:"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:889
+msgid "Generate a private, shareable link to a live view of this dashboard."
+msgstr "このダッシュボードのライブビューへのプライベートで共有可能なリンクを生成します。"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:884
+msgid "Share dashboard"
+msgstr "ダッシュボードを共有"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:859
+msgid "Failed to revoke link"
+msgstr "リンクを取り消すことができませんでした"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:855
+msgid "Link revoked"
+msgstr "リンクが取り消されました"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:838
+msgid "Failed to copy link"
+msgstr "リンクをコピーできませんでした"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:832
+msgid "Link copied!"
+msgstr "リンクがコピーされました!"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:811
+msgid "Link created and copied to clipboard!"
+msgstr "リンクが作成され、クリップボードにコピーされました!"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/build/677.7ef36eb64ad9543ade89.js:1
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:794
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:817
+msgid "Failed to generate share link"
+msgstr "共有リンクを生成できませんでした"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:583
+msgid "Active shared links"
+msgstr "アクティブな共有リンク"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:480
+msgid "Copy link"
+msgstr "リンクをコピー"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:480
+msgid "Copied!"
+msgstr "コピーしました!"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:370
+msgid "current view"
+msgstr "現在のビュー"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:346
+msgid "Allow access to these tabs:"
+msgstr "これらのタブへのアクセスを許可します:"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:321
+msgid "Allow viewer to:"
+msgstr "閲覧者に次の権限を許可:"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:303
+msgid "Advanced options"
+msgstr "高度なオプション"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:7
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:7
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:7
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:208
+msgid "Filter:"
+msgid_plural "Filters:"
+msgstr[0] "フィルター:"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:7
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:7
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:7
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:195
+msgid "Date range:"
+msgstr "日付範囲:"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:7
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:7
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:7
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:185
+msgid "Initial tab:"
+msgstr "初期タブ:"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:7
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:7
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:7
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:179
+msgid "What you're sharing:"
+msgstr "共有している内容:"
+
+#. translators: %d is the number of hours.
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:7
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:7
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:7
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:132
+msgid "Expires soon"
+msgstr "まもなく期限切れ"
+
+#. translators: %d is the number of days.
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:4
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:4
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:4
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:126
+msgid "Expires in 1 hour"
+msgstr "1時間で期限切れ"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:1
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:1
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:1
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:118
+msgid "Expires in 1 day"
+msgstr "1日で期限切れ"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:1
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:1
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:1
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:110
+msgid "Expired"
+msgstr "期限切れ"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:1
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:1
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:1
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:103
+msgid "Never expires"
+msgstr "期限なし"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:1
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:1
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:1
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:46
+msgid "Change filters"
+msgstr "フィルターを変更する"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:1
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:1
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:1
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:45
+msgid "Change date range"
+msgstr "日付範囲を変更する"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:1
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:1
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:1
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:27
+msgid "24 hours"
+msgstr "24時間"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:511
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:514
+msgid "Adds to cart"
+msgstr "カートに追加"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Settings/SettingsFooter.jsx:19
+msgid "Validating…"
+msgstr "検証中…"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Settings/SettingsFooter.jsx:14
+msgid "Saving…"
+msgstr "保存中…"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/ExportSettingsField.jsx:122
+msgid "Exporting..."
+msgstr "エクスポート中..."
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/ExportSettingsField.jsx:49
+msgid "No settings available to export."
+msgstr "エクスポート可能な設定はありません。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/ExportSettingsField.jsx:93
+msgid "Failed to export settings."
+msgstr "設定をエクスポートできませんでした。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/ExportSettingsField.jsx:90
+msgid "Settings exported successfully!"
+msgstr "設定が正常にエクスポートされました!"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:305
+msgid "Import"
+msgstr "インポート"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:302
+msgid "Importing..."
+msgstr "インポート…"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:187
+msgid "An unexpected error occurred while importing settings."
+msgstr "設定のインポート中に予期しないエラーが発生しました。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:179
+msgid "Settings imported successfully!"
+msgstr "設定が正常にインポートされました!"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:121
+msgid "Settings not loaded. Please refresh the page."
+msgstr "設定が読み込まれませんでした。ページを更新してください。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:107
+msgid "The file does not contain valid settings data."
+msgstr "ファイルには有効な設定データが含まれていません。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:103
+msgid "The JSON file is malformed or invalid."
+msgstr "JSON ファイルが不正な形式であるか無効です。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:86
+msgid "Failed to read the file."
+msgstr "ファイルの読み取りに失敗しました。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:281
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:287
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:291
+msgid "Upload settings file (.json)"
+msgstr "設定ファイル（.json）をアップロードする"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:263
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:264
+msgid "Clear file selection"
+msgstr "ファイルの選択をクリア"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:69
+#: includes/Admin/App/src/components/Fields/UploadField.jsx:70
+msgid "You can only upload .json files!"
+msgstr "アップロードできるのは .json ファイルのみです!"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:1
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:1
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:1
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:30
+msgid "Never"
+msgstr "決して"
+
+#: includes/Admin/Statistics/class-query-data.php:815
+msgid "Added to cart"
+msgstr "カートに追加しました"
+
+#: includes/Admin/Statistics/class-query-data.php:814
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:305
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:301
+msgid "Avg. order value"
+msgstr "平均注文額"
+
+#: includes/Admin/Statistics/class-query-data.php:813
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:108
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:104
+msgid "Exit rate"
+msgstr "退出率"
+
+#: includes/Admin/Statistics/class-query-data.php:812
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:102
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:98
+msgid "Entrances"
+msgstr "入口"
+
+#: includes/Admin/Statistics/class-query-data.php:811
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:143
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:298
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:397
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:467
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:139
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:294
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:393
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:463
+msgid "Sales conv. rate"
+msgstr "売上コンバージョン率"
+
+#: includes/Admin/Statistics/class-query-data.php:810
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:150
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:213
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:404
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:146
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:209
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:400
+msgid "Page value"
+msgstr "ページ値"
+
+#: includes/Admin/Statistics/class-query-data.php:786
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:115
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:192
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:277
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:369
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:446
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:111
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:188
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:273
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:365
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:442
+msgid "Goal completions"
+msgstr "目標達成"
+
+#: includes/Admin/Statistics/class-query-data.php:784
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:121
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:375
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:117
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:371
+msgid "Goal conv. rate"
+msgstr "目標コンバージョン率"
+
+#: includes/Admin/Statistics/class-query-data.php:783
+msgid "Avg. session duration"
+msgstr "平均セッション時間"
+
+#: includes/Admin/Statistics/class-query-data.php:782
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:95
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:91
+msgid "Avg. time on page"
+msgstr "ページ平均滞在時間"
+
+#: includes/Admin/Mailer/class-mail-reports.php:45
+msgid "E-mail report scheduled to send on next cron job."
+msgstr "次の cron ジョブで送信されるようにスケジュールされたメールレポート。"
+
+#: includes/Admin/App/config/tasks.php:163
+msgid "New: save or share your filtered view by simply copying the URL or bookmarking it."
+msgstr "新機能: URL をコピーするかブックマークするだけで、フィルターされたビューを保存または共有できます。"
+
+#: includes/Admin/App/config/tasks.php:75
+msgid "Your WordPress cron hasn’t been triggered for over 24 hours. As a result, Burst can’t update first visit and bounce data until it runs again."
+msgstr "WordPress の cron が24時間以上実行されていません。そのため、Burst は cron が再度実行されるまで初回訪問と直帰のデータを更新できません。"
+
+#: includes/Admin/App/config/menu.php:160
+msgid "Beta"
+msgstr "ベータ"
+
+#: includes/Admin/App/config/menu.php:137
+msgid "Manage settings"
+msgstr "設定管理"
+
+#: includes/Admin/App/config/fields.php:362
+msgid "Upload a previously exported settings file to overwrite your current settings."
+msgstr "以前にエクスポートした設定ファイルをアップロードして、現在の設定を上書きします。"
+
+#: includes/Admin/App/config/fields.php:361
+msgid "Import settings"
+msgstr "設定のインポート"
+
+#: includes/Admin/App/config/fields.php:352
+msgid "Download a file containing your current settings. Use this for migrating or copying settings to another website."
+msgstr "現在の設定を含むファイルをダウンロードします。設定を別のウェブサイトに移行またはコピーする場合に使用します。"
+
+#: includes/Admin/App/config/fields.php:351
+msgid "Export settings"
+msgstr "設定のエクスポート"
+
+#: includes/Admin/App/config/fields.php:350
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/ExportSettingsField.jsx:117
+#: includes/Admin/App/src/components/Fields/ExportSettingsField.jsx:123
+msgid "Download settings file"
+msgstr "設定ファイルのダウンロード"
+
+#: includes/Admin/App/config/fields.php:335
+msgid "Available when \"Merge tracking settings and script\" is activated. If you enable this, the javascript filename does not include \"burst\", making it less obvious."
+msgstr "「トラッキング設定とスクリプトを統合する」が有効になっている場合に利用できます。これを有効にすると、JavaScript のファイル名に「burst」が含まれなくなり、より分かりにくくなります。"
+
+#: includes/Admin/App/config/fields.php:333
+msgid "Enable ghost mode"
+msgstr "ゴーストモードを有効にする"
+
+#: includes/Admin/App/config/fields.php:324
+msgid "This option is only available when the WordPress can write to the uploads directory. Please ensure that the WordPress installation has write permissions to \"wp-content/uploads/burst/\"."
+msgstr "このオプションは、WordPress がアップロードディレクトリへの書き込み権限を持っている場合にのみ利用可能です。WordPress インストールに「wp-content/uploads/burst/」への書き込み権限があることを確認してください。"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:401
+#: includes/Admin/App/src/routes/sales.jsx:32
+msgid "You do not have permission to view sales data."
+msgstr "販売データを表示する権限がありません。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/Field.jsx:202
+msgid "Value must be at most %s"
+msgstr "値は最大 %s である必要があります"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/Field.jsx:192
+msgid "Value must be at least %s"
+msgstr "値は少なくとも %s である必要があります"
+
+#: includes/Admin/App/build/991.a026f0af78042c71c4c9.js:1
+#: includes/Admin/App/src/routes/sales.jsx:44
+msgid "Unauthorized Access"
+msgstr "権限のないアクセス"
+
+#: includes/Admin/App/build/991.a026f0af78042c71c4c9.js:1
+#: includes/Admin/App/src/routes/sales.jsx:46
+msgid "Go Back"
+msgstr "前に戻る"
+
+#: includes/Admin/Statistics/class-query-data.php:809
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:12
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:136
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:206
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:291
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:390
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:460
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:521
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:132
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:202
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:287
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:386
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:456
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:532
+msgid "Revenue"
+msgstr "収入"
+
+#: includes/Admin/Statistics/class-query-data.php:807
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:504
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:500
+msgid "Product"
+msgstr "商品"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:498
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:494
+msgid "Products"
+msgstr "商品"
+
+#: includes/Admin/Posts/class-posts.php:275
+msgid "Total number of pageviews for today."
+msgstr "今日の合計ページビュー数。"
+
+#: includes/Admin/class-admin.php:302
+#: includes/Admin/Statistics/class-query-data.php:808
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:12
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:129
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:199
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:284
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:383
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:453
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:516
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:125
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:195
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:280
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:379
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:449
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:527
+msgid "Sales"
+msgstr "セールス"
+
+#: includes/Admin/App/config/tasks.php:95
+msgid "Thanks for using Burst for over a year! To show our appreciation, we have a surprise for you as a loyal user!"
+msgstr "1年以上 Burst をご利用いただき、ありがとうございます！感謝の気持ちを込めて、ご愛顧いただいているお客様にサプライズをご用意しました！"
+
+#: includes/Admin/App/config/tasks.php:66
+msgid "New in Burst Pro: dedicated sales dashboard for WooCommerce and Easy Digital Downloads."
+msgstr "Burst Pro の新機能: WooCommerce および Easy Digital Downloads 専用の販売ダッシュボード。"
+
+#: includes/Admin/Statistics/class-query-data.php:776
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:56
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:52
+msgid "Domain"
+msgstr "ドメイン"
+
+#: includes/Admin/App/config/tasks.php:154
+msgid "Burst detected multiple domains being used to visit the website. If you want to be able to differentiate between domains, you can enable filtering by domain in the settings."
+msgstr "Burst は、ウェブサイトへのアクセスに複数のドメインが使用されていることを検出しました。ドメインを区別したい場合は、設定でドメインによるフィルタリングを有効にしてください。"
+
+#: includes/Admin/App/config/fields.php:299
+msgid "If you use multiple domains on your website, you can enable this to start storing the domain, so you can filter your data by domain."
+msgstr "ウェブサイトで複数のドメインを使用している場合は、これを有効にするとドメインの保存が開始され、ドメインごとにデータをフィルタリングできるようになります。"
+
+#: includes/Admin/App/config/fields.php:298
+msgid "Enable filtering by domain"
+msgstr "ドメインによるフィルタリングを有効にする"
+
+#: includes/Admin/Posts/class-posts.php:285
+msgid "Total number of pageviews of the past 30 days."
+msgstr "過去 30 日間のページビューの合計数。"
+
+#: includes/Admin/Posts/class-posts.php:283
+msgid "Total number of pageviews, all time."
+msgstr "全期間のページビューの合計数。"
+
+#: includes/Admin/Posts/class-posts.php:281
+msgid "Total number of pageviews of the past year."
+msgstr "過去 1 年間のページビューの合計数。"
+
+#: includes/Admin/Posts/class-posts.php:279
+msgid "Total number of pageviews of the past 3 months."
+msgstr "過去 3 か月間のページビューの合計数。"
+
+#: includes/Admin/Posts/class-posts.php:277
+msgid "Total number of pageviews of the past 7 days."
+msgstr "過去 7 日間のページビューの合計数。"
+
+#: includes/Admin/Posts/class-posts.php:111
+msgid "Pageviews time range"
+msgstr "ページビューの期間"
+
+#: includes/Admin/Posts/class-posts.php:85
+msgid "Pageviews date range"
+msgstr "ページビューの日付範囲"
+
+#: includes/Admin/Posts/class-posts.php:38
+msgid "All time"
+msgstr "全期間"
+
+#: includes/Admin/Posts/class-posts.php:37
+msgid "1 year"
+msgstr "1年"
+
+#: includes/Admin/Posts/class-posts.php:36
+msgid "3 months"
+msgstr "3か月"
+
+#: includes/Admin/Posts/class-posts.php:35
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:1
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:1
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:1
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:29
+msgid "30 days"
+msgstr "30日間"
+
+#: includes/Admin/Posts/class-posts.php:34
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:1
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:1
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:1
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:28
+msgid "7 days"
+msgstr "7日"
+
+#. translators: %s: Metric name (e.g., "Pageviews", "Visitors")
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:16
+#: includes/Admin/App/src/components/Sources/WorldMap/MapStatisticsInfo.jsx:43
+msgctxt "metric by location"
+msgid "%s per region"
+msgstr "地域ごとに%s"
+
+#. translators: %s: Metric name (e.g., "Pageviews", "Visitors")
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:15
+#: includes/Admin/App/src/components/Sources/WorldMap/MapStatisticsInfo.jsx:38
+msgctxt "metric by location"
+msgid "%s per country"
+msgstr "国ごとに%s"
+
+#. Translators: %d is the number of visitors, human-readable, e.g. 2.2k, or 1M.
+#: includes/Frontend/class-frontend-admin.php:82
+msgid "%s Pageviews"
+msgstr "%s ページビュー"
+
+#: includes/Frontend/class-frontend-admin.php:85
+msgid "Total pageviews for the last 30 days."
+msgstr "過去 30 日間の合計ページビュー数。"
+
+#: includes/Admin/Debug/class-debug.php:147
+msgid "Burst WordPress transients"
+msgstr "Burst WordPressトランジェント"
+
+#: includes/Admin/class-tasks.php:295
+msgid "Milestone"
+msgstr "マイルストーン"
+
+#. translators: %s is the milestone number (compact, e.g. 1k, 10k, 1M).
+#: includes/Admin/App/config/tasks.php:132
+msgid "You’ve hit %s pageviews this month!"
+msgstr "今月のページビュー数は %s に達しました!"
+
+#. translators: %d is the number of visits detected from a single user in 24
+#. hours.
+#: includes/Admin/App/config/tasks.php:87
+msgid "Burst has detected an anomalous number of visits (%1$d in 24 hours) from one user with UID %2$s. You can consider removing these hits by using the \"fix\" button, but if you're sure these are valid visits, you can dismiss this notice."
+msgstr "Burst は、UID %2$s のユーザーからの異常なアクセス数（24 時間あたり %1$d 件）を検出しました。「修正」ボタンを使用してこれらのアクセスを削除することをご検討ください。ただし、これらのアクセスが有効なものであると確信できる場合は、この通知を無視してください。"
+
+#. translators: %d: error count, %s time of error.
+#: includes/Admin/App/config/tasks.php:120
+msgid "Please deactivate Burst (keep the data!), then activate again, to trigger a database upgrade."
+msgstr "データベースのアップグレードをトリガーするには、Burst を無効にして (データを保持してください)、再度有効にしてください。"
+
+#. translators: %d: error count, %s time of error.
+#: includes/Admin/App/config/tasks.php:120
+msgid "Burst has detecting missing database tables: %s."
+msgstr "Burst は、不足しているデータベース テーブルを検出しました: %s。"
+
+#: includes/Admin/Debug/class-debug.php:166
+msgid "Burst Debug Information"
+msgstr "Burst デバッグ情報"
+
+#: includes/Admin/Debug/class-debug.php:160
+msgid "Used Constants"
+msgstr "使用される定数"
+
+#: includes/Admin/Debug/class-debug.php:156
+msgid "Debug Log"
+msgstr "デバッグログ"
+
+#: includes/Admin/Debug/class-debug.php:142
+msgid "Burst WordPress options"
+msgstr "Burst WordPress オプション"
+
+#: includes/Admin/Debug/class-debug.php:138
+msgid "Burst Settings"
+msgstr "Burst 設定"
+
+#: includes/Admin/Debug/class-debug.php:134
+msgid "Burst Database Tables"
+msgstr "Burst データベーステーブル"
+
+#: includes/Admin/Debug/class-debug.php:130
+msgid "Location Data"
+msgstr "位置データ"
+
+#: includes/Admin/Debug/class-debug.php:126
+msgid "Detected Geo IP"
+msgstr "検出された Geo IP"
+
+#: includes/Admin/Debug/class-debug.php:121
+msgid "Geo IP File"
+msgstr "Geo IP ファイル"
+
+#: includes/Admin/Debug/class-debug.php:105
+msgid "No debug log entries found."
+msgstr "デバッグログエントリが見つかりません。"
+
+#: includes/Admin/class-tasks.php:294
+msgid "Offer"
+msgstr "オファー"
+
+#: includes/Admin/Burst_Onboarding/steps.php:103
+msgid "Join our mailinglist and get 4 tips to improve conversions."
+msgstr "メーリングリストに参加して、コンバージョンを向上させる 4 つのヒントを入手してください。"
+
+#. translators: %d: error count, %s time of error.
+#: includes/Admin/App/config/tasks.php:108
+msgid "Burst has detected %1$d PHP errors, the last one on %2$s. Detected errors:"
+msgstr "Burst は %1$d 件の PHP エラーを検出しました。最後のエラーは %2$s です。検出されたエラー:"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:397
+msgid "Step through matches"
+msgstr "一致を順に確認"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:477
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:473
+msgid "Dummy"
+msgstr "ダミー"
+
+#: includes/Admin/Statistics/class-query-data.php:787
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/hooks/useFilterDisplay.js:97
+msgid "Bounced visitors"
+msgstr "直帰した訪問者"
+
+#: includes/Admin/App/config/fields.php:255
+msgid "Enable statistics shortcodes for use on your website."
+msgstr "ウェブサイトで統計ショートコードを使えるようにする。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:484
+msgid "%s elements match your selector. Use arrow keys to cycle through matches."
+msgstr "%s 個の要素があなたのセレクターにマッチしています。矢印キーを使ってマッチを切り替えてください。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:442
+msgid "Set logged out mode"
+msgstr "ログアウトモードを設定"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:438
+msgid "Set logged in mode"
+msgstr "ログインモードを設定"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:422
+msgid "Next match"
+msgstr "次の一致"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:407
+msgid "Previous match"
+msgstr "前回の一致"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:382
+msgid "Preview panel, use arrow keys to navigate"
+msgstr "プレビューパネル、矢印キーで移動"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:315
+msgid "Selects .nav-item elements that do not have the \"active\" class."
+msgstr "「active」クラスが付いていない.nav-item要素を選択します。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:308
+msgid "Selects links whose href starts with \"https\"."
+msgstr "href が「https」で始まるリンクを選択します。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:301
+msgid "Selects all <button> elements."
+msgstr "すべての<button>要素を選択します。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:294
+msgid "Selects the element with ID \"element-id\"."
+msgstr "IDが「element-id」の要素を選択します。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:287
+msgid "Selects all elements with class \"class-name\"."
+msgstr "クラス名が「class-name」のすべての要素を選択します。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:282
+msgid "Selector Examples:"
+msgstr "セレクターの例:"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:275
+msgid "(Logged in)"
+msgstr "（ログイン中）"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:274
+msgid "(Logged out)"
+msgstr "（ログアウト中）"
+
+#. translators: 1: number of elements found 2: the URL of the preview 3: logged
+#. in/out status
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:265
+msgid "Found %1$d element on %2$s %3$s"
+msgid_plural "Found %1$d elements on %2$s %3$s"
+msgstr[0] "%2$s の %3$s で %1$d 個の要素が見つかりました"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:239
+msgid "Warning: this element might be hidden via CSS."
+msgstr "警告: この要素はCSSで非表示にされている可能性があります。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/SelectorField.jsx:153
+msgid "Warning: The current element is hidden via CSS."
+msgstr "警告: 現在の要素はCSSで非表示になっています。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/src/components/Common/DisabledBadge.jsx:17
+#: includes/Admin/App/src/components/Fields/AnonymousUsageDataField.jsx:49
+#: includes/TeamUpdraft/Onboarding/build/index.js:1
+#: includes/TeamUpdraft/Onboarding/src/components/Fields/AnonymousUsageData.jsx:40
+msgid "Disabled"
+msgstr "無効"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:12
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Sources/WorldMapBlock.jsx:18
+#: includes/Admin/App/src/components/Upsell/GhostWorldMapBlock.jsx:17
+msgid "World View"
+msgstr "世界の状況"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Sources/WorldMap/MapSettingsPopover.jsx:268
+msgid "Add patterns for colorblind accessibility"
+msgstr "色覚障害者向けのパターンを追加"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Sources/WorldMap/MapSettingsPopover.jsx:262
+msgid "Colorblind Patterns"
+msgstr "色覚異常向けパターン"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Sources/WorldMap/MapSettingsPopover.jsx:257
+msgid "Accessibility"
+msgstr "アクセシビリティ"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Sources/WorldMap/MapSettingsPopover.jsx:206
+msgid "Auto-select"
+msgstr "自動選択"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Sources/WorldMap/MapSettingsPopover.jsx:194
+msgid "A classification method determines how data values are grouped into ranges or categories to color regions on a choropleth map. The recommended method is based on the selected metric. For more information for each method, see the help icon next to each method."
+msgstr "分類方法は、データ値をどのように範囲やカテゴリにグループ化してコロプレスマップ上の地域を色分けするかを決定します。推奨される方法は、選択された指標に基づいています。各方法の詳細については、各方法の横にあるヘルプアイコンを参照してください。"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Sources/WorldMap/MapSettingsPopover.jsx:183
+msgid "Classification method"
+msgstr "分類方法"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Sources/WorldMap/MapSettingsPopover.jsx:151
+msgid "Metrics & options"
+msgstr "メトリクスとオプション"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Sources/WorldMap/WorldMap.jsx:316
+msgid "No metrics available for display."
+msgstr "表示するメトリクスがありません。"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:18
+#: includes/Admin/App/src/components/Sources/WorldMap/MapStatisticsInfo.jsx:164
+msgctxt "statistic label"
+msgid "Method"
+msgstr "メソッド"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:18
+#: includes/Admin/App/src/components/Sources/WorldMap/MapStatisticsInfo.jsx:151
+msgctxt "statistic label"
+msgid "Total"
+msgstr "合計"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:18
+#: includes/Admin/App/src/components/Sources/WorldMap/MapStatisticsInfo.jsx:138
+msgctxt "statistic label"
+msgid "Median"
+msgstr "中央値"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:18
+#: includes/Admin/App/src/components/Sources/WorldMap/MapStatisticsInfo.jsx:125
+msgctxt "statistic label"
+msgid "Average"
+msgstr "平均"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:18
+#: includes/Admin/App/src/components/Sources/WorldMap/MapStatisticsInfo.jsx:111
+msgctxt "statistic label"
+msgid "Range"
+msgstr "範囲"
+
+#. translators: %d: Number of visitors with unknown region, %s: metric label
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:18
+#: includes/Admin/App/src/components/Sources/WorldMap/MapStatisticsInfo.jsx:91
+msgid "%d %s with unknown region"
+msgstr "不明な地域の%d人の%s"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:17
+#: includes/Admin/App/src/components/Sources/WorldMap/MapStatisticsInfo.jsx:77
+msgid "Patterns enabled"
+msgstr "パターンが有効"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:17
+#: includes/Admin/App/src/components/Sources/WorldMap/MapStatisticsInfo.jsx:65
+msgid "%d region with data"
+msgid_plural "%d regions with data"
+msgstr[0] "データがある%d地域"
+
+#. translators: %d: Number of locations that have data
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:17
+#: includes/Admin/App/src/components/Sources/WorldMap/MapStatisticsInfo.jsx:59
+msgid "%d country with data"
+msgid_plural "%d countries with data"
+msgstr[0] "データがある国は%dか国"
+
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:12
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:14
+#: includes/Admin/App/src/components/Sources/WorldMap/InCompleteDataNotice.jsx:85
+msgid "Dismiss"
+msgstr "閉じる"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:14
+#: includes/Admin/App/src/components/Sources/WorldMap/InCompleteDataNotice.jsx:80
+msgid "Dismiss for 30 days"
+msgstr "30日間非表示にする"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:14
+#: includes/Admin/App/src/components/Sources/WorldMap/InCompleteDataNotice.jsx:50
+msgid "Region tracking is a new feature, so this data is only available for visits recorded after it was enabled."
+msgstr "地域トラッキングは新しい機能のため、このデータは有効化後に記録された訪問にのみ利用可能です。"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:14
+#: includes/Admin/App/src/components/Sources/WorldMap/InCompleteDataNotice.jsx:38
+msgid "Region-level data is available for visits after %s."
+msgstr "地域レベルのデータは、%s以降の訪問に対して利用可能です。"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:14
+#: includes/Admin/App/src/components/Sources/WorldMap/MapOverlay.jsx:17
+msgid "Loading analytics…"
+msgstr "分析を読み込んでいます…"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:14
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Sources/WorldMap/MapOverlay.jsx:16
+#: includes/Admin/App/src/components/Sources/WorldMap/WorldMap.jsx:308
+msgid "Loading map data…"
+msgstr "地図データを読み込んでいます…"
+
+#. translators: %s: Error message
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Sources/WorldMap/WorldMap.jsx:296
+msgid "Error: %s"
+msgstr "エラー: %s"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:14
+#: includes/Admin/App/src/components/Sources/WorldMap/MapBreadcrumbs.jsx:79
+msgctxt "aria label"
+msgid "Map navigation"
+msgstr "地図ナビゲーション"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:14
+#: includes/Admin/App/src/components/Sources/WorldMap/MapBreadcrumbs.jsx:60
+msgctxt "button title"
+msgid "No previous page"
+msgstr "前のページはありません"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:14
+#: includes/Admin/App/src/components/Sources/WorldMap/MapBreadcrumbs.jsx:59
+msgctxt "button title"
+msgid "Go back"
+msgstr "戻る"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:14
+#: includes/Admin/App/src/components/Sources/WorldMap/MapBreadcrumbs.jsx:26
+msgctxt "navigation item"
+msgid "World"
+msgstr "世界"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Common/PopoverFilter.js:152
+#: includes/Admin/App/src/components/Sources/WorldMap/MapSettingsPopover.jsx:159
+msgid "Select metric"
+msgstr "メトリックを選択"
+
+#: includes/Admin/Statistics/class-query-data.php:797
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:240
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:236
+msgid "State"
+msgstr "状態"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:223
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:219
+msgid "Locations"
+msgstr "場所"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/src/components/Common/RecommendBadge.jsx:17
+msgid "Recommended"
+msgstr "おすすめ"
+
+#: includes/Admin/Statistics/class-query-data.php:796
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:246
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:242
+msgid "City"
+msgstr "都市"
+
+#: includes/Admin/Statistics/class-query-data.php:798
+#: includes/Admin/Statistics/class-query-data.php:799
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:252
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:248
+msgid "Continent"
+msgstr "大陸"
+
+#: includes/Admin/Statistics/class-query-data.php:791
+#: includes/Admin/Statistics/class-query-data.php:794
+msgid "Platform"
+msgstr "プラットフォーム"
+
+#. translators: %s: number of seconds
+#: includes/Frontend/class-shortcodes.php:518
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s 秒"
+
+#: includes/Frontend/class-shortcodes.php:345
+msgid "Error fetching statistics"
+msgstr "統計情報の取得エラー"
+
+#: includes/Frontend/class-shortcodes.php:300
+msgid "Invalid statistic type"
+msgstr "無効な統計タイプ"
+
+#: includes/Admin/App/config/menu.php:173
+msgid "Secret Settings"
+msgstr "シークレット設定"
+
+#: includes/Admin/App/config/menu.php:167
+msgid "Secret"
+msgstr "シークレット"
+
+#: includes/Admin/App/config/menu.php:152
+msgid "Tracking behavior"
+msgstr "トラッキングの動作"
+
+#: includes/Admin/App/config/menu.php:148
+msgid "Tracking exclusions"
+msgstr "トラッキング除外"
+
+#: includes/Admin/App/config/menu.php:28
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+msgid "Sources"
+msgstr "ソース"
+
+#: includes/Admin/App/config/fields.php:253
+msgid "Enable shortcodes"
+msgstr "ショートコードを有効にする"
+
+#: includes/Admin/App/config/fields.php:280
+msgid "Provides basic location insights. This uses a smaller database for faster tracking and less data storage."
+msgstr "基本的な位置情報を提供します。これは、より迅速な追跡とデータ保存の軽減のために小さなデータベースを使用しています。"
+
+#: includes/Admin/App/config/fields.php:279
+msgid "Country only"
+msgstr "国のみ"
+
+#: includes/Admin/App/config/fields.php:275
+msgid "Provides detailed location data including city and region. This uses a larger database and may result in slightly slower tracking."
+msgstr "都市や地域を含む詳細な位置情報を提供します。これには大きなデータベースを使用するため、追跡がやや遅くなる可能性があります。"
+
+#: includes/Admin/App/config/fields.php:274
+msgid "Country, City & Region details"
+msgstr "国、都市、地域の詳細"
+
+#: includes/Admin/App/config/fields.php:266
+msgid "Visitor location detail"
+msgstr "訪問者の位置情報の詳細"
+
+#: includes/Admin/App/config/fields.php:227
+msgid "Exclude IP addresses from being tracked"
+msgstr "トラッキングからIPアドレスを除外する"
+
+#: includes/TeamUpdraft/Onboarding/build/index.js:1
+#: includes/TeamUpdraft/Onboarding/src/components/Fields/Plugins.jsx:84
+msgid "Already installed"
+msgstr "すでにインストール済み"
+
+#: includes/TeamUpdraft/Onboarding/build/index.js:1
+#: includes/TeamUpdraft/Onboarding/src/components/Fields/Email.jsx:33
+msgid "Enter your e-mail address"
+msgstr "メールアドレスを入力してください"
+
+#: includes/TeamUpdraft/Onboarding/build/index.js:1
+#: includes/TeamUpdraft/Onboarding/src/components/Fields/TrackingTest.jsx:243
+msgid "Successfully detected a visit on your site!"
+msgstr "サイトへの訪問を正常に検出しました！"
+
+#: includes/TeamUpdraft/Onboarding/build/index.js:1
+#: includes/TeamUpdraft/Onboarding/src/components/Fields/TrackingTest.jsx:240
+msgid "Unfortunately, Burst could not detect the test visit."
+msgstr "残念ながら、Burstはテスト訪問を検出できませんでした。"
+
+#: includes/TeamUpdraft/Onboarding/build/index.js:1
+#: includes/TeamUpdraft/Onboarding/src/components/Fields/TrackingTest.jsx:237
+msgid "One more attempt, hang tight..."
+msgstr "もう一度試してみますので、少々お待ちください..."
+
+#: includes/TeamUpdraft/Onboarding/build/index.js:1
+#: includes/TeamUpdraft/Onboarding/src/components/Fields/TrackingTest.jsx:236
+msgid "Hmm, let's try that again..."
+msgstr "うーん、もう一度試してみましょう..."
+
+#: includes/TeamUpdraft/Onboarding/build/index.js:1
+#: includes/TeamUpdraft/Onboarding/src/components/Fields/TrackingTest.jsx:235
+msgid "Running test, please wait..."
+msgstr "テストを実行中です。しばらくお待ちください..."
+
+#: includes/TeamUpdraft/Onboarding/build/index.js:1
+#: includes/TeamUpdraft/Onboarding/src/components/Fields/Checkbox.jsx:33
+msgid "Privacy Statement"
+msgstr "プライバシーに関する声明"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/TeamUpdraft/Onboarding/build/index.js:1
+#: includes/TeamUpdraft/Onboarding/src/components/Fields/License.jsx:18
+msgid "Enter your license key here"
+msgstr "ここにライセンスキーを入力してください"
+
+#: includes/TeamUpdraft/Other_Plugins/class-other-plugins.php:156
+msgid "Action could not be completed"
+msgstr "アクションを完了できませんでした"
+
+#: includes/TeamUpdraft/Other_Plugins/class-other-plugins.php:153
+msgid "Unknown action"
+msgstr "不明なアクション"
+
+#: includes/TeamUpdraft/Other_Plugins/class-other-plugins.php:110
+#: includes/TeamUpdraft/Other_Plugins/class-other-plugins.php:129
+msgid "You do not have permission to do this."
+msgstr "この操作を行う権限がありません。"
+
+#: includes/TeamUpdraft/Other_Plugins/class-other-plugins.php:89
+#: includes/TeamUpdraft/Other_Plugins/class-other-plugins.php:116
+#: includes/TeamUpdraft/Other_Plugins/class-other-plugins.php:133
+msgid "Nonce verification failed"
+msgstr "ノンスの検証に失敗しました"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:841
+msgid "An error occurred while installing the plugin."
+msgstr "プラグインのインストール中にエラーが発生しました。"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:467
+msgid "Ready!"
+msgstr "準備完了！"
+
+#. translators: 1: Plugin name to be installed.
+#: includes/Admin/AutoInstaller/class-auto-installer.php:466
+msgid "Installing %s..."
+msgstr "%s をインストールしています..."
+
+#. translators: 1: Plugin name to be installed.
+#: includes/Admin/AutoInstaller/class-auto-installer.php:464
+msgid "Ready to install %s!"
+msgstr "%s のインストール準備ができました！"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:430
+msgid "Start"
+msgstr "開始"
+
+#: includes/Integrations/translations.php:127
+msgid "Submit button clicked"
+msgstr "送信ボタンがクリックされました"
+
+#: includes/Integrations/translations.php:123
+msgid "Form submitted"
+msgstr "フォームが送信されました"
+
+#: includes/Integrations/translations.php:113
+msgid "Donation completed"
+msgstr "寄付が完了しました"
+
+#: includes/Integrations/translations.php:108
+msgid "Donation button"
+msgstr "寄付ボタン"
+
+#: includes/Integrations/translations.php:104
+msgid "Open donation modal"
+msgstr "寄付モーダルを開く"
+
+#: includes/Integrations/translations.php:63
+#: includes/Integrations/translations.php:84
+msgid "Purchase button"
+msgstr "購入ボタン"
+
+#: includes/Integrations/translations.php:59
+#: includes/Integrations/translations.php:80
+msgid "Go to checkout"
+msgstr "チェックアウトに進む"
+
+#: includes/Integrations/translations.php:55
+#: includes/Integrations/translations.php:76
+msgid "Add to cart"
+msgstr "カートに追加"
+
+#: includes/Integrations/translations.php:42
+msgid "Checkout button"
+msgstr "チェックアウトボタン"
+
+#: includes/Integrations/translations.php:38
+msgid "Add to cart button"
+msgstr "カートに追加ボタン"
+
+#: includes/Admin/Burst_Onboarding/steps.php:163
+msgid "Go to the dashboard and explore Burst!"
+msgstr "ダッシュボードに移動して、Burstを探索しましょう！"
+
+#: includes/Admin/Burst_Onboarding/steps.php:159
+msgid "Premium support"
+msgstr "プレミアムサポート"
+
+#: includes/Admin/Burst_Onboarding/steps.php:158
+msgid "Track multiple goals to measure conversions"
+msgstr "複数の目標を追跡してコンバージョンを測定する"
+
+#: includes/Admin/Burst_Onboarding/steps.php:157
+msgid "Measure marketing campaigns with UTM tracking"
+msgstr "UTMトラッキングでマーケティングキャンペーンを測定"
+
+#: includes/Admin/Burst_Onboarding/steps.php:156
+msgid "See in which country your visitors are"
+msgstr "訪問者がどの国から来ているかを確認"
+
+#: includes/Admin/Burst_Onboarding/steps.php:154
+msgid "All done, Awesome!"
+msgstr "完了しました。素晴らしい！"
+
+#: includes/Admin/Burst_Onboarding/steps.php:148
+msgid "Install and continue"
+msgstr "インストールして続行"
+
+#: includes/Admin/Burst_Onboarding/steps.php:143
+msgid "Install TeamUpdraft plugins"
+msgstr "TeamUpdraftプラグインをインストール"
+
+#: includes/Admin/Burst_Onboarding/steps.php:138
+msgid "Based on your website configuration, we recommend the following plugins:"
+msgstr "あなたのウェブサイトの設定に基づいて、次のプラグインをお勧めします。"
+
+#: includes/Admin/Burst_Onboarding/steps.php:137
+msgid "Recommended for your setup"
+msgstr "あなたのセットアップにおすすめ"
+
+#: includes/Admin/Burst_Onboarding/steps.php:93
+msgid "Stay up to date with your website's performance."
+msgstr "ウェブサイトのパフォーマンスを常に把握しましょう。"
+
+#: includes/Admin/Burst_Onboarding/steps.php:92
+msgid "Receive weekly email reports"
+msgstr "毎週のメールレポートを受け取る"
+
+#: includes/Admin/Burst_Onboarding/steps.php:78
+msgid "Exclude administrators from being tracked"
+msgstr "管理者をトラッキングから除外する"
+
+#: includes/Admin/Burst_Onboarding/steps.php:67
+msgid "Excluding data gives a clearer picture of your website visitors."
+msgstr "データを除外することで、ウェブサイト訪問者の状況をより明確に把握できます。"
+
+#: includes/Admin/Burst_Onboarding/steps.php:66
+msgid "Setup recommended settings"
+msgstr "推奨設定をセットアップする"
+
+#: includes/Admin/Burst_Onboarding/steps.php:59
+msgid "Continue"
+msgstr "続行"
+
+#: includes/Admin/Burst_Onboarding/steps.php:49
+msgid "Please check your security settings."
+msgstr "セキュリティ設定を確認してください。"
+
+#: includes/Admin/Burst_Onboarding/steps.php:48
+msgid "Please clear your cache and try again."
+msgstr "キャッシュをクリアして、もう一度お試しください。"
+
+#: includes/Admin/Burst_Onboarding/steps.php:45
+msgid "Let's check if tracking is setup correctly"
+msgstr "トラッキングが正しく設定されているか確認しましょう"
+
+#: includes/Admin/Burst_Onboarding/steps.php:29
+msgid "Activate your license to get access to all features, and easy plugin updates!"
+msgstr "ライセンスを有効化して、すべての機能にアクセスし、プラグインの更新を簡単に行いましょう！"
+
+#: includes/Admin/Burst_Onboarding/steps.php:28
+msgid "Activate your license"
+msgstr "ライセンスを有効化する"
+
+#: includes/Admin/Burst_Onboarding/steps.php:22
+msgid "Start onboarding"
+msgstr "オンボーディングを開始"
+
+#: includes/Admin/Burst_Onboarding/steps.php:19
+msgid "In a few steps, we'll help you activate your license and configure your Pro features."
+msgstr "数ステップで、ライセンスの有効化とPro機能の設定をお手伝いします。"
+
+#: includes/Admin/Burst_Onboarding/steps.php:18
+msgid "In a few steps, we'll help you select the best options and verify whether your website is tracking correctly."
+msgstr "いくつかのステップで、最適なオプションを選択し、ウェブサイトが正しくトラッキングされているかを確認するお手伝いをします。"
+
+#: includes/Admin/Burst_Onboarding/steps.php:17
+msgid "Thanks for upgrading to Burst Pro!"
+msgstr "Burst Proへのアップグレードありがとうございます！"
+
+#: includes/Admin/Burst_Onboarding/steps.php:16
+msgid "Take a minute to configure Burst!"
+msgstr "Burstの設定を行いましょう！"
+
+#. translators: %s is the user's IP address.
+#: includes/Admin/Burst_Onboarding/class-burst-onboarding.php:255
+msgid "Exclude your IP (%s) from being tracked"
+msgstr "あなたのIPアドレス (%s) をトラッキングから除外する"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/routes/settings.$settingsId.jsx:22
+msgid "Settings page not found"
+msgstr "設定ページが見つかりません"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/routes/settings.$settingsId.jsx:14
+msgid "Settings section not found"
+msgstr "設定セクションが見つかりません"
+
+#: includes/Admin/App/build/71.20f6b5eac47ac1d03bc8.js:1
+#: includes/Admin/App/src/routes/settings.$settingsId.jsx:51
+msgid "An error occurred loading settings"
+msgstr "設定の読み込み中にエラーが発生しました"
+
+#: includes/Admin/App/build/903.6536d0b3c9d79cc3706c.js:1
+#: includes/Admin/App/build/991.a026f0af78042c71c4c9.js:1
+#: includes/Admin/App/src/routes/sales.jsx:54
+#: includes/Admin/App/src/routes/statistics.jsx:16
+msgid "An error occurred loading statistics"
+msgstr "統計情報の読み込み中にエラーが発生しました"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Settings/SettingsFooter.jsx:24
+msgid "You have unsaved changes"
+msgstr "保存されていない変更があります"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Settings/SettingsGroupBlock.jsx:29
+msgid "This setting is exclusive to Pro users."
+msgstr "この設定はProユーザー専用です。"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Settings/SettingsGroupBlock.jsx:27
+msgid "Unlock Advanced Features with Burst Pro"
+msgstr "Burst Proで高度な機能をアンロック"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/Field.jsx:151
+msgid "Duplicate IP addresses found:"
+msgstr "重複する IP アドレスが見つかりました:"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/Field.jsx:120
+msgid "Invalid IP address format:"
+msgstr "無効な IP アドレス形式:"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/Field.jsx:183
+msgid "Invalid format"
+msgstr "無効な形式"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/Field.jsx:173
+msgid "This field is required"
+msgstr "このフィールドは必須です"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/LogoEditorField.jsx:107
+msgid "Reset to Default"
+msgstr "デフォルトにリセット"
+
+#: includes/Admin/Burst_Onboarding/steps.php:34
+msgid "Enter your license key"
+msgstr "ライセンスキーを入力してください"
+
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:199
+msgid "Enter email address"
+msgstr "メールアドレスを入力"
+
+#: includes/Admin/class-admin.php:1189
+msgid "Your data securely on your own server."
+msgstr "データは安全に自分のサーバーに保存されます。"
+
+#: includes/Admin/class-admin.php:1188
+msgid "Asking consent for statistics often not required."
+msgstr "統計のための同意を求める必要は多くの場合ありません。"
+
+#: includes/Admin/class-admin.php:1187
+msgid "You have access to your analytical data"
+msgstr "分析データにアクセスできます"
+
+#: includes/Admin/class-admin.php:1185
+msgid "Are you sure? With Burst Statistics active:"
+msgstr "本当に実行しますか？Burst Statisticsが有効な状態で:"
+
+#: includes/Admin/App/config/menu.php:132
+msgid "With Pro, you can archive old data to keep your dashboard clean and restore it anytime when needed. No more lost data. No more clutter. Just seamless control."
+msgstr "Pro版を使えば、古いデータをアーカイブしてダッシュボードをすっきり保ち、必要なときにいつでも復元できます。データを失うことも、煩雑になることもありません。シームレスな管理が可能です。"
+
+#: includes/Admin/App/config/fields.php:323
+msgid "Boost site speed by merging the Burst settings into the Burst script."
+msgstr "Burstの設定をBurstスクリプトに統合して、サイトの速度を向上させましょう。"
+
+#: includes/Admin/App/config/fields.php:313
+msgid "URL changes such as parameters or fragments will be tracked as separate pageviews. Useful for single-page applications or dynamic websites."
+msgstr "パラメータやフラグメントなどのURLの変更は、別々のページビューとして追跡されます。シングルページアプリケーションや動的なウェブサイトに便利です。"
+
+#: includes/Admin/App/config/fields.php:228
+msgid "Enter one IP address per line"
+msgstr "1行につき1つのIPアドレスを入力してください"
+
+#: includes/Admin/App/config/reporting-fields.php:20
+msgid "Recommended size is 200 pixels by 70 pixels and try to keep the filesize under 200 kb."
+msgstr "推奨サイズは200ピクセル×70ピクセルで、ファイルサイズは200kb以下にしてください。"
+
+#: includes/Admin/App/config/fields.php:170
+msgid "Stop tracking visitors who have 'Do Not Track' enabled in their browser."
+msgstr "ブラウザで「Do Not Track」が有効になっている訪問者のトラッキングを停止する。"
+
+#: includes/Admin/App/config/fields.php:158
+msgid "Track visitors without cookies using browser & device info."
+msgstr "ブラウザとデバイス情報を使用して、クッキーなしで訪問者を追跡します。"
+
+#: includes/Admin/App/config/fields.php:142
+msgid "Load the tracking script later for better pagespeed, could cause visitors who leave quickly to be missed."
+msgstr "ページスピードを向上させるためにトラッキングスクリプトの読み込みを遅らせると、すぐに離脱する訪問者を見逃す可能性があります。"
+
+#: includes/Admin/App/class-app.php:1817
+msgid "No changes were made"
+msgstr "変更はありませんでした"
+
+#: includes/Admin/App/class-app.php:1816
+msgid "Settings saved successfully"
+msgstr "設定が正常に保存されました"
+
+#: includes/Admin/App/config/fields.php:179
+msgid "Dismiss all notices in your dashboard except critical ones"
+msgstr "重要な通知を除き、ダッシュボードのすべての通知を非表示にする"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/698.5b41abb882dac544da0f.js:3
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Dashboard/GoalsHeader.js:40
+#: includes/Admin/App/src/components/Fields/EditableTextField.jsx:73
+msgid "Untitled goal"
+msgstr "無題の目標"
+
+#: includes/Admin/App/config/fields.php:312
+msgid "Track URL changes as separate pageviews"
+msgstr "URLの変更を個別のページビューとして追跡"
+
+#: includes/Admin/App/config/tasks.php:32
+msgid "Last chance!"
+msgstr "最後のチャンス！"
+
+#: includes/Admin/App/config/tasks.php:32
+msgid "Cyber Monday"
+msgstr "サイバーマンデー"
+
+#: includes/Admin/App/config/tasks.php:19
+msgid "Limited time offer!"
+msgstr "期間限定オファー！"
+
+#: includes/Admin/App/config/tasks.php:19
+#: includes/Admin/App/config/tasks.php:32
+msgid "Get 40% Off Burst Pro!"
+msgstr "Burst Proが40%オフ！"
+
+#: includes/Admin/App/config/tasks.php:19
+msgid "Black Friday"
+msgstr "ブラックフライデー"
+
+#: includes/Admin/class-tasks.php:293
+msgid "Sale"
+msgstr "セール"
+
+#: includes/Admin/App/config/goal-fields.php:40
+msgid "Track execution of a WordPress hook"
+msgstr "WordPressフックの実行を追跡"
+
+#: includes/Admin/App/config/goal-fields.php:39
+msgid "Hook"
+msgstr "フック"
+
+#: includes/Integrations/translations.php:136
+#: includes/Integrations/translations.php:140
+#: includes/Integrations/translations.php:149
+#: includes/Integrations/translations.php:159
+#: includes/Integrations/translations.php:164
+#: includes/Integrations/translations.php:175
+#: includes/Integrations/translations.php:184
+#: includes/Integrations/translations.php:188
+#: includes/Integrations/translations.php:197
+#: includes/Integrations/translations.php:206
+msgid "Submit form"
+msgstr "フォームを送信"
+
+#: includes/Integrations/translations.php:96
+msgid "Subscription Cancelled"
+msgstr "サブスクリプションがキャンセルされました"
+
+#: includes/Integrations/translations.php:92
+msgid "Subscription Created"
+msgstr "サブスクリプションが作成されました"
+
+#: includes/Integrations/translations.php:51
+#: includes/Integrations/translations.php:72
+msgid "Purchase"
+msgstr "購入"
+
+#: includes/Integrations/translations.php:34
+msgid "Payment Completed"
+msgstr "支払い完了"
+
+#: includes/Integrations/translations.php:30
+msgid "Order Created"
+msgstr "注文が作成されました"
+
+#: includes/Integrations/translations.php:26
+msgid "Add to Cart"
+msgstr "カートに追加"
+
+#: includes/Integrations/translations.php:13
+#: includes/Integrations/translations.php:17
+msgid "Form Submission"
+msgstr "フォーム送信"
+
+#: includes/Admin/DB_Upgrade/class-db-upgrade.php:76
+msgid "For large databases this process may take a while. Your data will be tracked as usual."
+msgstr "大容量のデータベースでは、この処理に時間がかかる場合があります。データの追跡は通常どおり行われます。"
+
+#. translators: %s: progress of the upgrade.
+#: includes/Admin/DB_Upgrade/class-db-upgrade.php:73
+msgid "An upgrade is running in the background, and is currently at %s."
+msgstr "バックグラウンドでアップグレードが実行中です。現在の進行状況: %s。"
+
+#. Author of the plugin
+#: burst.php
+msgid "Burst Statistics - Stats & Analytics for WordPress"
+msgstr "Burst Statistics - WordPressの統計＆分析"
+
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:211
+msgid "Add to list"
+msgstr "リストに追加"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:117
+msgid "Frequency"
+msgstr "頻度"
+
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:113
+msgid "Email"
+msgstr "メール"
+
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:164
+msgid "No emails added yet"
+msgstr "追加されたメールはありません"
+
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:157
+msgid "Recipients will receive weekly or monthly reports with statistics about your website. Add or remove email addresses in the list below."
+msgstr "受信者は、あなたのウェブサイトの統計情報を含む週次または月次レポートを受け取ります。以下のリストでメールアドレスを追加または削除してください。"
+
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:48
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:69
+msgid "Invalid email address"
+msgstr "無効なメールアドレス"
+
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:64
+msgid "Email address is required"
+msgstr "メールアドレスが必要です"
+
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:80
+msgid "Email address already added"
+msgstr "メールアドレスはすでに追加されています。"
+
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:74
+msgid "Maximum 10 emails allowed"
+msgstr "最大10件のメールアドレスまで追加可能です。"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:38
+msgid "Monthly"
+msgstr "毎月"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:37
+msgid "Weekly"
+msgstr "毎週"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/LogoEditorField.jsx:43
+msgid "Set logo"
+msgstr "ロゴを設定"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/LogoEditorField.jsx:42
+msgid "Select a logo"
+msgstr "ロゴを選択"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:130
+#: includes/Admin/App/src/components/Fields/EmailReportsField.jsx:136
+msgid "Remove"
+msgstr "Remove"
+
+#: includes/Admin/class-tasks.php:296
+msgid "Update"
+msgstr "更新"
+
+#: includes/Admin/App/config/fields.php:432
+#: includes/Admin/App/config/fields.php:433
+msgid "Reset statistics"
+msgstr "Reset statistics"
+
+#: includes/Admin/App/config/fields.php:428
+msgid "This action can not be undone."
+msgstr "This action can not be undone."
+
+#: includes/Admin/App/config/fields.php:428
+#: includes/Admin/App/config/fields.php:434
+msgid "This will permanently delete all statistics, goals, and goal statistics."
+msgstr "This will permanently delete all statistics, goals, and goal statistics."
+
+#: includes/Admin/App/config/fields.php:427
+msgid "Are you sure?"
+msgstr "Are you sure?"
+
+#: includes/Admin/App/config/reporting-fields.php:19
+msgid "Change logo in the email reports"
+msgstr "Change logo in the email reports"
+
+#: includes/Admin/App/config/reporting-fields.php:10
+msgid "Email reports"
+msgstr "Email reports"
+
+#: includes/Admin/Mailer/class-mailer.php:477
+msgid "Explore your insights"
+msgstr "Explore your insights"
+
+#. translators: %s is the website's domain name (e.g., example.com).
+#: includes/Admin/Mailer/class-mailer.php:480
+msgid "Dive deeper into your analytics and uncover new opportunities for %s."
+msgstr "Dive deeper into your analytics and uncover new opportunities for %s."
+
+#: includes/Admin/Mailer/class-mailer.php:478
+msgid "Find out more"
+msgstr "Find out more"
+
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:14
+#: includes/Admin/App/src/components/Settings/SettingsNotices.jsx:75
+#: includes/Admin/App/src/components/Sources/WorldMap/InCompleteDataNotice.jsx:70
+msgid "Learn more"
+msgstr "Learn more"
+
+#: includes/Admin/Mailer/class-mailer.php:468
+msgid "See full report"
+msgstr "See full report"
+
+#: includes/Admin/Mailer/class-mailer.php:464
+msgid "If you don't want to receive these e-mails in your inbox, please go to the Burst settings page on your website and remove your email from the recipients in the report settings or contact the administrator of your website."
+msgstr "これらのメールを受信トレイで受け取りたくない場合は、ウェブサイトのBurst設定ページに行き、レポート設定の受信者からメールアドレスを削除するか、ウェブサイトの管理者に連絡してください。"
+
+#. translators: %s is the website's domain name (e.g., example.com).
+#: includes/Admin/Mailer/class-mailer.php:463
+msgid "This e-mail is sent from your own WordPress website, which is: %s."
+msgstr "このメールはあなたのWordPressサイトから送信されました。サイトのドメインは: %s です。"
+
+#: includes/Admin/Mailer/class-mail-reports.php:199
+#: includes/Admin/Reports/class-reports.php:1005
+msgid "vs. previous month"
+msgstr "vs. previous month"
+
+#: includes/Admin/Mailer/class-mail-reports.php:199
+#: includes/Admin/Reports/class-reports.php:1004
+msgid "vs. previous week"
+msgstr "vs. previous week"
+
+#. translators: %s is the domain name (e.g., example.com).
+#. translators: %s is the domain name (e.g., example.com), HTML tags included
+#. for styling.
+#. translators: %s is the website's domain name (e.g., example.com).
+#. translators: %s is the website's domain name (e.g., example.com), used in
+#. HTML context.
+#. translators: %s is the domain name.
+#: includes/Admin/Mailer/class-mail-reports.php:158
+#: includes/Admin/Mailer/class-mail-reports.php:160
+#: includes/Admin/Mailer/class-mailer.php:467
+#: includes/Admin/Mailer/class-mailer.php:470
+#: includes/Admin/Reports/class-reports.php:950
+msgctxt "domain name"
+msgid "Your weekly insights for %s are here!"
+msgstr "あなたの週間インサイト（%s）が届きました！"
+
+#. translators: 1: start date, 2: end date.
+#. translators: %1$s is the start date, %2$s is the end date.
+#: includes/Admin/Mailer/class-mail-reports.php:156
+#: includes/Admin/Reports/class-reports.php:975
+msgid "This report covers the period from %1$s to %2$s."
+msgstr "このレポートは%1$sから%2$sまでの期間を対象としています。"
+
+#. translators: %s is the domain name (e.g., example.com).
+#. translators: %s is the domain name (e.g., example.com), HTML tags included
+#. for styling.
+#. translators: %s is the domain name.
+#: includes/Admin/Mailer/class-mail-reports.php:131
+#: includes/Admin/Mailer/class-mail-reports.php:133
+#: includes/Admin/Reports/class-reports.php:947
+msgctxt "domain name"
+msgid "Your monthly insights for %s are here!"
+msgstr "あなたの月間インサイト（%s）が届きました！"
+
+#: includes/Admin/class-admin.php:1304
+msgid "Successfully cleared data."
+msgstr "Successfully cleared data."
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:12
+#: includes/Admin/App/build/698.5b41abb882dac544da0f.js:3
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:603
+#: includes/Admin/App/src/components/Dashboard/LiveTraffic.js:249
+msgid "Loading…"
+msgstr "読み込み中…"
+
+#: includes/Admin/Statistics/class-query-data.php:805
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:420
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:416
+msgid "Parameter"
+msgstr "Parameter"
+
+#: includes/Admin/Statistics/class-query-data.php:806
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:414
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:427
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:410
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:423
+msgid "Parameters"
+msgstr "Parameters"
+
+#: includes/Admin/Statistics/class-query-data.php:804
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:350
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:346
+msgid "Content"
+msgstr "Content"
+
+#: includes/Admin/Statistics/class-query-data.php:803
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:344
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:340
+msgid "Term"
+msgstr "Term"
+
+#: includes/Admin/Statistics/class-query-data.php:801
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:338
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:334
+msgid "Medium"
+msgstr "Medium"
+
+#: includes/Admin/Statistics/class-query-data.php:800
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:332
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:328
+msgid "Source"
+msgstr "Source"
+
+#: includes/Admin/Mailer/class-mail-reports.php:258
+#: includes/Admin/Statistics/class-query-data.php:802
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:325
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:321
+msgid "Campaign"
+msgstr "Campaign"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:315
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:311
+msgid "Campaigns"
+msgstr "Campaigns"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:50
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:46
+msgid "Pages"
+msgstr "Pages"
+
+#: includes/Admin/App/config/goal-fields.php:97
+msgid "What hook do you want to track?"
+msgstr "What hook do you want to track?"
+
+#: includes/Admin/App/Fields/class-fields.php:43
+msgid "Track all hits networkwide, and view them on the dashboard of your main site"
+msgstr "Track all hits networkwide, and view them on the dashboard of your main site"
+
+#: includes/Admin/App/config/fields.php:322
+msgid "Merge tracking settings and script"
+msgstr "Merge tracking settings and script"
+
+#: includes/Admin/App/config/menu.php:156
+msgid "Scripts"
+msgstr "Scripts"
+
+#. translators: %s is the number of visitors tracked by Burst Statistics.
+#: includes/Admin/class-review.php:125
+msgid "Hi there! Your site is doing awesome! Burst Statistics has tracked %s visitors for you!"
+msgstr "Hi there! Your site is doing awesome! Burst Statistics has tracked %s visitors for you!"
+
+#: includes/Frontend/class-shortcodes.php:568
+msgid "No posts found"
+msgstr "No posts found"
+
+#. translators: %d is the number of times the page has been viewed.
+#: includes/Frontend/class-frontend.php:485
+msgid "This page has been viewed %d time."
+msgid_plural "This page has been viewed %d times."
+msgstr[0] "このページは%d回閲覧されました。"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:433
+msgid "Recommended by Burst Statistics"
+msgstr "Recommended by Burst Statistics"
+
+#. Description of the plugin
+#: burst.php
+msgid "Get detailed insights into visitors’ behavior with Burst Statistics, the privacy-friendly analytics dashboard."
+msgstr "Get detailed insights into visitors’ behavior with Burst Statistics, the privacy-friendly analytics dashboard."
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Common/AdvancedFilter.js:86
+#: includes/Admin/App/src/components/Common/PopoverFilter.js:142
+#: includes/Admin/App/src/components/Sources/WorldMap/MapSettingsPopover.jsx:300
+msgid "Reset to defaults"
+msgstr "Reset to defaults"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/src/components/Common/ErrorBoundary.jsx:126
+msgid "Click %s to post your topic. Our team will look into the issue and provide assistance."
+msgstr "Click %s to post your topic. Our team will look into the issue and provide assistance."
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/src/components/Common/ErrorBoundary.jsx:119
+msgid "Description: Paste the copied error details and explain what you were doing when the error occurred."
+msgstr "Description: Paste the copied error details and explain what you were doing when the error occurred."
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/src/components/Common/ErrorBoundary.jsx:111
+msgid "Title: Mention %s along with a brief hint of the error."
+msgstr "Title: Mention %s along with a brief hint of the error."
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/src/components/Common/ErrorBoundary.jsx:102
+msgid "Once logged in, click on %s under the Burst Statistics forum."
+msgstr "Once logged in, click on %s under the Burst Statistics forum."
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/src/components/Common/ErrorBoundary.jsx:95
+msgid "If you haven’t already, log in to your WordPress.org account or create a new account."
+msgstr "If you haven’t already, log in to your WordPress.org account or create a new account."
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/src/components/Common/ErrorBoundary.jsx:88
+msgid "Navigate to the Support Forum."
+msgstr "Navigate to the Support Forum."
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/src/components/Common/ErrorBoundary.jsx:68
+msgid "We're sorry for the trouble. Please take a moment to report this issue on the WordPress forums so we can work on fixing it. Here’s how you can report the issue:"
+msgstr "We're sorry for the trouble. Please take a moment to report this issue on the WordPress forums so we can work on fixing it. Here’s how you can report the issue:"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/src/components/Common/ErrorBoundary.jsx:76
+msgid "Copy the error details by clicking the %s button above."
+msgstr "Copy the error details by clicking the %s button above."
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/src/components/Common/ErrorBoundary.jsx:64
+msgid "Copy Error"
+msgstr "Copy Error"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/src/components/Common/ErrorBoundary.jsx:44
+msgid "Uh-oh! We stumbled upon an error."
+msgstr "Uh-oh! We stumbled upon an error."
+
+#: includes/Admin/Mailer/class-mail-reports.php:372
+#: includes/Admin/Reports/class-reports.php:863
+#: includes/Admin/Statistics/class-query-data.php:788
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:88
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:185
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:270
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:362
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:439
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:84
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:181
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:266
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:358
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:435
+msgid "Bounce rate"
+msgstr "Bounce rate"
+
+#: includes/Admin/Statistics/class-query-data.php:785
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/hooks/useFilterDisplay.js:102
+msgid "New visitors"
+msgstr "New visitors"
+
+#: includes/Admin/Statistics/class-goal-statistics.php:132
+msgid "Top performing page"
+msgstr "Top performing page"
+
+#: includes/Admin/App/config/goal-fields.php:107
+msgid "What metric do you want to use to calculate the conversion rate?"
+msgstr "What metric do you want to use to calculate the conversion rate?"
+
+#: includes/Frontend/class-frontend-admin.php:94
+msgid "Go to dashboard"
+msgstr "Go to dashboard"
+
+#: includes/Admin/Statistics/class-query-data.php:795
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:233
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:229
+msgid "Country"
+msgstr "Country"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/RestoreArchivesField.jsx:478
+msgid "No archives"
+msgstr "No archives"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/RestoreArchivesField.jsx:450
+msgid "Delete"
+msgstr "削除"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/RestoreArchivesField.jsx:437
+msgid "Restore"
+msgstr "復元"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/RestoreArchivesField.jsx:135
+msgid "Archiving disabled"
+msgstr "Archiving disabled"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/RestoreArchivesField.jsx:131
+msgid "Because restoring files can conflict with the archiving functionality, archiving has been disabled."
+msgstr "Because restoring files can conflict with the archiving functionality, archiving has been disabled."
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/RestoreArchivesField.jsx:422
+msgid "Download"
+msgstr "ダウンロード"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/RestoreArchivesField.jsx:402
+msgid "%s item selected"
+msgid_plural "%s items selected"
+msgstr[0] "%s項目を選択中"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/RestoreArchivesField.jsx:340
+msgid "Size"
+msgstr "Size"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Fields/RestoreArchivesField.jsx:335
+msgid "Archive"
+msgstr "Archive"
+
+#: includes/Admin/App/config/fields.php:415
+msgid "Please confirm the deletion, without the possibility to restore."
+msgstr "Please confirm the deletion, without the possibility to restore."
+
+#: includes/Admin/App/config/fields.php:403
+msgid "Retain data for how many months?"
+msgstr "Retain data for how many months?"
+
+#. translators: %s is the current size of the database used by Burst, e.g. "10
+#. MB".
+#: includes/Admin/App/config/fields.php:394
+msgctxt "e.g. Burst currently uses 10 MB of your database."
+msgid "Burst currently uses %s of your database."
+msgstr "Burstは現在、データベースの%sを使用しています。"
+
+#: includes/Admin/App/config/fields.php:392
+msgid "Choose how to manage old statistics"
+msgstr "Choose how to manage old statistics"
+
+#: includes/Admin/App/config/fields.php:387
+msgid "Managing old data can optimize storage and improve site performance. Choose to archive or delete based on your needs."
+msgstr "Managing old data can optimize storage and improve site performance. Choose to archive or delete based on your needs."
+
+#: includes/Admin/App/config/fields.php:386
+msgid "Why should I manage old data?"
+msgstr "Why should I manage old data?"
+
+#: includes/Admin/App/config/fields.php:378
+msgid "Automatically Delete"
+msgstr "Automatically Delete"
+
+#: includes/Admin/App/config/fields.php:377
+msgid "Automatically Archive"
+msgstr "Automatically Archive"
+
+#: includes/Admin/App/config/fields.php:376
+msgid "Don't manage"
+msgstr "Don't manage"
+
+#: includes/Admin/App/config/menu.php:129
+msgid "Archived Data"
+msgstr "Archived Data"
+
+#: includes/Admin/App/config/menu.php:125
+msgid "Archiving"
+msgstr "Archiving"
+
+#: includes/Admin/App/config/menu.php:121
+msgid "Data"
+msgstr "Data"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Fields/EditableTextField.jsx:63
+msgid "Click to edit"
+msgstr "Click to edit"
+
+#: includes/Admin/App/build/698.5b41abb882dac544da0f.js:3
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:18
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Dashboard/GoalStatus.js:22
+#: includes/Admin/App/src/components/Sources/WorldMap/WorldMap.jsx:201
+#: includes/Admin/App/src/components/Statistics/Flag.js:31
+#: includes/Admin/App/src/utils/formatting.js:318
+#: includes/Admin/App/src/utils/formatting.js:328
+msgid "Unknown"
+msgstr "Unknown"
+
+#: includes/Admin/Statistics/class-query-data.php:790
+#: includes/Admin/Statistics/class-query-data.php:793
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+msgid "Browser"
+msgstr "Browser"
+
+#: includes/Admin/Statistics/class-query-data.php:789
+#: includes/Admin/Statistics/class-query-data.php:792
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+msgid "Device"
+msgstr "Device"
+
+#: includes/Admin/Statistics/class-goal-statistics.php:171
+msgid "Best performing device"
+msgstr "Best performing device"
+
+#: includes/Admin/Statistics/class-goal-statistics.php:169
+msgid "Not enough data"
+msgstr "Not enough data"
+
+#: includes/Admin/Mailer/class-mail-reports.php:258
+#: includes/Admin/Statistics/class-goal-statistics.php:164
+msgid "Conversion rate"
+msgstr "Conversion rate"
+
+#: includes/Admin/App/config/goal-fields.php:87
+msgid "What element do you want to track?"
+msgstr "What element do you want to track?"
+
+#: includes/Admin/App/config/goal-fields.php:76
+msgid "Which specific page do you want to track?"
+msgstr "Which specific page do you want to track?"
+
+#: includes/Admin/App/config/goal-fields.php:62
+msgid "Track on whole site"
+msgstr "Track on whole site"
+
+#: includes/Admin/App/config/goal-fields.php:61
+msgid "Website"
+msgstr "Website"
+
+#: includes/Admin/App/config/goal-fields.php:56
+msgid "Track page specific"
+msgstr "Track page specific"
+
+#: includes/Admin/App/config/goal-fields.php:52
+msgid "Do you want to track a specific page or the entire website?"
+msgstr "Do you want to track a specific page or the entire website?"
+
+#: includes/Admin/App/config/goal-fields.php:34
+msgid "Track visits to page"
+msgstr "Track visits to page"
+
+#: includes/Admin/App/config/goal-fields.php:28
+msgid "Track views of element"
+msgstr "Track views of element"
+
+#: includes/Admin/App/config/goal-fields.php:22
+msgid "Track clicks on element"
+msgstr "Track clicks on element"
+
+#: includes/Admin/App/config/goal-fields.php:18
+msgid "What type of goal do you want to set?"
+msgstr "What type of goal do you want to set?"
+
+#: includes/Admin/App/config/fields.php:201
+msgid "To set goals for a website, you need to identify the purpose of the site and the key actions you want visitors to take. Set measurable and achievable goals for each action and track your progress."
+msgstr "To set goals for a website, you need to identify the purpose of the site and the key actions you want visitors to take. Set measurable and achievable goals for each action and track your progress."
+
+#: includes/Admin/App/config/fields.php:200
+msgid "How to set goals?"
+msgstr "How to set goals?"
+
+#: includes/Frontend/Goals/class-goal.php:77
+#: includes/Frontend/Goals/class-goal.php:117
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Goals/GoalSetup.js:64
+msgid "New goal"
+msgstr "New goal"
+
+#: includes/Admin/App/config/goal-fields.php:27
+msgid "Views"
+msgstr "Views"
+
+#: includes/Admin/App/config/goal-fields.php:21
+msgid "Clicks"
+msgstr "Clicks"
+
+#: includes/Admin/class-tasks.php:292
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:401
+#: includes/Admin/App/src/components/Common/Header.jsx:352
+#: includes/Admin/App/src/components/Common/Pro.js:27
+msgid "Pro"
+msgstr "Pro"
+
+#: includes/Admin/class-admin.php:923
+msgid "Default goal"
+msgstr "Default goal"
+
+#: includes/Admin/App/config/fields.php:169
+msgid "Honor 'Do Not Track' requests"
+msgstr "Honor 'Do Not Track' requests"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/src/components/Common/ShareButton.jsx:493
+msgid "Revoke"
+msgstr "取消し"
+
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Settings/SettingsNotices.jsx:38
+msgid "Collapse all"
+msgstr "Collapse all"
+
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Settings/SettingsNotices.jsx:39
+msgid "Expand all"
+msgstr "Expand all"
+
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/src/components/Settings/SettingsNotices.jsx:45
+msgid "Notifications"
+msgstr "Notifications"
+
+#: includes/Admin/Burst_Onboarding/steps.php:85
+#: includes/Admin/Burst_Onboarding/steps.php:111
+#: includes/Admin/Burst_Onboarding/steps.php:130
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+msgid "Save and continue"
+msgstr "保存して続行"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Fields/IpBlockField.jsx:120
+msgid "Add current IP address"
+msgstr "Add current IP address"
+
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:9
+#: includes/Admin/App/build/437.b0b6bb5a509df2f1d9db.js:9
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:9
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Fields/RestoreArchivesField.jsx:474
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:862
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:882
+msgid "All"
+msgstr "All"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Fields/RestoreArchivesField.jsx:471
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:859
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:879
+#: includes/Admin/App/src/components/Statistics/EmptyDataTable.js:111
+#: includes/Admin/App/src/components/Statistics/EmptyDataTable.js:201
+msgid "of"
+msgstr "of"
+
+#: includes/Admin/Burst_Onboarding/steps.php:39
+#: includes/Admin/App/build/698.5b41abb882dac544da0f.js:3
+#: includes/Admin/App/src/components/Dashboard/OtherPluginsBlock.js:16
+#: includes/Admin/App/src/components/Dashboard/OtherPluginsBlock.js:256
+#: includes/TeamUpdraft/Other_Plugins/build/index.js:1
+#: includes/TeamUpdraft/Other_Plugins/src/components/OtherPluginElement.js:16
+msgid "Activate"
+msgstr "有効化"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:575
+msgid "Could not rename folder!"
+msgstr "Could not rename folder!"
+
+#: includes/Admin/Statistics/class-query-data.php:778
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:166
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:162
+msgid "Referrer"
+msgstr "Referrer"
+
+#: includes/Admin/Statistics/class-statistics.php:234
+msgid "Average time on page"
+msgstr "Average time on page"
+
+#: includes/Admin/Statistics/class-statistics.php:229
+msgid "Total pageviews"
+msgstr "Total pageviews"
+
+#: includes/Admin/Statistics/class-statistics.php:226
+msgid "This website referred the most visitors."
+msgstr "This website referred the most visitors."
+
+#: includes/Admin/Statistics/class-statistics.php:221
+msgid "This is your most viewed page for today."
+msgstr "This is your most viewed page for today."
+
+#: includes/Admin/Statistics/class-statistics.php:216
+msgid "This is the total amount of unique visitors for today."
+msgstr "This is the total amount of unique visitors for today."
+
+#: includes/Admin/Statistics/class-statistics.php:212
+msgid "The amount of people using your website right now. The data updates every 5 seconds."
+msgstr "The amount of people using your website right now. The data updates every 5 seconds."
+
+#: includes/Admin/Mailer/class-mail-reports.php:262
+#: includes/Admin/Mailer/config/blocks.php:24
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:160
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:156
+msgid "Referrers"
+msgstr "Referrers"
+
+#: includes/Admin/App/config/fields.php:197
+#: includes/Admin/App/config/menu.php:110
+#: includes/Admin/App/config/menu.php:114
+#: includes/Admin/App/build/698.5b41abb882dac544da0f.js:3
+#: includes/Admin/App/src/components/Dashboard/GoalsBlock.js:272
+#: includes/Admin/App/src/components/Dashboard/GoalsBlock.js:304
+msgid "Goals"
+msgstr "Goals"
+
+#: includes/Admin/App/config/fields.php:215
+msgid "You can exclude visitors by user role and IP address. This will affect new data only."
+msgstr "You can exclude visitors by user role and IP address. This will affect new data only."
+
+#: includes/Admin/App/config/fields.php:214
+msgid "Excluding visitors"
+msgstr "Excluding visitors"
+
+#: includes/Admin/App/config/fields.php:211
+msgid "Exclude user roles from being tracked"
+msgstr "Exclude user roles from being tracked"
+
+#: includes/Admin/App/config/menu.php:144
+msgid "Advanced"
+msgstr "高度な設定"
+
+#: includes/Admin/App/config/menu.php:95 includes/Admin/App/config/menu.php:99
+msgid "General"
+msgstr "一般"
+
+#: includes/Admin/class-tasks.php:290
+msgid "Error"
+msgstr "エラー"
+
+#: includes/Admin/class-tasks.php:289
+msgid "Warning"
+msgstr "警告"
+
+#: includes/Admin/class-tasks.php:288
+msgid "New!"
+msgstr "New!"
+
+#: includes/Admin/App/config/fields.php:140
+msgid "Enable Turbo mode"
+msgstr "Enable Turbo mode"
+
+#: includes/Admin/App/config/fields.php:156
+msgid "Enable Cookieless tracking"
+msgstr "Enable Cookieless tracking"
+
+#. Plugin Name of the plugin
+#: burst.php
+msgid "Burst Statistics - Privacy-Friendly Analytics for WordPress"
+msgstr "Burst Statistics - Privacy-Friendly Analytics for WordPress"
+
+#. translators: 1: opening anchor tag to the privacy statement, 2: closing
+#. anchor tag.
+#: includes/Admin/class-admin.php:889
+msgid "This website uses Burst Statistics, a Privacy-Friendly Statistics Tool to analyze visitor behavior. For this functionality we (this website) collect anonymized data, stored locally without sharing it with other parties. For more information, please read the %1$s Privacy Statement %2$s from Burst."
+msgstr "このウェブサイトは、訪問者の行動を分析するために、プライバシーに配慮した統計ツールである Burst Statistics を使用しています。この機能を利用するために、当ウェブサイトは匿名化されたデータを収集し、第三者と共有することなくローカルに保存します。詳細については、 Burst の%1$sプライバシーステートメント%2$sをご覧ください。"
+
+#. Plugin URI of the plugin
+#: burst.php
+msgid "https://www.wordpress.org/plugins/burst-statistics"
+msgstr "https://www.wordpress.org/plugins/burst-statistics"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Common/SearchButton.js:18
+#: includes/Admin/App/src/components/Fields/RestoreArchivesField.jsx:384
+msgid "Search"
+msgstr "検索"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:727
+msgid "Your license key has reached its activation limit."
+msgstr "お持ちのライセンスキーが認証上限に達しました。"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:724
+msgid "This appears to be an invalid license key for this plugin."
+msgstr "このライセンスキーは無効なようです。"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:721
+msgid "Your license is not active for this URL."
+msgstr "お持ちのライセンスはこの URL に対して有効化されていません。"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:718
+msgid "Invalid license."
+msgstr "ライセンスが無効です。"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:715
+msgid "Missing license."
+msgstr "ライセンスの紛失"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:712
+msgid "Your license key has been disabled."
+msgstr "お持ちのライセンスキーは無効化されました。"
+
+#. translators: %s is the license expiration date, e.g. "April 30, 2025".
+#: includes/Admin/AutoInstaller/class-auto-installer.php:706
+msgid "Your license key expired on %s."
+msgstr "ライセンスキーは %s に期限切れになっています。"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:697
+#: includes/Admin/AutoInstaller/class-auto-installer.php:730
+msgid "An error occurred, please try again."
+msgstr "エラーが発生しました。もう一度やり直してください。"
+
+#. translators: 1: opening anchor tag to the license page, 2: closing anchor
+#. tag.
+#: includes/Admin/AutoInstaller/class-auto-installer.php:501
+msgid "Check your %1$slicense%2$s."
+msgstr "%1$sライセンス%2$sをご確認ください。"
+
+#. translators: 1: opening anchor tag for manual install link, 2: closing
+#. anchor tag.
+#: includes/Admin/AutoInstaller/class-auto-installer.php:491
+msgid "Install %1$sManually%2$s."
+msgstr "%1$s手動%2$sでインストールする。"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:486
+#: includes/Admin/AutoInstaller/class-auto-installer.php:496
+msgid "An Error Occurred:"
+msgstr "エラーが発生しました:"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:478
+msgid "Visit Dashboard"
+msgstr "ダッシュボードを表示"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:330
+msgid "Installation finished"
+msgstr "インストール完了"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:305
+msgid "Failed to activate plugin"
+msgstr "Failed to activate plugin"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:304
+msgid "Plugin activated"
+msgstr "Plugin activated"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:303
+msgid "Activating plugin..."
+msgstr "Activating plugin..."
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:298
+msgid "Failed to install plugin"
+msgstr "Failed to install plugin"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:297
+msgid "Plugin installed"
+msgstr "Plugin installed"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:296
+msgid "Installing plugin..."
+msgstr "Installing plugin..."
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:291
+msgid "Failed to gather package information"
+msgstr "Failed to gather package information"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:290
+msgid "Package information retrieved"
+msgstr "Package information retrieved"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:289
+msgid "Retrieving package information..."
+msgstr "Retrieving package information..."
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:284
+msgid "License invalid"
+msgstr "License invalid"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:283
+msgid "License valid"
+msgstr "License valid"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:282
+msgid "Validating license..."
+msgstr "Validating license..."
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:277
+msgid "Destination folder already exists"
+msgstr "Destination folder already exists"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:276
+msgid "Able to create destination folder"
+msgstr "Able to create destination folder"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:275
+msgid "Checking if plugin folder exists..."
+msgstr "Checking if plugin folder exists..."
+
+#: includes/Admin/App/class-app.php:1248
+#: includes/Admin/Statistics/class-goal-statistics.php:277
+#: includes/Frontend/class-shortcodes.php:429
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/api/getDevicesData.js:11
+#: includes/Admin/App/src/components/Statistics/DevicesBlock.js:50
+msgid "Other"
+msgstr "Other"
+
+#: includes/Admin/App/class-app.php:1242
+#: includes/Admin/Statistics/class-goal-statistics.php:270
+#: includes/Frontend/class-shortcodes.php:428
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/api/getDevicesData.js:10
+#: includes/Admin/App/src/components/Statistics/DevicesBlock.js:49
+msgid "Mobile"
+msgstr "Mobile"
+
+#: includes/Admin/App/class-app.php:1245
+#: includes/Admin/Statistics/class-goal-statistics.php:273
+#: includes/Frontend/class-shortcodes.php:427
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/api/getDevicesData.js:9
+#: includes/Admin/App/src/components/Statistics/DevicesBlock.js:48
+msgid "Tablet"
+msgstr "Tablet"
+
+#: includes/Admin/App/class-app.php:1239
+#: includes/Admin/Statistics/class-goal-statistics.php:267
+#: includes/Frontend/class-shortcodes.php:426
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/api/getDevicesData.js:8
+#: includes/Admin/App/src/components/Statistics/DevicesBlock.js:47
+msgid "Desktop"
+msgstr "Desktop"
+
+#: includes/Admin/Mailer/config/blocks.php:7
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+msgid "Most visited pages"
+msgstr "Most visited pages"
+
+#: includes/Admin/App/config/goal-fields.php:110
+#: includes/Admin/Mailer/class-mail-reports.php:369
+#: includes/Admin/Reports/class-reports.php:860
+#: includes/Admin/Statistics/class-goal-statistics.php:155
+#: includes/Admin/Statistics/class-query-data.php:781
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/api/getCompareData.js:14
+#: includes/Admin/App/src/api/getCompareData.js:22
+#: includes/Admin/App/src/api/getCompareData.js:48
+#: includes/Admin/App/src/api/getCompareData.js:95
+#: includes/Admin/App/src/components/Statistics/CompareBlock.js:21
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:76
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:173
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:258
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:356
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:433
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:486
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:72
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:169
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:254
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:352
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:429
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:482
+#: includes/Admin/App/src/components/Statistics/InsightsHeader.js:14
+#: includes/Admin/App/src/store/useGeoStore.js:21
+msgid "Visitors"
+msgstr "訪問者"
+
+#. translators: 1: opening anchor tag to support thread, 2: closing anchor tag.
+#: includes/Admin/App/config/tasks.php:47
+msgid "If you have any suggestions to improve our plugin, feel free to %1$sopen a support thread%2$s."
+msgstr "プラグインを改善するための提案がある場合は、お気軽に%1$sサポートスレッドを開いて%2$sください。"
+
+#: includes/Admin/App/config/goal-fields.php:115
+#: includes/Admin/Mailer/class-mail-reports.php:366
+#: includes/Admin/Reports/class-reports.php:857
+#: includes/Admin/Statistics/class-goal-statistics.php:145
+#: includes/Admin/Statistics/class-query-data.php:780
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/api/getCompareData.js:13
+#: includes/Admin/App/src/api/getCompareData.js:21
+#: includes/Admin/App/src/api/getCompareData.js:37
+#: includes/Admin/App/src/api/getCompareData.js:86
+#: includes/Admin/App/src/components/Statistics/CompareBlock.js:20
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:82
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:179
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:264
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:491
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:78
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:175
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:260
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:487
+#: includes/Admin/App/src/components/Statistics/InsightsHeader.js:18
+#: includes/Admin/App/src/store/useGeoStore.js:31
+msgid "Sessions"
+msgstr "Sessions"
+
+#: includes/Frontend/class-shortcodes.php:401
+msgid "Homepage"
+msgstr "Homepage"
+
+#: includes/Admin/Mailer/class-mail-reports.php:422
+#: includes/Admin/Reports/class-reports.php:913
+#: includes/Frontend/class-frontend-statistics.php:408
+#: includes/Frontend/class-shortcodes.php:407
+#: includes/Admin/App/build/698.5b41abb882dac544da0f.js:3
+#: includes/Admin/App/src/components/Dashboard/LiveTraffic.js:22
+#: includes/Admin/App/src/components/Dashboard/LiveTraffic.js:29
+msgid "Direct"
+msgstr "Direct"
+
+#: includes/Admin/class-tasks.php:291
+msgid "Open"
+msgstr "Open"
+
+#: includes/Admin/class-tasks.php:287
+#: includes/Admin/App/build/698.5b41abb882dac544da0f.js:3
+msgid "Completed"
+msgstr "Completed"
+
+#: includes/Admin/class-review.php:196
+msgid "Don't show again"
+msgstr "Don't show again"
+
+#: includes/Admin/class-review.php:174
+msgid "Maybe later"
+msgstr "Maybe later"
+
+#: includes/Admin/class-review.php:163
+msgid "Leave a review"
+msgstr "Leave a review"
+
+#: includes/Admin/class-review.php:156
+msgid "If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it!"
+msgstr "If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it!"
+
+#. translators: 1: opening anchor tag to the support message form, 2: closing
+#. anchor tag.
+#: includes/Admin/class-review.php:135
+msgid "If you have any questions or feedback, leave us a %1$smessage%2$s."
+msgstr "ご質問やご意見がございましたら、%1$sメッセージ%2$sを残してください。"
+
+#: includes/Admin/class-review.php:127
+msgid "Hi, you have been using Burst for more than a month now, awesome!"
+msgstr "Hi, you have been using Burst for more than a month now, awesome!"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/src/components/Settings/SettingsFooter.jsx:60
+msgid "Save"
+msgstr "Save"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/src/components/Common/ErrorBoundary.jsx:63
+msgid "Copied"
+msgstr "Copied"
+
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/TeamUpdraft/Onboarding/build/index.js:1
+#: includes/TeamUpdraft/Onboarding/src/components/Fields/Plugins.jsx:45
+msgid "No options found"
+msgstr "No options found"
+
+#: includes/Admin/class-admin.php:1210
+msgid "Deactivate and delete all data"
+msgstr "Deactivate and delete all data"
+
+#: includes/Admin/class-admin.php:1208
+msgid "Deactivate"
+msgstr "無効化"
+
+#: includes/Admin/App/config/goal-fields.php:120
+#: includes/Admin/Mailer/class-mail-reports.php:254
+#: includes/Admin/Mailer/class-mail-reports.php:262
+#: includes/Admin/Mailer/class-mail-reports.php:363
+#: includes/Admin/Mailer/config/blocks.php:14
+#: includes/Admin/Mailer/config/blocks.php:24
+#: includes/Admin/Posts/class-posts.php:258
+#: includes/Admin/Reports/class-reports.php:854
+#: includes/Admin/Statistics/class-goal-statistics.php:137
+#: includes/Admin/Statistics/class-query-data.php:779
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/api/getCompareData.js:12
+#: includes/Admin/App/src/api/getCompareData.js:20
+#: includes/Admin/App/src/api/getCompareData.js:28
+#: includes/Admin/App/src/api/getCompareData.js:77
+#: includes/Admin/App/src/components/Statistics/CompareBlock.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:71
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:482
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:67
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:478
+#: includes/Admin/App/src/components/Statistics/EmptyDataTable.js:80
+#: includes/Admin/App/src/components/Statistics/InsightsHeader.js:10
+msgid "Pageviews"
+msgstr "ページビュー"
+
+#: includes/Admin/App/config/goal-fields.php:55
+#: includes/Admin/Mailer/class-mail-reports.php:254
+#: includes/Admin/Mailer/config/blocks.php:14
+#: includes/Admin/Statistics/class-query-data.php:777
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.js:64
+#: includes/Admin/App/src/components/Statistics/DataTableBlock.jsx:60
+msgid "Page"
+msgstr "Page"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:92
+#: includes/Admin/App/build/698.5b41abb882dac544da0f.js:3
+#: includes/Admin/App/src/components/Dashboard/OtherPluginsBlock.js:15
+#: includes/TeamUpdraft/Other_Plugins/build/index.js:1
+#: includes/TeamUpdraft/Other_Plugins/src/components/OtherPluginElement.js:15
+msgid "Install"
+msgstr "インストール"
+
+#: includes/Admin/App/class-app.php:274 includes/Admin/class-admin.php:942
+#: includes/Admin/App/build/6.c9cf0daec1561a3f34da.js:12
+#: includes/Admin/App/build/609.921b0f0609ff7bdcd282.js:12
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:14
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:14
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:401
+#: includes/Admin/App/src/components/Common/Header.jsx:237
+#: includes/Admin/App/src/components/Common/ProPopover.js:73
+#: includes/Admin/App/src/components/Goals/GoalsSettings.js:200
+#: includes/Admin/App/src/components/Settings/SettingsGroupBlock.jsx:33
+msgid "Upgrade to Pro"
+msgstr "Proにアップグレード"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:96
+#: includes/Admin/App/build/698.5b41abb882dac544da0f.js:3
+#: includes/Admin/App/src/components/Dashboard/OtherPluginsBlock.js:223
+#: includes/TeamUpdraft/Other_Plugins/build/index.js:1
+#: includes/TeamUpdraft/Other_Plugins/src/components/OtherPluginElement.js:65
+msgid "Installed"
+msgstr "インストール済み"
+
+#: includes/Admin/App/class-app.php:740 includes/Admin/App/config/menu.php:8
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: includes/Admin/Mailer/config/blocks.php:17
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+msgid "Top referrers"
+msgstr "トップリファラー"
+
+#: includes/Admin/Mailer/class-mail-reports.php:198
+#: includes/Admin/Reports/class-reports.php:1002
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/CompareBlock.js:53
+msgid "Compare"
+msgstr "比較"
+
+#: includes/Admin/App/config/menu.php:18
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Statistics/InsightsBlock.js:48
+msgid "Insights"
+msgstr "インサイト"
+
+#: includes/Admin/App/config/goal-fields.php:33
+msgid "Visits"
+msgstr "Visits"
+
+#: includes/Admin/App/class-app.php:192 includes/Admin/App/class-app.php:741
+#: includes/Frontend/class-frontend-admin.php:44
+msgid "Statistics"
+msgstr "統計"
+
+#: includes/Admin/class-admin.php:963
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:401
+#: includes/Admin/App/src/components/Common/Header.jsx:227
+msgid "Support"
+msgstr "Support"
+
+#: includes/Admin/App/class-app.php:742 includes/Admin/App/config/menu.php:84
+msgid "Settings"
+msgstr "設定"
+
+#: includes/Admin/AutoInstaller/class-auto-installer.php:481
+#: includes/Admin/class-admin.php:1206
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:1
+#: includes/Admin/App/build/678.fd4a4b92da8570b05bbd.js:10
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:1
+#: includes/Admin/App/build/757.574e577db43cb7daa4f9.js:10
+#: includes/Admin/App/src/components/Goals/DeleteGoalModal.js:32
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:1
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/components/Common/AdvancedFilter.js:78
+#: includes/Admin/App/src/components/Common/PopoverFilter.js:134
+#: includes/Admin/App/src/components/Sources/WorldMap/MapSettingsPopover.jsx:292
+msgid "Apply"
+msgstr "Apply"
+
+#: includes/Admin/Posts/class-posts.php:33
+#: includes/Admin/App/build/698.5b41abb882dac544da0f.js:3
+#: includes/Admin/App/build/index.452df9280674a77c7bdb.js:19
+#: includes/Admin/App/src/api/getGoalsData.js:124
+#: includes/Admin/App/src/components/Dashboard/GoalsBlock.js:48
+#: includes/Admin/App/src/components/Dashboard/GoalsBlock.js:135
+#: includes/Admin/App/src/components/Dashboard/TodayBlock.js:96
+#: includes/Admin/App/src/utils/formatting.js:357
+#: includes/Admin/Dashboard_Widget/build/index.js:1
+#: includes/Admin/Dashboard_Widget/src/components/DashboardWidget/DashboardWidget.js:159
+msgid "Today"
+msgstr "今日"
+
+#. Author URI of the plugin
+#: burst.php
+msgid "https://burst-statistics.com"
+msgstr "https://burst-statistics.com"
+
+#: includes/Admin/Share/class-share.php:280
+msgid "Burst Statistics"
+msgstr "バースト統計"

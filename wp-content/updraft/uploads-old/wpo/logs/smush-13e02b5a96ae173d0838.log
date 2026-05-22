@@ -1,0 +1,1030 @@
+[2026-04-14 03:34:09 : INFO] - Re_Smush_It_Task server status: Online 
+[2026-04-14 03:34:13 : INFO] - A total of 143 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:34:13 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) was created in the database 
+[2026-04-14 03:34:13 : INFO] - Lock (updraft_lock_smush, wOtckM_options) acquired after initialising the database 
+[2026-04-14 03:34:13 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2026-04-14 03:34:13 : INFO] - Re_Smush_It_Task - Attachment ID : 7194, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:34:13 : INFO] - File: kenshin.jpg, Compression quality: 92 
+[2026-04-14 03:34:19 : INFO] - Backing up the original image - kenshin-updraft-pre-smush-original.jpg 
+[2026-04-14 03:34:37 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/kenshin.jpg.The file was compressed from 138.91 KB to 135.97 KB, saving 2.12 percent, using WP-Optimize 
+[2026-04-14 03:34:37 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2026-04-14 03:34:37 : INFO] - Processing task with ID : 2, and type 'smush' 
+[2026-04-14 03:34:37 : INFO] - Re_Smush_It_Task - Attachment ID : 7196, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:34:37 : INFO] - File: touseki.jpg, Compression quality: 92 
+[2026-04-14 03:34:42 : INFO] - Backing up the original image - touseki-updraft-pre-smush-original.jpg 
+[2026-04-14 03:35:02 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/touseki.jpg.The file was compressed from 125.87 KB to 125.87 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 03:35:02 : INFO] - Completed processing task with ID : 2, and type 'smush' 
+[2026-04-14 03:35:02 : INFO] - Processing task with ID : 3, and type 'smush' 
+[2026-04-14 03:35:02 : INFO] - Re_Smush_It_Task - Attachment ID : 7201, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:35:02 : INFO] - File: main02sp.jpg, Compression quality: 92 
+[2026-04-14 03:35:07 : INFO] - Backing up the original image - main02sp-updraft-pre-smush-original.jpg 
+[2026-04-14 03:35:10 : INFO] - A total of 141 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:35:10 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:35:10 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:35:10 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:35:10 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2026-04-14 03:35:24 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/main02sp.jpg.The file was compressed from 162.75 KB to 158.44 KB, saving 2.65 percent, using WP-Optimize 
+[2026-04-14 03:35:24 : INFO] - Completed processing task with ID : 3, and type 'smush' 
+[2026-04-14 03:35:24 : INFO] - Processing task with ID : 4, and type 'smush' 
+[2026-04-14 03:35:24 : INFO] - Re_Smush_It_Task - Attachment ID : 7202, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:35:24 : INFO] - File: main02.jpg, Compression quality: 92 
+[2026-04-14 03:35:35 : INFO] - Backing up the original image - main02-updraft-pre-smush-original.jpg 
+[2026-04-14 03:36:04 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/main02.jpg.The file was compressed from 509.79 KB to 500.02 KB, saving 1.92 percent, using WP-Optimize 
+[2026-04-14 03:36:04 : INFO] - Completed processing task with ID : 4, and type 'smush' 
+[2026-04-14 03:36:04 : INFO] - Processing task with ID : 5, and type 'smush' 
+[2026-04-14 03:36:04 : INFO] - Re_Smush_It_Task - Attachment ID : 7203, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:36:04 : INFO] - File: main03sp.jpg, Compression quality: 92 
+[2026-04-14 03:36:09 : INFO] - Backing up the original image - main03sp-updraft-pre-smush-original.jpg 
+[2026-04-14 03:36:10 : INFO] - A total of 139 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:36:10 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:36:10 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:36:10 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:36:10 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2026-04-14 03:36:26 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/main03sp.jpg.The file was compressed from 130.42 KB to 130.42 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 03:36:26 : INFO] - Completed processing task with ID : 5, and type 'smush' 
+[2026-04-14 03:36:26 : INFO] - Processing task with ID : 6, and type 'smush' 
+[2026-04-14 03:36:26 : INFO] - Re_Smush_It_Task - Attachment ID : 7204, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:36:26 : INFO] - File: main03.jpg, Compression quality: 92 
+[2026-04-14 03:36:35 : INFO] - Backing up the original image - main03-updraft-pre-smush-original.jpg 
+[2026-04-14 03:37:01 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/main03.jpg.The file was compressed from 282.84 KB to 282.84 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 03:37:01 : INFO] - Completed processing task with ID : 6, and type 'smush' 
+[2026-04-14 03:37:01 : INFO] - Processing task with ID : 7, and type 'smush' 
+[2026-04-14 03:37:01 : INFO] - Re_Smush_It_Task - Attachment ID : 7205, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:37:01 : INFO] - File: main04sp.jpg, Compression quality: 92 
+[2026-04-14 03:37:05 : INFO] - Backing up the original image - main04sp-updraft-pre-smush-original.jpg 
+[2026-04-14 03:37:10 : INFO] - A total of 137 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:37:10 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:37:10 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:37:10 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:37:10 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2026-04-14 03:37:20 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/main04sp.jpg.The file was compressed from 65.33 KB to 65.33 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 03:37:20 : INFO] - Completed processing task with ID : 7, and type 'smush' 
+[2026-04-14 03:37:20 : INFO] - Processing task with ID : 8, and type 'smush' 
+[2026-04-14 03:37:20 : INFO] - Re_Smush_It_Task - Attachment ID : 7206, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:37:20 : INFO] - File: main04.jpg, Compression quality: 92 
+[2026-04-14 03:38:10 : INFO] - A total of 136 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:38:10 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:38:10 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:38:10 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:38:10 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2026-04-14 03:39:10 : INFO] - A total of 136 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:39:10 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:39:10 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:39:10 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:40:10 : INFO] - A total of 136 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:40:10 : INFO] - Lock (updraft_lock_smush, wOtckM_options) acquired 
+[2026-04-14 03:40:10 : INFO] - Processing task with ID : 8, and type 'smush' 
+[2026-04-14 03:40:10 : INFO] - Re_Smush_It_Task - Attachment ID : 7206, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:40:10 : INFO] - File: main04.jpg, Compression quality: 92 
+[2026-04-14 03:40:18 : INFO] - Backing up the original image - main04-updraft-pre-smush-original.jpg 
+[2026-04-14 03:40:43 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/main04.jpg.The file was compressed from 158.48 KB to 158.48 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 03:40:43 : INFO] - Completed processing task with ID : 8, and type 'smush' 
+[2026-04-14 03:40:43 : INFO] - Processing task with ID : 9, and type 'smush' 
+[2026-04-14 03:40:43 : INFO] - Re_Smush_It_Task - Attachment ID : 7207, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:40:43 : INFO] - File: test4.png, Compression quality: 92 
+[2026-04-14 03:40:45 : INFO] - Backing up the original image - test4-updraft-pre-smush-original.png 
+[2026-04-14 03:40:53 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/test4.png.The file was compressed from 14.04 KB to 6.33 KB, saving 54.86 percent, using WP-Optimize 
+[2026-04-14 03:40:53 : INFO] - Completed processing task with ID : 9, and type 'smush' 
+[2026-04-14 03:40:53 : INFO] - Processing task with ID : 10, and type 'smush' 
+[2026-04-14 03:40:53 : INFO] - Re_Smush_It_Task - Attachment ID : 7208, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:40:53 : INFO] - File: test3.png, Compression quality: 92 
+[2026-04-14 03:40:55 : INFO] - Backing up the original image - test3-updraft-pre-smush-original.png 
+[2026-04-14 03:41:01 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/test3.png.The file was compressed from 29.34 KB to 12.47 KB, saving 57.49 percent, using WP-Optimize 
+[2026-04-14 03:41:01 : INFO] - Completed processing task with ID : 10, and type 'smush' 
+[2026-04-14 03:41:01 : INFO] - Processing task with ID : 11, and type 'smush' 
+[2026-04-14 03:41:01 : INFO] - Re_Smush_It_Task - Attachment ID : 7209, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:41:01 : INFO] - File: h1_logo.png, Compression quality: 92 
+[2026-04-14 03:41:03 : INFO] - Backing up the original image - h1_logo-updraft-pre-smush-original.png 
+[2026-04-14 03:41:06 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/h1_logo.png.The file was compressed from 12.51 KB to 5.90 KB, saving 52.83 percent, using WP-Optimize 
+[2026-04-14 03:41:06 : INFO] - Completed processing task with ID : 11, and type 'smush' 
+[2026-04-14 03:41:06 : INFO] - Processing task with ID : 12, and type 'smush' 
+[2026-04-14 03:41:06 : INFO] - Re_Smush_It_Task - Attachment ID : 7210, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:41:06 : INFO] - File: h1_logo_img.png, Compression quality: 92 
+[2026-04-14 03:41:08 : INFO] - Backing up the original image - h1_logo_img-updraft-pre-smush-original.png 
+[2026-04-14 03:41:10 : INFO] - A total of 132 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:41:10 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:41:10 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:41:10 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:41:10 : INFO] - Cleaning up tasks of type (smush). A total of 4 tasks will be deleted. 
+[2026-04-14 03:41:11 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/h1_logo_img.png.The file was compressed from 8.73 KB to 5.09 KB, saving 41.7 percent, using WP-Optimize 
+[2026-04-14 03:41:11 : INFO] - Completed processing task with ID : 12, and type 'smush' 
+[2026-04-14 03:41:11 : INFO] - Processing task with ID : 13, and type 'smush' 
+[2026-04-14 03:41:11 : INFO] - Re_Smush_It_Task - Attachment ID : 7211, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:41:11 : INFO] - File: hokan_bnr.png, Compression quality: 92 
+[2026-04-14 03:41:12 : INFO] - Backing up the original image - hokan_bnr-updraft-pre-smush-original.png 
+[2026-04-14 03:41:19 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/hokan_bnr.png.The file was compressed from 7.16 KB to 7.16 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 03:41:19 : INFO] - Completed processing task with ID : 13, and type 'smush' 
+[2026-04-14 03:41:19 : INFO] - Processing task with ID : 14, and type 'smush' 
+[2026-04-14 03:41:19 : INFO] - Re_Smush_It_Task - Attachment ID : 7216, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:41:19 : INFO] - File: nyuuin_PC.jpg, Compression quality: 92 
+[2026-04-14 03:41:23 : INFO] - Backing up the original image - nyuuin_PC-updraft-pre-smush-original.jpg 
+[2026-04-14 03:41:38 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/nyuuin_PC.jpg.The file was compressed from 103.16 KB to 73.82 KB, saving 28.44 percent, using WP-Optimize 
+[2026-04-14 03:41:38 : INFO] - Completed processing task with ID : 14, and type 'smush' 
+[2026-04-14 03:41:38 : INFO] - Processing task with ID : 15, and type 'smush' 
+[2026-04-14 03:41:38 : INFO] - Re_Smush_It_Task - Attachment ID : 7217, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:41:38 : INFO] - File: nyuuin_SP.jpg, Compression quality: 92 
+[2026-04-14 03:41:41 : INFO] - Backing up the original image - nyuuin_SP-updraft-pre-smush-original.jpg 
+[2026-04-14 03:41:51 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/nyuuin_SP.jpg.The file was compressed from 63.25 KB to 44.51 KB, saving 29.63 percent, using WP-Optimize 
+[2026-04-14 03:41:51 : INFO] - Completed processing task with ID : 15, and type 'smush' 
+[2026-04-14 03:41:51 : INFO] - Processing task with ID : 16, and type 'smush' 
+[2026-04-14 03:41:51 : INFO] - Re_Smush_It_Task - Attachment ID : 7218, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:41:51 : INFO] - File: recruit_img.jpg, Compression quality: 92 
+[2026-04-14 03:41:57 : INFO] - Backing up the original image - recruit_img-updraft-pre-smush-original.jpg 
+[2026-04-14 03:42:10 : INFO] - A total of 128 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:42:10 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:42:10 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:42:10 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:42:10 : INFO] - Cleaning up tasks of type (smush). A total of 4 tasks will be deleted. 
+[2026-04-14 03:42:13 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/recruit_img.jpg.The file was compressed from 103.81 KB to 102.83 KB, saving 0.94 percent, using WP-Optimize 
+[2026-04-14 03:42:13 : INFO] - Completed processing task with ID : 16, and type 'smush' 
+[2026-04-14 03:42:13 : INFO] - Processing task with ID : 17, and type 'smush' 
+[2026-04-14 03:42:13 : INFO] - Re_Smush_It_Task - Attachment ID : 7219, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:42:13 : INFO] - File: roken_bnr.png, Compression quality: 92 
+[2026-04-14 03:42:14 : INFO] - Backing up the original image - roken_bnr-updraft-pre-smush-original.png 
+[2026-04-14 03:42:20 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/roken_bnr.png.The file was compressed from 7.02 KB to 7.02 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 03:42:21 : INFO] - Completed processing task with ID : 17, and type 'smush' 
+[2026-04-14 03:42:21 : INFO] - Processing task with ID : 18, and type 'smush' 
+[2026-04-14 03:42:21 : INFO] - Re_Smush_It_Task - Attachment ID : 7220, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:42:21 : INFO] - File: tojinkai_bnr.png, Compression quality: 92 
+[2026-04-14 03:42:22 : INFO] - Backing up the original image - tojinkai_bnr-updraft-pre-smush-original.png 
+[2026-04-14 03:42:28 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/tojinkai_bnr.png.The file was compressed from 7.66 KB to 7.66 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 03:42:28 : INFO] - Completed processing task with ID : 18, and type 'smush' 
+[2026-04-14 03:42:28 : INFO] - Processing task with ID : 19, and type 'smush' 
+[2026-04-14 03:42:28 : INFO] - Re_Smush_It_Task - Attachment ID : 7221, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:42:28 : INFO] - File: uketsuke_PC.jpg, Compression quality: 92 
+[2026-04-14 03:42:32 : INFO] - Backing up the original image - uketsuke_PC-updraft-pre-smush-original.jpg 
+[2026-04-14 03:42:47 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/uketsuke_PC.jpg.The file was compressed from 77.87 KB to 76.44 KB, saving 1.83 percent, using WP-Optimize 
+[2026-04-14 03:42:47 : INFO] - Completed processing task with ID : 19, and type 'smush' 
+[2026-04-14 03:42:47 : INFO] - Processing task with ID : 20, and type 'smush' 
+[2026-04-14 03:42:47 : INFO] - Re_Smush_It_Task - Attachment ID : 7222, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:42:47 : INFO] - File: uketsuke_SP.jpg, Compression quality: 92 
+[2026-04-14 03:42:51 : INFO] - Backing up the original image - uketsuke_SP-updraft-pre-smush-original.jpg 
+[2026-04-14 03:43:04 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/uketsuke_SP.jpg.The file was compressed from 201.96 KB to 48.63 KB, saving 75.92 percent, using WP-Optimize 
+[2026-04-14 03:43:04 : INFO] - Completed processing task with ID : 20, and type 'smush' 
+[2026-04-14 03:43:04 : INFO] - Processing task with ID : 21, and type 'smush' 
+[2026-04-14 03:43:04 : INFO] - Re_Smush_It_Task - Attachment ID : 7223, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:43:04 : INFO] - File: favicon.png, Compression quality: 92 
+[2026-04-14 03:43:05 : INFO] - Backing up the original image - favicon-updraft-pre-smush-original.png 
+[2026-04-14 03:43:10 : INFO] - A total of 123 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:43:10 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:43:10 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:43:10 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:43:10 : INFO] - Cleaning up tasks of type (smush). A total of 5 tasks will be deleted. 
+[2026-04-14 03:43:13 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/favicon.png.The file was compressed from 1.74 KB to 1.66 KB, saving 4.5 percent, using WP-Optimize 
+[2026-04-14 03:43:13 : INFO] - Completed processing task with ID : 21, and type 'smush' 
+[2026-04-14 03:43:13 : INFO] - Processing task with ID : 22, and type 'smush' 
+[2026-04-14 03:43:13 : INFO] - Re_Smush_It_Task - Attachment ID : 7225, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:43:13 : INFO] - File: h1_logo_sq.png, Compression quality: 92 
+[2026-04-14 03:43:15 : INFO] - Backing up the original image - h1_logo_sq-updraft-pre-smush-original.png 
+[2026-04-14 03:43:18 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/h1_logo_sq.png.The file was compressed from 12.09 KB to 7.68 KB, saving 36.47 percent, using WP-Optimize 
+[2026-04-14 03:43:18 : INFO] - Completed processing task with ID : 22, and type 'smush' 
+[2026-04-14 03:43:18 : INFO] - Processing task with ID : 23, and type 'smush' 
+[2026-04-14 03:43:18 : INFO] - Re_Smush_It_Task - Attachment ID : 7226, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:43:18 : INFO] - File: hp_name.png, Compression quality: 92 
+[2026-04-14 03:43:21 : INFO] - Backing up the original image - hp_name-updraft-pre-smush-original.png 
+[2026-04-14 03:43:43 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/hp_name.png.The file was compressed from 85.51 KB to 49.77 KB, saving 41.8 percent, using WP-Optimize 
+[2026-04-14 03:43:43 : INFO] - Completed processing task with ID : 23, and type 'smush' 
+[2026-04-14 03:43:43 : INFO] - Processing task with ID : 24, and type 'smush' 
+[2026-04-14 03:43:43 : INFO] - Re_Smush_It_Task - Attachment ID : 7233, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:43:43 : INFO] - File: h1_logo-1.png, Compression quality: 92 
+[2026-04-14 03:43:45 : INFO] - Backing up the original image - h1_logo-1-updraft-pre-smush-original.png 
+[2026-04-14 03:43:48 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/h1_logo-1.png.The file was compressed from 12.40 KB to 6.69 KB, saving 46.06 percent, using WP-Optimize 
+[2026-04-14 03:43:48 : INFO] - Completed processing task with ID : 24, and type 'smush' 
+[2026-04-14 03:43:48 : INFO] - Processing task with ID : 25, and type 'smush' 
+[2026-04-14 03:43:48 : INFO] - Re_Smush_It_Task - Attachment ID : 7237, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:43:48 : INFO] - File: nyuuin_PC-1.jpg, Compression quality: 92 
+[2026-04-14 03:43:51 : INFO] - Backing up the original image - nyuuin_PC-1-updraft-pre-smush-original.jpg 
+[2026-04-14 03:44:06 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/nyuuin_PC-1.jpg.The file was compressed from 103.16 KB to 73.82 KB, saving 28.44 percent, using WP-Optimize 
+[2026-04-14 03:44:06 : INFO] - Completed processing task with ID : 25, and type 'smush' 
+[2026-04-14 03:44:06 : INFO] - Processing task with ID : 26, and type 'smush' 
+[2026-04-14 03:44:06 : INFO] - Re_Smush_It_Task - Attachment ID : 7238, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:44:06 : INFO] - File: nyuuin_SP-1.jpg, Compression quality: 92 
+[2026-04-14 03:44:09 : INFO] - Backing up the original image - nyuuin_SP-1-updraft-pre-smush-original.jpg 
+[2026-04-14 03:44:10 : INFO] - A total of 118 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:44:10 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:44:10 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:44:10 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:44:10 : INFO] - Cleaning up tasks of type (smush). A total of 5 tasks will be deleted. 
+[2026-04-14 03:44:20 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/nyuuin_SP-1.jpg.The file was compressed from 63.25 KB to 44.51 KB, saving 29.63 percent, using WP-Optimize 
+[2026-04-14 03:44:20 : INFO] - Completed processing task with ID : 26, and type 'smush' 
+[2026-04-14 03:44:20 : INFO] - Processing task with ID : 27, and type 'smush' 
+[2026-04-14 03:44:20 : INFO] - Re_Smush_It_Task - Attachment ID : 7244, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:44:20 : INFO] - File: seikei_-sp.jpg, Compression quality: 92 
+[2026-04-14 03:44:22 : INFO] - A total of 117 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:44:22 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:44:22 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:44:22 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:44:22 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2026-04-14 03:44:24 : INFO] - Backing up the original image - seikei_-sp-updraft-pre-smush-original.jpg 
+[2026-04-14 03:44:40 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/seikei_-sp.jpg.The file was compressed from 348.28 KB to 90.54 KB, saving 74 percent, using WP-Optimize 
+[2026-04-14 03:44:40 : INFO] - Completed processing task with ID : 27, and type 'smush' 
+[2026-04-14 03:44:40 : INFO] - Processing task with ID : 28, and type 'smush' 
+[2026-04-14 03:44:40 : INFO] - Re_Smush_It_Task - Attachment ID : 7245, Blog ID : 1, Started on : April 14, 2026 03:34:10 
+[2026-04-14 03:44:40 : INFO] - File: seikei_pc.jpg, Compression quality: 92 
+[2026-04-14 03:44:44 : INFO] - Backing up the original image - seikei_pc-updraft-pre-smush-original.jpg 
+[2026-04-14 03:44:53 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/seikei_pc.jpg.The file was compressed from 165.46 KB to 46.07 KB, saving 72.15 percent, using WP-Optimize 
+[2026-04-14 03:44:53 : INFO] - Completed processing task with ID : 28, and type 'smush' 
+[2026-04-14 03:44:53 : INFO] - Processing task with ID : 29, and type 'smush' 
+[2026-04-14 03:44:53 : INFO] - Re_Smush_It_Task - Attachment ID : 7246, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:44:53 : INFO] - File: touseki_pc.jpg, Compression quality: 92 
+[2026-04-14 03:44:57 : INFO] - Backing up the original image - touseki_pc-updraft-pre-smush-original.jpg 
+[2026-04-14 03:45:08 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/touseki_pc.jpg.The file was compressed from 242.89 KB to 66.19 KB, saving 72.75 percent, using WP-Optimize 
+[2026-04-14 03:45:08 : INFO] - Completed processing task with ID : 29, and type 'smush' 
+[2026-04-14 03:45:08 : INFO] - Processing task with ID : 30, and type 'smush' 
+[2026-04-14 03:45:08 : INFO] - Re_Smush_It_Task - Attachment ID : 7247, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:45:08 : INFO] - File: touseki_sp.jpg, Compression quality: 92 
+[2026-04-14 03:45:10 : INFO] - A total of 114 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:45:10 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:45:10 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:45:10 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:45:10 : INFO] - Cleaning up tasks of type (smush). A total of 3 tasks will be deleted. 
+[2026-04-14 03:45:12 : INFO] - Backing up the original image - touseki_sp-updraft-pre-smush-original.jpg 
+[2026-04-14 03:45:26 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/touseki_sp.jpg.The file was compressed from 298.12 KB to 82.78 KB, saving 72.23 percent, using WP-Optimize 
+[2026-04-14 03:45:26 : INFO] - Completed processing task with ID : 30, and type 'smush' 
+[2026-04-14 03:45:26 : INFO] - Processing task with ID : 31, and type 'smush' 
+[2026-04-14 03:45:26 : INFO] - Re_Smush_It_Task - Attachment ID : 7248, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:45:26 : INFO] - File: main_01.jpg, Compression quality: 92 
+[2026-04-14 03:45:35 : INFO] - Backing up the original image - main_01-updraft-pre-smush-original.jpg 
+[2026-04-14 03:46:10 : INFO] - A total of 113 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:46:10 : INFO] - Lock (updraft_lock_smush, wOtckM_options) acquired 
+[2026-04-14 03:46:13 : INFO] - Task with ID 31 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2026-04-14 03:46:13 : INFO] - Processing task with ID : 32, and type 'smush' 
+[2026-04-14 03:46:13 : INFO] - Re_Smush_It_Task - Attachment ID : 7249, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:46:13 : INFO] - File: main_01_sp.jpg, Compression quality: 92 
+[2026-04-14 03:46:18 : INFO] - Backing up the original image - main_01_sp-updraft-pre-smush-original.jpg 
+[2026-04-14 03:46:35 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/main_01_sp.jpg.The file was compressed from 142.58 KB to 142.58 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 03:46:35 : INFO] - Completed processing task with ID : 32, and type 'smush' 
+[2026-04-14 03:46:35 : INFO] - Processing task with ID : 33, and type 'smush' 
+[2026-04-14 03:46:35 : INFO] - Re_Smush_It_Task - Attachment ID : 7250, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:46:35 : INFO] - File: gynecology_img07.jpg, Compression quality: 92 
+[2026-04-14 03:46:39 : INFO] - Backing up the original image - gynecology_img07-updraft-pre-smush-original.jpg 
+[2026-04-14 03:46:47 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/gynecology_img07.jpg.The file was compressed from 79.89 KB to 59.90 KB, saving 25.02 percent, using WP-Optimize 
+[2026-04-14 03:46:47 : INFO] - Completed processing task with ID : 33, and type 'smush' 
+[2026-04-14 03:46:47 : INFO] - Processing task with ID : 34, and type 'smush' 
+[2026-04-14 03:46:47 : INFO] - Re_Smush_It_Task - Attachment ID : 7251, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:46:47 : INFO] - File: gynecology_img08.jpg, Compression quality: 92 
+[2026-04-14 03:46:49 : INFO] - Backing up the original image - gynecology_img08-updraft-pre-smush-original.jpg 
+[2026-04-14 03:46:57 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/gynecology_img08.jpg.The file was compressed from 36.67 KB to 28.54 KB, saving 22.18 percent, using WP-Optimize 
+[2026-04-14 03:46:57 : INFO] - Completed processing task with ID : 34, and type 'smush' 
+[2026-04-14 03:46:57 : INFO] - Processing task with ID : 35, and type 'smush' 
+[2026-04-14 03:46:57 : INFO] - Re_Smush_It_Task - Attachment ID : 7252, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:46:57 : INFO] - File: obstetrics_img05-300x200-1.jpg, Compression quality: 92 
+[2026-04-14 03:46:59 : INFO] - Backing up the original image - obstetrics_img05-300x200-1-updraft-pre-smush-original.jpg 
+[2026-04-14 03:47:02 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/obstetrics_img05-300x200-1.jpg.The file was compressed from 17.84 KB to 16.77 KB, saving 6.02 percent, using WP-Optimize 
+[2026-04-14 03:47:02 : INFO] - Completed processing task with ID : 35, and type 'smush' 
+[2026-04-14 03:47:02 : INFO] - Processing task with ID : 36, and type 'smush' 
+[2026-04-14 03:47:02 : INFO] - Re_Smush_It_Task - Attachment ID : 7253, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:47:02 : INFO] - File: obstetrics_img06.jpg, Compression quality: 92 
+[2026-04-14 03:47:05 : INFO] - Backing up the original image - obstetrics_img06-updraft-pre-smush-original.jpg 
+[2026-04-14 03:47:10 : INFO] - A total of 108 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:47:10 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:47:10 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:47:10 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:47:10 : INFO] - Cleaning up tasks of type (smush). A total of 5 tasks will be deleted. 
+[2026-04-14 03:47:12 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/obstetrics_img06.jpg.The file was compressed from 16.09 KB to 14.82 KB, saving 7.94 percent, using WP-Optimize 
+[2026-04-14 03:47:12 : INFO] - Completed processing task with ID : 36, and type 'smush' 
+[2026-04-14 03:47:12 : INFO] - Processing task with ID : 37, and type 'smush' 
+[2026-04-14 03:47:12 : INFO] - Re_Smush_It_Task - Attachment ID : 7254, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:47:12 : INFO] - File: gynecology_img06.jpg, Compression quality: 92 
+[2026-04-14 03:47:15 : INFO] - Backing up the original image - gynecology_img06-updraft-pre-smush-original.jpg 
+[2026-04-14 03:47:24 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/gynecology_img06.jpg.The file was compressed from 104.61 KB to 76.51 KB, saving 26.87 percent, using WP-Optimize 
+[2026-04-14 03:47:24 : INFO] - Completed processing task with ID : 37, and type 'smush' 
+[2026-04-14 03:47:24 : INFO] - Processing task with ID : 38, and type 'smush' 
+[2026-04-14 03:47:24 : INFO] - Re_Smush_It_Task - Attachment ID : 7255, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:47:24 : INFO] - File: img02.jpg, Compression quality: 92 
+[2026-04-14 03:47:32 : INFO] - Backing up the original image - img02-updraft-pre-smush-original.jpg 
+[2026-04-14 03:47:55 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/img02.jpg.The file was compressed from 664.81 KB to 456.02 KB, saving 31.41 percent, using WP-Optimize 
+[2026-04-14 03:47:55 : INFO] - Completed processing task with ID : 38, and type 'smush' 
+[2026-04-14 03:47:55 : INFO] - Processing task with ID : 39, and type 'smush' 
+[2026-04-14 03:47:55 : INFO] - Re_Smush_It_Task - Attachment ID : 7256, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:47:55 : INFO] - File: img03.jpg, Compression quality: 92 
+[2026-04-14 03:48:02 : INFO] - Backing up the original image - img03-updraft-pre-smush-original.jpg 
+[2026-04-14 03:48:11 : INFO] - A total of 105 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:48:11 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:48:11 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:48:11 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:48:11 : INFO] - Cleaning up tasks of type (smush). A total of 3 tasks will be deleted. 
+[2026-04-14 03:48:25 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/img03.jpg.The file was compressed from 1,014.53 KB to 253.97 KB, saving 74.97 percent, using WP-Optimize 
+[2026-04-14 03:48:25 : INFO] - Completed processing task with ID : 39, and type 'smush' 
+[2026-04-14 03:48:25 : INFO] - Processing task with ID : 40, and type 'smush' 
+[2026-04-14 03:48:25 : INFO] - Re_Smush_It_Task - Attachment ID : 7257, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:48:25 : INFO] - File: img01.jpg, Compression quality: 92 
+[2026-04-14 03:48:33 : INFO] - Backing up the original image - img01-updraft-pre-smush-original.jpg 
+[2026-04-14 03:48:55 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/img01.jpg.The file was compressed from 1.22 MB to 368.23 KB, saving 70.55 percent, using WP-Optimize 
+[2026-04-14 03:48:55 : INFO] - Completed processing task with ID : 40, and type 'smush' 
+[2026-04-14 03:48:55 : INFO] - Processing task with ID : 41, and type 'smush' 
+[2026-04-14 03:48:55 : INFO] - Re_Smush_It_Task - Attachment ID : 7259, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:48:55 : INFO] - File: recruit_img-1.jpg, Compression quality: 92 
+[2026-04-14 03:49:00 : INFO] - Backing up the original image - recruit_img-1-updraft-pre-smush-original.jpg 
+[2026-04-14 03:49:15 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/recruit_img-1.jpg.The file was compressed from 103.81 KB to 102.83 KB, saving 0.94 percent, using WP-Optimize 
+[2026-04-14 03:49:15 : INFO] - Completed processing task with ID : 41, and type 'smush' 
+[2026-04-14 03:49:15 : INFO] - Processing task with ID : 42, and type 'smush' 
+[2026-04-14 03:49:15 : INFO] - Re_Smush_It_Task - Attachment ID : 7261, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:49:15 : INFO] - File: sanka_pc.jpg, Compression quality: 92 
+[2026-04-14 03:49:18 : INFO] - Backing up the original image - sanka_pc-updraft-pre-smush-original.jpg 
+[2026-04-14 03:49:23 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/sanka_pc.jpg.The file was compressed from 47.34 KB to 32.28 KB, saving 31.82 percent, using WP-Optimize 
+[2026-04-14 03:49:23 : INFO] - Completed processing task with ID : 42, and type 'smush' 
+[2026-04-14 03:49:23 : INFO] - Processing task with ID : 43, and type 'smush' 
+[2026-04-14 03:49:23 : INFO] - Re_Smush_It_Task - Attachment ID : 7262, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:49:23 : INFO] - File: sanka_sp.jpg, Compression quality: 92 
+[2026-04-14 03:49:29 : INFO] - Backing up the original image - sanka_sp-updraft-pre-smush-original.jpg 
+[2026-04-14 03:49:41 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/sanka_sp.jpg.The file was compressed from 252.76 KB to 68.21 KB, saving 73.01 percent, using WP-Optimize 
+[2026-04-14 03:49:41 : INFO] - Completed processing task with ID : 43, and type 'smush' 
+[2026-04-14 03:49:41 : INFO] - Processing task with ID : 44, and type 'smush' 
+[2026-04-14 03:49:41 : INFO] - Re_Smush_It_Task - Attachment ID : 7263, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:49:41 : INFO] - File: seikei_-sp-1.jpg, Compression quality: 92 
+[2026-04-14 03:49:46 : INFO] - Backing up the original image - seikei_-sp-1-updraft-pre-smush-original.jpg 
+[2026-04-14 03:50:01 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/seikei_-sp-1.jpg.The file was compressed from 348.28 KB to 90.54 KB, saving 74 percent, using WP-Optimize 
+[2026-04-14 03:50:01 : INFO] - Completed processing task with ID : 44, and type 'smush' 
+[2026-04-14 03:50:01 : INFO] - Processing task with ID : 45, and type 'smush' 
+[2026-04-14 03:50:01 : INFO] - Re_Smush_It_Task - Attachment ID : 7265, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:50:01 : INFO] - File: touseki_sp-1.jpg, Compression quality: 92 
+[2026-04-14 03:50:06 : INFO] - Backing up the original image - touseki_sp-1-updraft-pre-smush-original.jpg 
+[2026-04-14 03:50:19 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/touseki_sp-1.jpg.The file was compressed from 298.12 KB to 82.78 KB, saving 72.23 percent, using WP-Optimize 
+[2026-04-14 03:50:19 : INFO] - Completed processing task with ID : 45, and type 'smush' 
+[2026-04-14 03:50:19 : INFO] - Processing task with ID : 46, and type 'smush' 
+[2026-04-14 03:50:20 : INFO] - Re_Smush_It_Task - Attachment ID : 7266, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:50:20 : INFO] - File: touseki_pc-1.jpg, Compression quality: 92 
+[2026-04-14 03:50:23 : INFO] - Backing up the original image - touseki_pc-1-updraft-pre-smush-original.jpg 
+[2026-04-14 03:50:33 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/touseki_pc-1.jpg.The file was compressed from 242.89 KB to 66.19 KB, saving 72.75 percent, using WP-Optimize 
+[2026-04-14 03:50:33 : INFO] - Completed processing task with ID : 46, and type 'smush' 
+[2026-04-14 03:50:33 : INFO] - Processing task with ID : 47, and type 'smush' 
+[2026-04-14 03:50:33 : INFO] - Re_Smush_It_Task - Attachment ID : 7269, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:50:33 : INFO] - File: ttl_l_kyukyu.jpg, Compression quality: 92 
+[2026-04-14 03:50:37 : INFO] - Backing up the original image - ttl_l_kyukyu-updraft-pre-smush-original.jpg 
+[2026-04-14 03:50:53 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/ttl_l_kyukyu.jpg.The file was compressed from 81.18 KB to 81.05 KB, saving 0.15 percent, using WP-Optimize 
+[2026-04-14 03:50:53 : INFO] - Completed processing task with ID : 47, and type 'smush' 
+[2026-04-14 03:50:53 : INFO] - Processing task with ID : 48, and type 'smush' 
+[2026-04-14 03:50:53 : INFO] - Re_Smush_It_Task - Attachment ID : 7270, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:50:53 : INFO] - File: ttl_n.jpg, Compression quality: 92 
+[2026-04-14 03:50:58 : INFO] - Backing up the original image - ttl_n-updraft-pre-smush-original.jpg 
+[2026-04-14 03:52:43 : INFO] - A total of 96 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:52:43 : INFO] - Lock (updraft_lock_smush, wOtckM_options) acquired 
+[2026-04-14 03:52:43 : INFO] - Processing task with ID : 48, and type 'smush' 
+[2026-04-14 03:52:43 : INFO] - Re_Smush_It_Task - Attachment ID : 7270, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:52:43 : INFO] - File: ttl_n.jpg, Compression quality: 92 
+[2026-04-14 03:52:48 : INFO] - Backing up the original image - ttl_n-updraft-pre-smush-original.jpg 
+[2026-04-14 03:53:06 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/ttl_n.jpg.The file was compressed from 147.81 KB to 147.18 KB, saving 0.43 percent, using WP-Optimize 
+[2026-04-14 03:53:06 : INFO] - Completed processing task with ID : 48, and type 'smush' 
+[2026-04-14 03:53:06 : INFO] - Processing task with ID : 49, and type 'smush' 
+[2026-04-14 03:53:06 : INFO] - Re_Smush_It_Task - Attachment ID : 7271, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:53:06 : INFO] - File: carousel10.jpg, Compression quality: 92 
+[2026-04-14 03:53:09 : INFO] - Backing up the original image - carousel10-updraft-pre-smush-original.jpg 
+[2026-04-14 03:53:14 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/carousel10.jpg.The file was compressed from 26.78 KB to 26.24 KB, saving 2.01 percent, using WP-Optimize 
+[2026-04-14 03:53:14 : INFO] - Completed processing task with ID : 49, and type 'smush' 
+[2026-04-14 03:53:14 : INFO] - Processing task with ID : 50, and type 'smush' 
+[2026-04-14 03:53:14 : INFO] - Re_Smush_It_Task - Attachment ID : 7272, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:53:14 : INFO] - File: carousel01.jpg, Compression quality: 92 
+[2026-04-14 03:53:17 : INFO] - Backing up the original image - carousel01-updraft-pre-smush-original.jpg 
+[2026-04-14 03:53:22 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/carousel01.jpg.The file was compressed from 24.30 KB to 23.25 KB, saving 4.32 percent, using WP-Optimize 
+[2026-04-14 03:53:22 : INFO] - Completed processing task with ID : 50, and type 'smush' 
+[2026-04-14 03:53:22 : INFO] - Processing task with ID : 51, and type 'smush' 
+[2026-04-14 03:53:22 : INFO] - Re_Smush_It_Task - Attachment ID : 7273, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:53:22 : INFO] - File: carousel02.jpg, Compression quality: 92 
+[2026-04-14 03:53:24 : INFO] - Backing up the original image - carousel02-updraft-pre-smush-original.jpg 
+[2026-04-14 03:53:29 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/carousel02.jpg.The file was compressed from 13.73 KB to 13.14 KB, saving 4.33 percent, using WP-Optimize 
+[2026-04-14 03:53:29 : INFO] - Completed processing task with ID : 51, and type 'smush' 
+[2026-04-14 03:53:29 : INFO] - Processing task with ID : 52, and type 'smush' 
+[2026-04-14 03:53:29 : INFO] - Re_Smush_It_Task - Attachment ID : 7274, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:53:29 : INFO] - File: carousel03.jpg, Compression quality: 92 
+[2026-04-14 03:53:32 : INFO] - Backing up the original image - carousel03-updraft-pre-smush-original.jpg 
+[2026-04-14 03:53:37 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/carousel03.jpg.The file was compressed from 18.78 KB to 17.97 KB, saving 4.31 percent, using WP-Optimize 
+[2026-04-14 03:53:37 : INFO] - Completed processing task with ID : 52, and type 'smush' 
+[2026-04-14 03:53:37 : INFO] - Processing task with ID : 53, and type 'smush' 
+[2026-04-14 03:53:37 : INFO] - Re_Smush_It_Task - Attachment ID : 7275, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:53:37 : INFO] - File: carousel04.jpg, Compression quality: 92 
+[2026-04-14 03:53:40 : INFO] - Backing up the original image - carousel04-updraft-pre-smush-original.jpg 
+[2026-04-14 03:53:43 : INFO] - A total of 91 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:53:43 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:53:43 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:53:43 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:53:43 : INFO] - Cleaning up tasks of type (smush). A total of 14 tasks will be deleted. 
+[2026-04-14 03:53:45 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/carousel04.jpg.The file was compressed from 17.73 KB to 16.99 KB, saving 4.15 percent, using WP-Optimize 
+[2026-04-14 03:53:45 : INFO] - Completed processing task with ID : 53, and type 'smush' 
+[2026-04-14 03:53:45 : INFO] - Processing task with ID : 54, and type 'smush' 
+[2026-04-14 03:53:45 : INFO] - Re_Smush_It_Task - Attachment ID : 7276, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:53:45 : INFO] - File: carousel05.jpg, Compression quality: 92 
+[2026-04-14 03:53:47 : INFO] - Backing up the original image - carousel05-updraft-pre-smush-original.jpg 
+[2026-04-14 03:53:53 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/carousel05.jpg.The file was compressed from 16.81 KB to 16.80 KB, saving 0.05 percent, using WP-Optimize 
+[2026-04-14 03:53:53 : INFO] - Completed processing task with ID : 54, and type 'smush' 
+[2026-04-14 03:53:53 : INFO] - Processing task with ID : 55, and type 'smush' 
+[2026-04-14 03:53:53 : INFO] - Re_Smush_It_Task - Attachment ID : 7277, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:53:53 : INFO] - File: carousel06.jpg, Compression quality: 92 
+[2026-04-14 03:53:54 : INFO] - Backing up the original image - carousel06-updraft-pre-smush-original.jpg 
+[2026-04-14 03:54:00 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/carousel06.jpg.The file was compressed from 10.60 KB to 10.11 KB, saving 4.66 percent, using WP-Optimize 
+[2026-04-14 03:54:00 : INFO] - Completed processing task with ID : 55, and type 'smush' 
+[2026-04-14 03:54:00 : INFO] - Processing task with ID : 56, and type 'smush' 
+[2026-04-14 03:54:00 : INFO] - Re_Smush_It_Task - Attachment ID : 7278, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:54:00 : INFO] - File: carousel07.jpg, Compression quality: 92 
+[2026-04-14 03:54:02 : INFO] - Backing up the original image - carousel07-updraft-pre-smush-original.jpg 
+[2026-04-14 03:54:07 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/carousel07.jpg.The file was compressed from 16.32 KB to 15.89 KB, saving 2.64 percent, using WP-Optimize 
+[2026-04-14 03:54:07 : INFO] - Completed processing task with ID : 56, and type 'smush' 
+[2026-04-14 03:54:07 : INFO] - Processing task with ID : 57, and type 'smush' 
+[2026-04-14 03:54:07 : INFO] - Re_Smush_It_Task - Attachment ID : 7279, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:54:07 : INFO] - File: carousel09.jpg, Compression quality: 92 
+[2026-04-14 03:54:10 : INFO] - Backing up the original image - carousel09-updraft-pre-smush-original.jpg 
+[2026-04-14 03:54:15 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/carousel09.jpg.The file was compressed from 20.30 KB to 20.13 KB, saving 0.86 percent, using WP-Optimize 
+[2026-04-14 03:54:15 : INFO] - Completed processing task with ID : 57, and type 'smush' 
+[2026-04-14 03:54:15 : INFO] - Processing task with ID : 58, and type 'smush' 
+[2026-04-14 03:54:15 : INFO] - Re_Smush_It_Task - Attachment ID : 7345, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:54:15 : INFO] - File: ttl_n_01.jpg, Compression quality: 92 
+[2026-04-14 03:54:18 : INFO] - Backing up the original image - ttl_n_01-updraft-pre-smush-original.jpg 
+[2026-04-14 03:54:29 : INFO] - A total of 86 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:54:29 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:54:29 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:54:29 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:54:29 : INFO] - Cleaning up tasks of type (smush). A total of 5 tasks will be deleted. 
+[2026-04-14 03:54:34 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/ttl_n_01.jpg.The file was compressed from 34.66 KB to 34.66 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 03:54:34 : INFO] - Completed processing task with ID : 58, and type 'smush' 
+[2026-04-14 03:54:34 : INFO] - Processing task with ID : 59, and type 'smush' 
+[2026-04-14 03:54:34 : INFO] - Re_Smush_It_Task - Attachment ID : 7556, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:54:34 : INFO] - File: kango.jpg, Compression quality: 92 
+[2026-04-14 03:54:39 : INFO] - Backing up the original image - kango-updraft-pre-smush-original.jpg 
+[2026-04-14 03:54:43 : INFO] - A total of 85 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:54:43 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:54:43 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:54:43 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:54:43 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2026-04-14 03:55:01 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/kango.jpg.The file was compressed from 174.20 KB to 170.80 KB, saving 1.95 percent, using WP-Optimize 
+[2026-04-14 03:55:01 : INFO] - Completed processing task with ID : 59, and type 'smush' 
+[2026-04-14 03:55:01 : INFO] - Processing task with ID : 60, and type 'smush' 
+[2026-04-14 03:55:01 : INFO] - Re_Smush_It_Task - Attachment ID : 7564, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:55:01 : INFO] - File: reha.jpg, Compression quality: 92 
+[2026-04-14 03:55:07 : INFO] - Backing up the original image - reha-updraft-pre-smush-original.jpg 
+[2026-04-14 03:55:28 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/reha.jpg.The file was compressed from 187.22 KB to 184.47 KB, saving 1.47 percent, using WP-Optimize 
+[2026-04-14 03:55:28 : INFO] - Completed processing task with ID : 60, and type 'smush' 
+[2026-04-14 03:55:28 : INFO] - Processing task with ID : 61, and type 'smush' 
+[2026-04-14 03:55:28 : INFO] - Re_Smush_It_Task - Attachment ID : 7570, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:55:28 : INFO] - File: renkei02.jpg, Compression quality: 92 
+[2026-04-14 03:55:34 : INFO] - Backing up the original image - renkei02-updraft-pre-smush-original.jpg 
+[2026-04-14 03:55:43 : INFO] - A total of 83 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:55:43 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:55:43 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:55:43 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:55:43 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2026-04-14 03:55:55 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/renkei02.jpg.The file was compressed from 175.10 KB to 172.43 KB, saving 1.52 percent, using WP-Optimize 
+[2026-04-14 03:55:55 : INFO] - Completed processing task with ID : 61, and type 'smush' 
+[2026-04-14 03:55:55 : INFO] - Processing task with ID : 62, and type 'smush' 
+[2026-04-14 03:55:55 : INFO] - Re_Smush_It_Task - Attachment ID : 7579, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:55:55 : INFO] - File: renkei01.jpg, Compression quality: 92 
+[2026-04-14 03:55:59 : INFO] - Backing up the original image - renkei01-updraft-pre-smush-original.jpg 
+[2026-04-14 03:56:17 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/renkei01.jpg.The file was compressed from 83.72 KB to 83.10 KB, saving 0.73 percent, using WP-Optimize 
+[2026-04-14 03:56:17 : INFO] - Completed processing task with ID : 62, and type 'smush' 
+[2026-04-14 03:56:17 : INFO] - Processing task with ID : 63, and type 'smush' 
+[2026-04-14 03:56:17 : INFO] - Re_Smush_It_Task - Attachment ID : 7616, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:56:17 : INFO] - File: renkei_t.gif, Compression quality: 92 
+[2026-04-14 03:56:19 : INFO] - Backing up the original image - renkei_t-updraft-pre-smush-original.gif 
+[2026-04-14 03:56:24 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/renkei_t.gif.The file was compressed from 17.88 KB to 17.88 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 03:56:24 : INFO] - Completed processing task with ID : 63, and type 'smush' 
+[2026-04-14 03:56:24 : INFO] - Processing task with ID : 64, and type 'smush' 
+[2026-04-14 03:56:24 : INFO] - Re_Smush_It_Task - Attachment ID : 7867, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:56:24 : INFO] - File: roken_icon.png, Compression quality: 92 
+[2026-04-14 03:56:27 : INFO] - Backing up the original image - roken_icon-updraft-pre-smush-original.png 
+[2026-04-14 03:56:40 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/roken_icon.png.The file was compressed from 34.04 KB to 22.39 KB, saving 34.23 percent, using WP-Optimize 
+[2026-04-14 03:56:40 : INFO] - Completed processing task with ID : 64, and type 'smush' 
+[2026-04-14 03:56:40 : INFO] - Processing task with ID : 65, and type 'smush' 
+[2026-04-14 03:56:40 : INFO] - Re_Smush_It_Task - Attachment ID : 7868, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:56:40 : INFO] - File: hokan_icon.png, Compression quality: 92 
+[2026-04-14 03:56:42 : INFO] - Backing up the original image - hokan_icon-updraft-pre-smush-original.png 
+[2026-04-14 03:56:44 : INFO] - A total of 79 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:56:44 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 03:56:44 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 03:56:44 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 03:56:44 : INFO] - Cleaning up tasks of type (smush). A total of 4 tasks will be deleted. 
+[2026-04-14 03:56:56 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/hokan_icon.png.The file was compressed from 45.65 KB to 26.74 KB, saving 41.43 percent, using WP-Optimize 
+[2026-04-14 03:56:56 : INFO] - Completed processing task with ID : 65, and type 'smush' 
+[2026-04-14 03:56:56 : INFO] - Processing task with ID : 66, and type 'smush' 
+[2026-04-14 03:56:56 : INFO] - Re_Smush_It_Task - Attachment ID : 8008, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:56:56 : INFO] - File: dummy_img.png, Compression quality: 92 
+[2026-04-14 03:56:58 : INFO] - Backing up the original image - dummy_img-updraft-pre-smush-original.png 
+[2026-04-14 03:57:10 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/dummy_img.png.The file was compressed from 17.64 KB to 6.75 KB, saving 61.73 percent, using WP-Optimize 
+[2026-04-14 03:57:10 : INFO] - Completed processing task with ID : 66, and type 'smush' 
+[2026-04-14 03:57:10 : INFO] - Processing task with ID : 67, and type 'smush' 
+[2026-04-14 03:57:10 : INFO] - Re_Smush_It_Task - Attachment ID : 8296, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:57:10 : INFO] - File: dummy-img02.png, Compression quality: 92 
+[2026-04-14 03:57:13 : INFO] - Backing up the original image - dummy-img02-updraft-pre-smush-original.png 
+[2026-04-14 03:57:24 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/dummy-img02.png.The file was compressed from 14.45 KB to 5.18 KB, saving 64.14 percent, using WP-Optimize 
+[2026-04-14 03:57:24 : INFO] - Completed processing task with ID : 67, and type 'smush' 
+[2026-04-14 03:57:24 : INFO] - Processing task with ID : 68, and type 'smush' 
+[2026-04-14 03:57:24 : INFO] - Re_Smush_It_Task - Attachment ID : 8325, Blog ID : 1, Started on : April 14, 2026 03:34:11 
+[2026-04-14 03:57:24 : INFO] - File: kangobu_01.jpg, Compression quality: 92 
+[2026-04-14 03:57:31 : INFO] - Backing up the original image - kangobu_01-updraft-pre-smush-original.jpg 
+[2026-04-14 03:57:44 : INFO] - A total of 76 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 03:57:44 : INFO] - Lock (updraft_lock_smush, wOtckM_options) acquired 
+[2026-04-14 03:57:47 : INFO] - Task with ID 68 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2026-04-14 03:57:47 : INFO] - Processing task with ID : 69, and type 'smush' 
+[2026-04-14 03:57:47 : INFO] - Re_Smush_It_Task - Attachment ID : 8375, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 03:57:47 : INFO] - File: sanka.jpg, Compression quality: 92 
+[2026-04-14 03:57:50 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/kangobu_01.jpg.The file was compressed from 124.58 KB to 124.27 KB, saving 0.25 percent, using WP-Optimize 
+[2026-04-14 03:57:50 : INFO] - Completed processing task with ID : 68, and type 'smush' 
+[2026-04-14 03:57:53 : INFO] - Task with ID 69 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2026-04-14 03:57:53 : INFO] - Processing task with ID : 70, and type 'smush' 
+[2026-04-14 03:57:53 : INFO] - Re_Smush_It_Task - Attachment ID : 8438, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 03:57:53 : INFO] - File: kango_02.jpg, Compression quality: 92 
+[2026-04-14 03:57:54 : INFO] - Backing up the original image - sanka-updraft-pre-smush-original.jpg 
+[2026-04-14 03:57:58 : INFO] - Backing up the original image - kango_02-updraft-pre-smush-original.jpg 
+[2026-04-14 03:58:12 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/sanka.jpg.The file was compressed from 195.35 KB to 145.99 KB, saving 25.27 percent, using WP-Optimize 
+[2026-04-14 03:58:12 : INFO] - Completed processing task with ID : 69, and type 'smush' 
+[2026-04-14 03:58:15 : INFO] - Task with ID 70 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2026-04-14 03:58:15 : INFO] - Processing task with ID : 71, and type 'smush' 
+[2026-04-14 03:58:15 : INFO] - Re_Smush_It_Task - Attachment ID : 8448, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 03:58:15 : INFO] - File: ttl_sanka.jpg, Compression quality: 92 
+[2026-04-14 03:58:21 : INFO] - Backing up the original image - ttl_sanka-updraft-pre-smush-original.jpg 
+[2026-04-14 03:58:21 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/kango_02.jpg.The file was compressed from 200.55 KB to 196.43 KB, saving 2.05 percent, using WP-Optimize 
+[2026-04-14 03:58:21 : INFO] - Completed processing task with ID : 70, and type 'smush' 
+[2026-04-14 03:58:24 : INFO] - Task with ID 71 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2026-04-14 03:58:24 : INFO] - Processing task with ID : 72, and type 'smush' 
+[2026-04-14 03:58:24 : INFO] - Re_Smush_It_Task - Attachment ID : 10142, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 03:58:24 : INFO] - File: oiwai_y.jpg, Compression quality: 92 
+[2026-04-14 03:58:36 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/ttl_sanka.jpg.The file was compressed from 40.58 KB to 40.58 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 03:58:36 : INFO] - Completed processing task with ID : 71, and type 'smush' 
+[2026-04-14 03:58:39 : INFO] - Task with ID 72 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2026-04-14 03:58:39 : INFO] - Processing task with ID : 73, and type 'smush' 
+[2026-04-14 03:58:39 : INFO] - Re_Smush_It_Task - Attachment ID : 10143, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 03:58:39 : INFO] - File: oiwai_w.jpg, Compression quality: 92 
+[2026-04-14 03:58:45 : INFO] - Backing up the original image - oiwai_w-updraft-pre-smush-original.jpg 
+[2026-04-14 03:59:08 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/oiwai_w.jpg.The file was compressed from 161.22 KB to 160.97 KB, saving 0.16 percent, using WP-Optimize 
+[2026-04-14 03:59:08 : INFO] - Completed processing task with ID : 73, and type 'smush' 
+[2026-04-14 03:59:08 : INFO] - Processing task with ID : 74, and type 'smush' 
+[2026-04-14 03:59:08 : INFO] - Re_Smush_It_Task - Attachment ID : 10161, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 03:59:08 : INFO] - File: ldr.jpg, Compression quality: 92 
+[2026-04-14 03:59:13 : INFO] - Backing up the original image - ldr-updraft-pre-smush-original.jpg 
+[2026-04-14 03:59:32 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/ldr.jpg.The file was compressed from 214.00 KB to 148.76 KB, saving 30.49 percent, using WP-Optimize 
+[2026-04-14 03:59:32 : INFO] - Completed processing task with ID : 74, and type 'smush' 
+[2026-04-14 03:59:32 : INFO] - Processing task with ID : 75, and type 'smush' 
+[2026-04-14 03:59:32 : INFO] - Re_Smush_It_Task - Attachment ID : 10241, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 03:59:32 : INFO] - File: hp_name_sp.png, Compression quality: 92 
+[2026-04-14 03:59:33 : INFO] - Backing up the original image - hp_name_sp-updraft-pre-smush-original.png 
+[2026-04-14 03:59:36 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/hp_name_sp.png.The file was compressed from 5.57 KB to 4.68 KB, saving 15.94 percent, using WP-Optimize 
+[2026-04-14 03:59:36 : INFO] - Completed processing task with ID : 75, and type 'smush' 
+[2026-04-14 03:59:36 : INFO] - Processing task with ID : 76, and type 'smush' 
+[2026-04-14 03:59:36 : INFO] - Re_Smush_It_Task - Attachment ID : 10246, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 03:59:36 : INFO] - File: bus.jpg, Compression quality: 92 
+[2026-04-14 03:59:42 : INFO] - Backing up the original image - bus-updraft-pre-smush-original.jpg 
+[2026-04-14 04:00:04 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/bus.jpg.The file was compressed from 260.86 KB to 257.03 KB, saving 1.47 percent, using WP-Optimize 
+[2026-04-14 04:00:04 : INFO] - Completed processing task with ID : 76, and type 'smush' 
+[2026-04-14 04:00:04 : INFO] - Processing task with ID : 77, and type 'smush' 
+[2026-04-14 04:00:04 : INFO] - Re_Smush_It_Task - Attachment ID : 10422, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:00:04 : INFO] - File: external-link.png, Compression quality: 92 
+[2026-04-14 04:00:06 : INFO] - Backing up the original image - external-link-updraft-pre-smush-original.png 
+[2026-04-14 04:00:06 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/external-link.png.The file was compressed from 367 bytes to 367 bytes, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:00:06 : INFO] - Completed processing task with ID : 77, and type 'smush' 
+[2026-04-14 04:00:06 : INFO] - Processing task with ID : 78, and type 'smush' 
+[2026-04-14 04:00:06 : INFO] - Re_Smush_It_Task - Attachment ID : 10673, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:00:06 : INFO] - File: kenshin_SP.jpg, Compression quality: 92 
+[2026-04-14 04:00:08 : INFO] - Backing up the original image - kenshin_SP-updraft-pre-smush-original.jpg 
+[2026-04-14 04:00:19 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/kenshin_SP.jpg.The file was compressed from 33.84 KB to 32.93 KB, saving 2.68 percent, using WP-Optimize 
+[2026-04-14 04:00:19 : INFO] - Completed processing task with ID : 78, and type 'smush' 
+[2026-04-14 04:00:19 : INFO] - Processing task with ID : 79, and type 'smush' 
+[2026-04-14 04:00:19 : INFO] - Re_Smush_It_Task - Attachment ID : 10675, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:00:19 : INFO] - File: kenshin_PC.jpg, Compression quality: 92 
+[2026-04-14 04:00:22 : INFO] - Backing up the original image - kenshin_PC-updraft-pre-smush-original.jpg 
+[2026-04-14 04:00:39 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/kenshin_PC.jpg.The file was compressed from 71.93 KB to 70.19 KB, saving 2.42 percent, using WP-Optimize 
+[2026-04-14 04:00:39 : INFO] - Completed processing task with ID : 79, and type 'smush' 
+[2026-04-14 04:00:39 : INFO] - Processing task with ID : 80, and type 'smush' 
+[2026-04-14 04:00:39 : INFO] - Re_Smush_It_Task - Attachment ID : 10696, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:00:39 : INFO] - File: rinen_txt.png, Compression quality: 92 
+[2026-04-14 04:00:42 : INFO] - Backing up the original image - rinen_txt-updraft-pre-smush-original.png 
+[2026-04-14 04:00:57 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/rinen_txt.png.The file was compressed from 53.95 KB to 27.95 KB, saving 48.19 percent, using WP-Optimize 
+[2026-04-14 04:00:57 : INFO] - Completed processing task with ID : 80, and type 'smush' 
+[2026-04-14 04:00:57 : INFO] - Processing task with ID : 81, and type 'smush' 
+[2026-04-14 04:00:57 : INFO] - Re_Smush_It_Task - Attachment ID : 10772, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:00:57 : INFO] - File: intyou.jpg, Compression quality: 92 
+[2026-04-14 04:01:02 : INFO] - Backing up the original image - intyou-updraft-pre-smush-original.jpg 
+[2026-04-14 04:01:21 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/intyou.jpg.The file was compressed from 117.24 KB to 115.54 KB, saving 1.45 percent, using WP-Optimize 
+[2026-04-14 04:01:21 : INFO] - Completed processing task with ID : 81, and type 'smush' 
+[2026-04-14 04:01:21 : INFO] - Processing task with ID : 82, and type 'smush' 
+[2026-04-14 04:01:21 : INFO] - Re_Smush_It_Task - Attachment ID : 10854, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:01:21 : INFO] - File: kyukyu01.gif, Compression quality: 92 
+[2026-04-14 04:01:23 : INFO] - Backing up the original image - kyukyu01-updraft-pre-smush-original.gif 
+[2026-04-14 04:01:26 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/kyukyu01.gif.The file was compressed from 10.91 KB to 10.91 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:01:26 : INFO] - Completed processing task with ID : 82, and type 'smush' 
+[2026-04-14 04:01:26 : INFO] - Processing task with ID : 83, and type 'smush' 
+[2026-04-14 04:01:26 : INFO] - Re_Smush_It_Task - Attachment ID : 10855, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:01:26 : INFO] - File: kyukyu02.gif, Compression quality: 92 
+[2026-04-14 04:01:27 : INFO] - Backing up the original image - kyukyu02-updraft-pre-smush-original.gif 
+[2026-04-14 04:01:31 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/kyukyu02.gif.The file was compressed from 11.14 KB to 11.14 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:01:31 : INFO] - Completed processing task with ID : 83, and type 'smush' 
+[2026-04-14 04:01:31 : INFO] - Processing task with ID : 84, and type 'smush' 
+[2026-04-14 04:01:31 : INFO] - Re_Smush_It_Task - Attachment ID : 10856, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:01:31 : INFO] - File: kyukyu.jpg, Compression quality: 92 
+[2026-04-14 04:01:33 : INFO] - Backing up the original image - kyukyu-updraft-pre-smush-original.jpg 
+[2026-04-14 04:01:36 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/kyukyu.jpg.The file was compressed from 26.74 KB to 24.55 KB, saving 8.19 percent, using WP-Optimize 
+[2026-04-14 04:01:36 : INFO] - Completed processing task with ID : 84, and type 'smush' 
+[2026-04-14 04:01:36 : INFO] - Processing task with ID : 85, and type 'smush' 
+[2026-04-14 04:01:36 : INFO] - Re_Smush_It_Task - Attachment ID : 11069, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:01:36 : INFO] - File: chofu.jpg, Compression quality: 92 
+[2026-04-14 04:01:42 : INFO] - Backing up the original image - chofu-updraft-pre-smush-original.jpg 
+[2026-04-14 04:02:03 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/chofu.jpg.The file was compressed from 224.04 KB to 219.20 KB, saving 2.16 percent, using WP-Optimize 
+[2026-04-14 04:02:03 : INFO] - Completed processing task with ID : 85, and type 'smush' 
+[2026-04-14 04:02:03 : INFO] - Processing task with ID : 86, and type 'smush' 
+[2026-04-14 04:02:03 : INFO] - Re_Smush_It_Task - Attachment ID : 11858, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:02:03 : INFO] - File: pdf_link.png, Compression quality: 92 
+[2026-04-14 04:02:05 : INFO] - Backing up the original image - pdf_link-updraft-pre-smush-original.png 
+[2026-04-14 04:02:05 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/pdf_link.png.The file was compressed from 1.41 KB to 915 bytes, saving 36.5 percent, using WP-Optimize 
+[2026-04-14 04:02:05 : INFO] - Completed processing task with ID : 86, and type 'smush' 
+[2026-04-14 04:02:05 : INFO] - Processing task with ID : 87, and type 'smush' 
+[2026-04-14 04:02:05 : INFO] - Re_Smush_It_Task - Attachment ID : 12097, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:02:05 : INFO] - File: external-link2.png, Compression quality: 92 
+[2026-04-14 04:02:07 : INFO] - Backing up the original image - external-link2-updraft-pre-smush-original.png 
+[2026-04-14 04:02:07 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/external-link2.png.The file was compressed from 520 bytes to 466 bytes, saving 10.38 percent, using WP-Optimize 
+[2026-04-14 04:02:07 : INFO] - Completed processing task with ID : 87, and type 'smush' 
+[2026-04-14 04:02:07 : INFO] - Processing task with ID : 88, and type 'smush' 
+[2026-04-14 04:02:07 : INFO] - Re_Smush_It_Task - Attachment ID : 12160, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:02:07 : INFO] - File: ttl_shinryo.jpg, Compression quality: 92 
+[2026-04-14 04:02:10 : INFO] - Backing up the original image - ttl_shinryo-updraft-pre-smush-original.jpg 
+[2026-04-14 04:02:25 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/ttl_shinryo.jpg.The file was compressed from 36.50 KB to 36.50 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:02:25 : INFO] - Completed processing task with ID : 88, and type 'smush' 
+[2026-04-14 04:02:25 : INFO] - Processing task with ID : 89, and type 'smush' 
+[2026-04-14 04:02:25 : INFO] - Re_Smush_It_Task - Attachment ID : 12161, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:02:25 : INFO] - File: ttl_recruit.jpg, Compression quality: 92 
+[2026-04-14 04:02:29 : INFO] - Backing up the original image - ttl_recruit-updraft-pre-smush-original.jpg 
+[2026-04-14 04:02:44 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/ttl_recruit.jpg.The file was compressed from 44.60 KB to 44.60 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:02:44 : INFO] - Completed processing task with ID : 89, and type 'smush' 
+[2026-04-14 04:02:44 : INFO] - Processing task with ID : 90, and type 'smush' 
+[2026-04-14 04:02:44 : INFO] - Re_Smush_It_Task - Attachment ID : 13738, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:02:44 : INFO] - File: tel_icon.png, Compression quality: 92 
+[2026-04-14 04:02:46 : INFO] - Backing up the original image - tel_icon-updraft-pre-smush-original.png 
+[2026-04-14 04:02:46 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/tel_icon.png.The file was compressed from 1.10 KB to 785 bytes, saving 30.53 percent, using WP-Optimize 
+[2026-04-14 04:02:46 : INFO] - Completed processing task with ID : 90, and type 'smush' 
+[2026-04-14 04:02:46 : INFO] - Processing task with ID : 91, and type 'smush' 
+[2026-04-14 04:02:46 : INFO] - Re_Smush_It_Task - Attachment ID : 13762, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:02:46 : INFO] - File: recruit1.jpg, Compression quality: 92 
+[2026-04-14 04:02:48 : INFO] - Backing up the original image - recruit1-updraft-pre-smush-original.jpg 
+[2026-04-14 04:02:54 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/recruit1.jpg.The file was compressed from 22.13 KB to 21.29 KB, saving 3.78 percent, using WP-Optimize 
+[2026-04-14 04:02:54 : INFO] - Completed processing task with ID : 91, and type 'smush' 
+[2026-04-14 04:02:54 : INFO] - Processing task with ID : 92, and type 'smush' 
+[2026-04-14 04:02:54 : INFO] - Re_Smush_It_Task - Attachment ID : 13824, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:02:54 : INFO] - File: interview.jpg, Compression quality: 92 
+[2026-04-14 04:02:56 : INFO] - Backing up the original image - interview-updraft-pre-smush-original.jpg 
+[2026-04-14 04:03:02 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/interview.jpg.The file was compressed from 20.98 KB to 20.95 KB, saving 0.18 percent, using WP-Optimize 
+[2026-04-14 04:03:02 : INFO] - Completed processing task with ID : 92, and type 'smush' 
+[2026-04-14 04:03:02 : INFO] - Processing task with ID : 93, and type 'smush' 
+[2026-04-14 04:03:02 : INFO] - Re_Smush_It_Task - Attachment ID : 13826, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:03:02 : INFO] - File: about_kango.jpg, Compression quality: 92 
+[2026-04-14 04:03:04 : INFO] - Backing up the original image - about_kango-updraft-pre-smush-original.jpg 
+[2026-04-14 04:04:33 : INFO] - A total of 51 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 04:04:33 : INFO] - Lock (updraft_lock_smush, wOtckM_options) acquired 
+[2026-04-14 04:04:33 : INFO] - Processing task with ID : 93, and type 'smush' 
+[2026-04-14 04:04:33 : INFO] - Re_Smush_It_Task - Attachment ID : 13826, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:04:33 : INFO] - File: about_kango.jpg, Compression quality: 92 
+[2026-04-14 04:04:36 : INFO] - Backing up the original image - about_kango-updraft-pre-smush-original.jpg 
+[2026-04-14 04:04:41 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/about_kango.jpg.The file was compressed from 16.89 KB to 16.74 KB, saving 0.88 percent, using WP-Optimize 
+[2026-04-14 04:04:41 : INFO] - Completed processing task with ID : 93, and type 'smush' 
+[2026-04-14 04:04:41 : INFO] - Processing task with ID : 94, and type 'smush' 
+[2026-04-14 04:04:41 : INFO] - Re_Smush_It_Task - Attachment ID : 13827, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:04:41 : INFO] - File: interview_reha.jpg, Compression quality: 92 
+[2026-04-14 04:04:44 : INFO] - Backing up the original image - interview_reha-updraft-pre-smush-original.jpg 
+[2026-04-14 04:04:50 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/interview_reha.jpg.The file was compressed from 60.76 KB to 59.98 KB, saving 1.28 percent, using WP-Optimize 
+[2026-04-14 04:04:50 : INFO] - Completed processing task with ID : 94, and type 'smush' 
+[2026-04-14 04:04:50 : INFO] - Processing task with ID : 95, and type 'smush' 
+[2026-04-14 04:04:50 : INFO] - Re_Smush_It_Task - Attachment ID : 13828, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:04:50 : INFO] - File: interview_nurse.jpg, Compression quality: 92 
+[2026-04-14 04:04:53 : INFO] - Backing up the original image - interview_nurse-updraft-pre-smush-original.jpg 
+[2026-04-14 04:04:58 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/interview_nurse.jpg.The file was compressed from 45.46 KB to 45.15 KB, saving 0.67 percent, using WP-Optimize 
+[2026-04-14 04:04:58 : INFO] - Completed processing task with ID : 95, and type 'smush' 
+[2026-04-14 04:04:58 : INFO] - Processing task with ID : 96, and type 'smush' 
+[2026-04-14 04:04:58 : INFO] - Re_Smush_It_Task - Attachment ID : 13892, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:04:58 : INFO] - File: sraff_sample_01.png, Compression quality: 92 
+[2026-04-14 04:05:01 : INFO] - Backing up the original image - sraff_sample_01-updraft-pre-smush-original.png 
+[2026-04-14 04:05:17 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/sraff_sample_01.png.The file was compressed from 63.47 KB to 27.17 KB, saving 57.19 percent, using WP-Optimize 
+[2026-04-14 04:05:17 : INFO] - Completed processing task with ID : 96, and type 'smush' 
+[2026-04-14 04:05:17 : INFO] - Processing task with ID : 97, and type 'smush' 
+[2026-04-14 04:05:17 : INFO] - Re_Smush_It_Task - Attachment ID : 13893, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:05:17 : INFO] - File: staff_sample_02.png, Compression quality: 92 
+[2026-04-14 04:05:20 : INFO] - Backing up the original image - staff_sample_02-updraft-pre-smush-original.png 
+[2026-04-14 04:05:35 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/staff_sample_02.png.The file was compressed from 57.30 KB to 24.57 KB, saving 57.12 percent, using WP-Optimize 
+[2026-04-14 04:05:35 : INFO] - Completed processing task with ID : 97, and type 'smush' 
+[2026-04-14 04:05:35 : INFO] - Processing task with ID : 98, and type 'smush' 
+[2026-04-14 04:05:35 : INFO] - Re_Smush_It_Task - Attachment ID : 13941, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:05:35 : INFO] - File: staff_sanple_03.png, Compression quality: 92 
+[2026-04-14 04:05:38 : INFO] - Backing up the original image - staff_sanple_03-updraft-pre-smush-original.png 
+[2026-04-14 04:05:54 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/staff_sanple_03.png.The file was compressed from 58.86 KB to 26.58 KB, saving 54.84 percent, using WP-Optimize 
+[2026-04-14 04:05:54 : INFO] - Completed processing task with ID : 98, and type 'smush' 
+[2026-04-14 04:05:54 : INFO] - Processing task with ID : 99, and type 'smush' 
+[2026-04-14 04:05:54 : INFO] - Re_Smush_It_Task - Attachment ID : 13942, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:05:54 : INFO] - File: staff_sample_04.png, Compression quality: 92 
+[2026-04-14 04:05:57 : INFO] - Backing up the original image - staff_sample_04-updraft-pre-smush-original.png 
+[2026-04-14 04:06:17 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/staff_sample_04.png.The file was compressed from 64.64 KB to 26.98 KB, saving 58.26 percent, using WP-Optimize 
+[2026-04-14 04:06:17 : INFO] - Completed processing task with ID : 99, and type 'smush' 
+[2026-04-14 04:06:17 : INFO] - Processing task with ID : 100, and type 'smush' 
+[2026-04-14 04:06:17 : INFO] - Re_Smush_It_Task - Attachment ID : 14185, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:06:17 : INFO] - File: map.gif, Compression quality: 92 
+[2026-04-14 04:06:19 : INFO] - Backing up the original image - map-updraft-pre-smush-original.gif 
+[2026-04-14 04:06:24 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/map.gif.The file was compressed from 37.45 KB to 37.45 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:06:24 : INFO] - Completed processing task with ID : 100, and type 'smush' 
+[2026-04-14 04:06:24 : INFO] - Processing task with ID : 101, and type 'smush' 
+[2026-04-14 04:06:24 : INFO] - Re_Smush_It_Task - Attachment ID : 14195, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:06:24 : INFO] - File: img_access.jpg, Compression quality: 92 
+[2026-04-14 04:06:31 : INFO] - Backing up the original image - img_access-updraft-pre-smush-original.jpg 
+[2026-04-14 04:06:53 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/img_access.jpg.The file was compressed from 367.59 KB to 359.24 KB, saving 2.27 percent, using WP-Optimize 
+[2026-04-14 04:06:53 : INFO] - Completed processing task with ID : 101, and type 'smush' 
+[2026-04-14 04:06:53 : INFO] - Processing task with ID : 102, and type 'smush' 
+[2026-04-14 04:06:53 : INFO] - Re_Smush_It_Task - Attachment ID : 14229, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:06:53 : INFO] - File: traning_movie_01.png, Compression quality: 92 
+[2026-04-14 04:06:58 : INFO] - Backing up the original image - traning_movie_01-updraft-pre-smush-original.png 
+[2026-04-14 04:07:18 : INFO] - A total of 42 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 04:07:18 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 04:07:18 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 04:07:18 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 04:07:18 : INFO] - Cleaning up tasks of type (smush). A total of 36 tasks will be deleted. 
+[2026-04-14 04:07:19 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/traning_movie_01.png.The file was compressed from 297.38 KB to 114.32 KB, saving 61.56 percent, using WP-Optimize 
+[2026-04-14 04:07:19 : INFO] - Completed processing task with ID : 102, and type 'smush' 
+[2026-04-14 04:07:19 : INFO] - Processing task with ID : 103, and type 'smush' 
+[2026-04-14 04:07:19 : INFO] - Re_Smush_It_Task - Attachment ID : 14230, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:07:19 : INFO] - File: traning_movie_02.png, Compression quality: 92 
+[2026-04-14 04:07:23 : INFO] - Backing up the original image - traning_movie_02-updraft-pre-smush-original.png 
+[2026-04-14 04:07:42 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/traning_movie_02.png.The file was compressed from 155.17 KB to 105.59 KB, saving 31.95 percent, using WP-Optimize 
+[2026-04-14 04:07:42 : INFO] - Completed processing task with ID : 103, and type 'smush' 
+[2026-04-14 04:07:42 : INFO] - Processing task with ID : 104, and type 'smush' 
+[2026-04-14 04:07:42 : INFO] - Re_Smush_It_Task - Attachment ID : 14231, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:07:42 : INFO] - File: traning_movie_03.png, Compression quality: 92 
+[2026-04-14 04:07:46 : INFO] - Backing up the original image - traning_movie_03-updraft-pre-smush-original.png 
+[2026-04-14 04:08:03 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/traning_movie_03.png.The file was compressed from 147.39 KB to 57.78 KB, saving 60.79 percent, using WP-Optimize 
+[2026-04-14 04:08:03 : INFO] - Completed processing task with ID : 104, and type 'smush' 
+[2026-04-14 04:08:03 : INFO] - Processing task with ID : 105, and type 'smush' 
+[2026-04-14 04:08:03 : INFO] - Re_Smush_It_Task - Attachment ID : 14232, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:08:03 : INFO] - File: traning_movie_04.png, Compression quality: 92 
+[2026-04-14 04:08:10 : INFO] - Backing up the original image - traning_movie_04-updraft-pre-smush-original.png 
+[2026-04-14 04:08:32 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/traning_movie_04.png.The file was compressed from 431.70 KB to 184.99 KB, saving 57.15 percent, using WP-Optimize 
+[2026-04-14 04:08:32 : INFO] - Completed processing task with ID : 105, and type 'smush' 
+[2026-04-14 04:08:32 : INFO] - Processing task with ID : 106, and type 'smush' 
+[2026-04-14 04:08:32 : INFO] - Re_Smush_It_Task - Attachment ID : 14233, Blog ID : 1, Started on : April 14, 2026 03:34:12 
+[2026-04-14 04:08:32 : INFO] - File: traning_movie_05.png, Compression quality: 92 
+[2026-04-14 04:08:37 : INFO] - Backing up the original image - traning_movie_05-updraft-pre-smush-original.png 
+[2026-04-14 04:09:00 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/traning_movie_05.png.The file was compressed from 331.60 KB to 146.94 KB, saving 55.69 percent, using WP-Optimize 
+[2026-04-14 04:09:00 : INFO] - Completed processing task with ID : 106, and type 'smush' 
+[2026-04-14 04:09:00 : INFO] - Processing task with ID : 107, and type 'smush' 
+[2026-04-14 04:09:00 : INFO] - Re_Smush_It_Task - Attachment ID : 14234, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:09:00 : INFO] - File: traning_movie_06.png, Compression quality: 92 
+[2026-04-14 04:09:03 : INFO] - Backing up the original image - traning_movie_06-updraft-pre-smush-original.png 
+[2026-04-14 04:09:16 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/traning_movie_06.png.The file was compressed from 47.75 KB to 23.21 KB, saving 51.38 percent, using WP-Optimize 
+[2026-04-14 04:09:16 : INFO] - Completed processing task with ID : 107, and type 'smush' 
+[2026-04-14 04:09:16 : INFO] - Processing task with ID : 108, and type 'smush' 
+[2026-04-14 04:09:16 : INFO] - Re_Smush_It_Task - Attachment ID : 14235, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:09:16 : INFO] - File: traning_movie_07.png, Compression quality: 92 
+[2026-04-14 04:09:20 : INFO] - Backing up the original image - traning_movie_07-updraft-pre-smush-original.png 
+[2026-04-14 04:09:41 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/traning_movie_07.png.The file was compressed from 264.94 KB to 107.60 KB, saving 59.39 percent, using WP-Optimize 
+[2026-04-14 04:09:41 : INFO] - Completed processing task with ID : 108, and type 'smush' 
+[2026-04-14 04:09:41 : INFO] - Processing task with ID : 109, and type 'smush' 
+[2026-04-14 04:09:41 : INFO] - Re_Smush_It_Task - Attachment ID : 14294, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:09:41 : INFO] - File: ttl_roken.jpg, Compression quality: 92 
+[2026-04-14 04:09:44 : INFO] - Backing up the original image - ttl_roken-updraft-pre-smush-original.jpg 
+[2026-04-14 04:10:00 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/ttl_roken.jpg.The file was compressed from 39.03 KB to 39.03 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:10:00 : INFO] - Completed processing task with ID : 109, and type 'smush' 
+[2026-04-14 04:10:00 : INFO] - Processing task with ID : 110, and type 'smush' 
+[2026-04-14 04:10:00 : INFO] - Re_Smush_It_Task - Attachment ID : 14379, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:10:00 : INFO] - File: roken_main.jpg, Compression quality: 92 
+[2026-04-14 04:10:04 : INFO] - Backing up the original image - roken_main-updraft-pre-smush-original.jpg 
+[2026-04-14 04:10:23 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/roken_main.jpg.The file was compressed from 136.21 KB to 133.59 KB, saving 1.92 percent, using WP-Optimize 
+[2026-04-14 04:10:23 : INFO] - Completed processing task with ID : 110, and type 'smush' 
+[2026-04-14 04:10:23 : INFO] - Processing task with ID : 111, and type 'smush' 
+[2026-04-14 04:10:23 : INFO] - Re_Smush_It_Task - Attachment ID : 14399, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:10:23 : INFO] - File: roken_image_03.gif, Compression quality: 92 
+[2026-04-14 04:10:28 : INFO] - Backing up the original image - roken_image_03-updraft-pre-smush-original.gif 
+[2026-04-14 04:10:39 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/roken_image_03.gif.The file was compressed from 124.20 KB to 124.20 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:10:39 : INFO] - Completed processing task with ID : 111, and type 'smush' 
+[2026-04-14 04:10:39 : INFO] - Processing task with ID : 112, and type 'smush' 
+[2026-04-14 04:10:39 : INFO] - Re_Smush_It_Task - Attachment ID : 14503, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:10:39 : INFO] - File: mail_icon.png, Compression quality: 92 
+[2026-04-14 04:10:40 : INFO] - Backing up the original image - mail_icon-updraft-pre-smush-original.png 
+[2026-04-14 04:10:40 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/mail_icon.png.The file was compressed from 2.49 KB to 1.97 KB, saving 20.98 percent, using WP-Optimize 
+[2026-04-14 04:10:40 : INFO] - Completed processing task with ID : 112, and type 'smush' 
+[2026-04-14 04:10:40 : INFO] - Processing task with ID : 113, and type 'smush' 
+[2026-04-14 04:10:40 : INFO] - Re_Smush_It_Task - Attachment ID : 14510, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:10:40 : INFO] - File: h1.jpg, Compression quality: 92 
+[2026-04-14 04:10:44 : INFO] - Backing up the original image - h1-updraft-pre-smush-original.jpg 
+[2026-04-14 04:10:54 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/h1.jpg.The file was compressed from 52.58 KB to 49.71 KB, saving 5.46 percent, using WP-Optimize 
+[2026-04-14 04:10:54 : INFO] - Completed processing task with ID : 113, and type 'smush' 
+[2026-04-14 04:10:54 : INFO] - Processing task with ID : 114, and type 'smush' 
+[2026-04-14 04:10:54 : INFO] - Re_Smush_It_Task - Attachment ID : 14511, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:10:54 : INFO] - File: h2.jpg, Compression quality: 92 
+[2026-04-14 04:10:57 : INFO] - Backing up the original image - h2-updraft-pre-smush-original.jpg 
+[2026-04-14 04:14:33 : INFO] - A total of 30 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 04:14:33 : INFO] - Lock (updraft_lock_smush, wOtckM_options) acquired 
+[2026-04-14 04:14:33 : INFO] - Processing task with ID : 114, and type 'smush' 
+[2026-04-14 04:14:33 : INFO] - Re_Smush_It_Task - Attachment ID : 14511, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:14:33 : INFO] - File: h2.jpg, Compression quality: 92 
+[2026-04-14 04:14:37 : INFO] - Backing up the original image - h2-updraft-pre-smush-original.jpg 
+[2026-04-14 04:14:47 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/h2.jpg.The file was compressed from 55.47 KB to 55.46 KB, saving 0.01 percent, using WP-Optimize 
+[2026-04-14 04:14:47 : INFO] - Completed processing task with ID : 114, and type 'smush' 
+[2026-04-14 04:14:47 : INFO] - Processing task with ID : 115, and type 'smush' 
+[2026-04-14 04:14:47 : INFO] - Re_Smush_It_Task - Attachment ID : 14512, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:14:47 : INFO] - File: h3.jpg, Compression quality: 92 
+[2026-04-14 04:14:50 : INFO] - Backing up the original image - h3-updraft-pre-smush-original.jpg 
+[2026-04-14 04:15:00 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/h3.jpg.The file was compressed from 81.70 KB to 72.43 KB, saving 11.34 percent, using WP-Optimize 
+[2026-04-14 04:15:00 : INFO] - Completed processing task with ID : 115, and type 'smush' 
+[2026-04-14 04:15:00 : INFO] - Processing task with ID : 116, and type 'smush' 
+[2026-04-14 04:15:00 : INFO] - Re_Smush_It_Task - Attachment ID : 14514, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:15:00 : INFO] - File: h4.jpg, Compression quality: 92 
+[2026-04-14 04:15:06 : INFO] - Backing up the original image - h4-updraft-pre-smush-original.jpg 
+[2026-04-14 04:15:22 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/h4.jpg.The file was compressed from 122.89 KB to 115.57 KB, saving 5.96 percent, using WP-Optimize 
+[2026-04-14 04:15:22 : INFO] - Completed processing task with ID : 116, and type 'smush' 
+[2026-04-14 04:15:22 : INFO] - Processing task with ID : 117, and type 'smush' 
+[2026-04-14 04:15:22 : INFO] - Re_Smush_It_Task - Attachment ID : 14515, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:15:22 : INFO] - File: h6-scaled.jpg, Compression quality: 92 
+[2026-04-14 04:15:31 : INFO] - Backing up the original image - h6-scaled-updraft-pre-smush-original.jpg 
+[2026-04-14 04:16:02 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/h6-scaled.jpg.The file was compressed from 258.84 KB to 247.35 KB, saving 4.44 percent, using WP-Optimize 
+[2026-04-14 04:16:02 : INFO] - Completed processing task with ID : 117, and type 'smush' 
+[2026-04-14 04:16:02 : INFO] - Processing task with ID : 118, and type 'smush' 
+[2026-04-14 04:16:02 : INFO] - Re_Smush_It_Task - Attachment ID : 14516, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:16:02 : INFO] - File: hdx20241120.png, Compression quality: 92 
+[2026-04-14 04:16:06 : INFO] - Backing up the original image - hdx20241120-updraft-pre-smush-original.png 
+[2026-04-14 04:16:23 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/hdx20241120.png.The file was compressed from 112.11 KB to 52.56 KB, saving 53.11 percent, using WP-Optimize 
+[2026-04-14 04:16:23 : INFO] - Completed processing task with ID : 118, and type 'smush' 
+[2026-04-14 04:16:23 : INFO] - Processing task with ID : 119, and type 'smush' 
+[2026-04-14 04:16:23 : INFO] - Re_Smush_It_Task - Attachment ID : 14801, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:16:23 : INFO] - File: main_04.jpg, Compression quality: 92 
+[2026-04-14 04:16:29 : INFO] - Backing up the original image - main_04-updraft-pre-smush-original.jpg 
+[2026-04-14 04:16:50 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/main_04.jpg.The file was compressed from 160.69 KB to 160.69 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:16:50 : INFO] - Completed processing task with ID : 119, and type 'smush' 
+[2026-04-14 04:16:50 : INFO] - Processing task with ID : 120, and type 'smush' 
+[2026-04-14 04:16:50 : INFO] - Re_Smush_It_Task - Attachment ID : 14802, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:16:50 : INFO] - File: main_04_sp.jpg, Compression quality: 92 
+[2026-04-14 04:16:54 : INFO] - Backing up the original image - main_04_sp-updraft-pre-smush-original.jpg 
+[2026-04-14 04:17:11 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/main_04_sp.jpg.The file was compressed from 72.94 KB to 72.94 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:17:11 : INFO] - Completed processing task with ID : 120, and type 'smush' 
+[2026-04-14 04:17:11 : INFO] - Processing task with ID : 121, and type 'smush' 
+[2026-04-14 04:17:11 : INFO] - Re_Smush_It_Task - Attachment ID : 15069, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:17:11 : INFO] - File: main_05.jpg, Compression quality: 92 
+[2026-04-14 04:17:16 : INFO] - Backing up the original image - main_05-updraft-pre-smush-original.jpg 
+[2026-04-14 04:17:33 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/main_05.jpg.The file was compressed from 81.69 KB to 81.69 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:17:33 : INFO] - Completed processing task with ID : 121, and type 'smush' 
+[2026-04-14 04:17:33 : INFO] - Processing task with ID : 122, and type 'smush' 
+[2026-04-14 04:17:33 : INFO] - Re_Smush_It_Task - Attachment ID : 15070, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:17:33 : INFO] - File: main_05_sp.jpg, Compression quality: 92 
+[2026-04-14 04:17:37 : INFO] - Backing up the original image - main_05_sp-updraft-pre-smush-original.jpg 
+[2026-04-14 04:17:51 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/main_05_sp.jpg.The file was compressed from 65.96 KB to 65.96 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:17:51 : INFO] - Completed processing task with ID : 122, and type 'smush' 
+[2026-04-14 04:17:51 : INFO] - Processing task with ID : 123, and type 'smush' 
+[2026-04-14 04:17:51 : INFO] - Re_Smush_It_Task - Attachment ID : 15200, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:17:51 : INFO] - File: incyo.jpg, Compression quality: 92 
+[2026-04-14 04:17:56 : INFO] - Backing up the original image - incyo-updraft-pre-smush-original.jpg 
+[2026-04-14 04:18:00 : INFO] - A total of 21 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 04:18:00 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 04:18:00 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 04:18:00 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 04:18:00 : INFO] - Cleaning up tasks of type (smush). A total of 21 tasks will be deleted. 
+[2026-04-14 04:18:10 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/incyo.jpg.The file was compressed from 267.50 KB to 86.80 KB, saving 67.55 percent, using WP-Optimize 
+[2026-04-14 04:18:10 : INFO] - Completed processing task with ID : 123, and type 'smush' 
+[2026-04-14 04:18:10 : INFO] - Processing task with ID : 124, and type 'smush' 
+[2026-04-14 04:18:10 : INFO] - Re_Smush_It_Task - Attachment ID : 15772, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:18:10 : INFO] - File: gairai_SP.jpg, Compression quality: 92 
+[2026-04-14 04:18:13 : INFO] - Backing up the original image - gairai_SP-updraft-pre-smush-original.jpg 
+[2026-04-14 04:18:23 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/gairai_SP.jpg.The file was compressed from 40.08 KB to 39.04 KB, saving 2.6 percent, using WP-Optimize 
+[2026-04-14 04:18:23 : INFO] - Completed processing task with ID : 124, and type 'smush' 
+[2026-04-14 04:18:23 : INFO] - Processing task with ID : 125, and type 'smush' 
+[2026-04-14 04:18:23 : INFO] - Re_Smush_It_Task - Attachment ID : 15775, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:18:23 : INFO] - File: menkai_PC.jpg, Compression quality: 92 
+[2026-04-14 04:18:27 : INFO] - Backing up the original image - menkai_PC-updraft-pre-smush-original.jpg 
+[2026-04-14 04:18:43 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/menkai_PC.jpg.The file was compressed from 88.38 KB to 85.74 KB, saving 2.99 percent, using WP-Optimize 
+[2026-04-14 04:18:43 : INFO] - Completed processing task with ID : 125, and type 'smush' 
+[2026-04-14 04:18:43 : INFO] - Processing task with ID : 126, and type 'smush' 
+[2026-04-14 04:18:43 : INFO] - Re_Smush_It_Task - Attachment ID : 15776, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:18:43 : INFO] - File: menkai_SP.jpg, Compression quality: 92 
+[2026-04-14 04:18:46 : INFO] - Backing up the original image - menkai_SP-updraft-pre-smush-original.jpg 
+[2026-04-14 04:24:33 : INFO] - A total of 18 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 04:24:33 : INFO] - Lock (updraft_lock_smush, wOtckM_options) acquired 
+[2026-04-14 04:24:33 : INFO] - Processing task with ID : 126, and type 'smush' 
+[2026-04-14 04:24:33 : INFO] - Re_Smush_It_Task - Attachment ID : 15776, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:24:33 : INFO] - File: menkai_SP.jpg, Compression quality: 92 
+[2026-04-14 04:24:36 : INFO] - Backing up the original image - menkai_SP-updraft-pre-smush-original.jpg 
+[2026-04-14 04:24:47 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/menkai_SP.jpg.The file was compressed from 41.24 KB to 41.24 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:24:47 : INFO] - Completed processing task with ID : 126, and type 'smush' 
+[2026-04-14 04:24:47 : INFO] - Processing task with ID : 127, and type 'smush' 
+[2026-04-14 04:24:47 : INFO] - Re_Smush_It_Task - Attachment ID : 15777, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:24:47 : INFO] - File: renkei_PC.jpg, Compression quality: 92 
+[2026-04-14 04:24:50 : INFO] - Backing up the original image - renkei_PC-updraft-pre-smush-original.jpg 
+[2026-04-14 04:25:04 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/renkei_PC.jpg.The file was compressed from 47.45 KB to 46.99 KB, saving 0.97 percent, using WP-Optimize 
+[2026-04-14 04:25:04 : INFO] - Completed processing task with ID : 127, and type 'smush' 
+[2026-04-14 04:25:04 : INFO] - Processing task with ID : 128, and type 'smush' 
+[2026-04-14 04:25:04 : INFO] - Re_Smush_It_Task - Attachment ID : 15778, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:25:04 : INFO] - File: renkei_SP.jpg, Compression quality: 92 
+[2026-04-14 04:25:06 : INFO] - Backing up the original image - renkei_SP-updraft-pre-smush-original.jpg 
+[2026-04-14 04:25:17 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/renkei_SP.jpg.The file was compressed from 25.25 KB to 25.08 KB, saving 0.67 percent, using WP-Optimize 
+[2026-04-14 04:25:17 : INFO] - Completed processing task with ID : 128, and type 'smush' 
+[2026-04-14 04:25:17 : INFO] - Processing task with ID : 129, and type 'smush' 
+[2026-04-14 04:25:17 : INFO] - Re_Smush_It_Task - Attachment ID : 15782, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:25:17 : INFO] - File: kyukyu_PC.jpg, Compression quality: 92 
+[2026-04-14 04:25:20 : INFO] - Backing up the original image - kyukyu_PC-updraft-pre-smush-original.jpg 
+[2026-04-14 04:25:35 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/kyukyu_PC.jpg.The file was compressed from 72.34 KB to 71.19 KB, saving 1.58 percent, using WP-Optimize 
+[2026-04-14 04:25:35 : INFO] - Completed processing task with ID : 129, and type 'smush' 
+[2026-04-14 04:25:35 : INFO] - Processing task with ID : 130, and type 'smush' 
+[2026-04-14 04:25:35 : INFO] - Re_Smush_It_Task - Attachment ID : 15783, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:25:35 : INFO] - File: kyukyu_SP.jpg, Compression quality: 92 
+[2026-04-14 04:25:38 : INFO] - Backing up the original image - kyukyu_SP-updraft-pre-smush-original.jpg 
+[2026-04-14 04:25:49 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/kyukyu_SP.jpg.The file was compressed from 53.37 KB to 51.84 KB, saving 2.87 percent, using WP-Optimize 
+[2026-04-14 04:25:49 : INFO] - Completed processing task with ID : 130, and type 'smush' 
+[2026-04-14 04:25:49 : INFO] - Processing task with ID : 131, and type 'smush' 
+[2026-04-14 04:25:49 : INFO] - Re_Smush_It_Task - Attachment ID : 15787, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:25:49 : INFO] - File: gairai_SP-1.jpg, Compression quality: 92 
+[2026-04-14 04:25:52 : INFO] - Backing up the original image - gairai_SP-1-updraft-pre-smush-original.jpg 
+[2026-04-14 04:26:01 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/gairai_SP-1.jpg.The file was compressed from 20.82 KB to 20.72 KB, saving 0.49 percent, using WP-Optimize 
+[2026-04-14 04:26:01 : INFO] - Completed processing task with ID : 131, and type 'smush' 
+[2026-04-14 04:26:01 : INFO] - Processing task with ID : 132, and type 'smush' 
+[2026-04-14 04:26:01 : INFO] - Re_Smush_It_Task - Attachment ID : 15788, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:26:01 : INFO] - File: gairai_PC.jpg, Compression quality: 92 
+[2026-04-14 04:26:05 : INFO] - Backing up the original image - gairai_PC-updraft-pre-smush-original.jpg 
+[2026-04-14 04:26:19 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/gairai_PC.jpg.The file was compressed from 46.12 KB to 46.12 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:26:19 : INFO] - Completed processing task with ID : 132, and type 'smush' 
+[2026-04-14 04:26:19 : INFO] - Processing task with ID : 133, and type 'smush' 
+[2026-04-14 04:26:19 : INFO] - Re_Smush_It_Task - Attachment ID : 16491, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:26:19 : INFO] - File: icon_train.png, Compression quality: 92 
+[2026-04-14 04:26:21 : INFO] - Backing up the original image - icon_train-updraft-pre-smush-original.png 
+[2026-04-14 04:26:29 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/icon_train.png.The file was compressed from 7.24 KB to 7.24 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:26:29 : INFO] - Completed processing task with ID : 133, and type 'smush' 
+[2026-04-14 04:26:29 : INFO] - Processing task with ID : 134, and type 'smush' 
+[2026-04-14 04:26:29 : INFO] - Re_Smush_It_Task - Attachment ID : 16493, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:26:29 : INFO] - File: icon_map.png, Compression quality: 92 
+[2026-04-14 04:26:31 : INFO] - Backing up the original image - icon_map-updraft-pre-smush-original.png 
+[2026-04-14 04:26:37 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/icon_map.png.The file was compressed from 25.98 KB to 12.91 KB, saving 50.31 percent, using WP-Optimize 
+[2026-04-14 04:26:37 : INFO] - Completed processing task with ID : 134, and type 'smush' 
+[2026-04-14 04:26:37 : INFO] - Processing task with ID : 135, and type 'smush' 
+[2026-04-14 04:26:37 : INFO] - Re_Smush_It_Task - Attachment ID : 16495, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:26:37 : INFO] - File: icon_park.png, Compression quality: 92 
+[2026-04-14 04:26:39 : INFO] - Backing up the original image - icon_park-updraft-pre-smush-original.png 
+[2026-04-14 04:26:49 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/icon_park.png.The file was compressed from 5.00 KB to 4.87 KB, saving 2.58 percent, using WP-Optimize 
+[2026-04-14 04:26:49 : INFO] - Completed processing task with ID : 135, and type 'smush' 
+[2026-04-14 04:26:49 : INFO] - Processing task with ID : 136, and type 'smush' 
+[2026-04-14 04:26:49 : INFO] - Re_Smush_It_Task - Attachment ID : 16498, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:26:49 : INFO] - File: icon_bus_f.png, Compression quality: 92 
+[2026-04-14 04:26:50 : INFO] - Backing up the original image - icon_bus_f-updraft-pre-smush-original.png 
+[2026-04-14 04:27:00 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/icon_bus_f.png.The file was compressed from 9.46 KB to 9.46 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:27:00 : INFO] - Completed processing task with ID : 136, and type 'smush' 
+[2026-04-14 04:27:00 : INFO] - Processing task with ID : 137, and type 'smush' 
+[2026-04-14 04:27:00 : INFO] - Re_Smush_It_Task - Attachment ID : 16624, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:27:00 : INFO] - File: kangobucho.jpg, Compression quality: 92 
+[2026-04-14 04:27:05 : INFO] - Backing up the original image - kangobucho-updraft-pre-smush-original.jpg 
+[2026-04-14 04:27:21 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/kangobucho.jpg.The file was compressed from 355.99 KB to 116.91 KB, saving 67.16 percent, using WP-Optimize 
+[2026-04-14 04:27:21 : INFO] - Completed processing task with ID : 137, and type 'smush' 
+[2026-04-14 04:27:21 : INFO] - Processing task with ID : 138, and type 'smush' 
+[2026-04-14 04:27:21 : INFO] - Re_Smush_It_Task - Attachment ID : 16628, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:27:21 : INFO] - File: kihon_houshin01.png, Compression quality: 92 
+[2026-04-14 04:27:24 : INFO] - Backing up the original image - kihon_houshin01-updraft-pre-smush-original.png 
+[2026-04-14 04:27:32 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/kihon_houshin01.png.The file was compressed from 62.79 KB to 24.49 KB, saving 60.99 percent, using WP-Optimize 
+[2026-04-14 04:27:32 : INFO] - Completed processing task with ID : 138, and type 'smush' 
+[2026-04-14 04:27:32 : INFO] - Processing task with ID : 139, and type 'smush' 
+[2026-04-14 04:27:32 : INFO] - Re_Smush_It_Task - Attachment ID : 16632, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:27:32 : INFO] - File: setubi01.png, Compression quality: 92 
+[2026-04-14 04:27:33 : INFO] - A total of 5 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 04:27:33 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 04:27:33 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 04:27:33 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 04:27:33 : INFO] - Cleaning up tasks of type (smush). A total of 16 tasks will be deleted. 
+[2026-04-14 04:27:37 : INFO] - Backing up the original image - setubi01-updraft-pre-smush-original.png 
+[2026-04-14 04:27:55 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/setubi01.png.The file was compressed from 154.51 KB to 66.56 KB, saving 56.92 percent, using WP-Optimize 
+[2026-04-14 04:27:55 : INFO] - Completed processing task with ID : 139, and type 'smush' 
+[2026-04-14 04:27:55 : INFO] - Processing task with ID : 140, and type 'smush' 
+[2026-04-14 04:27:55 : INFO] - Re_Smush_It_Task - Attachment ID : 16910, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:27:55 : INFO] - File: circle_icon.png, Compression quality: 92 
+[2026-04-14 04:27:57 : INFO] - Backing up the original image - circle_icon-updraft-pre-smush-original.png 
+[2026-04-14 04:27:57 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/circle_icon.png.The file was compressed from 591 bytes to 420 bytes, saving 28.93 percent, using WP-Optimize 
+[2026-04-14 04:27:57 : INFO] - Completed processing task with ID : 140, and type 'smush' 
+[2026-04-14 04:27:57 : INFO] - Processing task with ID : 141, and type 'smush' 
+[2026-04-14 04:27:57 : INFO] - Re_Smush_It_Task - Attachment ID : 16958, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:27:57 : INFO] - File: info_carshare.jpg, Compression quality: 92 
+[2026-04-14 04:28:01 : INFO] - Backing up the original image - info_carshare-updraft-pre-smush-original.jpg 
+[2026-04-14 04:28:19 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/info_carshare.jpg.The file was compressed from 188.48 KB to 184.17 KB, saving 2.28 percent, using WP-Optimize 
+[2026-04-14 04:28:19 : INFO] - Completed processing task with ID : 141, and type 'smush' 
+[2026-04-14 04:28:19 : INFO] - Processing task with ID : 142, and type 'smush' 
+[2026-04-14 04:28:19 : INFO] - Re_Smush_It_Task - Attachment ID : 16959, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:28:19 : INFO] - File: info_evruick.jpg, Compression quality: 92 
+[2026-04-14 04:28:24 : INFO] - Backing up the original image - info_evruick-updraft-pre-smush-original.jpg 
+[2026-04-14 04:28:42 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/info_evruick.jpg.The file was compressed from 177.10 KB to 173.14 KB, saving 2.24 percent, using WP-Optimize 
+[2026-04-14 04:28:42 : INFO] - Completed processing task with ID : 142, and type 'smush' 
+[2026-04-14 04:28:42 : INFO] - Processing task with ID : 143, and type 'smush' 
+[2026-04-14 04:28:42 : INFO] - Re_Smush_It_Task - Attachment ID : 17073, Blog ID : 1, Started on : April 14, 2026 03:34:13 
+[2026-04-14 04:28:42 : INFO] - File: gairai_tantou-scaled.png, Compression quality: 92 
+[2026-04-14 04:28:49 : INFO] - Backing up the original image - gairai_tantou-scaled-updraft-pre-smush-original.png 
+[2026-04-14 04:29:20 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/gairai_tantou-scaled.png.The file was compressed from 852.18 KB to 352.73 KB, saving 58.61 percent, using WP-Optimize 
+[2026-04-14 04:29:20 : INFO] - Completed processing task with ID : 143, and type 'smush' 
+[2026-04-14 04:29:20 : INFO] - Lock option (updraft_lock_smush, wOtckM_options) released 
+[2026-04-14 04:29:20 : INFO] - Successfully processed the queue (smush). 18 tasks were processed out of 18. 
+[2026-04-14 04:29:20 : INFO] - Lock option (updraft_lock_smush, wOtckM_options) was deleted from the database 
+[2026-04-14 04:29:20 : INFO] - Cleaning up tasks of type (smush). A total of 5 tasks will be deleted. 
+[2026-04-14 04:43:20 : INFO] - Re_Smush_It_Task server status: Online 
+[2026-04-14 04:43:20 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 04:43:20 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) was created in the database 
+[2026-04-14 04:43:20 : INFO] - Lock (updraft_lock_smush, wOtckM_options) acquired after initialising the database 
+[2026-04-14 04:43:20 : INFO] - Processing task with ID : 275, and type 'smush' 
+[2026-04-14 04:43:20 : INFO] - Re_Smush_It_Task - Attachment ID : 7248, Blog ID : 1, Started on : April 14, 2026 04:43:20 
+[2026-04-14 04:43:20 : INFO] - File: main_01.jpg, Compression quality: 92 
+[2026-04-14 04:43:31 : INFO] - Backing up the original image - main_01-updraft-pre-smush-original.jpg 
+[2026-04-14 04:43:59 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/main_01.jpg.The file was compressed from 300.97 KB to 300.97 KB, saving 0 percent, using WP-Optimize 
+[2026-04-14 04:43:59 : INFO] - Completed processing task with ID : 275, and type 'smush' 
+[2026-04-14 04:43:59 : INFO] - Processing task with ID : 276, and type 'smush' 
+[2026-04-14 04:43:59 : INFO] - Re_Smush_It_Task - Attachment ID : 10142, Blog ID : 1, Started on : April 14, 2026 04:43:20 
+[2026-04-14 04:43:59 : INFO] - File: oiwai_y.jpg, Compression quality: 92 
+[2026-04-14 04:44:04 : INFO] - Backing up the original image - oiwai_y-updraft-pre-smush-original.jpg 
+[2026-04-14 04:44:21 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2026-04-14 04:44:21 : DEBUG] - Lock option (updraft_lock_smush, wOtckM_options) already existed in the database 
+[2026-04-14 04:44:21 : INFO] - Lock (updraft_lock_smush, wOtckM_options) could not be acquired (it is locked) 
+[2026-04-14 04:44:21 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2026-04-14 04:44:21 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2026-04-14 04:44:22 : INFO] - Successfully optimized the image - /var/www/vhosts/tokokai.or.jp/httpdocs/img/oiwai_y.jpg.The file was compressed from 128.48 KB to 125.53 KB, saving 2.29 percent, using WP-Optimize 
+[2026-04-14 04:44:22 : INFO] - Completed processing task with ID : 276, and type 'smush' 
+[2026-04-14 04:44:22 : INFO] - Lock option (updraft_lock_smush, wOtckM_options) released 
+[2026-04-14 04:44:22 : INFO] - Successfully processed the queue (smush). 2 tasks were processed out of 2. 
+[2026-04-14 04:44:22 : INFO] - Lock option (updraft_lock_smush, wOtckM_options) was deleted from the database 
+[2026-04-14 04:44:22 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2026-04-14 05:35:33 : INFO] - Pruning the smush log file 

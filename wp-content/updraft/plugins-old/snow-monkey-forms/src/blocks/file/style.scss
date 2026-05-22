@@ -1,0 +1,98 @@
+@use '../../../src/css/core/core' as *;
+
+.smf-form {
+	.smf-file-control {
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1em;
+
+		&__label,
+		&__filename {
+			display: none;
+		}
+
+		> label {
+			position: relative;
+			outline: none;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			gap: 1em;
+
+			&::before {
+				content: '';
+				display: block;
+				position: absolute;
+				inset: -3px;
+			}
+
+			&:active,
+			&:focus,
+			&:focus-within {
+				&::before {
+					border: 1px solid var(--_form-control-border-color-focus);
+					border-radius: var(--_global--border-radius);
+				}
+			}
+
+			> * {
+				flex: 0 0 auto;
+			}
+		}
+
+		&__control {
+			display: none;
+		}
+
+		&__label {
+			@include smf-button();
+		}
+
+		&__filename {
+			&--no-file {
+				display: inline-block;
+			}
+
+			&--has-file {
+				display: none;
+			}
+		}
+
+		&__clear {
+			display: none;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+
+		&__value {
+			margin-top: .25em;
+		}
+
+		&--set {
+			.smf-file-control__filename--no-file {
+				display: none;
+			}
+
+			.smf-file-control__filename--has-file {
+				display: inline-block;
+			}
+
+			.smf-file-control__clear {
+				display: inline-block;
+			}
+		}
+
+		&--uploaded {
+			label {
+				display: none;
+			}
+
+			.smf-file-control__clear {
+				display: inline-block;
+			}
+		}
+	}
+}

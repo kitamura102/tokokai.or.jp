@@ -1,4 +1,0 @@
-_ctime	1243868702
-_mtime	1243868723
-_sid	49f2c4b66a633d4576eb02ecf8b7f929
-_userid	operator

@@ -1,0 +1,1099 @@
+.easy-sticky-sidebar,
+.wordpress-cta-pro-banner {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.easy-sticky-sidebar {
+    --position_distance: 0px;
+    --position2_distance: 0px;
+    position: fixed !important;
+    top: calc(50% + var(--position2_distance));
+    right: var(--position_distance);
+    max-height: 90vh;
+    z-index: 999999 !important;
+    width: var(--width);
+    transition: ease all 0.4s !important;
+    transform: translateY(-50%);
+}
+
+.easy-sticky-sidebar.vertical-cta {
+    --translateX: calc(-50% + var(--position2_distance));
+    left: calc(50% + var(--position2_distance));
+    right: unset;
+    top: var(--position_distance);
+    bottom: unset;
+    transform: translate(var(--translateX), var(--translateY, 0));
+}
+
+.easy-sticky-sidebar.vertical-cta.sticky-cta-position-bottom {
+    top: unset;
+    bottom: var(--position_distance)
+}
+
+.easy-sticky-sidebar.sticky-cta-left {
+    right: auto;
+    left: var(--position2_distance)
+}
+
+.easy-sticky-sidebar.sticky-cta-right {
+    left: auto;
+    right: var(--position2_distance)
+}
+
+.easy-sticky-sidebar.vertical-cta {
+    --buttonHeight: 50px;
+    flex-direction: column;
+    border-radius: var(--round) var(--round) 0 0
+}
+
+/* Ensure shrink works for top/bottom even when GSAP sets inline transforms (frontend only). */
+body:not(.wp-admin) .easy-sticky-sidebar.vertical-cta.shrink {
+    transform: translate(var(--translateX, 0), var(--translateY, 0)) !important;
+}
+
+.sticky-sidebar-container hr {
+    margin: 0;
+    height: 2px;
+    border: none !important;
+    background-color: #fff
+}
+
+.easy-sticky-sidebar.sticky-cta {
+    --round: 5px;
+    --buttonWidth: 50px;
+    --width: min(90%, 525px);
+    display: flex;
+    width: var(--width);
+    border-top-left-radius: calc(var(--round) + 2px);
+    border-bottom-left-radius: calc(var(--round) + 2px);
+}
+
+.easy-sticky-sidebar.sticky-cta .sticky-sidebar-button {
+    color: #fff;
+    width: auto;
+    min-width: var(--buttonWidth);
+    cursor: pointer;
+    padding: 20px 0;
+    display: flex;
+    flex: 0 0 auto;
+    line-height: 1.2;
+    position: relative;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: #4e0d61;
+    text-decoration: none !important;
+    border-bottom-left-radius: var(--round, 5px);
+    border-top-left-radius: var(--round, 5px);
+}
+
+.easy-sticky-sidebar.sticky-cta .sticky-sidebar-container {
+    position: relative;
+    background-color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none !important;
+}
+
+.easy-sticky-sidebar.sticky-cta .sticky-sidebar-text {
+    color: #fff;
+    flex: 1;
+    overflow-y: auto;
+    background-color: #250d61;
+}
+
+.easy-sticky-sidebar.sticky-cta .sticky-sidebar-call-to-action {
+    color: #fff;
+    background-color: #0e2163;
+}
+
+/* Sticky CTA overlay mode (image as background) */
+.easy-sticky-sidebar.sticky-cta.image-as-background .sticky-sidebar-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    --ess-overlay-bg-offset-x: 0px;
+    --ess-overlay-bg-offset-y: 0px;
+    overflow: hidden;
+    height: max(var(--ess-overlay-height, 200px), var(--buttonHeight, 0px));
+    min-height: max(var(--ess-overlay-height, 200px), var(--buttonHeight, 0px));
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-left .sticky-sidebar-container {
+    background-position: left var(--ess-overlay-bg-offset-x, 0px) center;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-right .sticky-sidebar-container {
+    background-position: right var(--ess-overlay-bg-offset-x, 0px) center;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-top .sticky-sidebar-container {
+    background-position: center top var(--ess-overlay-bg-offset-y, 0px);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-bottom .sticky-sidebar-container {
+    background-position: center bottom var(--ess-overlay-bg-offset-y, 0px);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background .sticky-overlay-panel {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    isolation: isolate;
+    padding: var(--ess-overlay-content-padding, 12px);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background .sticky-overlay-panel::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: var(--ess-overlay-backdrop-opacity, 0.7);
+    pointer-events: none;
+    z-index: -1;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background .sticky-overlay-panel > * {
+    position: relative;
+    z-index: 1;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-left .sticky-overlay-panel::before {
+    background: linear-gradient(to right, var(--ess-overlay-backdrop-color, #fff) 0%, var(--ess-overlay-backdrop-color, #fff) 85%, transparent 100%);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-right .sticky-overlay-panel::before {
+    background: linear-gradient(to left, var(--ess-overlay-backdrop-color, #fff) 0%, var(--ess-overlay-backdrop-color, #fff) 85%, transparent 100%);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-top .sticky-overlay-panel::before {
+    background: linear-gradient(to bottom, var(--ess-overlay-backdrop-color, #fff) 0%, var(--ess-overlay-backdrop-color, #fff) 85%, transparent 100%);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-bottom .sticky-overlay-panel::before {
+    background: linear-gradient(to top, var(--ess-overlay-backdrop-color, #fff) 0%, var(--ess-overlay-backdrop-color, #fff) 85%, transparent 100%);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-left .sticky-overlay-panel,
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-right .sticky-overlay-panel {
+    left: 0;
+    max-width: var(--ess-overlay-size, 60%);
+    height: 100%;
+    justify-content: flex-start;
+    flex: 1;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-left .sticky-overlay-panel {
+    margin-right: auto;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-right .sticky-overlay-panel {
+    margin-left: auto;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-top .sticky-overlay-panel {
+    width: 100%;
+    max-width: 100%;
+    height: var(--ess-overlay-size, 60%);
+    margin-bottom: auto;
+    justify-content: center;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-bottom .sticky-overlay-panel {
+    width: 100%;
+    max-width: 100%;
+    height: var(--ess-overlay-size, 60%);
+    margin-top: auto;
+    justify-content: center;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background .sticky-sidebar-image,
+.easy-sticky-sidebar.sticky-cta.image-as-background hr {
+    display: none !important;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background .sticky-sidebar-text,
+.easy-sticky-sidebar.sticky-cta.image-as-background .sticky-sidebar-call-to-action {
+    position: relative;
+    z-index: 1;
+    flex: none;
+    overflow-wrap: anywhere;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background .sticky-sidebar-text {
+    background-color: transparent;
+    overflow-y: visible;
+    line-height: 1.2;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background .sticky-sidebar-call-to-action {
+    text-decoration: none;
+    width: fit-content;
+    max-width: 100%;
+    line-height: 1;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-top .sticky-sidebar-container {
+    justify-content: flex-start;
+    align-items: center;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-bottom .sticky-sidebar-container {
+    justify-content: flex-end;
+    align-items: center;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-left .sticky-sidebar-container {
+    justify-content: center;
+    align-items: flex-start;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.overlay-pos-right .sticky-sidebar-container {
+    justify-content: center;
+    align-items: flex-end;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.ess-overlay-full-tab-height .sticky-sidebar-button {
+    align-self: stretch;
+}
+.easy-sticky-sidebar.sticky-cta.ess-html-full-tab-height:not(.vertical-cta) .sticky-sidebar-button {
+    position: absolute;
+    z-index: 3;
+    align-self: auto;
+    height: 100%;
+}
+.easy-sticky-sidebar.sticky-cta.ess-html-full-tab-height:not(.vertical-cta).sticky-cta-position-right .sticky-sidebar-button {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transform: translateX(-100%);
+}
+.easy-sticky-sidebar.sticky-cta.ess-html-full-tab-height:not(.vertical-cta).sticky-cta-position-left .sticky-sidebar-button {
+    right: 0;
+    left: auto;
+    top: 0;
+    bottom: 0;
+    transform: translateX(100%);
+}
+.easy-sticky-sidebar.sticky-cta.ess-html-full-tab-width.vertical-cta .sticky-sidebar-button {
+    align-self: stretch;
+    width: 100%;
+}
+.easy-sticky-sidebar.sticky-cta.ess-html-tab-align-left.vertical-cta .sticky-sidebar-button,
+.easy-sticky-sidebar.sticky-cta.ess-html-tab-align-center.vertical-cta .sticky-sidebar-button,
+.easy-sticky-sidebar.sticky-cta.ess-html-tab-align-right.vertical-cta .sticky-sidebar-button {
+    position: absolute;
+    z-index: 3;
+    width: auto;
+    min-height: 0;
+    min-width: 0;
+    padding: 8px 20px;
+}
+.easy-sticky-sidebar.sticky-cta.ess-html-tab-align-left.vertical-cta .sticky-sidebar-button {
+    left: 0;
+}
+.easy-sticky-sidebar.sticky-cta.ess-html-tab-align-center.vertical-cta .sticky-sidebar-button {
+    left: 50%;
+}
+.easy-sticky-sidebar.sticky-cta.ess-html-tab-align-right.vertical-cta .sticky-sidebar-button {
+    left: auto;
+    right: 0;
+}
+.easy-sticky-sidebar.sticky-cta.ess-html-tab-align-left.vertical-cta.sticky-cta-position-top .sticky-sidebar-button,
+.easy-sticky-sidebar.sticky-cta.ess-html-tab-align-center.vertical-cta.sticky-cta-position-top .sticky-sidebar-button,
+.easy-sticky-sidebar.sticky-cta.ess-html-tab-align-right.vertical-cta.sticky-cta-position-top .sticky-sidebar-button {
+    top: auto;
+    bottom: 0;
+    transform: translateY(100%);
+    border-radius: 0 0 var(--round, 5px) var(--round, 5px);
+}
+.easy-sticky-sidebar.sticky-cta.ess-html-tab-align-left.vertical-cta.sticky-cta-position-bottom .sticky-sidebar-button,
+.easy-sticky-sidebar.sticky-cta.ess-html-tab-align-center.vertical-cta.sticky-cta-position-bottom .sticky-sidebar-button,
+.easy-sticky-sidebar.sticky-cta.ess-html-tab-align-right.vertical-cta.sticky-cta-position-bottom .sticky-sidebar-button {
+    top: 0;
+    bottom: auto;
+    transform: translateY(-100%);
+    border-radius: var(--round, 5px) var(--round, 5px) 0 0;
+}
+.easy-sticky-sidebar.sticky-cta.ess-html-tab-align-center.vertical-cta.sticky-cta-position-top .sticky-sidebar-button {
+    transform: translate(-50%, 100%);
+}
+.easy-sticky-sidebar.sticky-cta.ess-html-tab-align-center.vertical-cta.sticky-cta-position-bottom .sticky-sidebar-button {
+    transform: translate(-50%, -100%);
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-top:not(.vertical-cta) .sticky-sidebar-button,
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-center:not(.vertical-cta) .sticky-sidebar-button,
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-bottom:not(.vertical-cta) .sticky-sidebar-button {
+    position: absolute;
+    z-index: 3;
+    align-self: auto;
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background):is(.ess-html-side-tab-align-top, .ess-html-side-tab-align-center, .ess-html-side-tab-align-bottom):not(.vertical-cta) .sticky-sidebar-container {
+    min-height: var(--buttonHeight, 0px);
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background):is(.ess-html-full-tab-height, .ess-html-side-tab-align-top, .ess-html-side-tab-align-center, .ess-html-side-tab-align-bottom).sticky-cta-position-right.shrink {
+    right: calc((var(--width) * -1) + var(--position_distance)) !important;
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background):is(.ess-html-full-tab-height, .ess-html-side-tab-align-top, .ess-html-side-tab-align-center, .ess-html-side-tab-align-bottom).sticky-cta-position-left.shrink {
+    left: calc((var(--width) * -1) + var(--position_distance)) !important;
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-top:not(.vertical-cta).sticky-cta-position-right .sticky-sidebar-button {
+    left: 0;
+    top: 0;
+    transform: translateX(-100%);
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-center:not(.vertical-cta).sticky-cta-position-right .sticky-sidebar-button {
+    left: 0;
+    top: 50%;
+    transform: translate(-100%, -50%);
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-bottom:not(.vertical-cta).sticky-cta-position-right .sticky-sidebar-button {
+    left: 0;
+    bottom: 0;
+    top: auto;
+    transform: translateX(-100%);
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-top:not(.vertical-cta).sticky-cta-position-left .sticky-sidebar-button {
+    right: 0;
+    left: auto;
+    top: 0;
+    transform: translateX(100%);
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-center:not(.vertical-cta).sticky-cta-position-left .sticky-sidebar-button {
+    right: 0;
+    left: auto;
+    top: 50%;
+    transform: translate(100%, -50%);
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-bottom:not(.vertical-cta).sticky-cta-position-left .sticky-sidebar-button {
+    right: 0;
+    left: auto;
+    bottom: 0;
+    top: auto;
+    transform: translateX(100%);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height) .sticky-sidebar-button {
+    position: absolute;
+    z-index: 3;
+    align-self: auto;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-right.ess-overlay-side-tab-align-center .sticky-sidebar-container {
+    border-radius: var(--ess-overlay-tab-corner-radius, 5px) 0 0 var(--ess-overlay-tab-corner-radius, 5px);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-right.ess-overlay-side-tab-align-top .sticky-sidebar-container {
+    border-radius: 0 0 0 var(--ess-overlay-tab-corner-radius, 5px);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-right.ess-overlay-side-tab-align-bottom .sticky-sidebar-container {
+    border-radius: var(--ess-overlay-tab-corner-radius, 5px) 0 0 0;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-left.ess-overlay-side-tab-align-center .sticky-sidebar-container {
+    border-radius: 0 var(--ess-overlay-tab-corner-radius, 5px) var(--ess-overlay-tab-corner-radius, 5px) 0;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-left.ess-overlay-side-tab-align-top .sticky-sidebar-container {
+    border-radius: 0 0 var(--ess-overlay-tab-corner-radius, 5px) 0;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-left.ess-overlay-side-tab-align-bottom .sticky-sidebar-container {
+    border-radius: 0 var(--ess-overlay-tab-corner-radius, 5px) 0 0;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.sticky-cta-position-top .sticky-sidebar-container {
+    border-radius: 0 0 var(--ess-overlay-tab-corner-radius, 5px) var(--ess-overlay-tab-corner-radius, 5px);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.sticky-cta-position-bottom .sticky-sidebar-container {
+    border-radius: var(--ess-overlay-tab-corner-radius, 5px) var(--ess-overlay-tab-corner-radius, 5px) 0 0;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-top.ess-overlay-tab-align-left .sticky-sidebar-container {
+    border-radius: 0 0 var(--ess-overlay-tab-corner-radius, 5px) 0;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-top.ess-overlay-tab-align-center .sticky-sidebar-container {
+    border-radius: 0 0 var(--ess-overlay-tab-corner-radius, 5px) var(--ess-overlay-tab-corner-radius, 5px);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-top.ess-overlay-tab-align-right .sticky-sidebar-container {
+    border-radius: 0 0 0 var(--ess-overlay-tab-corner-radius, 5px);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-bottom.ess-overlay-tab-align-left .sticky-sidebar-container {
+    border-radius: 0 var(--ess-overlay-tab-corner-radius, 5px) 0 0;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-bottom.ess-overlay-tab-align-center .sticky-sidebar-container {
+    border-radius: var(--ess-overlay-tab-corner-radius, 5px) var(--ess-overlay-tab-corner-radius, 5px) 0 0;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-bottom.ess-overlay-tab-align-right .sticky-sidebar-container {
+    border-radius: var(--ess-overlay-tab-corner-radius, 5px) 0 0 0;
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-center.sticky-cta-position-right .sticky-sidebar-container {
+    border-radius: var(--ess-overlay-tab-corner-radius, 5px) 0 0 var(--ess-overlay-tab-corner-radius, 5px);
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-top.sticky-cta-position-right .sticky-sidebar-container {
+    border-radius: 0 0 0 var(--ess-overlay-tab-corner-radius, 5px);
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-bottom.sticky-cta-position-right .sticky-sidebar-container {
+    border-radius: var(--ess-overlay-tab-corner-radius, 5px) 0 0 0;
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-center.sticky-cta-position-left .sticky-sidebar-container {
+    border-radius: 0 var(--ess-overlay-tab-corner-radius, 5px) var(--ess-overlay-tab-corner-radius, 5px) 0;
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-top.sticky-cta-position-left .sticky-sidebar-container {
+    border-radius: 0 0 var(--ess-overlay-tab-corner-radius, 5px) 0;
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-side-tab-align-bottom.sticky-cta-position-left .sticky-sidebar-container {
+    border-radius: 0 var(--ess-overlay-tab-corner-radius, 5px) 0 0;
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-full-tab-height.sticky-cta-position-right .sticky-sidebar-container {
+    border-radius: var(--ess-overlay-tab-corner-radius, 5px) 0 0 var(--ess-overlay-tab-corner-radius, 5px);
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background).ess-html-full-tab-height.sticky-cta-position-left .sticky-sidebar-container {
+    border-radius: 0 var(--ess-overlay-tab-corner-radius, 5px) var(--ess-overlay-tab-corner-radius, 5px) 0;
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background):is(.ess-html-full-tab-width, .ess-html-tab-align-left, .ess-html-tab-align-center, .ess-html-tab-align-right).sticky-cta-position-top .sticky-sidebar-container {
+    border-radius: 0 0 var(--ess-overlay-tab-corner-radius, 5px) var(--ess-overlay-tab-corner-radius, 5px);
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background):is(.ess-html-full-tab-width, .ess-html-tab-align-left, .ess-html-tab-align-center, .ess-html-tab-align-right).sticky-cta-position-bottom .sticky-sidebar-container {
+    border-radius: var(--ess-overlay-tab-corner-radius, 5px) var(--ess-overlay-tab-corner-radius, 5px) 0 0;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height):not(.vertical-cta) .sticky-sidebar-button > div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    white-space: normal;
+    writing-mode: initial;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height):not(.vertical-cta) .sticky-sidebar-button > div .ess-sticky-sidebar-button-label {
+    display: block;
+    white-space: nowrap;
+    writing-mode: vertical-lr;
+    line-height: 1.1;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.ess-tab-text-bottom-to-top:not(.ess-overlay-full-tab-height):not(.vertical-cta) .sticky-sidebar-button > div .ess-sticky-sidebar-button-label {
+    writing-mode: vertical-lr;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height):not(.vertical-cta) .sticky-sidebar-button > div .icon {
+    display: block;
+    line-height: 1;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background.ess-overlay-full-tab-height.ess-tab-text-bottom-to-top .sticky-sidebar-button > div {
+    writing-mode: vertical-lr;
+}
+.easy-sticky-sidebar.vertical-cta.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height) .sticky-sidebar-button {
+    min-height: 0;
+    height: auto;
+}
+.easy-sticky-sidebar.vertical-cta.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height):is(.sticky-cta-position-top, .sticky-cta-position-bottom) .sticky-sidebar-button {
+    padding: 8px 20px;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-right.ess-overlay-side-tab-align-center .sticky-sidebar-button {
+    left: 0;
+    top: 50%;
+    transform: translate(-100%, -50%);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-right.ess-overlay-side-tab-align-top .sticky-sidebar-button {
+    left: 0;
+    top: 0;
+    bottom: auto;
+    transform: translate(-100%, 0);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-right.ess-overlay-side-tab-align-bottom .sticky-sidebar-button {
+    left: 0;
+    top: auto;
+    bottom: 0;
+    transform: translate(-100%, 0);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-left.ess-overlay-side-tab-align-center .sticky-sidebar-button {
+    right: 0;
+    top: 50%;
+    bottom: auto;
+    left: auto;
+    transform: translate(100%, -50%);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-left.ess-overlay-side-tab-align-top .sticky-sidebar-button {
+    right: 0;
+    top: 0;
+    bottom: auto;
+    left: auto;
+    transform: translate(100%, 0);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-left.ess-overlay-side-tab-align-bottom .sticky-sidebar-button {
+    right: 0;
+    top: auto;
+    bottom: 0;
+    left: auto;
+    transform: translate(100%, 0);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-bottom .sticky-sidebar-button {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-bottom.ess-overlay-tab-align-left .sticky-sidebar-button {
+    left: 0;
+    right: auto;
+    transform: translateY(-100%);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-bottom.ess-overlay-tab-align-right .sticky-sidebar-button {
+    left: auto;
+    right: 0;
+    transform: translateY(-100%);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-top .sticky-sidebar-button {
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-top.ess-overlay-tab-align-left .sticky-sidebar-button {
+    left: 0;
+    right: auto;
+    transform: translateY(100%);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-top.ess-overlay-tab-align-right .sticky-sidebar-button {
+    left: auto;
+    right: 0;
+    transform: translateY(100%);
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-right.shrink {
+    right: calc((var(--width) * -1) + var(--position_distance)) !important;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-left.shrink {
+    left: calc((var(--width) * -1) + var(--position_distance));
+}
+.easy-sticky-sidebar.vertical-cta.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).shrink {
+    --translateY: 100%;
+}
+.easy-sticky-sidebar.vertical-cta.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height).sticky-cta-position-top.shrink {
+    --translateY: -100%;
+}
+
+/* Firefox fallback: avoid pseudo-layer compositing glitches that can hide overlay content. */
+@supports (-moz-appearance: none) {
+    .easy-sticky-sidebar.sticky-cta.image-as-background .sticky-overlay-panel {
+        isolation: auto;
+        overflow: visible;
+    }
+    .easy-sticky-sidebar.sticky-cta.image-as-background .sticky-overlay-panel::before {
+        z-index: 0;
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+    }
+    .easy-sticky-sidebar.sticky-cta.image-as-background .sticky-overlay-panel > * {
+        z-index: 1;
+    }
+}
+
+.shrink {
+    right: calc((var(--width) * -1) + var(--buttonWidth) + var(--position_distance)) !important;
+    transition: ease all 0.4s !important;
+}
+
+.easy-sticky-sidebar.vertical-cta.shrink:not(.sticky-cta-left):not(.sticky-cta-right) {
+    right: unset !important;
+}
+
+.easy-sticky-sidebar.vertical-cta.sticky-cta-right.shrink {
+    right: var(--position2_distance) !important;
+}
+
+.easy-sticky-sidebar.vertical-cta.sticky-cta-left.shrink {
+    left: var(--position2_distance) !important;
+    right: auto !important;
+}
+
+.easy-sticky-sidebar.sticky-cta .sticky-sidebar-image {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.easy-sticky-sidebar h1,
+.easy-sticky-sidebar h2,
+.easy-sticky-sidebar h3,
+.easy-sticky-sidebar h4,
+.easy-sticky-sidebar h5,
+.easy-sticky-sidebar h6,
+.easy-sticky-sidebar p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.SSuprydp-icon {
+    margin-left: 8px
+}
+
+.easy-sticky-sidebar iframe {
+    display: block
+}
+
+.easy-sticky-sidebar a {
+    text-decoration: none;
+}
+
+.easy-sticky-sidebar.sticky-cta-top,
+.easy-sticky-sidebar.sticky-cta-bottom {
+    transform: translateY(0)
+}
+
+.easy-sticky-sidebar.sticky-cta-top {
+    top: var(--position2_distance)
+}
+
+body.admin-bar .easy-sticky-sidebar.sticky-cta-top {
+    top: calc(var(--position2_distance) + 32px)
+}
+
+.easy-sticky-sidebar.sticky-cta-bottom {
+    top: auto;
+    bottom: var(--position2_distance)
+}
+
+.easy-sticky-sidebar.sticky-cta-position-left {
+    left: var(--position_distance);
+    right: auto;
+    border-radius: 0 calc(var(--round) + 2px) calc(var(--round) + 2px) 0
+}
+
+.easy-sticky-sidebar.sticky-cta-position-left.shrink {
+    left: calc((var(--width) * -1) + var(--buttonWidth) + var(--position_distance))
+}
+
+.easy-sticky-sidebar.sticky-cta-position-left .sticky-sidebar-button {
+    order: 4;
+    border-radius: 0 var(--round, 0) var(--round, 0) 0
+}
+
+.icon-close {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-color: #000;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20512%20512%27%3E%3Cpath%20fill%3D%27currentColor%27%20d%3D%27M256%208C119%208%208%20119%208%20256s111%20248%20248%20248%20248-111%20248-248S393%208%20256%208zm121.6%20313.1c4.7%204.7%204.7%2012.3%200%2017L338%20377.6c-4.7%204.7-12.3%204.7-17%200L256%20312l-65.1%2065.6c-4.7%204.7-12.3%204.7-17%200L134.4%20338c-4.7-4.7-4.7-12.3%200-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3%200-17l39.6-39.6c4.7-4.7%2012.3-4.7%2017%200l65%2065.7%2065.1-65.6c4.7-4.7%2012.3-4.7%2017%200l39.6%2039.6c4.7%204.7%204.7%2012.3%200%2017L312%20256l65.6%2065.1z%27/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20512%20512%27%3E%3Cpath%20fill%3D%27currentColor%27%20d%3D%27M256%208C119%208%208%20119%208%20256s111%20248%20248%20248%20248-111%20248-248S393%208%20256%208zm121.6%20313.1c4.7%204.7%204.7%2012.3%200%2017L338%20377.6c-4.7%204.7-12.3%204.7-17%200L256%20312l-65.1%2065.6c-4.7%204.7-12.3%204.7-17%200L134.4%20338c-4.7-4.7-4.7-12.3%200-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3%200-17l39.6-39.6c4.7-4.7%2012.3-4.7%2017%200l65%2065.7%2065.1-65.6c4.7-4.7%2012.3-4.7%2017%200l39.6%2039.6c4.7%204.7%204.7%2012.3%200%2017L312%20256l65.6%2065.1z%27/%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
+.easy-sticky-sidebar .btn-ess-close {
+    --edge: 3px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 500;
+}
+
+.easy-sticky-sidebar .btn-ess-close.outside {
+    --edge: -5px;
+}
+
+.easy-sticky-sidebar.ess-close-button-start .btn-ess-close,
+.easy-sticky-sidebar.ess-close-button-end .btn-ess-close {
+    left: var(--edge);
+}
+
+.easy-sticky-sidebar.ess-close-button-start .btn-ess-close {
+    top: var(--edge);
+    bottom: auto;
+}
+
+.easy-sticky-sidebar.ess-close-button-end .btn-ess-close {
+    top: auto;
+    bottom: var(--edge);
+}
+
+.easy-sticky-sidebar.sticky-cta-position-left.ess-close-button-start .btn-ess-close,
+.easy-sticky-sidebar.sticky-cta-position-left.ess-close-button-end .btn-ess-close {
+    left: auto;
+    right: var(--edge);
+}
+
+.easy-sticky-sidebar.vertical-cta .btn-ess-close {
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+}
+
+.easy-sticky-sidebar.vertical-cta.ess-close-button-start .btn-ess-close {
+    left: var(--edge);
+}
+
+.easy-sticky-sidebar.vertical-cta.ess-close-button-end .btn-ess-close {
+    right: var(--edge);
+}
+
+.easy-sticky-sidebar.vertical-cta.sticky-cta-position-top.ess-close-button-start .btn-ess-close,
+.easy-sticky-sidebar.vertical-cta.sticky-cta-position-top.ess-close-button-end .btn-ess-close {
+    bottom: var(--edge);
+}
+
+.easy-sticky-sidebar.vertical-cta.sticky-cta-position-bottom.ess-close-button-start .btn-ess-close,
+.easy-sticky-sidebar.vertical-cta.sticky-cta-position-bottom.ess-close-button-end .btn-ess-close {
+    top: var(--edge);
+}
+
+.easy-sticky-sidebar.has-image-ovarlay .sticky-sidebar-image {
+    position: relative;
+}
+
+.easy-sticky-sidebar.has-image-ovarlay .sticky-sidebar-image:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--ess-image-overlay-color, rgba(0, 0, 0, 0.35));
+    opacity: var(--ess-image-overlay-opacity, 0.35);
+}
+
+.easy-sticky-sidebar.vertical-cta.shrink {
+    --translateY: calc(100% - var(--buttonHeight) - var(--position_distance))
+}
+
+.easy-sticky-sidebar:is(.sticky-cta, .tab-cta) .sticky-sidebar-button>div {
+    white-space: nowrap;
+    writing-mode: vertical-lr
+}
+
+.easy-sticky-sidebar:is(.sticky-cta, .tab-cta).ess-tab-text-bottom-to-top:not(.vertical-cta) .sticky-sidebar-button>div .ess-sticky-sidebar-button-label {
+    display: inline-block;
+    transform: rotate(180deg);
+    transform-origin: center center;
+}
+
+.easy-sticky-sidebar .sticky-sidebar-button>div .ess-sticky-sidebar-button-label {
+    display: inline;
+}
+
+.easy-sticky-sidebar.sticky-cta.image-as-background.ess-overlay-full-tab-height.ess-tab-text-bottom-to-top .sticky-sidebar-button > div .ess-sticky-sidebar-button-label {
+    display: inline-block;
+    transform: rotate(180deg);
+    transform-origin: center center;
+}
+
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background):not(.vertical-cta) .sticky-sidebar-button>div .icon {
+    display: inline-block;
+    line-height: 1;
+    margin-inline-end: 0;
+}
+.easy-sticky-sidebar.sticky-cta:not(.image-as-background):not(.vertical-cta) .sticky-sidebar-button>div .ess-sticky-sidebar-button-label + .icon {
+    margin-inline-end: 0;
+    margin-inline-start: 8px;
+}
+
+.easy-sticky-sidebar.vertical-cta:is(.sticky-cta, .tab-cta) .sticky-sidebar-button>div {
+    writing-mode: unset
+}
+
+.easy-sticky-sidebar.vertical-cta.sticky-cta.image-as-background .sticky-sidebar-button>div {
+    writing-mode: vertical-lr;
+}
+
+.easy-sticky-sidebar.vertical-cta.sticky-cta.image-as-background:is(.sticky-cta-position-top, .sticky-cta-position-bottom) .sticky-sidebar-button>div {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    writing-mode: horizontal-tb;
+    white-space: nowrap;
+}
+
+.easy-sticky-sidebar.vertical-cta.sticky-cta.image-as-background:is(.sticky-cta-position-top, .sticky-cta-position-bottom) .sticky-sidebar-button>div .ess-sticky-sidebar-button-label {
+    display: inline;
+    transform: none;
+}
+
+.easy-sticky-sidebar.vertical-cta.sticky-cta.image-as-background .sticky-sidebar-button>div .icon {
+    display: inline-block;
+    line-height: 1;
+    margin-inline-end: 0;
+}
+.easy-sticky-sidebar:is(.sticky-cta, .tab-cta) .sticky-sidebar-button>div .icon + .ess-sticky-sidebar-button-label {
+    margin-inline-start: 8px;
+}
+.easy-sticky-sidebar:is(.sticky-cta, .tab-cta) .sticky-sidebar-button>div .ess-sticky-sidebar-button-label + .icon {
+    margin-inline-end: 0;
+    margin-inline-start: 8px;
+}
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height):not(.vertical-cta) .sticky-sidebar-button>div .icon + .ess-sticky-sidebar-button-label,
+.easy-sticky-sidebar.sticky-cta.image-as-background:not(.ess-overlay-full-tab-height):not(.vertical-cta) .sticky-sidebar-button>div .ess-sticky-sidebar-button-label + .icon {
+    margin-inline-start: 0;
+    margin-block-start: 0px;
+}
+
+.easy-sticky-sidebar.tab-cta {
+    --round: 5px;
+    --width: 50px !important;
+    display: flex;
+    width: auto !important;
+    min-width: var(--width, 50px) !important;
+    border-top-left-radius: calc(var(--round) + 2px);
+    border-bottom-left-radius: calc(var(--round) + 2px);
+}
+
+/* Box shadow is a Pro feature (enabled via class). */
+.easy-sticky-sidebar.ess-shadow-enabled,
+.wordpress-cta-pro-banner.ess-shadow-enabled {
+    box-shadow: 0 0 10px 0 rgba(19, 19, 19, .2);
+}
+
+.easy-sticky-sidebar.tab-cta .sticky-sidebar-button {
+    color: #fff;
+    height: max-content;
+    width: auto;
+    min-width: var(--width, 50px);
+    cursor: pointer;
+    padding: 20px 0;
+    display: flex;
+    flex: 0 0 auto;
+    line-height: 1.2;
+    position: relative;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: #4e0d61;
+    text-decoration: none !important;
+    border-bottom-left-radius: var(--round, 5px);
+    border-top-left-radius: var(--round, 5px);
+
+}
+
+/* Tab CTA border radius by position */
+.easy-sticky-sidebar.tab-cta.sticky-cta-position-left {
+    border-radius: 0 calc(var(--round) + 2px) calc(var(--round) + 2px) 0;
+}
+.easy-sticky-sidebar.tab-cta.sticky-cta-position-left .sticky-sidebar-button {
+    border-radius: 0 var(--round, 5px) var(--round, 5px) 0;
+}
+.easy-sticky-sidebar.tab-cta .sticky-sidebar-button>div .icon {
+    display: inline-block;
+    line-height: 1;
+    margin-inline-end: 8px;
+}
+.easy-sticky-sidebar.tab-cta .sticky-sidebar-button>div .ess-sticky-sidebar-button-label + .icon {
+    margin-inline-end: 0;
+    margin-inline-start: 8px;
+}
+.easy-sticky-sidebar.tab-cta.sticky-cta-position-right {
+    border-radius: calc(var(--round) + 2px) 0 0 calc(var(--round) + 2px);
+}
+.easy-sticky-sidebar.tab-cta.sticky-cta-position-right .sticky-sidebar-button {
+    border-radius: var(--round, 5px) 0 0 var(--round, 5px);
+}
+.easy-sticky-sidebar.tab-cta.vertical-cta.sticky-cta-position-top {
+    border-radius: 0 0 calc(var(--round) + 2px) calc(var(--round) + 2px);
+}
+.easy-sticky-sidebar.tab-cta.vertical-cta.sticky-cta-position-bottom {
+    border-radius: calc(var(--round) + 2px) calc(var(--round) + 2px) 0 0;
+}
+
+.easy-sticky-sidebar.tab-cta.vertical-cta {
+    width: max-content !important
+}
+
+.easy-sticky-sidebar.vertical-cta .sticky-sidebar-button {
+    width: auto;
+    padding: 0 20px;
+    order: -1;
+    align-items: center;
+    min-height: var(--buttonHeight);
+    border-radius: var(--round) var(--round) 0 0;
+}
+.easy-sticky-sidebar.vertical-cta.sticky-cta.sticky-cta-position-top .sticky-sidebar-button,
+.easy-sticky-sidebar.vertical-cta.sticky-cta.sticky-cta-position-bottom .sticky-sidebar-button {
+    justify-content: center !important;
+    align-items: center !important;
+}
+.easy-sticky-sidebar.vertical-cta.sticky-cta.sticky-cta-position-top .sticky-sidebar-button > div,
+.easy-sticky-sidebar.vertical-cta.sticky-cta.sticky-cta-position-bottom .sticky-sidebar-button > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.easy-sticky-sidebar.vertical-cta.sticky-cta-position-top {
+    border-radius: 0 0 var(--round) var(--round);
+}
+
+.easy-sticky-sidebar.vertical-cta.sticky-cta-position-top.shrink {
+    --translateY: calc((100% * -1) + var(--buttonHeight) + var(--position_distance));
+}
+
+.easy-sticky-sidebar.vertical-cta.sticky-cta-position-top .sticky-sidebar-button {
+    order: 333;
+    border-radius: 0 0 var(--round) var(--round);
+}
+
+.easy-sticky-sidebar.sticky-cta.vertical-cta:is(.ess-html-tab-align-left, .ess-html-tab-align-center, .ess-html-tab-align-right).sticky-cta-position-top.shrink {
+    --translateY: -100%;
+}
+
+.easy-sticky-sidebar.sticky-cta.vertical-cta:is(.ess-html-tab-align-left, .ess-html-tab-align-center, .ess-html-tab-align-right).sticky-cta-position-bottom.shrink {
+    --translateY: 100%;
+}
+
+.easy-sticky-sidebar.vertical-cta.sticky-cta-left,
+.easy-sticky-sidebar.vertical-cta.sticky-cta-right {
+    --translateX: 0
+}
+
+
+
+@media screen and (min-width: 1025px) {
+    .sticky-sidebar-desktop {
+        opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: all !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .sticky-sidebar-tablet {
+        opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: all !important;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .sticky_cta_bottom {
+        bottom: 0;
+    }
+
+    .sticky_cta_top {
+        top: 0
+    }
+
+    .easy-sticky-sidebar {
+        --width: 90%
+    }
+
+    .sticky-sidebar-mobile {
+        opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: all !important;
+    }
+}
+
+
+
+.easy-sticky-sidebar.ess-floating-buttons {
+    --button_width: 50px;
+    --translateX: calc((100% - var(--button_width)) * var(--multiply, 1));
+    --translateY: -50%;
+    width: auto;
+    font-size: 13px;
+    display: block;
+    transform: translate(var(--translateX), var(--translateY));
+}
+
+.easy-sticky-sidebar.ess-floating-buttons.sticky-cta-position-left {
+    --multiply: -1;
+    direction: rtl
+}
+
+.easy-sticky-sidebar.ess-floating-buttons:hover {
+    --multiply: 0 !important
+}
+
+.easy-sticky-sidebar.ess-floating-buttons.vertical-cta {
+    --transformX: -50%;
+    --transformY: calc(-100% + var(--button_width));
+    writing-mode: vertical-lr;
+    transform: translate(var(--transformX, -50%), var(--transformY));
+}
+
+.easy-sticky-sidebar.ess-floating-buttons.vertical-cta-top {
+    direction: rtl
+}
+
+.easy-sticky-sidebar.ess-floating-buttons.vertical-cta-bottom {
+    --transformY: calc(100% - var(--button_width))
+}
+
+.easy-sticky-sidebar.ess-floating-buttons.vertical-cta:hover {
+    --transformY: 0 !important
+}
+
+ul.floating-buttons-container * {
+    box-sizing: border-box
+}
+
+ul.floating-buttons-container {
+    --padding: 15px;
+    --background_color: #1b2748;
+    color: #fff;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    background-color: var(--background_color);
+}
+
+ul.floating-buttons-container>li {
+    list-style: none !important;
+    white-space: nowrap;
+    color: var(--color, inherit);
+    background-color: var(--background_color);
+}
+
+ul.floating-buttons-container>li:hover {
+    --background_color: #111a35;
+}
+
+ul.floating-buttons-container>li:hover {
+    color: var(--hover_color);
+    background-color: var(--background_hover_color, var(--background_color))
+}
+
+ul.floating-buttons-container>li>a {
+    color: inherit;
+    text-decoration: none !important
+}
+
+ul.floating-buttons-container>li:not(.has-link),
+ul.floating-buttons-container>li>a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-inline-end: var(--padding)
+}
+
+ul.floating-buttons-container>li:not(.has-link)>*,
+ul.floating-buttons-container>li>a>* {
+    flex: 1
+}
+
+ul.floating-buttons-container li .icon {
+    display: flex;
+    flex: 0 0 auto;
+    text-align: center;
+    align-items: center;
+    align-self: stretch;
+    width: var(--button_width);
+    /* margin: calc(var(--padding) * -1); */
+    margin-inline-end: 0;
+    padding: var(--padding);
+}
+
+ul.floating-buttons-container li .icon:after,
+ul.floating-buttons-container li .icon:before {
+    flex: 1;
+}
+
+.easy-sticky-sidebar.floating-button-no-text ul.floating-buttons-container li .icon {
+    margin-inline-end: calc(var(--padding) * -1)
+}
+
+.easy-sticky-sidebar.floating-buttons.sticky-cta-top {
+    --translateY: 0
+}
+
+.easy-sticky-sidebar.floating-buttons.sticky-cta-bottom {
+    --translateY: 0
+}
+
+.easy-sticky-sidebar.floating-buttons.sticky-cta-left {
+    --transformX: 0
+}
+
+.easy-sticky-sidebar.floating-buttons.sticky-cta-right {
+    --transformX: 0
+}
+
+.easy-sticky-sidebar.vertical-cta ul.floating-buttons-container li .icon {
+    height: var(--button_width)
+}
+
+.easy-sticky-sidebar.tab-cta .sticky-sidebar-button>div i {
+    display: inline-block;
+}
+
+/* Display animation helpers */

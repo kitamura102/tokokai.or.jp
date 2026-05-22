@@ -1,0 +1,253 @@
+
+
+# BEGIN WordPress
+# "BEGIN WordPress" から "END WordPress" までのディレクティブ (行) は
+# 動的に生成され、WordPress フィルターによってのみ修正が可能です。
+# これらのマーカー間にあるディレクティブへのいかなる変更も上書きされてしまいます。
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+
+#リダイレクト追加
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^.*/index\.html
+RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.html\ HTTP/
+RewriteRule ^(.*)\.html$ /$1/ [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1%{REQUEST_URI} [R=301,L]
+Redirect permanent /uketuke/ https://tokokai.or.jp/guide/outpatient/
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+RewriteRule ^bosyu/(.*)$ /pdf/recruit/$1 [R=301,L]
+Redirect permanent /tantou/ https://tokokai.or.jp/schedule/
+Redirect permanent /kouhou/ https://tokokai.or.jp/about/kouhou/
+Redirect permanent /message/ https://tokokai.or.jp/about/message/
+Redirect permanent /kenri/ https://tokokai.or.jp/about/kenri/
+Redirect permanent /rinen/ https://tokokai.or.jp/about/rinen/
+Redirect permanent /shishin/ https://tokokai.or.jp/about/shishin/
+Redirect permanent /setubi/ https://tokokai.or.jp/about/setubi/
+Redirect permanent /aboutus/ https://tokokai.or.jp/about/aboutus/
+Redirect permanent /kijyun/ https://tokokai.or.jp/about/kijyun/
+Redirect permanent /roken-hokan/ https://tokokai.or.jp/roken/
+Redirect permanent /kangobu/ https://tokokai.or.jp/dept/kangobu/
+Redirect permanent /renkei/ https://tokokai.or.jp/dept/community/
+Redirect permanent /dock/ https://tokokai.or.jp/dept/support/kenshin/
+Redirect permanent /menkai/ https://tokokai.or.jp/guide/menkai/
+Redirect permanent /recuitjyunkan/ https://tokokai.or.jp/recruit/
+Redirect permanent /guide/shinryou/ https://tokokai.or.jp/dept/
+Redirect permanent /movie/ https://tokokai.or.jp/about/kouhou/movie_01/
+Redirect permanent /movie2/ https://tokokai.or.jp/about/kouhou/movie_02/
+Redirect permanent /welcome/ https://tokokai.or.jp/
+Redirect permanent /pdf/recruit/tyourihojyo.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /shinryou_lady/ https://tokokai.or.jp/sanka/
+Redirect permanent /pdf/gairai_tantouR070701.pdf https://tokokai.or.jp/schedule/
+Redirect permanent /kyukyu/ https://tokokai.or.jp/about/kyuukyu/
+Redirect permanent /pdf/ict-fs.xls https://tokokai.or.jp/
+Redirect permanent /restrictions/ https://tokokai.or.jp/guide/menkai/
+Redirect permanent /ict/ https://tokokai.or.jp/
+Redirect permanent /kinen/ https://tokokai.or.jp/
+Redirect permanent /sanka/contact/index/ https://tokokai.or.jp/sanka/contact/
+
+Redirect permanent /pdf/kiri01.pdf https://tokokai.or.jp/pdf/kiri/kiri01.pdf
+Redirect permanent /pdf/kiri02.pdf https://tokokai.or.jp/pdf/kiri/kiri02.pdf
+Redirect permanent /pdf/kiri03.pdf https://tokokai.or.jp/pdf/kiri/kiri03.pdf
+Redirect permanent /pdf/kiri04.pdf https://tokokai.or.jp/pdf/kiri/kiri04.pdf
+Redirect permanent /pdf/kiri05,6.pdf https://tokokai.or.jp/pdf/kiri/kiri05,6.pdf
+Redirect permanent /pdf/kiri07.pdf https://tokokai.or.jp/pdf/kiri/kiri07.pdf
+Redirect permanent /pdf/kiri08.pdf https://tokokai.or.jp/pdf/kiri/kiri08.pdf
+Redirect permanent /pdf/kiri09.pdf https://tokokai.or.jp/pdf/kiri/kiri09.pdf
+Redirect permanent /pdf/kiri10.pdf https://tokokai.or.jp/pdf/kiri/kiri10.pdf
+Redirect permanent /pdf/kiri11.pdf https://tokokai.or.jp/pdf/kiri/kiri11.pdf
+Redirect permanent /pdf/kiri12.pdf https://tokokai.or.jp/pdf/kiri/kiri12.pdf
+Redirect permanent /pdf/kiri13.pdf https://tokokai.or.jp/pdf/kiri/kiri13.pdf
+Redirect permanent /pdf/kiri14.pdf https://tokokai.or.jp/pdf/kiri/kiri14.pdf
+Redirect permanent /pdf/kiri15.pdf https://tokokai.or.jp/pdf/kiri/kiri15.pdf
+Redirect permanent /pdf/kiri16.pdf https://tokokai.or.jp/pdf/kiri/kiri16.pdf
+Redirect permanent /pdf/kiri17.pdf https://tokokai.or.jp/pdf/kiri/kiri17.pdf
+Redirect permanent /pdf/kiri18.pdf https://tokokai.or.jp/pdf/kiri/kiri18.pdf
+Redirect permanent /pdf/kiri19.pdf https://tokokai.or.jp/pdf/kiri/kiri19.pdf
+Redirect permanent /pdf/kiri20.pdf https://tokokai.or.jp/pdf/kiri/kiri20.pdf
+Redirect permanent /pdf/kiri21.pdf https://tokokai.or.jp/pdf/kiri/kiri21.pdf
+Redirect permanent /pdf/kiri22.pdf https://tokokai.or.jp/pdf/kiri/kiri22.pdf
+Redirect permanent /pdf/kiri23.pdf https://tokokai.or.jp/pdf/kiri/kiri23.pdf
+Redirect permanent /pdf/kiri24.pdf https://tokokai.or.jp/pdf/kiri/kiri24.pdf
+Redirect permanent /pdf/kiri25.pdf https://tokokai.or.jp/pdf/kiri/kiri25.pdf
+Redirect permanent /pdf/kiri26.pdf https://tokokai.or.jp/pdf/kiri/kiri26.pdf
+Redirect permanent /pdf/kiri27.pdf https://tokokai.or.jp/pdf/kiri/kiri27.pdf
+Redirect permanent /pdf/kiri28.pdf https://tokokai.or.jp/pdf/kiri/kiri28.pdf
+Redirect permanent /pdf/kiri29.pdf https://tokokai.or.jp/pdf/kiri/kiri29.pdf
+Redirect permanent /pdf/kiri30.pdf https://tokokai.or.jp/pdf/kiri/kiri30.pdf
+Redirect permanent /pdf/kiri31.pdf https://tokokai.or.jp/pdf/kiri/kiri31.pdf
+Redirect permanent /pdf/kiri32.pdf https://tokokai.or.jp/pdf/kiri/kiri32.pdf
+Redirect permanent /pdf/kiri33.pdf https://tokokai.or.jp/pdf/kiri/kiri33.pdf
+Redirect permanent /pdf/kiri34.pdf https://tokokai.or.jp/pdf/kiri/kiri34.pdf
+Redirect permanent /pdf/kiri35.pdf https://tokokai.or.jp/pdf/kiri/kiri35.pdf
+Redirect permanent /pdf/kiri36.pdf https://tokokai.or.jp/pdf/kiri/kiri36.pdf
+Redirect permanent /pdf/kiri37.pdf https://tokokai.or.jp/pdf/kiri/kiri37.pdf
+Redirect permanent /pdf/kiri38.pdf https://tokokai.or.jp/pdf/kiri/kiri38.pdf
+Redirect permanent /pdf/kiri39.pdf https://tokokai.or.jp/pdf/kiri/kiri39.pdf
+Redirect permanent /pdf/kiri40.pdf https://tokokai.or.jp/pdf/kiri/kiri40.pdf
+Redirect permanent /pdf/kiri41.pdf https://tokokai.or.jp/pdf/kiri/kiri41.pdf
+Redirect permanent /pdf/kiri42.pdf https://tokokai.or.jp/pdf/kiri/kiri42.pdf
+Redirect permanent /pdf/m_hinyouki.pdf https://tokokai.or.jp/pdf/monshin/m_hinyouki.pdf
+Redirect permanent /pdf/m_kinen.pdf https://tokokai.or.jp/pdf/monshin/m_kinen.pdf
+Redirect permanent /pdf/m_naika.pdf https://tokokai.or.jp/pdf/monshin/m_naika.pdf
+Redirect permanent /pdf/m_nousinkei.pdf https://tokokai.or.jp/pdf/monshin/m_nousinkei.pdf
+Redirect permanent /pdf/m_nyuusen.pdf https://tokokai.or.jp/pdf/monshin/m_nyuusen.pdf
+Redirect permanent /pdf/m_sanfujinka.pdf https://tokokai.or.jp/pdf/monshin/m_sanfujinka.pdf
+Redirect permanent /pdf/m_seikei.pdf https://tokokai.or.jp/pdf/monshin/m_seikei.pdf
+Redirect permanent /pdf/m_syoukaki.pdf https://tokokai.or.jp/pdf/monshin/m_syoukaki.pdf
+Redirect permanent /pdf/braindock4.pdf https://tokokai.or.jp/dept/support/kenshin/
+Redirect permanent /pdf/bus.pdf https://tokokai.or.jp/access/
+Redirect permanent /pdf/recruit/jyosansi3.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /pdf/recruit/h-ot.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /pdf/recruit/care4.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /pdf/recruit/r-kango20221130.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /pdf/recruit/pt20230118.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /pdf/recruit/msw3008-2.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /pdf/recruit/annai20220831.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /pdf/recruit/care6.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /pdf/recruit/kenshinjimu4.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /pdf/recruit/housyasengisi2.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /pdf/recruit/msw2108.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /bosyu/ijikasyunin.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /bosyu/yakuzaika.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /pdf/innaikansentaisakusisin2024.pdf https://tokokai.or.jp/pdf/innaikansentaisakusisin.pdf
+
+Redirect permanent /pdf/CT.pdf https://tokokai.or.jp/
+Redirect permanent /pdf/CTsyousai.pdf https://tokokai.or.jp/
+Redirect permanent /pdf/recruit/pt2.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /jikahatu/ https://tokokai.or.jp/
+Redirect permanent /nyuusatu/ https://tokokai.or.jp/
+Redirect permanent /pdf/Ortho-kenkyuu.pdf https://tokokai.or.jp/
+
+Redirect permanent /pdf/R021207-1.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /pdf/R021219-1.pdf https://tokokai.or.jp/recruit/
+Redirect permanent /pdf/R040527-a.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R040527-a.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R030624.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R061209.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R031014a.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/290619-2.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R040808-3.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R070813-2.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R80224-2.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R031115.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R031115.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R070623-2.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/290629-2.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/290830.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R010823.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R011228.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R020626.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R020727.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R030322-5.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R030428.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R030910-2.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R031001.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R040627.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R040815-1.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R040920-3.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R041105.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R041105.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R050213-1.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R051010.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R050529-1.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R050530.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R050623-2.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R050821.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R051207-2.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R070221.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R070415-1.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R070415-2.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R070604.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R070716.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R070917.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R071023.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R071024.pdf https://tokokai.or.jp/info/
+Redirect permanent /pdf/R80206-2.pdf https://tokokai.or.jp/info/
+
+Redirect permanent /pdf/R041122tachiai.pdf https://tokokai.or.jp/info/
+
+Redirect permanent /pdf/R041021menkai.pdf https://tokokai.or.jp/guide/menkai/
+Redirect permanent /pdf/R050127menkai.pdf https://tokokai.or.jp/guide/menkai/
+Redirect permanent /pdf/R050310menkai.pdf https://tokokai.or.jp/guide/menkai/
+Redirect permanent /pdf/R060401menkai.pdf https://tokokai.or.jp/guide/menkai/
+
+Redirect permanent /pdf/gairai_tantouR071001.pdf https://tokokai.or.jp/schedule/
+Redirect permanent /pdf/gairai_tantouR071201.pdf https://tokokai.or.jp/schedule/
+
+Redirect permanent /sanka/_pdf/watsuumanual.pdf https://tokokai.or.jp/pdf/sanka/watsuumanual.pdf
+Redirect permanent /sanka/_pdf/mutsuusetsumei.pdf https://tokokai.or.jp/pdf/sanka/mutsuusetsumei.pdf
+Redirect permanent /sanka/_pdf/josanshi.pdf https://tokokai.or.jp/pdf/sanka/josanshi.pdf
+Redirect permanent /sanka/_pdf/kakaku.pdf https://tokokai.or.jp/pdf/sanka/kakaku.pdf
+Redirect permanent /sanka/_pdf/mutsuushisetsu.pdf https://tokokai.or.jp/pdf/sanka/mutsuushisetsu.pdf
+Redirect permanent /sanka/_pdf/nyuuin.pdf https://tokokai.or.jp/pdf/sanka/nyuuin.pdf
+Redirect permanent /sanka/_pdf/tenken.pdf https://tokokai.or.jp/pdf/sanka/tenken.pdf
+Redirect permanent /sanka/_pdf/watsuubunben.pdf https://tokokai.or.jp/pdf/sanka/watsuubunben.pdf
+Redirect permanent /sanka/_pdf/watsuuhoushin.pdf https://tokokai.or.jp/pdf/sanka/watsuuhoushin.pdf
+Redirect permanent /sanka/hospitalization.html?id=hos01 https://tokokai.or.jp/sanka/hospitalization/#hos01
+Redirect permanent /sanka/hospitalization.html?id=hos02 https://tokokai.or.jp/sanka/hospitalization/#hos02
+Redirect permanent /sanka/hospitalization.html?id=hos03 https://tokokai.or.jp/sanka/hospitalization/#hos03
+Redirect permanent /sanka/hospitalization.html?id=hos04 https://tokokai.or.jp/sanka/hospitalization/#hos04
+Redirect permanent /sanka/hospitalization.html?id=hos05 https://tokokai.or.jp/sanka/hospitalization/#hos05
+Redirect permanent /sanka/gynecology.html?id=gyn03 https://tokokai.or.jp/sanka/gynecology/#gyn03
+Redirect permanent /sanka/gynecology.html?id=gyn04 https://tokokai.or.jp/sanka/gynecology/#gyn04
+Redirect permanent /pdf/postnatalcare.pdf https://tokokai.or.jp/sanka/obstetrics/#obs05
+Redirect permanent /pdf/h-kousoku.pdf https://tokokai.or.jp/pdf/hokan/h-kousoku.pdf
+Redirect permanent /pdf/Rkitei1.pdf https://tokokai.or.jp/pdf/roken/Rkitei1.pdf
+
+#キャッシュ保存期間設定 追加
+<IfModule mod_expires.c>
+ExpiresActive On
+
+# Images
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/png  "access plus 1 year"
+ExpiresByType image/webp "access plus 1 year"
+ExpiresByType image/gif  "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"
+
+# Fonts
+ExpiresByType font/woff2 "access plus 1 year"
+ExpiresByType font/woff  "access plus 1 year"
+
+# CSS / JS
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+<IfModule mod_headers.c>
+<FilesMatch "\.(jpg|jpeg|png|gif|webp|svg|woff2|woff)$">
+Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
+
+<FilesMatch "\.(css|js)$">
+Header set Cache-Control "public, max-age=2592000"
+</FilesMatch>
+</IfModule>
+
+# ↓↓↓ 2025/6/5 マルチサイト化のため設定を追加 ↓↓↓
+# add a trailing slash to /wp-admin
+RewriteRule ^([_0-9a-zA-Z-]+/)?wp-admin$ $1wp-admin/ [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?(wp-(content|admin|includes).*) $2 [L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?(.*\.php)$ $2 [L]
+RewriteRule . index.php [L]
+# ↑↑↑ 2025/6/5 マルチサイト化のため設定を追加 ↑↑↑ #
+
+# ↓↓↓ 2025/6/5 マルチサイト化のためコメントアウト ↓↓↓
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /index.php [L]
+# ↑↑↑ 2025/6/5 マルチサイト化のためコメントアウト ↑↑↑ #
+
+</IfModule>
+# END WordPress
+
