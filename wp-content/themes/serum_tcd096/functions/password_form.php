@@ -156,7 +156,7 @@ function tcd_password_form() {
 	// 誘導文を選択していない時、ボックスにデフォルトテキストを表示
 	if ( ! $pw_content ) {
 
-		$output .= '<p class="c-pw__box-desc">' . __( 'This content is password protected. To view it please enter your password below:' ) . '</p>';
+		$output .= '<p class="c-pw__box-desc">' . __( 'This content is password protected. To view it please enter your password below:', 'tcd-serum' ) . '</p>';
 		$output .= '<div><label class="c-pw__box-label" for="' . $label . '">' . __( 'Password:', 'tcd-serum' ) . '</label><input class="c-pw__box-input" name="post_password" id="' . $label . '" type="password" size="20"><input class="c-pw__btn c-pw__btn--submit" type="submit" name="Submit" value="' . esc_attr( __( 'Submit' ) ) . '"></div>';
 
 	} else {

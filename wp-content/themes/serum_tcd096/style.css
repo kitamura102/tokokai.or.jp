@@ -5,7 +5,7 @@ Theme URI:https://tcd-theme.com/tcd096/
 Description:WordPress theme "SERUM" is a template with the image of a dermatology clinic, featuring side icon buttons and a post type that allows you to organize the subjects of treatment. CTAs can also be easily set up.
 Author:TCD
 Author URI:https://tcd-theme.com/
-Version:2.9
+Version:2.9.1
 Text Domain:tcd-serum
 */
 
@@ -91,6 +91,12 @@ html { height:100%; position:relative; }
 html:before { content:''; width:100%; height:80px; position:absolute; top:0; left:0; background:#fff; z-index:-1; }
 body { overflow-x:hidden; height:100%; padding:80px 80px 0; font-family:Arial,sans-serif; font-size:14px; line-height:1; width:100%; position:relative; -webkit-font-smoothing:antialiased; }
 body.hide_page_side_bar { padding-right:0; padding-left:0; }
+@media screen and (min-width:1222px) {
+  html body:not(.hide_page_side_bar) {
+    padding-left:80px;
+    padding-right:80px;
+  }
+}
 body.hide_page_header_bar { padding-top:0; }
 body.admin-bar { padding-top:102px; }
 body.home.admin-bar { padding-top:112px; }
@@ -717,7 +723,7 @@ body.single #main_col .author_profile .desc span { display:-webkit-inline-box; -
 
 
 /* ナビゲーション */
-#next_prev_post { margin:50px 50px 0 ; position:relative; flex-wrap:wrap; }
+#next_prev_post { margin:50px 50px 0 ; position:relative; display:flex; flex-wrap:wrap; }
 #next_prev_post .item { height:120px; width:50%; position:relative; border:1px solid #ddd; display:flex; flex-wrap:wrap; justify-content:center; align-items:center; }
 #next_prev_post .item:first-of-type { right:-1px; }
 #next_prev_post .title {
