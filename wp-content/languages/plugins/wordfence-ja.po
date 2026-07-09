@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Wordfence Security &#8211; Firewall, Malware Scan, and Login Security - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-08 14:03:08+0000\n"
+"PO-Revision-Date: 2026-05-25 10:21:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -169,6 +169,10 @@ msgstr "Wordfence Central ユーザー"
 msgid "Disconnected on %1$s"
 msgstr "%1$s で切断されました"
 
+#: lib/wfJavascriptBridge.php:229
+msgid "Check for a server outage."
+msgstr "サーバーの停止を確認する。"
+
 #: lib/wfJavascriptBridge.php:617
 msgid "Manage"
 msgstr "管理"
@@ -243,6 +247,10 @@ msgstr "不明なイベント"
 #: lib/wfJavascriptBridge.php:967
 msgid "The Wordfence Audit Log is a premium feature that records a history of events on your site to assist in monitoring for unauthorized actions or signs of compromise. Events can include everything from user creation and editing to plugin/theme installation and updates. All data captured for relevant events is saved remotely to Wordfence Central to prevent any tampering that may interfere with post-incident analysis and response."
 msgstr "Wordfence 監査ログは、サイト上のイベント履歴を記録し、不正なアクションや侵害の兆候を監視するのに役立つプレミアム機能です。イベントには、ユーザーの作成と編集からプラグイン / テーマのインストールと更新まで、あらゆるものが含まれます。関連するイベントでキャプチャされたすべてのデータは、インシデント後の分析と対応を妨げる可能性のある改ざんを防ぐために、Wordfence Central にリモートで保存されます。"
+
+#: lib/wfJavascriptBridge.php:154
+msgid "Are you sure you want to restore the default settings? This will undo any custom changes you have made to the options on this page."
+msgstr "本当にデフォルト設定に戻しますか ? この操作を行うと、このページで行ったすべてのカスタマイズ変更が元に戻ります。"
 
 #: lib/menu_tools_auditlog.php:175
 msgid "Content"
@@ -1230,6 +1238,11 @@ msgstr "WAF .user.ini のコンテンツ"
 msgid "WAF .htaccess contents"
 msgstr "WAF .htaccess のコンテンツ"
 
+#. translators: 1. Plugin slug. 2. Malformed date string.
+#: lib/wfScanEngine.php:2083
+msgid "Encountered bad date string for plugin \"%1$s\" in abandoned plugin check: %2$s"
+msgstr "プラグイン「%1$s」の日付文字列が不正です。プラグインチェック: %2$s"
+
 #. translators: 1. Number of tables
 #: views/diagnostics/text.php:409
 msgid "%1$s Table in Database"
@@ -1313,6 +1326,11 @@ msgstr "WordPress のセキュリティと脆弱性に関するアラートを�
 #: modules/login-security/js/login.1778685035.js:390
 msgid "The Wordfence 2FA Code can be found within the authenticator app you used when first activating two-factor authentication. You may also use one of your recovery codes."
 msgstr "Wordfence 2FA コードは、最初に2要素認証を有効化する際に使用した認証アプリ内にあります。リカバリーコードを使用することもできます。"
+
+#. translators: support URL
+#: lib/wfJavascriptBridge.php:500
+msgid "If you cannot complete the setup process, <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">click here for help<span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "セットアッププロセスを完了できない場合は、<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">ヘルプはこちらをクリックしてください<span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>"
 
 #: lib/wfJavascriptBridge.php:871
 msgid "Search All Options"
@@ -1507,6 +1525,11 @@ msgstr "WooCommerce & カスタム連携"
 msgid "In order to use 2FA with the WooCommerce customer role, you must either enable the \"WooCommerce integration\" option or use the \"wordfence_2fa_management\" shortcode to provide customers with access to the 2FA management interface. The default interface is only available through WordPress admin pages which are not accessible to users in the customer role."
 msgstr "WooCommerce の顧客権限グループで 2FA を使用するには、「WooCommerce 連携」オプションを有効化するか、「wordfence_2fa_management」ショートコードを使用して、顧客に 2FA 管理インターフェースへのアクセスを提供する必要があります。デフォルトのインターフェイスは、顧客権限グループのユーザーがアクセスできない WordPress 管理画面を通じてのみ利用可能です。"
 
+#. translators: 1. Date; 2. Configuration URL
+#: modules/login-security/classes/controller/ajax.php:461
+msgid "<html><body><p>You do not currently have two-factor authentication active on your account, which will be required beginning %1$s.</p><p><a href=\"%2$s\">Configure 2FA</a></p></body></html>"
+msgstr "<html><body><p>現在、アカウントで2要素認証が有効になっていません。%1$s 以降は2要素認証が必要になります。</p><p><a href=\"%2$s\">2要素認証を設定する</a></p></body></html>"
+
 #: modules/login-security/classes/controller/ajax.php:439
 msgid "The specified URL is invalid."
 msgstr "指定した URL は無効です。"
@@ -1647,6 +1670,11 @@ msgstr "もう一度お試しください。問題が解決しない場合は、
 msgid "Install your license to finish activating Wordfence."
 msgstr "ライセンスをインストールして、Wordfence を有効化する。"
 
+#. translators: support URL
+#: lib/wordfenceClass.php:6057
+msgid "This could be caused by a database problem. You may need to repair your \"wfconfig\" database table or fix your database user's privileges if they have changed recently, or you may need to reinstall Wordfence. Please <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">contact Wordfence support<span class=\"screen-reader-text\"> (opens in new tab)</span></a> if you need help."
+msgstr "これはデータベースの問題が原因である可能性があります。「wfconfig」データベーステーブルを修復するか、最近変更されたデータベースユーザーの権限を修正するか、Wordfence を再インストールする必要があるかもしれません。サポートが必要な場合は、<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Wordfence サポートにお問い合わせください<span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>。"
+
 #: lib/menu_install.php:36 lib/wordfenceClass.php:6514
 #: modules/login-security/classes/controller/wordfencels.php:237
 msgid "Install Wordfence"
@@ -1702,6 +1730,11 @@ msgstr "Wordfence は、各失敗したスキャンステージを再開する�
 #: lib/wfJavascriptBridge.php:864
 msgid "Scan Stage Failed"
 msgstr "スキャンが失敗しました"
+
+#. translators: 1. Plugin name; 2. Support URL
+#: lib/wfScanEngine.php:2201
+msgid "To protect your site from this vulnerability, the safest option is to deactivate and completely remove \"%1$s\" until a patched version is available. <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Get more information.<span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "この脆弱性からサイトを保護するには、パッチが適用されたバージョンが利用可能になるまで「%1$s」を無効化して完全に削除するのが最も安全な方法です。<a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">詳細はこちらをご覧ください。<span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>"
 
 #: lib/wfJavascriptBridge.php:611 lib/wfJavascriptBridge.php:1965
 msgid "Look up visitor IP locations via Wordfence servers"
@@ -1844,6 +1877,14 @@ msgstr "サイト管理者はこの設定を変更することができます。
 #: views/user/disabled-application-passwords.php:9
 msgid "Application Passwords"
 msgstr "アプリケーションパスワード"
+
+#: lib/wfJavascriptBridge.php:904
+msgid "Sign up for Wordfence Care and we'll take care of it. Our security experts will clean your site, resolve the infection, and perform a security audit. Get hands-on support with any security issue including help installing, configuring and optimizing Wordfence."
+msgstr "Wordfence Careにご登録いただくと、私たちが対応いたします。私たちのセキュリティ専門家がお客様のサイトをクリーンアップし、感染を解決し、セキュリティ監査を実施します。Wordfence のインストール、設定、最適化に関するサポートを含む、あらゆるセキュリティ問題について実践的なサポートをご利用いただけます。"
+
+#: lib/wfJavascriptBridge.php:1117
+msgid "Wordfence Firewall & Care License Enabled"
+msgstr "Wordfence Firewall & Care ライセンスが有効"
 
 #: lib/wfJavascriptBridge.php:655
 msgid "Need help with a security issue?"
@@ -2361,6 +2402,16 @@ msgstr "%1$s に書き込むことができませんでした。 (%2$dバイト�
 #: modules/login-security/classes/controller/javascript.php:51
 msgid "Edit trusted proxies"
 msgstr "信頼できるプロキシの編集"
+
+#: lib/wfJavascriptBridge.php:1146
+#: modules/login-security/classes/controller/javascript.php:114
+msgid "Your IP with this setting"
+msgstr "この設定であなたの IP"
+
+#: lib/wfJavascriptBridge.php:305
+#: modules/login-security/classes/controller/javascript.php:46
+msgid "Detected IP(s)"
+msgstr "検出された IP(s)"
 
 #: views/common/page-title.php:20
 msgid "Go to"
