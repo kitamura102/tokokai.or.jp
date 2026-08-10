@@ -2,14 +2,18 @@
 # This file is distributed under the same license as the Plugins - LightStart &#8211; Maintenance Mode, Coming Soon and Landing Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-16 13:28:00+0000\n"
+"PO-Revision-Date: 2026-07-27 10:06:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/4.0.1\n"
+"X-Generator: GlotPress/4.0.3\n"
 "Language: ja_JP\n"
 "Project-Id-Version: Plugins - LightStart &#8211; Maintenance Mode, Coming Soon and Landing Page Builder - Stable (latest release)\n"
+
+#: views/wizard.php:40
+msgid "Otter Blocks"
+msgstr "Otter Blocks"
 
 #: views/settings.php:210
 msgid "You are using a custom template from your theme/child theme folder."
@@ -19,7 +23,7 @@ msgstr "テーマ / 子テーマフォルダーのカスタムテンプレート
 msgid "Enable network mode"
 msgstr "ネットワークモードを有効にする"
 
-#: includes/classes/wp-maintenance-mode.php:215
+#: includes/classes/wp-maintenance-mode.php:218
 msgid "Maintenance mode"
 msgstr "メンテナンスモード"
 
@@ -39,7 +43,11 @@ msgstr "私たちのスターターテンプレートから、メンテナンス
 msgid "Stay in the loop for more templates!"
 msgstr "さらに多くのテンプレートについて最新情報を入手してください。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:1027
+#: includes/classes/wp-maintenance-mode-admin.php:1301
+msgid "Learn more about Otter."
+msgstr "Otter について詳細はこちら"
+
+#: includes/classes/wp-maintenance-mode-admin.php:1044
 msgid "WP Maintenance Mode is now LightStart. Enjoy the same features, more templates and new landing pages building compatibility."
 msgstr "WP Maintenance Mode は「LightStart」に生まれ変わりました。同じ機能、以前より増えたテンプレート、そして新しいランディングページ構築の互換性をお楽しみください。"
 
@@ -47,17 +55,17 @@ msgstr "WP Maintenance Mode は「LightStart」に生まれ変わりました。
 msgid "Select the page that will be used as the Maintenance, Coming Soon or Landing page."
 msgstr "メンテナンスページ、またはカミングスーンページ、ランディングページに使用されるページを選択してください。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:343
-#: includes/classes/wp-maintenance-mode-admin.php:344
+#: includes/classes/wp-maintenance-mode-admin.php:356
+#: includes/classes/wp-maintenance-mode-admin.php:357
 msgid "LightStart"
 msgstr "LightStart"
 
-#: includes/classes/wp-maintenance-mode.php:216
-#: includes/classes/wp-maintenance-mode.php:232
+#: includes/classes/wp-maintenance-mode.php:219
+#: includes/classes/wp-maintenance-mode.php:235
 msgid "Landing Page"
 msgstr "開始ページ"
 
-#: includes/classes/wp-maintenance-mode.php:230
+#: includes/classes/wp-maintenance-mode.php:233
 msgid "Coming Soon Page"
 msgstr "近日公開ページ"
 
@@ -85,31 +93,31 @@ msgstr "テンプレートの選択"
 msgid "Import template"
 msgstr "テンプレートのインポート"
 
-#: views/wizard.php:129
+#: views/wizard.php:165
 msgid "Go to settings"
 msgstr "設定に移動"
 
-#: views/wizard.php:128
+#: views/wizard.php:164
 msgid "View page"
 msgstr "ページを表示"
 
-#: includes/classes/wp-maintenance-mode-admin.php:175
+#: includes/classes/wp-maintenance-mode-admin.php:178
 msgid "Invalid email, please try again."
 msgstr "無効なメールアドレスです。もう一度やり直してください。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:174
+#: includes/classes/wp-maintenance-mode-admin.php:177
 msgid "Done"
 msgstr "完了"
 
-#: includes/classes/wp-maintenance-mode-admin.php:205
+#: includes/classes/wp-maintenance-mode-admin.php:218
 msgid "Go to Settings"
 msgstr "設定に移動"
 
-#: includes/classes/wp-maintenance-mode-admin.php:203
+#: includes/classes/wp-maintenance-mode-admin.php:216
 msgid "The template has been imported to a new draft page. You can take a look and enable it from plugin settings."
 msgstr "テンプレートは新しい下書きページにインポートされました。確認と有効化はプラグインの設定から行えます。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:204
+#: includes/classes/wp-maintenance-mode-admin.php:217
 msgid "Go to page"
 msgstr "ページへ移動"
 
@@ -121,83 +129,83 @@ msgstr "<b>注</b>: 新しい世代のメンテナンス ページを使用す�
 msgid "All Templates"
 msgstr "すべてのテンプレート"
 
-#: views/wizard.php:126
+#: views/wizard.php:162
 msgid "Head over to the settings page to activate your Coming soon page"
 msgstr "設定ページに移動して、近日公開ページを有効にします"
 
-#: includes/classes/wp-maintenance-mode-admin.php:1089
+#: includes/classes/wp-maintenance-mode-admin.php:1106
 msgid "You migrated to use Gutenberg for building the Maintenance page.&emsp;<button id=\"wpmm-rollback\" class=\"button button-link button-link-delete\">Rollback</button>"
 msgstr "メンテナンス ページの構築に Gutenberg を使用するように移行しました。<button id=\"wpmm-rollback\" class=\"button button-link button-link-delete\">ロールバック</button>"
 
-#: includes/classes/wp-maintenance-mode-admin.php:1084
+#: includes/classes/wp-maintenance-mode-admin.php:1101
 msgid "We upgraded the way maintenance pages are build. Migrate to use Gutenberg for your page!&emsp;<button id=\"wpmm-migrate\" class=\"button button-primary\">Migrate</button>"
 msgstr "メンテナンス ページの構築方法をアップグレードしました。 あなたのページで Gutenberg を使用するには、移行してください。&emsp;<button id=\"wpmm-migrate\" class=\"button button-primary\">移行</button>"
 
-#: includes/classes/wp-maintenance-mode-admin.php:1068
+#: includes/classes/wp-maintenance-mode-admin.php:1085
 msgid "<strong>Action required</strong>: you don't have a page as Maintenance page. Visit <a href=\"%s\">settings page</a> to select one."
 msgstr "<strong>必要なアクション</strong>: メンテナンス ページとしてのページがありません。 <a href=\"%s\">設定ページ</a>にアクセスしていずれかを選択してください。"
 
-#: views/wizard.php:114
+#: views/wizard.php:143
 msgid "Keep up with feature announcements, promotions, tutorials, and new template releases."
 msgstr "機能の発表、プロモーション、チュートリアル、新しいテンプレートのリリースについて最新の情報を入手してください。"
 
-#: views/wizard.php:113
+#: views/wizard.php:142
 msgid "Stay in the loop!"
 msgstr "常に最新情報を入手してください。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:1057
+#: includes/classes/wp-maintenance-mode-admin.php:1074
 msgid "<strong>Action required</strong>: your Maintenance page has been deleted. Visit <a href=\"%s\">settings page</a> to address this issue."
 msgstr "<strong>必要なアクション</strong>: メンテナンス ページは削除されました。 この問題を解決するには、<a href=\"%s\">設定ページ</a>にアクセスしてください。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:1056
+#: includes/classes/wp-maintenance-mode-admin.php:1073
 msgid "<strong>Action required</strong>: your Maintenance page is drafted. Visit the page to <a href=\"%s\">publish</a> it."
 msgstr "<strong>必要なアクション</strong>: メンテナンス ページの下書きが作成されています。 このページにアクセスして<a href=\"%s\">公開</a>してください。"
 
-#: views/wizard.php:117
+#: views/wizard.php:146
 msgid "Sign me up"
 msgstr "登録する"
 
-#: includes/classes/wp-maintenance-mode-admin.php:211
+#: includes/classes/wp-maintenance-mode-admin.php:224
 msgid "Go back"
 msgstr "戻る"
 
-#: includes/classes/wp-maintenance-mode-admin.php:210 views/wizard.php:105
+#: includes/classes/wp-maintenance-mode-admin.php:223 views/wizard.php:134
 msgid "Continue"
 msgstr "続行"
 
-#: views/wizard.php:125
+#: views/wizard.php:161
 msgid "Your page is ready!"
 msgstr "ページの準備ができました。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:869
+#: includes/classes/wp-maintenance-mode-admin.php:886
 msgid "The source filed must not be empty."
 msgstr "このフィールドは空であってはなりません。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:852
+#: includes/classes/wp-maintenance-mode-admin.php:869
 msgid "Empty field: category."
 msgstr "空のフィールド: カテゴリ"
 
-#: includes/classes/wp-maintenance-mode-admin.php:806
+#: includes/classes/wp-maintenance-mode-admin.php:819
 msgid "Empty field: email"
 msgstr "空のフィールド: 電子メール"
 
-#: includes/classes/wp-maintenance-mode-admin.php:171
+#: includes/classes/wp-maintenance-mode-admin.php:174
 msgid "Something went wrong, please try again."
 msgstr "問題が発生しました。もう一度やり直してください。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:178
+#: includes/classes/wp-maintenance-mode-admin.php:181
 msgid "Your coming soon page is ready!"
 msgstr "近日公開予定のページが完成しました。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:177
+#: includes/classes/wp-maintenance-mode-admin.php:180
 msgid "Your maintenance page is ready!"
 msgstr "メンテナンスページが完成しました。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:202
+#: includes/classes/wp-maintenance-mode-admin.php:215
 msgid "The template has been imported!"
 msgstr "テンプレートがインポートされました。"
 
-#: includes/classes/wp-maintenance-mode.php:214
+#: includes/classes/wp-maintenance-mode.php:217
 msgid "Coming Soon"
 msgstr "近日公開"
 
@@ -257,27 +265,27 @@ msgstr "利用可能なショートコード"
 msgid "Hide available shortcodes"
 msgstr "利用可能なショートコードを非表示"
 
-#: includes/classes/wp-maintenance-mode.php:1371
+#: includes/classes/wp-maintenance-mode.php:1374
 msgid "Something happened! Please try again later."
 msgstr "問題が発生しました。後でもう一度お試しください。"
 
-#: includes/classes/wp-maintenance-mode.php:752
+#: includes/classes/wp-maintenance-mode.php:755
 msgctxt "<meta> keywords default"
 msgid "Maintenance Mode"
 msgstr "メンテナンスモード"
 
-#: includes/classes/wp-maintenance-mode.php:262
+#: includes/classes/wp-maintenance-mode.php:265
 msgctxt "heading default"
 msgid "Maintenance mode"
 msgstr "メンテナンスモード"
 
-#: includes/classes/wp-maintenance-mode.php:261
+#: includes/classes/wp-maintenance-mode.php:264
 msgctxt "<title> default"
 msgid "Maintenance mode"
 msgstr "メンテナンスモード"
 
 #. translators: privacy policy url
-#: includes/classes/wp-maintenance-mode-admin.php:1243
+#: includes/classes/wp-maintenance-mode-admin.php:1260
 msgid "The plugin detected this Privacy page: %s – <button>Use this url</button>"
 msgstr "プラグインはこちらのプライバシーページを検出しました: %s – <button>このURLを使用</button>"
 
@@ -323,7 +331,7 @@ msgstr "%s - ログインフォームを表示"
 msgid "Do not add <style> tags."
 msgstr "<style>タグを追加しないでください。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:214
+#: includes/classes/wp-maintenance-mode-admin.php:227
 msgctxt "image_uploader default title"
 msgid "Upload Image"
 msgstr "画像をアップロード"
@@ -349,7 +357,7 @@ msgstr ""
 msgid "%1$s - responsive video embed. Compatible with %2$s. Example: %3$s"
 msgstr "%1$s - レスポンシブな動画の埋め込み。%2$s と互換性があります。例: %3$s"
 
-#: includes/classes/wp-maintenance-mode-admin.php:215
+#: includes/classes/wp-maintenance-mode-admin.php:228
 msgctxt "image_uploader default button_text"
 msgid "Choose Image"
 msgstr "画像を選択"
@@ -358,11 +366,11 @@ msgstr "画像を選択"
 msgid "If you want to see the list of subscribers, go to Modules &raquo; Subscribe &raquo; Export as CSV."
 msgstr "購読者のリストを表示する場合は、モジュール &raquo; 購読 &raquo; CSVとしてエクスポートに移動します。"
 
-#: includes/classes/wp-maintenance-mode.php:329
+#: includes/classes/wp-maintenance-mode.php:332
 msgid "Privacy Policy"
 msgstr "プライバシーポリシー"
 
-#: includes/classes/wp-maintenance-mode.php:310
+#: includes/classes/wp-maintenance-mode.php:313
 msgid "What is your name?"
 msgstr "あなたのお名前は ?"
 
@@ -374,7 +382,7 @@ msgstr "アバターをアップロード"
 msgid "This name will appear when the bot is typing."
 msgstr "この名前は、ボットが入力しているときに表示されます。"
 
-#: includes/classes/wp-maintenance-mode.php:322
+#: includes/classes/wp-maintenance-mode.php:325
 msgid "Tell me more"
 msgstr "さらに詳しく教えてください"
 
@@ -382,11 +390,11 @@ msgstr "さらに詳しく教えてください"
 msgid "Response"
 msgstr "返答"
 
-#: includes/classes/wp-maintenance-mode.php:803
+#: includes/classes/wp-maintenance-mode.php:806
 msgid "Please type in your name."
 msgstr "名前を入力してください。"
 
-#: includes/classes/wp-maintenance-mode.php:804
+#: includes/classes/wp-maintenance-mode.php:807
 msgid "Please type in a valid email address."
 msgstr "有効なメールアドレスを入力してください。"
 
@@ -398,19 +406,19 @@ msgstr "ボットを管理"
 msgid "Link name"
 msgstr "リンク名"
 
-#: includes/classes/wp-maintenance-mode.php:313
+#: includes/classes/wp-maintenance-mode.php:316
 msgid "I know, you are very excited to see it, but we need a few days to finish it."
 msgstr "早く見てみたい気持ちでいっぱいかと思いますが、完了までに数日かかります。"
 
-#: includes/classes/wp-maintenance-mode.php:309
+#: includes/classes/wp-maintenance-mode.php:312
 msgid "I have just a few questions."
 msgstr "いくつか質問があります。"
 
-#: includes/classes/wp-maintenance-mode.php:318
+#: includes/classes/wp-maintenance-mode.php:321
 msgid "Have a great day!"
 msgstr "すてきな一日を !"
 
-#: includes/classes/wp-maintenance-mode.php:317
+#: includes/classes/wp-maintenance-mode.php:320
 msgid "Got it! Thank you and see you soon here!"
 msgstr "やった ! ありがとう、またここでお会いしましょう !"
 
@@ -443,7 +451,7 @@ msgid "A 512 x 512 px will work just fine."
 msgstr "512 x 512pxで問題なく動作します。"
 
 #. translators: number of subscribers
-#: includes/classes/wp-maintenance-mode-admin.php:324
+#: includes/classes/wp-maintenance-mode-admin.php:337
 msgctxt "ajax response"
 msgid "You have %d subscriber"
 msgid_plural "You have %d subscribers"
@@ -453,13 +461,13 @@ msgstr[0] "%s人の購読者がいます"
 msgid "Message 1"
 msgstr "メッセージ1"
 
-#: includes/classes/wp-maintenance-mode.php:321
-#: includes/classes/wp-maintenance-mode.php:806
+#: includes/classes/wp-maintenance-mode.php:324
+#: includes/classes/wp-maintenance-mode.php:809
 msgid "Type your name here…"
 msgstr "ここにあなたの名前を入力してください…"
 
-#: includes/classes/wp-maintenance-mode.php:324
-#: includes/classes/wp-maintenance-mode.php:807
+#: includes/classes/wp-maintenance-mode.php:327
+#: includes/classes/wp-maintenance-mode.php:810
 msgid "Type your email here…"
 msgstr "ここにメールアドレスを入力してください…"
 
@@ -507,23 +515,23 @@ msgstr "メッセージ10"
 msgid "Message 9"
 msgstr "メッセージ9"
 
-#: includes/classes/wp-maintenance-mode-admin.php:1239
+#: includes/classes/wp-maintenance-mode-admin.php:1256
 msgid "Your WordPress version supports Privacy settings but you haven't set any privacy policy page yet. Go to Settings ➡ Privacy to set one."
 msgstr "WordPress のバージョンはプライバシー設定をサポートしていますが、プライバシーポリシーページはまだ設定されていません。 [設定]➡[プライバシー]に移動して設定。"
 
-#: includes/classes/wp-maintenance-mode.php:323
+#: includes/classes/wp-maintenance-mode.php:326
 msgid "Boring"
 msgstr "退屈"
 
-#: includes/classes/wp-maintenance-mode.php:315
+#: includes/classes/wp-maintenance-mode.php:318
 msgid "Cool! Please leave your email here and I will send you a message when it's ready."
 msgstr "いいね! ここにメールを残してください。準備ができたらメッセージをお送りします。"
 
-#: includes/classes/wp-maintenance-mode.php:314
+#: includes/classes/wp-maintenance-mode.php:317
 msgid "Would you like to be first to see it?"
 msgstr "最初に見たいですか ?"
 
-#: includes/classes/wp-maintenance-mode.php:312
+#: includes/classes/wp-maintenance-mode.php:315
 msgid "How you can see, our website will be launched very soon."
 msgstr "ご覧のとおり、まもなくサイトが開設されます。"
 
@@ -582,23 +590,23 @@ msgstr "{bot_name}と{visitor_name}のワイルドカードを使用して、会
 msgid "Setup the conversation steps to capture more subscribers with this friendly way of asking email addresses."
 msgstr "メールアドレスを尋ねるフレンドリーな方法で、より多くの購読者を得るための会話手順を設定します。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:1249
+#: includes/classes/wp-maintenance-mode-admin.php:1266
 msgid "Your Privacy page is pointing to a different URL in WordPress settings. If that's correct ignore this message, otherwise UPDATE VALUE TO NEW URL"
 msgstr "プライバシーページが WordPress 設定ではない URL を指しています。正しい場合はこのメッセージを無視してください。正しくない場合は新しい URL に更新してください"
 
-#: includes/classes/wp-maintenance-mode-admin.php:975
+#: includes/classes/wp-maintenance-mode-admin.php:992
 msgid "WPMM: The file data.js could not be written, the bot will not work correctly."
 msgstr "WPMM: ファイル data.js を書き込めませんでした、ボットが正しく機能しません。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:1252
+#: includes/classes/wp-maintenance-mode-admin.php:1269
 msgid "No privacy features detected for your WordPress version. Update WordPress to get this field automatically filled in or type in the URL that points to your privacy policy page."
 msgstr "WordPress のバージョンでプライバシー機能が検出されませんでした。WordPress を更新して、このフィールドを自動的に入力するか、プライバシーポリシーページの URL を入力してください。"
 
-#: includes/classes/wp-maintenance-mode.php:332
+#: includes/classes/wp-maintenance-mode.php:335
 msgid "This form collects your name and email so that we can reach you back. Check out our <a href=\"#\">Privacy Policy</a> page to fully understand how we protect and manage your submitted data."
 msgstr "このフォームはあなたの名前とメールアドレスを収集し、私たちがあなたに連絡できるようにします。送信されたデータを保護および管理する方法を完全に理解するには、<a href=\"#\">プライバシーポリシー</a>ページを確認してください。"
 
-#: includes/classes/wp-maintenance-mode.php:333
+#: includes/classes/wp-maintenance-mode.php:336
 msgid "This form collects your email so that we can add you to our newsletter list. Check out our <a href=\"#\">Privacy Policy</a> page to fully understand how we protect and manage your submitted data."
 msgstr "このフォームはあなたのメールアドレスを収集し、ニュースレターリストに追加できるようにします。送信されたデータを保護および管理する方法を完全に理解するには、<a href=\"#\">プライバシーポリシー</a>ページを確認してください。"
 
@@ -610,49 +618,49 @@ msgstr "一般的なテキストを追加しました。自由に変更、削除
 msgid "To make the plugin GDPR compliant, fill in the details and enable this section."
 msgstr "プラグインを GDPR 準拠にするには、詳細を入力し、このセクションを有効化してください。"
 
-#: includes/classes/wp-maintenance-mode.php:316
+#: includes/classes/wp-maintenance-mode.php:319
 msgid "Sad to hear that, {visitor_name} :( See you next time…"
 msgstr "それは残念です。{visitor_name} さん、またお会いできますように。"
 
-#: includes/classes/wp-maintenance-mode.php:308
+#: includes/classes/wp-maintenance-mode.php:311
 msgid "Hey! My name is {bot_name}, I'm the owner of this website and I'd like to be your assistant here."
 msgstr "私の名前は {bot_name} で、このサイトの所有者です。ここであなたのアシスタントになりたいと思っています。"
 
-#: includes/classes/wp-maintenance-mode.php:311
+#: includes/classes/wp-maintenance-mode.php:314
 msgid "Nice to meet you here, {visitor_name}!"
 msgstr "はじめまして、{visitor_name}!"
 
-#: includes/classes/wp-maintenance-mode-admin.php:271
-#: includes/classes/wp-maintenance-mode-admin.php:318
-#: includes/classes/wp-maintenance-mode-admin.php:408
-#: includes/classes/wp-maintenance-mode-admin.php:641
-#: includes/classes/wp-maintenance-mode-admin.php:673
-#: includes/classes/wp-maintenance-mode-admin.php:708
-#: includes/classes/wp-maintenance-mode-admin.php:762
-#: includes/classes/wp-maintenance-mode-admin.php:782
-#: includes/classes/wp-maintenance-mode-admin.php:802
-#: includes/classes/wp-maintenance-mode-admin.php:848
-#: includes/classes/wp-maintenance-mode-admin.php:879
-#: includes/classes/wp-maintenance-mode-admin.php:905
-#: includes/classes/wp-maintenance-mode-admin.php:1123
-#: includes/classes/wp-maintenance-mode.php:1311
-#: includes/classes/wp-maintenance-mode.php:1339
+#: includes/classes/wp-maintenance-mode-admin.php:284
+#: includes/classes/wp-maintenance-mode-admin.php:331
+#: includes/classes/wp-maintenance-mode-admin.php:421
+#: includes/classes/wp-maintenance-mode-admin.php:654
+#: includes/classes/wp-maintenance-mode-admin.php:686
+#: includes/classes/wp-maintenance-mode-admin.php:721
+#: includes/classes/wp-maintenance-mode-admin.php:775
+#: includes/classes/wp-maintenance-mode-admin.php:795
+#: includes/classes/wp-maintenance-mode-admin.php:815
+#: includes/classes/wp-maintenance-mode-admin.php:865
+#: includes/classes/wp-maintenance-mode-admin.php:896
+#: includes/classes/wp-maintenance-mode-admin.php:922
+#: includes/classes/wp-maintenance-mode-admin.php:1140
+#: includes/classes/wp-maintenance-mode.php:1314
+#: includes/classes/wp-maintenance-mode.php:1342
 msgid "Security check."
 msgstr "セキュリティチェック"
 
-#: includes/classes/wp-maintenance-mode-admin.php:266
-#: includes/classes/wp-maintenance-mode-admin.php:313
-#: includes/classes/wp-maintenance-mode-admin.php:398
-#: includes/classes/wp-maintenance-mode-admin.php:631
-#: includes/classes/wp-maintenance-mode-admin.php:668
-#: includes/classes/wp-maintenance-mode-admin.php:698
-#: includes/classes/wp-maintenance-mode-admin.php:757
-#: includes/classes/wp-maintenance-mode-admin.php:777
-#: includes/classes/wp-maintenance-mode-admin.php:797
-#: includes/classes/wp-maintenance-mode-admin.php:843
-#: includes/classes/wp-maintenance-mode-admin.php:874
-#: includes/classes/wp-maintenance-mode-admin.php:900
-#: includes/classes/wp-maintenance-mode-admin.php:1118
+#: includes/classes/wp-maintenance-mode-admin.php:279
+#: includes/classes/wp-maintenance-mode-admin.php:326
+#: includes/classes/wp-maintenance-mode-admin.php:411
+#: includes/classes/wp-maintenance-mode-admin.php:644
+#: includes/classes/wp-maintenance-mode-admin.php:681
+#: includes/classes/wp-maintenance-mode-admin.php:711
+#: includes/classes/wp-maintenance-mode-admin.php:770
+#: includes/classes/wp-maintenance-mode-admin.php:790
+#: includes/classes/wp-maintenance-mode-admin.php:810
+#: includes/classes/wp-maintenance-mode-admin.php:860
+#: includes/classes/wp-maintenance-mode-admin.php:891
+#: includes/classes/wp-maintenance-mode-admin.php:917
+#: includes/classes/wp-maintenance-mode-admin.php:1135
 msgid "The nonce field must not be empty."
 msgstr "nonce フィールドは空であってはいけません。"
 
@@ -661,11 +669,11 @@ msgid "Allowed formats: UA-XXXXXXXX, UA-XXXXXXXX-XXXX, G-XXXXXXXX. Eg: UA-123456
 msgstr "有効なフォーマット: UA-XXXXXXXX, UA-XXXXXXXX-XXXX, G-XXXXXXXX。例: UA-12345678-1 は有効です"
 
 #. translators: link to plugin reviews page on wp.org
-#: includes/classes/wp-maintenance-mode-admin.php:1171
+#: includes/classes/wp-maintenance-mode-admin.php:1188
 msgid "If you like <strong>Lightstart</strong> please leave us a %s rating. A huge thank you from WP Maintenance Mode makers in advance!"
 msgstr "よければ <strong>WP Maintenance Mode</strong> に %s の評価を残してください。WP Maintenance Modeの作者から前もって感謝します。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:1115
+#: includes/classes/wp-maintenance-mode-admin.php:1132
 msgid "Notice key cannot be empty."
 msgstr "通知キーは空にすることはできません。"
 
@@ -696,20 +704,20 @@ msgstr "コンテンツ:"
 msgid "Name:"
 msgstr "名前:"
 
-#: includes/classes/wp-maintenance-mode-admin.php:414
-#: includes/classes/wp-maintenance-mode-admin.php:647
+#: includes/classes/wp-maintenance-mode-admin.php:427
+#: includes/classes/wp-maintenance-mode-admin.php:660
 msgid "The tab slug must exist."
 msgstr "タブスラッグ名はすでに存在しています。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:403
-#: includes/classes/wp-maintenance-mode-admin.php:636
+#: includes/classes/wp-maintenance-mode-admin.php:416
+#: includes/classes/wp-maintenance-mode-admin.php:649
 msgid "The tab slug must not be empty."
 msgstr "タブスラッグ名は空にすることはできません。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:262
-#: includes/classes/wp-maintenance-mode-admin.php:309
-#: includes/classes/wp-maintenance-mode-admin.php:393
-#: includes/classes/wp-maintenance-mode-admin.php:626
+#: includes/classes/wp-maintenance-mode-admin.php:275
+#: includes/classes/wp-maintenance-mode-admin.php:322
+#: includes/classes/wp-maintenance-mode-admin.php:406
+#: includes/classes/wp-maintenance-mode-admin.php:639
 msgid "You do not have access to this resource."
 msgstr "このリソースへのアクセス権がありません。"
 
@@ -734,7 +742,7 @@ msgstr "ログインしたユーザーを、ダッシュボードやバックエ
 msgid "Adds a splash page to your site that lets visitors know your site is down for maintenance. It's perfect for a coming soon or landing page."
 msgstr "サイトにスプラッシュページを追加することで訪問者にあなたのサイトがメンテナンスでダウン中だと知らせることができます。カミングスーンページやランディングページにうってつけです。"
 
-#: includes/classes/wp-maintenance-mode-admin.php:1008
+#: includes/classes/wp-maintenance-mode-admin.php:1025
 msgid "Settings"
 msgstr "設定"
 
@@ -742,7 +750,7 @@ msgstr "設定"
 msgid "Twitter"
 msgstr "Twitter"
 
-#: includes/classes/wp-maintenance-mode-admin.php:1297
+#: includes/classes/wp-maintenance-mode-admin.php:1314
 msgid "Settings saved."
 msgstr "設定を保存しました。"
 
@@ -822,8 +830,8 @@ msgstr "分"
 msgid "Days"
 msgstr "日"
 
-#: includes/classes/wp-maintenance-mode.php:1307
-#: includes/classes/wp-maintenance-mode.php:1342 views/maintenance.php:193
+#: includes/classes/wp-maintenance-mode.php:1310
+#: includes/classes/wp-maintenance-mode.php:1345 views/maintenance.php:193
 msgid "Please enter a valid email address."
 msgstr "有効なメールアドレスを入力してください。"
 
@@ -869,7 +877,7 @@ msgstr "ソーシャルネットワーク"
 msgid "Countdown"
 msgstr "カウントダウン"
 
-#: includes/classes/wp-maintenance-mode.php:738
+#: includes/classes/wp-maintenance-mode.php:741
 msgid "Maintenance Mode"
 msgstr "メンテナンスモード"
 
@@ -885,7 +893,7 @@ msgstr "背景画像のサイズは 1920x1280 px である必要があります�
 msgid "Links target?"
 msgstr "リンクの開き方"
 
-#: includes/classes/wp-maintenance-mode.php:808 views/maintenance.php:220
+#: includes/classes/wp-maintenance-mode.php:811 views/maintenance.php:220
 msgid "Send"
 msgstr "送信"
 
@@ -921,7 +929,7 @@ msgstr "通知"
 msgid "Uploaded background"
 msgstr "アップロードされた背景画像"
 
-#: includes/classes/wp-maintenance-mode.php:1335
+#: includes/classes/wp-maintenance-mode.php:1338
 msgid "All fields required."
 msgstr "すべての項目に入力してください。"
 
@@ -993,7 +1001,7 @@ msgstr "上部へ移動/下部へ移動"
 msgid "Predefined background"
 msgstr "既定の背景画像"
 
-#: includes/classes/wp-maintenance-mode.php:284
+#: includes/classes/wp-maintenance-mode.php:287
 msgid "Notify me when it's ready"
 msgstr "準備ができたら通知を受け取る"
 
@@ -1006,7 +1014,7 @@ msgid "Bypass for Search Bots"
 msgstr "検索エンジンボットをバイパスする"
 
 #. translators: plugin settings url
-#: includes/classes/wp-maintenance-mode-admin.php:1042
+#: includes/classes/wp-maintenance-mode-admin.php:1059
 msgid "The Maintenance Mode is <strong>active</strong>. Please don't forget to <a href=\"%s\">deactivate</a> as soon as you are done."
 msgstr "メンテナンスモードが<strong>有効化</strong>されています。作業が終わったらすぐに<a href=\"%s\">無効化</a>するのを忘れないでください。"
 
@@ -1014,7 +1022,7 @@ msgstr "メンテナンスモードが<strong>有効化</strong>されていま�
 msgid "Show contact?"
 msgstr "問い合わせを表示しますか ?"
 
-#: includes/classes/wp-maintenance-mode.php:1374
+#: includes/classes/wp-maintenance-mode.php:1377
 msgid "Your email was sent to the website administrator. Thanks!"
 msgstr "メールをサイトの管理者に送信しました。ありがとうございます。"
 
@@ -1030,20 +1038,20 @@ msgstr "購読を表示しますか?"
 msgid "Do you want to add a link to the dashboard on your maintenance mode page?"
 msgstr "メンテナンスモードのページにダッシュボードへのリンクを追加しますか?"
 
-#: includes/classes/wp-maintenance-mode.php:264
+#: includes/classes/wp-maintenance-mode.php:267
 msgid "<p>Sorry for the inconvenience.<br />Our website is currently undergoing scheduled maintenance.<br />Thank you for your understanding.</p>"
 msgstr "<p>ご不便おかけしております。<br />現在、定期メンテナンス中です。<br />ご理解いただきまして、ありがとうございます。</p>"
 
-#: includes/classes/wp-maintenance-mode.php:1349
+#: includes/classes/wp-maintenance-mode.php:1352
 msgid "Message via contact"
 msgstr "お問い合わせからメッセージを送ってください。"
 
-#: includes/classes/wp-maintenance-mode.php:1316
+#: includes/classes/wp-maintenance-mode.php:1319
 msgid "You successfully subscribed. Thanks!"
 msgstr "申し込みが成功しました。ありがとうございます！"
 
 #. translators: plugin settings url
-#: includes/classes/wp-maintenance-mode.php:466
+#: includes/classes/wp-maintenance-mode.php:469
 msgid "WP Maintenance Mode plugin was relaunched and you MUST revise <a href=\"%s\">settings</a>."
 msgstr "WP Maintenance Mode プラグインを更新したので、<a href=\"%s\">設定</a>を変更する「必要」があります。"
 
@@ -1097,7 +1105,7 @@ msgstr "ステータス"
 msgid "* source <a href=\"%s\" target=\"_blank\">Free Photos</a>"
 msgstr "* ソース <a href=\"%s\" target=\"_blank\">無料フォト</a>"
 
-#: includes/classes/wp-maintenance-mode-admin.php:728
-#: includes/classes/wp-maintenance-mode.php:228
+#: includes/classes/wp-maintenance-mode-admin.php:741
+#: includes/classes/wp-maintenance-mode.php:231
 msgid "Maintenance Page"
 msgstr "メンテナンスページ"

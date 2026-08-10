@@ -120,7 +120,7 @@ msgctxt "Color name"
 msgid "Base"
 msgstr "ベース"
 
-#: functions.php:114
+#: functions.php:109
 msgid "A collection of full page layouts."
 msgstr "フルページレイアウトのコレクション"
 
@@ -196,19 +196,19 @@ msgstr "Facebook"
 msgid "Instagram"
 msgstr "Instagram"
 
-#: functions.php:84
+#: functions.php:80
 msgid "Checkmark"
 msgstr "チェック"
 
-#: functions.php:121
+#: functions.php:116
 msgid "Post formats"
 msgstr "投稿フォーマット"
 
-#: functions.php:122
+#: functions.php:117
 msgid "A collection of post format patterns."
 msgstr "投稿フォーマットのパターン集。"
 
-#: functions.php:142
+#: functions.php:136
 msgctxt "Label for the block binding placeholder in the editor"
 msgid "Post format name"
 msgstr "投稿フォーマット名"
@@ -1190,7 +1190,7 @@ msgctxt "Alt text for intro picture."
 msgid "Picture of a flower"
 msgstr "花の画像"
 
-#: functions.php:113
+#: functions.php:108
 msgid "Pages"
 msgstr "ページ"
 
@@ -1994,6 +1994,11 @@ msgctxt "Pattern placeholder text with link."
 msgid "Lecture by <a href=\"#\">Prof. Fiona Presley</a>"
 msgstr "<a href=\"#\">フィオナ・プレスリー教授</a>による講演"
 
+#: patterns/banner-about-book.php:26
+msgctxt "Pattern placeholder text."
+msgid "This exquisite compilation showcases a diverse array of photographs that capture the essence of different eras and cultures, reflecting the unique styles and perspectives of each artist. Fleckenstein’s evocative imagery, Strand’s groundbreaking modernist approach, and Kōno’s meticulous documentation of Japanese life come together in a harmonious blend that celebrates the art of photography. Each image in “The Stories Book” is accompanied by insightful commentary, providing historical context and revealing the stories behind the photographs. This collection is not only a visual feast but also a tribute to the power of photography to preserve and narrate the multifaceted experiences of humanity."
+msgstr "この優れたコレクションは、さまざまな時代や文化の本質を捉えた多彩な写真を紹介し、各アーティストのユニークなスタイルと視点を反映しています。フレッケンシュタインの感動的なイメージ、ストランドの画期的なモダニズム的アプローチ、そして河野による日本の生活を丹念に記録した写真が、調和の取れたハーモニーを生み出しています。「ストーリーズ・ブック」に収録された写真には、歴史的背景や写真の背後にある物語を紐解く、洞察に満ちた解説が添えられています。このコレクションは視覚的な饗宴であると同時に、人間の多面的な経験を保存し物語ることができる写真の力への賛辞でもあります。"
+
 #: patterns/banner-cover-big-heading.php:20
 #: patterns/media-instagram-grid.php:36 patterns/page-coming-soon.php:19
 msgid "Photo of a field full of flowers, a blue sky and a tree."
@@ -2006,11 +2011,6 @@ msgstr "伝統的な衣装を着て、装飾的な宝石を身に着けている
 #: patterns/event-schedule.php:174
 msgid "An introduction to African dialects"
 msgstr "アフリカ方言入門"
-
-#: patterns/banner-about-book.php:26
-msgctxt "Pattern placeholder text."
-msgid "This exquisite compilation showcases a diverse array of photographs that capture the essence of different eras and cultures, reflecting the unique styles and perspectives of each artist. Fleckenstein’s evocative imagery, Strand’s groundbreaking modernist approach, and Kōno’s meticulous documentation of Japanese life come together in a harmonious blend that celebrates the art of photography. Each image in “The Stories Book” is accompanied by insightful commentary, providing historical context and revealing the stories behind the photographs. This collection is not only a visual feast but also a tribute to the power of photography to preserve and narrate the multifaceted experiences of humanity."
-msgstr "この優れたコレクションは、さまざまな時代や文化の本質を捉えた多彩な写真を紹介し、各アーティストのユニークなスタイルと視点を反映しています。フレッケンシュタインの感動的なイメージ、ストランドの画期的なモダニズム的アプローチ、そして河野による日本の生活を丹念に記録した写真が、調和の取れたハーモニーを生み出しています。「ストーリーズ・ブック」に収録された写真には、歴史的背景や写真の背後にある物語を紐解く、洞察に満ちた解説が添えられています。このコレクションは視覚的な饗宴であると同時に、人間の多面的な経験を保存し物語ることができる写真の力への賛辞でもあります。"
 
 #: patterns/event-schedule.php:163
 msgid "Black and white photo of an African woman."
@@ -2255,11 +2255,6 @@ msgstr "私たち %s の使命は、美しいフラワーアレンジメント�
 msgid "%s is a flower delivery and subscription business. Based in the EU, our mission is not only to deliver stunning flower arrangements across but also foster knowledge and enthusiasm on the beautiful gift of nature: flowers."
 msgstr "%s は、花の配達と定期購入のビジネスを展開しています。EU を拠点とする私たちの使命は、美しいフラワーアレンジメントをお届けするだけでなく、自然からの美しい贈り物である「花」への知識と情熱を育むことです。"
 
-#: patterns/page-cv-bio.php:31
-msgctxt "Pattern placeholder text."
-msgid "My name is Nora Winslow Keene, and I’m a committed public interest attorney. Living in Denver, Colorado, I’ve spent years championing the rights of underrepresented workers. A graduate of Stanford University, I played a key role in securing critical protections for agricultural laborers, ensuring better wages and access to healthcare. My work has focused on advocating for environmental justice and improving the quality of life for rural communities. Every case I take on is driven by the belief that everyone deserves dignity and fair treatment in the workplace."
-msgstr "私の名前はノラ・ウィンスロー・キーンです。公益弁護士として活動しています。コロラド州デンバーに住みながら長年にわたり、過小評価されている労働者たちの権利を守るために尽力してきました。スタンフォード大学を卒業し、農業労働者にとって重要な保護の確保、賃金の引き上げ、医療へのアクセス確保において重要な役割を果たしてきました。環境正義の擁護と農村地域の生活の質の向上に注力してきました。私が担当するすべての案件は、職場において誰もが尊厳と公正な扱いを受けるに値するという信念に基づいています。"
-
 #: theme.json
 msgctxt "Template part name"
 msgid "Vertical site header"
@@ -2299,6 +2294,11 @@ msgstr "中央揃えのサイトヘッダー"
 msgctxt "Pattern description"
 msgid "Vertical site header with site title and navigation."
 msgstr "縦書きのサイトヘッダー、サイトタイトルとナビゲーション付き。"
+
+#: patterns/page-cv-bio.php:31
+msgctxt "Pattern placeholder text."
+msgid "My name is Nora Winslow Keene, and I’m a committed public interest attorney. Living in Denver, Colorado, I’ve spent years championing the rights of underrepresented workers. A graduate of Stanford University, I played a key role in securing critical protections for agricultural laborers, ensuring better wages and access to healthcare. My work has focused on advocating for environmental justice and improving the quality of life for rural communities. Every case I take on is driven by the belief that everyone deserves dignity and fair treatment in the workplace."
+msgstr "私の名前はノラ・ウィンスロー・キーンです。公益弁護士として活動しています。コロラド州デンバーに住みながら長年にわたり、過小評価されている労働者たちの権利を守るために尽力してきました。スタンフォード大学を卒業し、農業労働者にとって重要な保護の確保、賃金の引き上げ、医療へのアクセス確保において重要な役割を果たしてきました。環境正義の擁護と農村地域の生活の質の向上に注力してきました。私が担当するすべての案件は、職場において誰もが尊厳と公正な扱いを受けるに値するという信念に基づいています。"
 
 #: patterns/heading-and-paragraph-with-image.php:27
 msgctxt "Event Overview Text."

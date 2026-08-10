@@ -1,0 +1,8 @@
+/*
+ * Backward-compatibility wrapper.
+ * Main admin styles are split into:
+ * - sticky-sidebar-admin-base.css
+ * - sticky-sidebar-admin-builder.css
+ */
+@import url('./sticky-sidebar-admin-base.css');
+@import url('./sticky-sidebar-admin-builder.css');

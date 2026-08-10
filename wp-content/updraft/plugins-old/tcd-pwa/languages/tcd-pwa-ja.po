@@ -1,0 +1,358 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: design-plus\n"
+"Report-Msgid-Bugs-To: https://core.trac.wordpress.org/\n"
+"POT-Creation-Date: 2025-05-02 18:22+0900\n"
+"PO-Revision-Date: 2025-05-02 18:22+0900\n"
+"Last-Translator: Design Plus <support@wp-dp.com>\n"
+"Language-Team: design plus\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;esc_attr_e;esc_html__;esc_attr__;_x;_ex\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: include/class-admin-settings.php:48
+msgid "Add to Home Screen"
+msgstr "ホーム画面に追加する"
+
+#: include/class-admin-settings.php:49
+msgid "Receive special deals with the app!"
+msgstr "アプリでお得な情報を受取ろう"
+
+#: include/class-admin-settings.php:52
+msgid "Get"
+msgstr "入手"
+
+#: include/class-admin-settings.php:73
+msgid "A new article has been published!"
+msgstr "新しい記事が公開されました！"
+
+#: include/class-admin-settings.php:104 include/class-admin-settings.php:105
+msgid "PWA Settings"
+msgstr "PWA設定"
+
+#: include/update-notifier.php:32 include/update-notifier.php:34
+msgid "Plugin Update"
+msgstr "プラグイン更新"
+
+#: include/update-notifier.php:38 include/update-notifier.php:111
+msgid "Plugin Update Information"
+msgstr "プラグイン更新情報"
+
+#: include/update-notifier.php:61
+msgid ""
+"We were unable to get the latest information on the plugin. Please wait some "
+"time and try again."
+msgstr ""
+"プラグインの最新情報の取得ができませんでした。時間をおいてから再度お試しくだ"
+"さい。"
+
+#: include/update-notifier.php:119
+#, php-format
+msgid "The latest version of %s is released."
+msgstr "最新版のバージョン%sがリリースされました。"
+
+#: include/update-notifier.php:128
+#, php-format
+msgid "Current version is %1$s. You can update to the latest version, %2$s."
+msgstr ""
+"現在お使いのバージョンは%sです。 最新版のバージョン%sをご利用頂けます。"
+
+#: include/update-notifier.php:136
+#, php-format
+msgid "The current version of %s is %s. This is the latest version."
+msgstr "現在お使いの%sは最新バージョンの%sです。"
+
+#: include/update-notifier.php:145
+msgid ""
+"The latest version of the plugin can be downloaded from <a href=\"https://"
+"tcd.style/order-history\" rel=\"noopener\" target=\"_blank\">Mypage</a>."
+msgstr ""
+"最新版のプラグインは<a href=\"https://tcd.style/order-history\" "
+"rel=\"noopener\" target=\"_blank\">マイページ</a> からダウンロードできます。"
+
+#: include/update-notifier.php:152
+msgid ""
+"Click <a href=\"https://tcd-theme.com/2010/10/plugin-"
+"install.html#manual_upload\" rel=\"noopener\" target=\"_blank\">here</a> to "
+"find out how to update the theme."
+msgstr ""
+"プラグインアップデートの方法は<a href=\"https://tcd-theme.com/2010/10/plugin-"
+"install.html#manual_upload\" rel=\"noopener\" target=\"_blank\">こちら</a>を"
+"ご確認ください。"
+
+#: include/update-notifier.php:159
+msgid ""
+"Please be sure to back up your plugin files before updating to the latest "
+"version."
+msgstr ""
+"最新版のプラグインへアップデートする前に、必ずご利用中のテーマファイルのバッ"
+"クアップをしてください。"
+
+#: include/update-notifier.php:163
+msgid "Changelog"
+msgstr "更新履歴"
+
+#: include/view-admin-page.php:32
+msgid ""
+"PWA (Progressive Web Apps) is a website mechanism that can be launched like "
+"an app from the home screen of a smartphone or other device."
+msgstr ""
+"PWA（Progressive Web Apps）とは、スマホなどのホーム画面からアプリのように起動"
+"できるWebサイトの仕組みです。"
+
+#: include/view-admin-page.php:34
+msgid "Click here to learn how to use PWA settings."
+msgstr "PWA設定の使い方はこちら"
+
+#: include/view-admin-page.php:45 include/view-admin-page.php:194
+msgid "Basic setting"
+msgstr "基本設定"
+
+#: include/view-admin-page.php:48
+msgid "SSL and site icon settings are required to activate PWA settings."
+msgstr "PWA設定を有効化するためには、SSL化とサイトアイコン設定が必須です。"
+
+#: include/view-admin-page.php:49
+msgid "If not set, set the following in order."
+msgstr "未設定の場合は以下を順番に設定してください。"
+
+#: include/view-admin-page.php:53
+msgid "SSL (HTTPS) conversion"
+msgstr "SSL化（HTTPS化）"
+
+#: include/view-admin-page.php:57
+msgid "SSL-enabled."
+msgstr "SSL化されています。"
+
+#: include/view-admin-page.php:61
+#, php-format
+msgid ""
+"SSL is not enabled. Please refer to <a href=\"%s\" target=\"_blank\">here</"
+"a> to convert to SSL."
+msgstr ""
+"SSL化されておりません。<a href=\"%s\" target=\"_blank\">こちら</a>を参考にSSL"
+"化してください。"
+
+#: include/view-admin-page.php:66
+msgid "Site Icon"
+msgstr "サイトアイコン"
+
+#: include/view-admin-page.php:70
+msgid "The site icon is set."
+msgstr "サイトアイコンは設定されています。"
+
+#: include/view-admin-page.php:74
+#, php-format
+msgid ""
+"The site icon is not yet set. Please refer to <a href=\"%s\" "
+"target=\"_blank\">this page</a> to set up."
+msgstr ""
+"サイトアイコンが未設定です。<a href=\"%s\" target=\"_blank\">こちら</a>を参考"
+"に設定してください。"
+
+#: include/view-admin-page.php:83
+msgid "A2HS (Android devices only)"
+msgstr "A2HS（Android端末限定）"
+
+#: include/view-admin-page.php:86
+msgid ""
+"A2HS (Add to Home Screen) is a feature that allows a website to be added to "
+"the home screen on a mobile device."
+msgstr ""
+"A2HS（Add to Home Screen）は、モバイル端末でWebサイトをホーム画面に追加できる"
+"機能です。"
+
+#: include/view-admin-page.php:87
+msgid ""
+"When activated, the footer displays a follow-up button that prompts the user "
+"to install the application."
+msgstr ""
+"有効化するとフッターにアプリのインストールを促す追従ボタンを表示します。"
+
+#: include/view-admin-page.php:88
+msgid "Currently iOS devices do not support this feature."
+msgstr "現在iOS端末はこの機能に対応しておりません。"
+
+#: include/view-admin-page.php:98
+msgid "Use the A2HS function"
+msgstr "A2HS機能を利用する"
+
+#: include/view-admin-page.php:102
+msgid "Label"
+msgstr "ラベル"
+
+#: include/view-admin-page.php:106
+msgid "Description"
+msgstr "説明文"
+
+#: include/view-admin-page.php:110
+msgid "Font color"
+msgstr "文字色"
+
+#: include/view-admin-page.php:114
+msgid "Background color"
+msgstr "背景色"
+
+#: include/view-admin-page.php:118
+msgid "Button label"
+msgstr "ボタンのラベル"
+
+#: include/view-admin-page.php:122
+msgid "Button Font color"
+msgstr "ボタンの文字色"
+
+#: include/view-admin-page.php:126
+msgid "Button background color"
+msgstr "ボタンの背景色"
+
+#: include/view-admin-page.php:131
+msgid "iOS device support"
+msgstr "iOS対応"
+
+#: include/view-admin-page.php:134
+msgid ""
+"iOS devices do not support this feature. Instead, any URL can be specified "
+"as a button and displayed."
+msgstr ""
+"iOS端末はこの機能に対応していない代わりに、任意のURLをボタンに指定して表示で"
+"きます。"
+
+#: include/view-admin-page.php:135
+msgid ""
+"The wording can also be changed, so if you wish to display it, please check "
+"the box below."
+msgstr ""
+"文言も変更できますので、表示したい場合は以下にチェックを入れてお使いくださ"
+"い。"
+
+#: include/view-admin-page.php:139
+msgid "Display on iOS devices as well."
+msgstr "iOS端末でも表示する"
+
+#: include/view-admin-page.php:143
+msgid "Labels for iOS devices"
+msgstr "iOS端末時のラベル"
+
+#: include/view-admin-page.php:147
+msgid "Description for iOS devices"
+msgstr "iOS端末時の説明文"
+
+#: include/view-admin-page.php:151
+msgid "Button label for iOS devices"
+msgstr "iOS端末時のボタンのラベル"
+
+#: include/view-admin-page.php:155
+msgid "URL of the button link for iOS devices"
+msgstr "iOS端末時のボタンのリンク先URL"
+
+#: include/view-admin-page.php:158
+msgid ""
+"It would be helpful if the link specifies a page that explains how to add it "
+"to the home screen."
+msgstr "リンク先には、ホーム画面に追加する方法を解説したページがおすすめです。"
+
+#: include/view-admin-page.php:160
+msgid "How to add to the home screen in iOS"
+msgstr "iOSでホーム画面に追加する方法"
+
+#: include/view-admin-page.php:167 include/view-admin-page.php:269
+msgid "Save Changes"
+msgstr "設定を保存"
+
+#: include/view-admin-page.php:169 include/view-admin-page.php:271
+msgid "Settings saved"
+msgstr "設定を保存しました"
+
+#: include/view-admin-page.php:180
+msgid "Web push notification"
+msgstr "Webプッシュ通知"
+
+#: include/view-admin-page.php:183
+msgid ""
+"This function allows push notifications to be sent to PCs and mobile devices "
+"via the browser."
+msgstr "ブラウザを経由してPCやモバイル端末にプッシュ通知を送信できる機能です。"
+
+#: include/view-admin-page.php:184
+msgid ""
+"iOS devices can send push notifications only when they are added to the home "
+"screen."
+msgstr ""
+"iOS端末は、ホーム画面に追加されている場合のみプッシュ通知を送信可能です。"
+
+#: include/view-admin-page.php:189
+msgid "Use Web Push Notifications"
+msgstr "Webプッシュ通知を利用する"
+
+#: include/view-admin-page.php:197
+msgid ""
+"To send Web push notification function, it is necessary to link with the "
+"external service \"OneSignal\"."
+msgstr ""
+"Webプッシュ通知機能を送信するには、外部サービス「OneSignal」との連携が必要で"
+"す。"
+
+#: include/view-admin-page.php:198
+msgid "Get APP ID and API KEY and enter them below."
+msgstr "APP IDとAPI KEY取得して以下に入力してください。"
+
+#: include/view-admin-page.php:200
+msgid ""
+"Please click here for the initial setup on how to obtain APP ID and API KEY."
+msgstr "APP IDやAPI KEYの取得方法や初期設定はこちら"
+
+#: include/view-admin-page.php:213
+msgid "Automatic push notification settings"
+msgstr "プッシュ通知の自動送信設定"
+
+#: include/view-admin-page.php:216
+msgid ""
+"This setting allows push notifications to be sent automatically when a page "
+"is published."
+msgstr "ページを公開したタイミングでプッシュ通知を自動送信できる設定です。"
+
+#: include/view-admin-page.php:217
+msgid "The activation and message can be set for each post type."
+msgstr "各投稿タイプ毎に有効化やメッセージの設定が可能となっています。"
+
+#: include/view-admin-page.php:250
+#, php-format
+msgid "Allow notifications with \"%s\"."
+msgstr "「%s」を公開時に通知する"
+
+#: include/view-admin-page.php:254
+msgid "Transmission Title"
+msgstr "送信タイトル"
+
+#: include/view-admin-page.php:256
+msgid "If not entered, the site title is reflected."
+msgstr "未入力時はサイトタイトルが反映されます。"
+
+#: include/view-admin-page.php:258
+msgid "Send Message"
+msgstr "送信メッセージ"
+
+#: include/view-admin-page.php:260
+msgid "If not entered, the article title is reflected."
+msgstr "未入力時は記事タイトルが反映されます。"
+
+#: tcd-pwa.php:75
+msgid "TCD Progressive Web Apps"
+msgstr "TCDプログレッシブウェブアプリ"
+
+#: tcd-pwa.php:80
+msgid ""
+"This plugin allows TCD themes to be compatible with PWA (Progressive Web "
+"Apps)."
+msgstr ""
+"TCDテーマをPWA（プログレッシブウェブアプリ）に対応できるプラグインです。"
+
+#: tcd-pwa.php:106
+msgid "Settings"
+msgstr "設定"

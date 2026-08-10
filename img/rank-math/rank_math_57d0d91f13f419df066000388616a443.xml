@@ -1,43 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//tokokai.or.jp/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://tokokai.or.jp/infomation/</loc>
-		<lastmod>2026-05-01T04:36:44+00:00</lastmod>
+		<loc>https://tokokai.or.jp/news/</loc>
+		<lastmod>2026-07-06T08:09:27+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://tokokai.or.jp/notice/20260618_01/</loc>
+		<loc>https://tokokai.or.jp/news/shinryou/20260803_01/</loc>
+		<lastmod>2026-08-03T02:20:14+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/shinryou/20260803_04/</loc>
+		<lastmod>2026-08-03T02:17:58+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/shinryou/20260803_03/</loc>
+		<lastmod>2026-08-03T01:37:29+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/shinryou/20260803_02/</loc>
+		<lastmod>2026-08-03T01:29:29+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/shinryou/20260701_02/</loc>
+		<lastmod>2026-07-06T08:22:24+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/shinryou/20260701_03/</loc>
+		<lastmod>2026-07-06T08:22:19+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/notice/20260629_01/</loc>
+		<lastmod>2026-07-06T08:22:12+00:00</lastmod>
+		<image:image>
+			<image:loc>https://tokokai.or.jp/img/20260629_01.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/shinryou/%e5%be%aa%e7%92%b0%e5%99%a8%e5%86%85%e7%a7%91-%e5%a4%96%e6%9d%a5%e8%a8%ba%e7%99%82%e5%a4%89%e6%9b%b4/</loc>
+		<lastmod>2026-07-06T00:18:06+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/shinryou/20260701_01/</loc>
+		<lastmod>2026-07-01T01:58:12+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/shinryou/20260630_01/</loc>
+		<lastmod>2026-06-30T04:18:03+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/shinryou/20260406_07/</loc>
+		<lastmod>2026-06-30T02:53:10+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/notice/20260428_01/</loc>
+		<lastmod>2026-06-29T07:12:48+00:00</lastmod>
+		<image:image>
+			<image:loc>https://tokokai.or.jp/img/kiri43-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/shinryou/20260604_01/</loc>
+		<lastmod>2026-06-25T00:21:31+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/shinryou/%e6%95%b4%e5%bd%a2%e5%a4%96%e7%a7%91-%e5%a4%96%e6%9d%a5%e8%a8%ba%e7%99%82%e5%a4%89%e6%9b%b4%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/</loc>
+		<lastmod>2026-06-25T00:18:53+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/shinryou/20260422_02/</loc>
+		<lastmod>2026-06-25T00:17:20+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/shinryou/20260406_08/</loc>
+		<lastmod>2026-06-25T00:15:19+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://tokokai.or.jp/news/notice/20260618_01/</loc>
 		<lastmod>2026-06-18T02:49:28+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://tokokai.or.jp/shinryou/%e6%95%b4%e5%bd%a2%e5%a4%96%e7%a7%91-%e5%a4%96%e6%9d%a5%e8%a8%ba%e7%99%82%e5%a4%89%e6%9b%b4%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/</loc>
-		<lastmod>2026-06-17T07:18:23+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://tokokai.or.jp/shinryou/20260604_01/</loc>
-		<lastmod>2026-06-04T08:08:48+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://tokokai.or.jp/shinryou/%e5%be%aa%e7%92%b0%e5%99%a8%e5%86%85%e7%a7%91-%e5%a4%96%e6%9d%a5%e8%a8%ba%e7%99%82%e5%a4%89%e6%9b%b4/</loc>
-		<lastmod>2026-06-01T06:10:50+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://tokokai.or.jp/shinryou/20260410/</loc>
+		<loc>https://tokokai.or.jp/news/shinryou/20260410/</loc>
 		<lastmod>2026-06-01T01:07:49+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://tokokai.or.jp/notice/20260406_01/</loc>
+		<loc>https://tokokai.or.jp/news/notice/20260406_01/</loc>
 		<lastmod>2026-05-13T04:06:16+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://tokokai.or.jp/notice/20260406_02/</loc>
+		<loc>https://tokokai.or.jp/news/notice/20260406_02/</loc>
 		<lastmod>2026-05-13T04:06:12+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://tokokai.or.jp/notice/20260406_03/</loc>
+		<loc>https://tokokai.or.jp/news/notice/20260406_03/</loc>
 		<lastmod>2026-05-13T04:06:07+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://tokokai.or.jp/notice/20260406_04/</loc>
+		<loc>https://tokokai.or.jp/news/notice/20260406_04/</loc>
 		<lastmod>2026-05-13T04:06:02+00:00</lastmod>
 		<image:image>
 			<image:loc>https://tokokai.or.jp/img/info_evruick.jpg</image:loc>
@@ -47,34 +105,15 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://tokokai.or.jp/important/20260406_05/</loc>
+		<loc>https://tokokai.or.jp/news/important/20260406_05/</loc>
 		<lastmod>2026-05-13T04:05:57+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://tokokai.or.jp/shinryou/20260406_06/</loc>
+		<loc>https://tokokai.or.jp/news/shinryou/20260406_06/</loc>
 		<lastmod>2026-05-13T04:05:52+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://tokokai.or.jp/shinryou/20260406_07/</loc>
-		<lastmod>2026-05-13T04:05:47+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://tokokai.or.jp/shinryou/20260406_08/</loc>
-		<lastmod>2026-05-13T04:05:41+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://tokokai.or.jp/shinryou/20260422_01/</loc>
+		<loc>https://tokokai.or.jp/news/shinryou/20260422_01/</loc>
 		<lastmod>2026-05-13T04:04:39+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://tokokai.or.jp/notice/20260428_01/</loc>
-		<lastmod>2026-05-13T03:21:42+00:00</lastmod>
-		<image:image>
-			<image:loc>https://tokokai.or.jp/img/kiri43-1.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://tokokai.or.jp/shinryou/20260422_02/</loc>
-		<lastmod>2026-04-22T07:12:39+00:00</lastmod>
 	</url>
 </urlset>

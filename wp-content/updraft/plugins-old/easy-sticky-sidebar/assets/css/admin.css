@@ -1,0 +1,66 @@
+.pro-feature-stat {
+    position: relative;
+    text-align: left;
+    padding: 5px;
+}
+.pro-feature-stat .dashicons-lock {
+    position: absolute;
+    top: 50%;
+    left: 2vw;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #666;
+    font-size: 20px;
+    /* background: rgba(255, 255, 255, 0.8); */
+    border-radius: 50%;
+    padding: 2px;
+}
+.pro-feature-stat .stat-value {
+    display: inline-block;
+    filter: blur(7px);
+    color: #666;
+    user-select: none;
+    pointer-events: none;
+    font-weight: 500;
+    font-size: 32px;
+}
+.pro-feature-stat:hover {
+    cursor: not-allowed;
+}
+.pro-feature-stat:hover .dashicons-lock {
+    color: #2271B1;
+}
+.action-buttons {
+    white-space: nowrap;
+}
+.action-buttons .button {
+    margin: 0 1px;
+}
+.action-buttons .button-link-delete {
+    color: #D63638;
+    border-color: #D63638;
+}
+.action-buttons .button-link-delete:hover {
+    color: #fff;
+    background: #D63638;
+    border-color: #D63638;
+}
+
+
+
+
+.s_set input.button_save {
+    background: var(--primaryColor);
+    color: #fff;
+    padding: 16px 25px;
+    border: none !important;
+    font-size: 16px;
+    border-radius: 25px;
+    outline: 0;
+    cursor: pointer;
+}
+.s_set {
+    text-align: end;
+    margin-right: 109px;
+    margin-top: -17px;
+}

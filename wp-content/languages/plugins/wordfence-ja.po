@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Wordfence Security &#8211; Firewall, Malware Scan, and Login Security - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-25 10:21:19+0000\n"
+"PO-Revision-Date: 2026-07-24 13:15:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,6 +26,42 @@ msgstr "このプラグインは、その機能がすでに Wordfence のメイ�
 #: modules/login-security/classes/controller/wordfencels.php:234
 msgid "Your site is currently using the \"Wordfence Login Security” plugin."
 msgstr "現在、サイトでは \"Wordfence Login Security\" プラグインが使用されています。"
+
+#. translators: 1. Minimum number of days. 2. Maximum number of days.
+#: modules/login-security/classes/controller/settings.php:273
+msgid "The grace period day limit must be between %1$d and %2$d."
+msgstr "猶予期間の日数は、%1$d日から %2$d日の間である必要があります。"
+
+#: modules/login-security/classes/controller/javascript.php:78
+msgid "Notification Results"
+msgstr "通知結果"
+
+#: modules/login-security/classes/controller/javascript.php:27
+msgid "(probably a human)"
+msgstr "(おそらく人間)"
+
+#: modules/login-security/classes/controller/javascript.php:26
+msgid "(probably a bot)"
+msgstr "(おそらくボット)"
+
+#: modules/login-security/classes/controller/javascript.php:56
+msgid "Error Resetting reCAPTCHA Statistics"
+msgstr "reCAPTCHA 統計のリセット中にエラーが発生しました"
+
+#: modules/login-security/classes/controller/javascript.php:52
+msgid "e.g., /my-account/"
+msgstr "例: /my-account/"
+
+#. translators: number of users
+#: modules/login-security/classes/controller/ajax.php:485
+msgid "It failed sending to %d user. Failures typically occur because of a missing or invalid email address."
+msgid_plural "It failed sending to %d users. Failures typically occur because of a missing or invalid email address."
+msgstr[0] "%d人のユーザーへの送信に失敗しました。失敗の原因は、メールアドレスが存在しないか無効である場合が一般的です。"
+
+#. translators: Support URL
+#: lib/wordfenceHash.php:895
+msgid "<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More<span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">詳細はこちら<span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>"
 
 #: lib/wordfenceClass.php:2887
 msgid "Please contact the site administrators if they are not already aware of this change."
@@ -57,6 +93,677 @@ msgstr "不明な AJAX アクションです。"
 msgid "Wordfence 2FA: Required change for legacy 2FA on %s"
 msgstr "Wordfence 2FA: %s のレガシー 2FA に必要な変更"
 
+#. translators: slug
+#: lib/wfScanEngine.php:2069
+msgid "Unable to determine version for plugin %s"
+msgstr "プラグイン %s のバージョンを判別できませんでした"
+
+#. translators: Support URL.
+#: lib/wfScanEngine.php:1909 lib/wfScanEngine.php:2140
+#: lib/wfScanEngine.php:2179 lib/wfScanEngine.php:2374
+#: lib/wfScanEngine.php:2416
+msgid "<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Get more information.<span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">詳細情報を見る<span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>"
+
+#. translators: URL to publicly accessible file.
+#: lib/wfScanEngine.php:1177
+msgid "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">%1$s<span class=\"screen-reader-text\"> (opens in new tab)</span></a> is publicly accessible and may expose source code or sensitive information about your site. Files such as this one are commonly checked for by scanners and should be removed or made inaccessible."
+msgstr "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">%1$s<span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a> は公開状態になっており、サイトのソースコードや機密情報が漏えいする可能性があります。このようなファイルはスキャナーによって頻繁にチェックされるため、削除するかアクセスできない状態にする必要があります。"
+
+#: lib/wfJavascriptBridge.php:1282
+msgid "An error occurred when fetching the WAF configuration from the database."
+msgstr "データベースから WAF 設定を取得する際にエラーが発生しました。"
+
+#: lib/wfJavascriptBridge.php:1169
+msgid "Your test email was sent to the requested email address. The result we received from the WordPress wp_mail() function was:"
+msgstr "テストメールは指定されたメールアドレスに送信されました。WordPress の wp_mail() 関数から返された結果は次のとおりです:"
+
+#: lib/wfJavascriptBridge.php:1150
+msgid "You've optimized configurations for this feature! If you want to learn more about how this score is determined, click the link below."
+msgstr "この機能の設定は最適化されています ! スコアの算出方法について詳しく知りたい場合は、以下のリンクをクリックしてください。"
+
+#: lib/wfJavascriptBridge.php:1149
+msgid "You are currently running the Wordfence Web Application Firewall from another WordPress installation."
+msgstr "現在、別の WordPress インストールから Wordfence Web アプリケーションファイアウォールが実行されています。"
+
+#. translators: registration URL
+#: lib/wfJavascriptBridge.php:1143
+msgid "You have successfully installed a free license."
+msgstr "無料ライセンスが正常にインストールされました。"
+
+#. translators: support URL
+#: lib/wfJavascriptBridge.php:1112
+msgid "Wordfence automatically allowlists <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">private networks<span class=\"screen-reader-text\"> (opens in new tab)</span></a> because these are not routable on the public Internet."
+msgstr "Wordfence は、<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">プライベートネットワーク<span class=\"screen-reader-text\"> (新しいタブで開く) </span></a>を自動的に許可リストに追加します。これらはインターネット上でルーティングされないためです。"
+
+#: lib/wfJavascriptBridge.php:1110
+msgid "Wordfence Assistant"
+msgstr "Wordfence アシスタント"
+
+#. translators: 1. License Terms and Conditions URL; 2. Services Subscription
+#. Agreement URL; 3. Terms of Service URL; 4. Privacy Policy URL
+#: lib/wfJavascriptBridge.php:1100
+msgid "We have updated our policies. To continue using Wordfence, you will need to read and agree to the <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Wordfence License Terms and Conditions<span class=\"screen-reader-text\"> (opens in new tab)</span></a>, the <a href=\"%2$s\" rel=\"noopener noreferrer\" target=\"_blank\">Services Subscription Agreement<span class=\"screen-reader-text\"> (opens in new tab)</span></a>, and <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Terms of Service<span class=\"screen-reader-text\"> (opens in new tab)</span></a>, and read and acknowledge the <a href=\"%4$s\" target=\"_blank\" rel=\"noopener noreferrer\">Wordfence Privacy Policy<span class=\"screen-reader-text\"> (opens in new tab)</span></a>."
+msgstr "ポリシーを更新しました。Wordfence を引き続き利用するには、<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Wordfence ライセンス規約<span class=\"screen-reader-text\"> (新しいタブで開く) </span></a>、<a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">サービス購読契約<span class=\"screen-reader-text\"> (新しいタブで開く) </span></a>、<a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">利用規約<span class=\"screen-reader-text\"> (新しいタブで開く) </span></a>を読み、同意する必要があります。また、<a href=\"%4$s\" target=\"_blank\" rel=\"noopener noreferrer\">Wordfence プライバシーポリシー<span class=\"screen-reader-text\"> (新しいタブで開く) </span></a>を読み、確認してください。"
+
+#: lib/wfJavascriptBridge.php:1091
+msgid "What to Block"
+msgstr "ブロック対象"
+
+#: lib/wfJavascriptBridge.php:1083
+msgid "WARNING"
+msgstr "警告"
+
+#: lib/wfJavascriptBridge.php:1073
+msgid "View log"
+msgstr "ログを表示"
+
+#: lib/wfJavascriptBridge.php:1072
+msgid "View full log"
+msgstr "すべてのログを表示"
+
+#: lib/wfJavascriptBridge.php:1065
+msgid "Very strict. May cause false positives."
+msgstr "非常に厳格です。誤検知が発生する可能性があります。"
+
+#: lib/wfJavascriptBridge.php:1048
+msgid "Use New 2FA"
+msgstr "新しい 2FA を使用"
+
+#: lib/wfJavascriptBridge.php:1024
+msgid "Unable to Install"
+msgstr "インストールできません"
+
+#: lib/wfJavascriptBridge.php:1020
+msgid "Update Block"
+msgstr "ブロックを更新"
+
+#. translators: row index
+#: lib/wfJavascriptBridge.php:1004
+msgid "Toggle row %d"
+msgstr "行 %d を切り替え"
+
+#: lib/wfJavascriptBridge.php:1003
+msgid "To"
+msgstr "送信先"
+
+#: lib/wfJavascriptBridge.php:991
+msgid "This page shows information that can be used for troubleshooting conflicts, configuration issues, or compatibility with other plugins, themes, or a host's environment. Failing tests are not always a sign of something that you need to fix, but can help the Wordfence team when troubleshooting a problem."
+msgstr "このページには、競合、設定の問題、他のプラグインやテーマ、ホスト環境との互換性をトラブルシューティングするために使用できる情報が表示されます。テストの失敗は、必ずしも修正が必要であることを示すものではありませんが、問題の調査時に Wordfence チームの助けになります。"
+
+#: lib/wfJavascriptBridge.php:988
+msgid "This PHP setting is currently in use, and is including this file:"
+msgstr "この PHP 設定は現在使用されており、次のファイルを読み込んでいます:"
+
+#: lib/wfJavascriptBridge.php:982
+msgid "This is the severity of the vulnerability itself, which can differ from the scan result severity. Some lower-severity vulnerabilities may still be important to address depending on your site's configuration and user base, so they are still important for you to review."
+msgstr "これは脆弱性そのものの重大度であり、スキャン結果の重大度とは異なる場合があります。重大度が低い脆弱性でも、サイトの構成やユーザー層によっては対処が重要となることがあるため、確認することが大切です。"
+
+#: lib/wfJavascriptBridge.php:973
+msgid "Themes & Plugins"
+msgstr "テーマとプラグイン"
+
+#: lib/wfJavascriptBridge.php:965
+msgid "The Web Application Firewall is currently in Learning Mode."
+msgstr "Web アプリケーションファイアウォールは現在、学習モードです。"
+
+#: lib/wfJavascriptBridge.php:945
+msgid "Terms of Use and Privacy Policy"
+msgstr "利用規約とプライバシーポリシー"
+
+#: lib/wfJavascriptBridge.php:925
+msgid "Significant Events"
+msgstr "重要なイベント"
+
+#: lib/wfJavascriptBridge.php:924
+msgid "Significant"
+msgstr "重要"
+
+#: lib/wfJavascriptBridge.php:635
+msgid "match"
+msgstr "一致"
+
+#: lib/wfJavascriptBridge.php:691
+msgid "NOTE"
+msgstr "注"
+
+#: lib/wfJavascriptBridge.php:693
+msgid "Note"
+msgstr "注"
+
+#: lib/wfJavascriptBridge.php:747
+msgid "Pick"
+msgstr "選択"
+
+#: lib/wfJavascriptBridge.php:649
+msgid "minutes"
+msgstr "分"
+
+#: lib/wfJavascriptBridge.php:719
+msgid "Options"
+msgstr "オプション"
+
+#: lib/wfJavascriptBridge.php:824
+msgid "Restore"
+msgstr "復元"
+
+#: lib/wfJavascriptBridge.php:826
+msgid "Results"
+msgstr "結果"
+
+#: lib/wfJavascriptBridge.php:873
+msgid "seconds"
+msgstr "秒"
+
+#: lib/wfJavascriptBridge.php:896
+msgid "Shortcuts"
+msgstr "ショートカット"
+
+#: lib/wfJavascriptBridge.php:798
+msgid "Reputation check"
+msgstr "評判チェック"
+
+#: lib/wfJavascriptBridge.php:760
+msgid "Please use the login security module."
+msgstr "ログインセキュリティモジュールを使用してください。"
+
+#: lib/wfJavascriptBridge.php:756
+msgid "Please confirm the switch to the new 2FA mode. This change will be permanent."
+msgstr "新しい 2FA モードへの切り替えを確認してください。この変更は元に戻せません。"
+
+#. translators: configuration URL
+#: lib/wfJavascriptBridge.php:749
+msgid "Please <a href=\"%s\">click here</a> to configure the Firewall to run correctly on this site."
+msgstr "このサイトでファイアウォールを正しく動作させるには、<a href=\"%s\">こちらをクリック</a>して設定してください。"
+
+#: lib/wfJavascriptBridge.php:748
+msgid "Pick from List"
+msgstr "リストから選択"
+
+#: lib/wfJavascriptBridge.php:723
+msgid "Param Type"
+msgstr "パラメータータイプ"
+
+#: lib/wfJavascriptBridge.php:686
+msgid "Not Active"
+msgstr "有効ではない"
+
+#: lib/wfJavascriptBridge.php:662
+msgid "Next Update Check"
+msgstr "次回の更新チェック"
+
+#: lib/wfJavascriptBridge.php:651
+msgid "months"
+msgstr "か月"
+
+#: lib/wfJavascriptBridge.php:629
+msgid "Management of legacy two-factor authentication using SMS-based codes is deprecated, and the old method of appending \"wf\" and a code will not be supported in the future. An improved interface and usage by non-administrators is available by activating the login security module. Users who have legacy 2FA enabled will still be required to enter a code while logging in currently, but legacy 2FA users can no longer be added or removed."
+msgstr "SMS コードを使用する旧式の二要素認証の管理は非推奨となり、「wf」とコードを付加する従来方式は今後サポートされません。ログインセキュリティモジュールを有効化すると、改善されたインターフェースと、管理者以外のユーザーによる利用が可能になります。旧式 2FA を有効にしているユーザーは、現在もログイン時にコードの入力が必要ですが、新たに旧式 2FA ユーザーを追加・削除することはできません。"
+
+#: lib/wfJavascriptBridge.php:902
+msgid "Show Wordfence Automatic Blocks"
+msgstr "Wordfence の自動ブロックを表示"
+
+#: lib/wfJavascriptBridge.php:898
+msgid "Show Automatic"
+msgstr "自動を表示"
+
+#: lib/wfJavascriptBridge.php:885
+msgid "Send Report"
+msgstr "レポートを送信"
+
+#. translators: row index
+#: lib/wfJavascriptBridge.php:877
+msgid "Select row %d"
+msgstr "行%dを選択"
+
+#: lib/wfJavascriptBridge.php:822
+msgid "Rest of site"
+msgstr "サイトの残りの部分"
+
+#: lib/wfJavascriptBridge.php:817
+msgid "Request Response"
+msgstr "リクエストのレスポンス"
+
+#: lib/wfJavascriptBridge.php:561
+msgid "Key"
+msgstr "キー"
+
+#: lib/wfJavascriptBridge.php:560
+msgid "just now"
+msgstr "たった今"
+
+#. translators: preceded by a user identifier and followed by a referrer URL.
+#: lib/wfJavascriptBridge.php:580
+msgid "left"
+msgstr "残り"
+
+#: lib/wfJavascriptBridge.php:572
+msgid "Learn more about Live Traffic"
+msgstr "ライブトラフィックについて詳しく見る"
+
+#: lib/wfJavascriptBridge.php:571
+msgid "Learn more about Global Options"
+msgstr "グローバルオプションについて詳しく見る"
+
+#: lib/wfJavascriptBridge.php:570
+msgid "Learn more about the Firewall"
+msgstr "ファイアウォールについて詳しく見る"
+
+#: lib/wfJavascriptBridge.php:569
+msgid "Learn more about Blocking"
+msgstr "ブロックについて詳しく見る"
+
+#: lib/wfJavascriptBridge.php:555
+msgid "IP Address to Block"
+msgstr "ブロックする IP アドレス"
+
+#: lib/wfJavascriptBridge.php:554
+msgid "IP Address Range"
+msgstr "IP アドレス範囲"
+
+#: lib/wfJavascriptBridge.php:543
+msgid "Ignored Results"
+msgstr "無視された結果"
+
+#: lib/wfJavascriptBridge.php:528
+msgid "Import Wordfence Options"
+msgstr "Wordfence オプションをインポート"
+
+#: lib/wfJavascriptBridge.php:526
+msgid "Import Options"
+msgstr "インポートオプション"
+
+#. translators: configuration URL
+#: lib/wfJavascriptBridge.php:510
+msgid "If you use country blocking to block countries from accessing the entire site, it is important to review the allowed services setting to ensure that search engines and other desired services may continue to see the site regardless of a crawler's location. Additionally, ad services like Google Ads may penalize listings when a country is blocked from the entire site."
+msgstr "国別ブロックを使用してサイト全体へのアクセスを制限している場合、許可されたサービスの設定を確認し、クローラーの位置に関係なく検索エンジンなどの必要なサービスが引き続きサイトを閲覧できるようにすることが重要です。さらに、Google 広告などの広告サービスは、サイト全体で国がブロックされている場合に掲載内容をペナルティ対象とすることがあります。"
+
+#: lib/wfJavascriptBridge.php:508
+msgid "If you need to continue using the legacy 2FA mode, you will need to downgrade to the 8.1.4 version of Wordfence temporarily. This feature will be discontinued around July 1, 2026, and legacy 2FA codes will no longer be required at that time, even when using an old plugin version."
+msgstr "レガシー 2FA モードを引き続き使用する必要がある場合は、一時的に Wordfence のバージョン 8.1.4 にダウングレードする必要があります。この機能は 2026年7月1日頃に廃止され、その時点では古いプラグインバージョンを使用していてもレガシー 2FA コードは不要になります。"
+
+#: lib/wfJavascriptBridge.php:402
+msgid "Export"
+msgstr "エクスポート"
+
+#: lib/wfJavascriptBridge.php:421
+msgid "Filter By"
+msgstr "フィルター条件"
+
+#: lib/wfJavascriptBridge.php:424
+msgid "Filter..."
+msgstr "フィルター..."
+
+#: lib/wfJavascriptBridge.php:495
+msgid "If this is your first attempt, please try again."
+msgstr "初回の試行であれば、もう一度お試しください。"
+
+#: lib/wfJavascriptBridge.php:493
+msgid "If autorenew is enabled for the current license, the license will renew at the next expiration date. If you would like to turn renewal off or assign the license to another site, log into wordfence.com to change it."
+msgstr "現在のライセンスで自動更新が有効になっている場合、次回の有効期限に更新されます。更新を無効にしたい場合や、別のサイトにライセンスを割り当てたい場合は、wordfence.com にログインして設定を変更してください。"
+
+#: lib/wfJavascriptBridge.php:475
+msgid "hours"
+msgstr "時間"
+
+#: lib/wfJavascriptBridge.php:470
+msgid "Hit enter to add"
+msgstr "Enter を押して追加"
+
+#: lib/wfJavascriptBridge.php:457
+msgid "Go to Login Security"
+msgstr "ログインセキュリティへ移動"
+
+#: lib/wfJavascriptBridge.php:445
+msgid "From"
+msgstr "送信元"
+
+#: lib/wfJavascriptBridge.php:433
+msgid "Fix .htaccess"
+msgstr ".htaccess を修正"
+
+#: lib/wfJavascriptBridge.php:472
+msgid "host setting"
+msgstr "ホスト設定"
+
+#: lib/wfJavascriptBridge.php:407
+msgid "Export Wordfence Options"
+msgstr "Wordfence オプションをエクスポート"
+
+#: lib/wfJavascriptBridge.php:404
+msgid "Export Options"
+msgstr "オプションをエクスポート"
+
+#: lib/wfJavascriptBridge.php:403
+msgid "Export All IPs"
+msgstr "すべての IP をエクスポート"
+
+#: lib/wfJavascriptBridge.php:355
+msgid "Email log"
+msgstr "メールログ"
+
+#: lib/wfJavascriptBridge.php:339
+msgid "Duration"
+msgstr "期間"
+
+#. translators: error message
+#: lib/wfJavascriptBridge.php:389
+msgid "Error removing option: %s"
+msgstr "オプションの削除中にエラーが発生しました: %s"
+
+#: lib/wfJavascriptBridge.php:374
+msgid "Enabled until..."
+msgstr "有効期限 …"
+
+#: lib/wfJavascriptBridge.php:354
+msgid "Email activity log"
+msgstr "メールアクティビティログ"
+
+#: lib/wfJavascriptBridge.php:338
+msgid "Download File"
+msgstr "ファイルをダウンロード"
+
+#: lib/wfJavascriptBridge.php:330
+msgid "Do not delete files on your system unless you're ABSOLUTELY sure you know what you're doing. If you delete the wrong file it could cause your WordPress website to stop functioning and you will probably have to restore from backups. If you're unsure, Cancel and work with your hosting provider to clean your system of infected files."
+msgstr "自分が何をしているか完全に理解していない限り、システム上のファイルを削除しないでください。誤って別のファイルを削除すると、WordPress サイトが動作しなくなり、バックアップから復元する必要が生じる可能性があります。確信が持てない場合は、キャンセルして、ホスティングサービスと連携し、感染したファイルをクリーンアップしてください。"
+
+#: lib/wfJavascriptBridge.php:177
+msgid "Block"
+msgstr "ブロック"
+
+#: lib/wfJavascriptBridge.php:266
+msgid "contains"
+msgstr "含む"
+
+#: lib/wfJavascriptBridge.php:289
+msgid "Debug this Request"
+msgstr "このリクエストをデバッグ"
+
+#: lib/wfJavascriptBridge.php:286
+msgid "Date Range"
+msgstr "日付範囲"
+
+#. translators: site url
+#: lib/wfJavascriptBridge.php:279
+msgid "Current blocks for %s"
+msgstr "%s の現在のブロック"
+
+#: lib/wfJavascriptBridge.php:278
+msgid "Current blocks"
+msgstr "現在のブロック"
+
+#: lib/wfJavascriptBridge.php:277
+msgid "Custom Pattern"
+msgstr "カスタムパターン"
+
+#: lib/wfJavascriptBridge.php:269
+msgid "Countries to Block"
+msgstr "ブロックする国"
+
+#: lib/wfJavascriptBridge.php:268
+msgid "Countries"
+msgstr "国"
+
+#: lib/wfJavascriptBridge.php:263
+msgid "Congratulations!"
+msgstr "おめでとうございます !"
+
+#: lib/wfJavascriptBridge.php:251
+msgid "Confirm 2FA Switch"
+msgstr "2FA の切り替えを確認"
+
+#: lib/wfJavascriptBridge.php:238
+msgid "Click here for our help article"
+msgstr "ヘルプ記事を見るにはこちらをクリック"
+
+#: lib/wfJavascriptBridge.php:211
+msgid "Browser User Agent"
+msgstr "ブラウザーのユーザーエージェント"
+
+#: lib/wfJavascriptBridge.php:204
+msgid "Blocking is disabled when the option \"Enable Rate Limiting and Advanced Blocking\" is off."
+msgstr "「レート制限と高度なブロックを有効化」がオフの場合、ブロック機能は無効化されます。"
+
+#: lib/wfJavascriptBridge.php:194
+msgid "Blocked (Brute Force)"
+msgstr "ブロック済み (ブルートフォース)"
+
+#: lib/wfJavascriptBridge.php:191
+msgid "Block Visitors Matching this Pattern"
+msgstr "このパターンに一致する訪問者をブロック"
+
+#: lib/wfJavascriptBridge.php:189
+msgid "Block this IP Address"
+msgstr "この IP アドレスをブロック"
+
+#: lib/wfJavascriptBridge.php:186
+msgid "Block the Selected Countries"
+msgstr "選択した国をブロック"
+
+#: lib/wfJavascriptBridge.php:184
+msgid "Block Pattern"
+msgstr "ブロックパターン"
+
+#: lib/wfJavascriptBridge.php:179
+msgid "Block access to the rest of the site"
+msgstr "サイトのその他の部分へのアクセスをブロック"
+
+#: lib/wfJavascriptBridge.php:102
+msgid "All"
+msgstr "すべて"
+
+#. translators: preceded by a firewlal action, followed by a URL
+#: lib/wfJavascriptBridge.php:161
+msgid "at"
+msgstr "で"
+
+#. translators: preceded by a user identifier and followed by a referrer URL.
+#: lib/wfJavascriptBridge.php:160
+msgid "arrived from"
+msgstr "からアクセス"
+
+#: lib/wfJavascriptBridge.php:153
+msgid "Are you sure you want to reset this site's Wordfence License? This will disable Premium features and return the site to the free version of Wordfence. Your settings will still be retained when reinstalling a license."
+msgstr "このサイトの Wordfence ライセンスをリセットしてもよいですか ? これによりプレミアム機能は無効化され、Wordfence の無料版に戻ります。設定はライセンスを再インストールした際にも保持されます。"
+
+#. translators: preceded by a location/arrival source, followed by a URL
+#: lib/wfJavascriptBridge.php:148
+msgid "and was redirected when visiting"
+msgstr "にアクセスした際にリダイレクトされました"
+
+#. translators: preceded by a location/arrival source, followed by a firewall
+#. action
+#: lib/wfJavascriptBridge.php:147
+msgid "and was"
+msgstr "そして"
+
+#. translators: preceded by a location/arrival source, followed by a URL
+#: lib/wfJavascriptBridge.php:146
+msgid "and visited"
+msgstr "そしてアクセスしました"
+
+#. translators: preceded by a location/arrival source
+#: lib/wfJavascriptBridge.php:145
+msgid "and tried to access a <span class=\"wf-error-text\">non-existent page</span>"
+msgstr "そして <span class=\"wf-error-text\">存在しないページ</span> にアクセスしようとしました"
+
+#. translators: preceded by a location/arrival source, placeholder is WordPress
+#. username
+#: lib/wfJavascriptBridge.php:141
+msgid "and logged in successfully as \"<strong>%s</strong>\"."
+msgstr "そして「<strong>%s</strong>」として正常にログインしました。"
+
+#. translators: preceded by a location/arrival source, placeholder is WordPress
+#. username
+#: lib/wfJavascriptBridge.php:139
+msgid "and attempted a <span class=\"wf-error-text\">failed login</span> using an invalid username <strong>%s</strong>."
+msgstr "そして無効なユーザー名 <strong>%s</strong> を使用して <span class=\"wf-error-text\">ログインに失敗</span> しました。"
+
+#. translators: preceded by a location/arrival source, placeholder is WordPress
+#. username
+#: lib/wfJavascriptBridge.php:138
+msgid "and attempted a <span class=\"wf-error-text\">failed login</span> as %s."
+msgstr "そして %s として <span class=\"wf-error-text\">ログインに失敗</span> しました。"
+
+#: lib/wfJavascriptBridge.php:134
+msgid "An unknown issue type was found:"
+msgstr "不明な問題タイプが見つかりました:"
+
+#: lib/wfJavascriptBridge.php:133
+msgid "An unknown error occurred during the import."
+msgstr "インポート中に不明なエラーが発生しました。"
+
+#: lib/wfJavascriptBridge.php:132
+msgid "An unknown error occurred during the export. We received an undefined error from your web server."
+msgstr "エクスポート中に不明なエラーが発生しました。Web サーバーから未定義のエラーが返されました。"
+
+#: lib/wfJavascriptBridge.php:121
+msgid "An unexpected error occurred during the request. Please try again or reload the page."
+msgstr "リクエスト中に予期しないエラーが発生しました。再試行するか、ページを再読み込みしてください。"
+
+#: lib/wfJavascriptBridge.php:114
+msgid "Allowlisted IPs must be separated by commas or placed on separate lines. You can specify ranges using the following formats: 127.0.0.1/24, 127.0.0.[1-100], or 127.0.0.1-127.0.1.100."
+msgstr "許可リストに登録する IP は、カンマで区切るか、行を分けて入力する必要があります。範囲は次の形式で指定できます: 127.0.0.1/24、127.0.0.[1-100]、127.0.0.1-127.0.1.100。"
+
+#: lib/wfJavascriptBridge.php:103
+msgid "All Events"
+msgstr "すべてのイベント"
+
+#: lib/wfJavascriptBridge.php:72
+msgid "A 'True' result means WordPress thinks the mail was sent without errors. A 'False' result means that WordPress encountered an error sending your mail. Note that it's possible to get a 'True' response with an error elsewhere in your mail system that may cause emails to not be delivered."
+msgstr "「True」は、WordPress がメールをエラーなく送信できたと判断したことを意味します。「False」は、メール送信時に WordPress がエラーに遭遇したことを意味します。なお、メールシステムの別の箇所で問題が発生している場合、メールが配信されない原因となり得るにもかかわらず、「True」が返されることがあります。"
+
+#. translators: time
+#: lib/wfJavascriptBridge.php:47
+msgid "%s AM"
+msgstr "%sAM"
+
+#. translators: time
+#: lib/wfJavascriptBridge.php:50
+msgid "%s PM"
+msgstr "%sPM"
+
+#. translators: Time duration (singular).
+#: lib/wfJavascriptBridge.php:33
+msgid "%d hour"
+msgstr "%d時間"
+
+#. translators: Time duration (singular).
+#: lib/wfJavascriptBridge.php:42
+msgid "%d minute"
+msgstr "%d分"
+
+#. translators: Time duration (plural).
+#: lib/wfJavascriptBridge.php:45
+msgid "%d months"
+msgstr "%dヶ月"
+
+#. translators: Time duration (singular).
+#: lib/wfJavascriptBridge.php:51
+msgid "%d second"
+msgstr "%d秒"
+
+#. translators: number of values not shown
+#: lib/wfJavascriptBridge.php:23
+msgid "+%d more"
+msgstr "+%d件以上"
+
+#. translators: Time duration (plural).
+#: lib/wfJavascriptBridge.php:34
+msgid "%d hours"
+msgstr "%d時間"
+
+#. translators: Time duration (singular).
+#: lib/wfJavascriptBridge.php:44
+msgid "%d month"
+msgstr "%d月"
+
+#. translators: Time duration (plural).
+#: lib/wfJavascriptBridge.php:30
+msgid "%d days"
+msgstr "%d日"
+
+#. translators: 1. Description of firewall action. 2. Description of input
+#. parameters.
+#: lib/wfJavascriptBridge.php:39
+msgid "%1$s in file: %2$s"
+msgstr "ファイル内の %1$s: %2$s"
+
+#. translators: 1. Description of firewall action. 2. Description of input
+#. parameters.
+#: lib/wfJavascriptBridge.php:38
+msgid "%1$s in cookie: %2$s"
+msgstr "Cookie 内の %1$s: %2$s"
+
+#. translators: Number of HTTP requests (singular).
+#: lib/wfJavascriptBridge.php:31
+msgid "%d hit"
+msgstr "%d件のヒット"
+
+#. translators: Time duration (singular).
+#: lib/wfJavascriptBridge.php:29
+msgid "%d day"
+msgstr "%d日"
+
+#. translators: Selection count.
+#: lib/wfJavascriptBridge.php:28
+msgid "%d Countries Selected"
+msgstr "%dか国を選択"
+
+#. translators: Selection count.
+#: lib/wfJavascriptBridge.php:27
+msgid "%d Country Selected"
+msgstr "%dか国を選択"
+
+#. translators: Localized date.
+#: lib/wfJavascriptBridge.php:26
+msgid "%s ago"
+msgstr "%s前"
+
+#. translators: quantity
+#: lib/wfJavascriptBridge.php:24
+msgid "%d address in this network"
+msgstr "このサイトネットワーク内に%d件のアドレス"
+
+#. translators: quantity
+#: lib/wfJavascriptBridge.php:25
+msgid "%d addresses in this network"
+msgstr "このサイトネットワーク内に%d件のアドレス"
+
+#. translators: minimum value
+#: lib/wfJavascriptBridge.php:60
+msgid "0 (Disabled)"
+msgstr "0 (Disabled)"
+
+#: lib/wfJavascriptBridge.php:58
+msgid "(recommended based on our tests)"
+msgstr "(当社のテストに基づき推奨)"
+
+#. translators: Time duration (plural).
+#: lib/wfJavascriptBridge.php:43
+msgid "%d minutes"
+msgstr "%d分"
+
+#: lib/menu_dashboard_options.php:15
+msgid "Back to Dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: lib/wfCentralAPI.php:912 lib/wfJavascriptBridge.php:246
+msgid "Click here to learn more"
+msgstr "さらに詳しくはこちらをクリック"
+
+#. translators: page label
+#: lib/menu_firewall_blocking_options.php:25
+#: lib/menu_firewall_waf_options.php:16 lib/menu_scanner_options.php:27
+msgid "Back to %s"
+msgstr "%s に戻る"
+
+#. translators: URL to WordPress admin panel.
+#: lib/email_unsubscribeRequest.php:14
+msgid "<a href=\"%s\" target=\"_blank\">Click here<span class=\"screen-reader-text\"> (opens in new tab)</span></a> to stop receiving security alerts."
+msgstr "<a href=\"%s\" target=\"_blank\">ここをクリック<span class=\"screen-reader-text\">(新しいタブで開きます)</span></a>すると、セキュリティアラートの受信を停止できます。"
+
 #. translators: WP username.
 #: lib/wfAlerts.php:231
 msgid "A non-admin user with username \"%s\" signed in to your WordPress site from a new device."
@@ -80,14 +787,14 @@ msgstr "NGINX ユニット"
 msgid "The Wordfence Assistant plugin is currently installed. It should only be retained during use and should be removed once it's no longer needed. <a href=\"%s\" target=\"_blank\">Click here to learn more.</a>"
 msgstr "Wordfence Assistant プラグインは現在インストールされています。使用中のみ保持し、不要になったら削除してください。<a href=\"%s\" target=\"_blank\">詳細はこちらをクリックしてください。</a>"
 
+#: lib/wordfenceClass.php:8780
+msgid "Optimizing the Wordfence Web Application Firewall may not be possible in the current environment. Some firewall rules cannot offer full protection on your hosting platform, but many will still work. You can attempt to configure the firewall if you believe the platform has been misidentified."
+msgstr "現在の環境では、Wordfence Web Application Firewall の最適化が不可能な場合があります。一部のファイアウォールルールは、ホスティングプラットフォーム上で完全な保護を提供できませんが、多くのルールは引き続き機能します。プラットフォームが誤って識別されていると思われる場合は、ファイアウォールの設定をお試しください。"
+
 #. translators: %d maximum alerts per hour
 #: lib/wordfenceClass.php:8771
 msgid "The rate limit for alert emails of %d alert(s) per hour from Wordfence has been reached. No alerts will be sent for the remainer of the hour."
 msgstr "Wordfence からのアラートメールのレート制限 (1時間あたり%d件) に達しました。残りの時間はアラートは送信されません。"
-
-#: lib/wordfenceClass.php:8780
-msgid "Optimizing the Wordfence Web Application Firewall may not be possible in the current environment. Some firewall rules cannot offer full protection on your hosting platform, but many will still work. You can attempt to configure the firewall if you believe the platform has been misidentified."
-msgstr "現在の環境では、Wordfence Web Application Firewall の最適化が不可能な場合があります。一部のファイアウォールルールは、ホスティングプラットフォーム上で完全な保護を提供できませんが、多くのルールは引き続き機能します。プラットフォームが誤って識別されていると思われる場合は、ファイアウォールの設定をお試しください。"
 
 #. translators: %d: maximum alerts per hour
 #: lib/wordfenceClass.php:7072
@@ -1464,13 +2171,13 @@ msgstr "有効な場合、「wordfence_2fa_management」ショートコードは
 msgid "When enabled, a Wordfence 2FA tab will be added to the WooCommerce account menu which will provide access for users to manage 2FA settings outside of the WordPress admin area. Testing the WooCommerce account interface after enabling this feature is recommended to ensure theme compatibility."
 msgstr "有効化すると、Wordfence 2FA タブを WooCommerce アカウントメニューに追加し、ユーザーが WordPress 管理エリアの外で 2FA 設定を管理するためのアクセスを提供します。この機能を有効化した後、WooCommerce アカウントのインターフェースをテストすることは、テーマの互換性を確保するために推奨します。"
 
-#: modules/login-security/classes/controller/javascript.php:104
-msgid "Use single-column layout for WooCommerce/shortcode 2FA management interface"
-msgstr "WooCommerce / shortcode 2FA 管理画面には、個別カラムレイアウトを使用する"
-
 #: modules/login-security/classes/controller/javascript.php:108
 msgid "When enabled, the 2FA management interface embedded through the WooCommerce integration or via a shortcode will use a vertical stacked layout as opposed to horizontal columns. Adjust this setting as appropriate to match your theme. This may be overridden using the \"stacked\" attribute for individual shortcodes."
 msgstr "有効化された場合、WooCommerce の連携を介して埋め込まれた 2FA 管理インターフェースまたはショートコードを介して、水平列ではなく垂直スタックレイアウトを使用します。この設定を適切に調整して、テーマに一致させてください。個々のショートコードに対して「stacked」属性を使用してこれを上書きすることができます。"
+
+#: modules/login-security/classes/controller/javascript.php:104
+msgid "Use single-column layout for WooCommerce/shortcode 2FA management interface"
+msgstr "WooCommerce / shortcode 2FA 管理画面には、個別カラムレイアウトを使用する"
 
 #: modules/login-security/views/page/permission-denied.php:6
 msgid "Permission Denied"
@@ -1886,6 +2593,10 @@ msgstr "Wordfence Careにご登録いただくと、私たちが対応いたし�
 msgid "Wordfence Firewall & Care License Enabled"
 msgstr "Wordfence Firewall & Care ライセンスが有効"
 
+#: lib/wfJavascriptBridge.php:1119
+msgid "Wordfence Firewall & Response License Enabled"
+msgstr "Wordfence ファイアウォールおよびレスポンスライセンスを有効化する"
+
 #: lib/wfJavascriptBridge.php:655
 msgid "Need help with a security issue?"
 msgstr "セキュリティの問題でお困りですか ?"
@@ -1901,6 +2612,14 @@ msgstr "Wordfence Care についてもっと知る"
 #: views/scanner/site-cleaning-bottom.php:14
 msgid "Sign up for Wordfence Care today and get expert help with any security issue. Wordfence Care is for business owners who put a premium on their time. With Wordfence Care, we take care of it, so that you can focus on your customers. Check out Wordfence Response for mission-critical WordPress websites."
 msgstr "今すぐ Wordfence Care にサインアップして、セキュリティに関するどんな問題でも専門家のサポートを受けましょう。Wordfence Care は、時間を大切にするビジネスオーナーのためのサービスです。Wordfence Care では、顧客に集中できるよう、セキュリティ問題を解決します。ミッションクリティカルな WordPress サイト用の Wordfence Response をご覧ください。"
+
+#: lib/wfJavascriptBridge.php:1130
+msgid "Wordfence Scan & Care License Enabled"
+msgstr "Wordfence Scan &amp; Care ライセンスを有効化する"
+
+#: lib/wfJavascriptBridge.php:1132
+msgid "Wordfence Scan & Response License Enabled"
+msgstr "Wordfence Scan & Response License ライセンスを有効化する"
 
 #: lib/wfJavascriptBridge.php:1099
 msgid "We have updated our policies. To continue using Wordfence, you will need to read and agree to the Wordfence License Terms and Conditions, the Services Subscription Agreement, and Terms of Service, and read and acknowledge the Wordfence Privacy Policy by clicking Review."
@@ -1998,9 +2717,24 @@ msgstr "%s 有効"
 msgid "Automatic uninstallation cannot be completed, but you may still be able to <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">manually uninstall extended protection<span class=\"screen-reader-text\"> (opens in new tab)</span></a>."
 msgstr "自動アンインストールは完了できませんが、<a href=\"%s\" target=\"_blank\" rel=\"noopenernoreferrer\">拡張保護を手動でアンインストール<span class=\"screen-reader-text\"> (新しいタブで開きます) </span></a>できる場合があります。"
 
+#. translators: support URL
+#: lib/wfJavascriptBridge.php:501
+msgid "If you cannot complete the uninstall process, <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">click here for help<span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "アンインストールプロセスを完了できない場合は、<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">ヘルプはこちらをクリックしてください <span class=\"screen-reader-text\">(新しいタブで開きます)</span></a>"
+
 #: lib/wfJavascriptBridge.php:504
 msgid "If you don't recognize this file, please <a href=\"https://wordpress.org/support/plugin/wordfence\" target=\"_blank\" rel=\"noopener noreferrer\">contact us on the WordPress support forums<span class=\"screen-reader-text\"> (opens in new tab)</span></a> before proceeding."
 msgstr "このファイルに見覚えがない場合は、作業を進める前に <a href=\"https://wordpress.org/support/plugin/wordfence\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress サポートフォーラム<span class=\"screen-reader-text\"> (新しいタブで開きます) </span></a>でお問い合わせください。"
+
+#. translators: support URL
+#: lib/wfJavascriptBridge.php:1157
+msgid "You can find more details on alternative setup steps, including installation on SiteGround or for multiple sites sharing a single php.ini, <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">in our documentation<span class=\"screen-reader-text\"> (opens in new tab)</span></a>."
+msgstr "SiteGround へのインストールや、複数のサイトで 1 つの php.ini を共有する場合など、別のセットアップ手順の詳細は、<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">ドキュメント<span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>に記載されています。"
+
+#. translators: wordfence.com URL
+#: lib/wfJavascriptBridge.php:1158
+msgid "You can log in to <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">wordfence.com<span class=\"screen-reader-text\"> (opens in new tab)</span></a> to accept the updated terms and privacy policy for all of your license keys at once."
+msgstr "<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">wordfence.com<span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a> にログインすると、更新された利用規約とプライバシーポリシーを、すべてのライセンスキーについて一度に承認できます。"
 
 #: lib/wfJavascriptBridge.php:437
 msgid "For most sites, we recommend allowing access from the United States, where Google and other benign crawlers are generally located. Many well-known crawlers also have locations in Europe, so be careful when blocking other countries, especially if you have not seen significant attacks from them."
@@ -2063,6 +2797,11 @@ msgstr "2要素認証を必要とする権限グループの場合、ユーザ�
 #: modules/login-security/views/page/role.php:18
 msgid "Page %d is out of range"
 msgstr "ページ%dは範囲外です"
+
+#. translators: 1. 2FA state; 2. Role name
+#: modules/login-security/views/page/role.php:16
+msgid "No users found in the %1$s state for the %2$s role"
+msgstr "%1$s の状態で %2$s 権限グループのユーザーが見つかりません"
 
 #: modules/login-security/classes/controller/javascript.php:97
 msgid "Setting the grace period to 0 will prevent users in roles where 2FA is required, including newly created users, from logging in if they have not already enabled two-factor authentication."
@@ -2227,6 +2966,11 @@ msgstr "このアカウントでは、%sまでに2要素認証を有効化する
 msgid "WooCommerce appears to be installed, but the Wordfence Login Security WooCommerce integration is not currently enabled. Without this feature, WooCommerce forms will not support all functionality provided by Wordfence Login Security, including CAPTCHA for the login page and user registration."
 msgstr "WooCommerce がインストールされているようですが、Wordfence Login Security の WooCommerce 連携が現在有効になっていません。この機能がないと、WooCommerce のフォームは、ログインページやユーザー登録用の CAPTCHA を含む、Wordfence Login Security が提供するすべての機能をサポートしません。"
 
+#. translators: 1. Username; 2. Date
+#: modules/login-security/views/manage/grace-period.php:32
+msgid "Two-factor authentication will be required for user <strong>%1$s</strong> beginning <strong>%2$s</strong>."
+msgstr "ユーザー <strong>%1$s</strong> には、<strong>%2$s</strong> から2要素認証が必要になります。"
+
 #: modules/login-security/classes/controller/ajax.php:536
 #: modules/login-security/classes/controller/ajax.php:550
 msgid "Invalid user specified"
@@ -2344,6 +3088,16 @@ msgstr "(失敗が限界を超えた)"
 msgid "Checking <code>display_errors</code><br><em> (<a href=\"http://php.net/manual/en/errorfunc.configuration.php#ini.display-errors\" target=\"_blank\" rel=\"noopener noreferrer\">Should be disabled on production servers<span class=\"screen-reader-text\"> (opens in new tab)</span></a>)</em>"
 msgstr "<code>display_errors</code><br><em> の確認中(<a href=\"http://php.net/manual/en/errorfunc.configuration.php#ini.display-errors\" target=\"_blank\" rel=\"noopener noreferrer\">本番サーバーでは無効にするべきです<span class=\"screen-reader-text\"> (新しいタブで開く) </span></a>)</em>"
 
+#. translators: 1. attempts remaining; 2. attempts allowed
+#: lib/wfDiagnostic.php:979
+msgid " (%1$d of %2$d attempts remaining)"
+msgstr " (残り%1$d回、最大試行数%2$d回)"
+
+#. translators: 1. PHP version, 2. Support URL.
+#: lib/wfDiagnostic.php:116
+msgid "PHP version >= PHP %1$s<br><em> (<a href=\"https://wordpress.org/about/requirements/\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress requirements</a>)</em> <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wfhelp\"><span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "PHP バージョン >= PHP %1$s<br><em> (<a href=\"https://wordpress.org/about/requirements/\" target=\"_blank\" rel=\"noopener noreferrer\">WordPress の要件</a>)</em> <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wfhelp\"><span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>"
+
 #. translators: URL to support page.
 #: lib/menu_tools_whois.php:19
 msgid "<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"wf-help-link\">Learn more<span class=\"wf-hidden-xs\"> about Whois Lookup</span><span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
@@ -2429,6 +3183,11 @@ msgstr "Go:"
 #: views/unsupported-php/admin-message.php:17
 msgid "You are running PHP version %1$s that is not supported by Wordfence %2$s. Wordfence features will not be available until PHP has been upgraded. We recommend using PHP version 8.1, but Wordfence will run on PHP version %3$s at a minimum."
 msgstr "Wordfence %2$s でサポートされていない PHP バージョン %1$s を実行しています。PHP がアップグレードされるまで、Wordfence の機能は使用できません。PHP バージョン 8.1 を使用することを推奨しますが、Wordfence は最低限 PHP バージョン %3$s で実行されます。"
+
+#. translators: 1. Day of week. 2. Hour of day. 3. Localized date.
+#: models/scanner/wfScanner.php:1325
+msgid "Scheduled time for day %1$s hour %2$s is: %3$s"
+msgstr "日付%1$sの時刻%2$sのスケジュール時刻は: %3$sです"
 
 #: lib/wfJavascriptBridge.php:933
 msgid "Successful"
@@ -2997,6 +3756,21 @@ msgstr "このサイトは現在、PHP に組み込まれた REMOTE_ADDR を使�
 msgid "The Wordfence Live Traffic feature has been disabled because you have %s active which is not compatible with Wordfence Live Traffic."
 msgstr "Wordfence ライブトラフィックと互換性のない%sが有効であるため、Wordfence ライブトラフィック機能が無効になっています。"
 
+#. translators: 1. WordPress admin panel URL. 2. Support URL.
+#: lib/wordfenceClass.php:6115
+msgid "It is not currently in extended protection mode but was configured to use an older version of PHP and may have become deactivated when PHP was updated. You may perform the configuration update automatically by <a href=\"%1$s\">clicking here</a> or use the \"Optimize the Wordfence Firewall\" button on the Firewall Options page. <a class=\"wfhelp\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"%2$s\"><span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "現在は拡張保護モードになっていませんが、古いバージョンの PHP を使用するように設定されており、PHP が更新されたときに無効になった可能性があります。設定の更新は、<a href=\"%1$s\">ここをクリック</a>して自動的に行うか、ファイアウォール設定ページにある「Wordfence ファイアウォールの最適化」ボタンを使用して行うことができます。<a class=\"wfhelp\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"%2$s\"><span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>"
+
+#. translators: 1. WordPress admin panel URL. 2. Support URL.
+#: lib/wordfenceClass.php:6096
+msgid "It is currently configured to use an older version of PHP and may become deactivated if PHP is updated. You may perform the configuration update automatically by <a href=\"%1$s\">clicking here</a>. <a class=\"wfhelp\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"%2$s\"><span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "現在、古いバージョンの PHP を使用するように設定されており、PHP が更新されると無効になる可能性があります。<a href=\"%1$s\">ここをクリック</a>することで、設定の更新を自動的に行うことができます。<a class=\"wfhelp\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"%2$s\"><span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>"
+
+#. translators: 1. WordPress admin panel URL. 2. Support URL.
+#: lib/wordfenceClass.php:6074
+msgid "The configuration files are corrupt or inaccessible by the web server, which is preventing the WAF from functioning. Please verify the web server has permission to access the configuration files. You may also try to rebuild the configuration file by <a href=\"%1$s\">clicking here</a>. It will automatically resume normal operation when it is fixed. <a class=\"wfhelp\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"%2$s\"><span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "設定ファイルが破損しているか、Web サーバーがアクセスできないため、WAF が機能していません。Web サーバーに設定ファイルへのアクセス権限があることを確認してください。また、<a href=\"%1$s\">ここをクリック</a>して設定ファイルの再構築をお試しください。修正されると自動的に正常な動作に戻ります。<a class=\"wfhelp\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"%2$s\"><span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>"
+
 #: lib/wordfenceClass.php:6049
 msgid "Wordfence generated an error on activation. The output we received during activation was:"
 msgstr "Wordfence が起動時にエラーを発生させました。起動時に受け取った出力は:"
@@ -3321,10 +4095,6 @@ msgstr "デフォルトの復元エラー"
 msgid "Error Enabling All Options Page"
 msgstr "すべてのオプションを有効にするページのエラー"
 
-#: lib/wfJavascriptBridge.php:382
-msgid "Enter the email address you would like to send the Wordfence activity log to. Note that the activity log may contain thousands of lines of data. This log is usually only sent to a member of the Wordfence support team. It also contains your PHP configuration from the phpinfo() function for diagnostic data."
-msgstr "Wordfence アクティビティログを送信するメールアドレスを入力します。 アクティビティログには数千行のデータが含まれる場合があることに注意してください。 このログは通常、Wordfence サポートチームのメンバーにのみ送信されます。 また、診断データ用の phpinfo() 関数からの PHP 構成も含まれています。"
-
 #: lib/wfJavascriptBridge.php:931
 msgid "Success restoring file"
 msgstr "ファイルの復元に成功"
@@ -3356,6 +4126,10 @@ msgstr "申し訳ありませんが、その IP やドメインのデータは�
 #: lib/wfJavascriptBridge.php:880
 msgid "Security Event"
 msgstr "セキュリティイベント"
+
+#: lib/wfJavascriptBridge.php:382
+msgid "Enter the email address you would like to send the Wordfence activity log to. Note that the activity log may contain thousands of lines of data. This log is usually only sent to a member of the Wordfence support team. It also contains your PHP configuration from the phpinfo() function for diagnostic data."
+msgstr "Wordfence アクティビティログを送信するメールアドレスを入力します。 アクティビティログには数千行のデータが含まれる場合があることに注意してください。 このログは通常、Wordfence サポートチームのメンバーにのみ送信されます。 また、診断データ用の phpinfo() 関数からの PHP 構成も含まれています。"
 
 #: lib/wfJavascriptBridge.php:868
 #: modules/login-security/views/manage/code.php:16
@@ -3429,6 +4203,11 @@ msgstr "ファイル%sの復元に成功しました。"
 #: lib/wfJavascriptBridge.php:941
 msgid "The admin user %s was successfully deleted."
 msgstr "admin ユーザー%sの削除に成功しました。"
+
+#. translators: File path.
+#: lib/wfJavascriptBridge.php:950
+msgid "The file was successfully hidden from public view."
+msgstr "ファイルは正常に一般公開から非表示にされました。"
 
 #: lib/wfJavascriptBridge.php:356
 msgid "Email Diagnostic Report"
@@ -3619,6 +4398,23 @@ msgstr "Wordfence Security ネットワークでブロック"
 #: lib/wfJavascriptBridge.php:195
 msgid "Blocked By Firewall"
 msgstr "ファイアウォールでブロック"
+
+#. translators: 1. Description of firewall action. 2. Description of input
+#. parameters.
+#: lib/wfJavascriptBridge.php:40
+msgid "%1$s in query string: %2$s"
+msgstr "クエリ文字列内の %1$s: %2$s"
+
+#. translators: 1. Description of firewall action. 2. Description of input
+#. parameters.
+#: lib/wfJavascriptBridge.php:37
+msgid "%1$s in POST body: %2$s"
+msgstr "POST ボディに %1$s が含まれています: %2$s"
+
+#. translators: WordPress username.
+#: lib/wfJavascriptBridge.php:106
+msgid "All capabilities of admin user %s were successfully revoked."
+msgstr "管理者ユーザー %s のすべての権限の削除に成功しました。"
 
 #: lib/wordfenceClass.php:5224
 msgid "Unknown dashboard data set."
@@ -4196,6 +4992,38 @@ msgstr "サイトはまだこのプラグインを使用していますが、wor
 msgid "Previous scan was stopped successfully."
 msgstr "前回のスキャンの停止に成功しました。"
 
+#: lib/wfJavascriptBridge.php:563
+msgid "Last Hit"
+msgstr "Last Hit"
+
+#: lib/wfJavascriptBridge.php:462
+msgid "Group By"
+msgstr "Group By"
+
+#. translators: preceded by a location/arrival source
+#: lib/wfJavascriptBridge.php:142
+msgid "and logged out successfully."
+msgstr "そして、正常にログアウトされました。"
+
+#: lib/wfJavascriptBridge.php:487
+msgid "Human/Bot"
+msgstr "人間 / ボット"
+
+#. translators: preceded by a location/arrival source
+#: lib/wfJavascriptBridge.php:143
+msgid "and requested a password reset."
+msgstr "そして、パスワードのリセットを要求しました。"
+
+#. translators: Number of HTTP requests (plural).
+#: lib/wfJavascriptBridge.php:32
+msgid "%d hits"
+msgstr "%d件該当"
+
+#. translators: preceded by a location/arrival source
+#: lib/wfJavascriptBridge.php:140
+msgid "and changed their password."
+msgstr "そしてパスワードを変更しました。"
+
 #. translators: Email address.
 #: lib/wfScanEngine.php:1481
 msgid "Email: %s"
@@ -4500,6 +5328,11 @@ msgstr "サーバーがドキュメントルートへのパスを開示してい
 msgid "Web server exposes the document root"
 msgstr "Web サーバーがドキュメントルートを公開している"
 
+#. translators: 1. URL to publicly accessible file. 2. Support URL.
+#: lib/wfScanEngine.php:805
+msgid "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">%1$s</a> is publicly accessible and may expose source code or sensitive information about your site. Files such as this one are commonly checked for by scanners and should be made inaccessible. Alternately, some can be removed if you are certain your site does not need them. Sites using the nginx web server may need manual configuration changes to protect such files. <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more<span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">%1$s</a> は一般公開されており、サイトのソースコードや機密情報が公開される可能性があります。このようなファイルは通常、スキャナーによってチェックされるため、アクセスできないようにする必要があります。また、サイトで不要であることが確実な場合は、一部を削除できます。nginx Web サーバーを使用しているサイトでは、そのようなファイルを保護するために手動で構成を変更する必要がある場合があります。<a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn more<span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>"
+
 #. translators: File path.
 #: lib/wfScanEngine.php:802
 msgid "Publicly accessible config, backup, or log file found: %s"
@@ -4528,6 +5361,16 @@ msgstr "このサイトはフロントエンドプロキシの後ろにあるよ
 #: lib/wfScanEngine.php:716 lib/wordfenceClass.php:6144
 msgid "For maximum security use PHP's built in REMOTE_ADDR."
 msgstr "最大限のセキュリティを確保するためには、PHP に組み込まれている REMOTE_ADDR を使用します。"
+
+#. translators: Support URL.
+#: lib/wfScanEngine.php:729
+msgid "A test request to this website was detected on a different value for this setting. IP blocking and live traffic information may not be accurate. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Get More Information<span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "この設定の別の値で、このサイトへのテスト要求が検出されました。IP ブロッキングとライブトラフィック情報は正確でない場合があります。<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">詳細情報を取得<span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>"
+
+#. translators: Support URL.
+#: lib/wfScanEngine.php:706
+msgid "Wordfence was unable to validate a test request to your website. This can happen if your website is behind a proxy that does not use one of the standard ways to convey the IP of the request or it is unreachable publicly. IP blocking and live traffic information may not be accurate. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Get More Information<span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "Wordfence はサイトへのテストリクエストを検証できませんでした。これは、サイトが要求の IP を伝達するための標準的な方法を使用しないプロキシの背後にある場合、またはパブリックに到達できない場合に発生する可能性があります。IP ブロッキングとライブトラフィック情報は正確でない場合があります。<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">詳細情報を取得<span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>"
 
 #: lib/wfScanEngine.php:705
 msgid "Unable to accurately detect IPs"
@@ -4753,6 +5596,11 @@ msgstr "ホストキーの収集"
 msgid "Forking during malware scan to ensure continuity."
 msgstr "マルウェアスキャン中にフォークして、継続性を確保します。"
 
+#. translators: 1. Time duration. 2. Support URL.
+#: lib/wfScanEngine.php:306
+msgid "The scan time limit of %1$s has been exceeded and the scan will be terminated. This limit can be customized on the options page. <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Get More Information<span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "スキャン制限時間 %1$s を超えたため、スキャンを終了します。この制限値はオプションページでカスタマイズできます。<a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">もっと詳しく<span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>"
+
 #: lib/wfView.php:70
 msgid "The view could not be loaded."
 msgstr "表示を読み込むことができませんでした。"
@@ -4777,10 +5625,24 @@ msgstr "通常のリクエスト"
 msgid "Analyzed %1$d files containing %2$s of data so far"
 msgstr "これまでに%2$s個のデータを含む%1$d個のファイルを解析しました。"
 
+#: lib/wfJavascriptBridge.php:874
+msgid "Seconds since last hit"
+msgstr "最後のヒットからの秒数"
+
+#. translators: 1. Plugin name. 2. Plugin version. 3. Support URL.
+#: lib/wordfenceHash.php:587
+msgid "This file belongs to theme \"%1$s\" version \"%2$s\" and has been modified from the original distribution. It is common for site owners to modify their theme files, so if you have modified this file yourself you can safely ignore this warning. <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More<span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "このファイルはテーマ「%1$s」バージョン「%2$s」に属し、オリジナルの配布物から変更されています。サイトオーナーがテーマファイルを変更することはよくあるため、このファイルを自分で変更した場合は、この警告を無視してかまいません。<a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More<span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>"
+
 #. translators: File path.
 #: lib/wordfenceHash.php:584
 msgid "Modified theme file: %s"
 msgstr "変更されたテーマファイル: %s"
+
+#. translators: 1. Plugin name. 2. Plugin version. 3. Support URL.
+#: lib/wordfenceHash.php:540
+msgid "This file belongs to plugin \"%1$s\" version \"%2$s\" and has been modified from the file that is distributed by WordPress.org for this version. Please use the link to see how the file has changed. If you have modified this file yourself, you can safely ignore this warning. If you see a lot of changed files in a plugin that have been made by the author, then try uninstalling and reinstalling the plugin to force an upgrade. Doing this is a workaround for plugin authors who don't manage their code correctly. <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More<span class=\"screen-reader-text\"> (opens in new tab)</span></a>"
+msgstr "このファイルはプラグイン「%1$s」バージョン「%2$s」に属し、このバージョンで WordPress.org によって配布されているファイルから変更されています。ファイルがどのように変更されたかを確認するには、このリンクを使用してください。このファイルを自分で変更した場合は、この警告を無視してかまいません。プラグイン内に作者によって変更されたファイルが多数ある場合は、プラグインをアンインストールして再インストールし、強制的にアップグレードすることを試してください。これは、コードを正しく管理していないプラグイン作者に対する回避策です。<a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More<span class=\"screen-reader-text\"> (新しいタブで開きます)</span></a>"
 
 #. translators: File path.
 #: lib/wordfenceHash.php:537
@@ -6216,6 +7078,10 @@ msgstr "深刻度: %s"
 msgid "Ignored"
 msgstr "無視される"
 
+#: lib/wfJavascriptBridge.php:441
+msgid "Found"
+msgstr "発見"
+
 #: lib/wfJavascriptBridge.php:412
 msgid "File Changes"
 msgstr "ファイルの変更"
@@ -6449,6 +7315,10 @@ msgstr "Wordfence ライセンス"
 msgid "Note: This does not include Login Security settings and tables. An option to delete those must be selected separately on the Login Security settings page."
 msgstr "注意: これには、ログインセキュリティの設定とテーブルは含まれません。これらを削除するには、ログインセキュリティの設定ページで別途オプションを選択する必要があります。"
 
+#: lib/wfJavascriptBridge.php:895
+msgid "Setting higher will reduce browser traffic but slow scan starts, live traffic & status updates."
+msgstr "高く設定すると、ブラウザーのトラフィックは減少しますが、スキャンの開始、ライブトラフィック & ステータスの更新が遅くなります。"
+
 #: lib/wfJavascriptBridge.php:889
 msgid "Separate multiple addresses with commas"
 msgstr "複数のアドレスはカンマで区切る"
@@ -6484,6 +7354,10 @@ msgstr "チェックした URL"
 #: lib/wfJavascriptBridge.php:1064
 msgid "Users Checked"
 msgstr "チェックしたユーザー"
+
+#: lib/wfJavascriptBridge.php:771
+msgid "Posts, Comments, & Files"
+msgstr "投稿、コメント、ファイル"
 
 #: lib/wfJavascriptBridge.php:815
 msgid "Repair All Repairable Files"
@@ -6731,6 +7605,11 @@ msgstr "この機能は、Wordfence のリアルタイムブロックリスト�
 msgid "Optimize the Wordfence Firewall"
 msgstr "Wordfence ファイアウォールの最適化"
 
+#. translators: configuration URL
+#: lib/wfJavascriptBridge.php:509
+msgid "If you're moving to a new host or a new installation location, you may need to temporarily disable extended protection to avoid any file not found errors. Use this action to remove the configuration changes that enable extended protection mode or you can <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">remove them manually<span class=\"screen-reader-text\"> (opens in new tab)</span></a>."
+msgstr "新しいホストまたは新しいインストール場所に移動する場合、ファイルが見つからないというエラーを回避するために、一時的に拡張保護を無効にする必要がある場合があります。このアクションを使用して、拡張保護モードを有効にする設定変更を削除するか、または <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">手動で削除します <span class=\"screen-reader-text\">(新しいタブで開く)</span></a>。"
+
 #: lib/wfJavascriptBridge.php:110
 msgid "All PHP requests will be processed by the firewall prior to running."
 msgstr "すべての PHP リクエストは、実行前にファイアウォールによって処理されます。"
@@ -6746,11 +7625,6 @@ msgstr "NGINX"
 #: lib/wfJavascriptBridge.php:1716
 msgid "LiteSpeed/lsapi"
 msgstr "LiteSpeed/lsapi"
-
-#. translators: configuration URL
-#: lib/wfJavascriptBridge.php:509
-msgid "If you're moving to a new host or a new installation location, you may need to temporarily disable extended protection to avoid any file not found errors. Use this action to remove the configuration changes that enable extended protection mode or you can <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">remove them manually<span class=\"screen-reader-text\"> (opens in new tab)</span></a>."
-msgstr "新しいホストまたは新しいインストール場所に移動する場合、ファイルが見つからないというエラーを回避するために、一時的に拡張保護を無効にする必要がある場合があります。このアクションを使用して、拡張保護モードを有効にする設定変更を削除するか、または <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">手動で削除します <span class=\"screen-reader-text\">(新しいタブで開く)</span></a>。"
 
 #: lib/wfJavascriptBridge.php:1710
 msgid "Apache + CGI/FastCGI"
@@ -6803,13 +7677,13 @@ msgstr "すべてのルールを表示する"
 msgid "No rules currently set."
 msgstr "現在、ルールは設定されていません。"
 
-#: lib/wfJavascriptBridge.php:1147
-msgid "You are currently running the WAF from another WordPress installation. This option can be changed once you configure the firewall to run correctly on this site."
-msgstr "現在、別の WordPress インストールから WAF を実行しています。このオプションは、このサイトでファイアウォールを正しく実行するように設定した後で変更することができます。"
-
 #: lib/wfJavascriptBridge.php:890
 msgid "Separate multiple URLs with commas or place them on separate lines. Asterisks are wildcards, but use with care. If you see an attacker repeatedly probing your site for a known vulnerability you can use this to immediately block them. All URLs must start with a \"/\" without quotes and must be relative. e.g. /badURLone/, /bannedPage.html, /dont-access/this/URL/, /starts/with-*"
 msgstr "複数の URL はカンマで区切るか、別々の行に記述してください。アスタリスクはワイルドカードですが、使用には注意が必要です。もし、攻撃者があなたのサイトに既知の脆弱性を何度も探っているのを見かけたら、これを使ってすぐにブロックすることができます。すべての URL は、引用符なしの「/」で始まり、相対的でなければなりません。例: /badURLone/, /bannedPage.html, /dont-access/this/URL/, /starts/with-*"
+
+#: lib/wfJavascriptBridge.php:1147
+msgid "You are currently running the WAF from another WordPress installation. This option can be changed once you configure the firewall to run correctly on this site."
+msgstr "現在、別の WordPress インストールから WAF を実行しています。このオプションは、このサイトでファイアウォールを正しく実行するように設定した後で変更することができます。"
 
 #: lib/wfJavascriptBridge.php:675
 msgid "No allowlisted URLs currently set."
@@ -6830,12 +7704,6 @@ msgstr "フロントエンドサイト"
 #: lib/wfJavascriptBridge.php:961
 msgid "The required file has been created. You'll need to insert the following code into your <code>php.ini</code> to finish installation:"
 msgstr "必要なファイルが作成されました。以下のコードを <code>php.ini</code> に挿入して、インストールを完了します:"
-
-#. translators: WordPress username.
-#: lib/wfJavascriptBridge.php:942 lib/wordfenceClass.php:8793
-#: lib/wordfenceClass.php:8809
-msgid "The changes have not yet taken effect. If you are using LiteSpeed or IIS as your web server or CGI/FastCGI interface, you may need to wait a few minutes for the changes to take effect since the configuration files are sometimes cached. You also may need to select a different server configuration in order to complete this step, but wait for a few minutes before trying. You can try refreshing this page."
-msgstr "変更はまだ有効ではありません。サーバーや CGI/FastCGI インターフェイスとして LiteSpeed や IIS を使用している場合、設定ファイルがキャッシュされることがあるため、変更が有効になるまで数分待つ必要があるかもしれません。また、この手順を完了するために、別のサーバー構成を選択する必要があるかもしれませんが、試す前に数分待ってください。このページを更新してみることもできます。"
 
 #: lib/wfJavascriptBridge.php:368
 msgid "Enable Firewall"
@@ -6860,6 +7728,12 @@ msgstr "許可リストの URL/Param の追加"
 #: lib/wfJavascriptBridge.php:46
 msgid "%d per minute"
 msgstr "分当たり %d"
+
+#. translators: WordPress username.
+#: lib/wfJavascriptBridge.php:942 lib/wordfenceClass.php:8793
+#: lib/wordfenceClass.php:8809
+msgid "The changes have not yet taken effect. If you are using LiteSpeed or IIS as your web server or CGI/FastCGI interface, you may need to wait a few minutes for the changes to take effect since the configuration files are sometimes cached. You also may need to select a different server configuration in order to complete this step, but wait for a few minutes before trying. You can try refreshing this page."
+msgstr "変更はまだ有効ではありません。サーバーや CGI/FastCGI インターフェイスとして LiteSpeed や IIS を使用している場合、設定ファイルがキャッシュされることがあるため、変更が有効になるまで数分待つ必要があるかもしれません。また、この手順を完了するために、別のサーバー構成を選択する必要があるかもしれませんが、試す前に数分待ってください。このページを更新してみることもできます。"
 
 #: lib/wfDiagnostic.php:1202 lib/wfJavascriptBridge.php:1010
 msgid "Treat Google like any other Crawler"
@@ -7780,6 +8654,10 @@ msgstr "ルールを手動で更新"
 msgid "Two-factor authentication now has its own IP allowlist. If necessary, you can allow specific IP addresses or ranges to skip 2FA when logging in."
 msgstr "2要素認証に、独自の IP 許可リストが追加されました。必要に応じて、ログイン時に特定の IP アドレスや範囲を許可して、2FA をスキップさせることができます。"
 
+#: lib/wfJavascriptBridge.php:1094
+msgid "We are excited to announce the release of a completely rebuilt two-factor authentication (2FA) feature within Wordfence. 2FA is an important layer of security that protects you from password guessing and credential stuffing attacks. Previously a Premium-only feature, it is now available for sites running the free version of Wordfence. You are now able to enable 2FA for any role, we’ve added a number of important security features, and we’ve significantly improved the admin interface."
+msgstr "この度、Wordfence 内で完全に再構築された2要素認証 (2FA) 機能のリリースを発表することができました。2FA は、パスワードの推測や資格情報の詰め込み攻撃から保護するための重要なセキュリティ層です。以前はプレミアムのみの機能でしたが、Wordfence の無料版を実行しているサイトでも利用できるようになりました。どのような役割でも 2FA を有効にできるようになり、重要なセキュリティ機能が多数追加され、管理インターフェースが大幅に改善されました。"
+
 #: lib/wfJavascriptBridge.php:989
 msgid "This option enables all \"Brute Force Protection\" options, including strong password enforcement and invalid login throttling. You can modify individual options below."
 msgstr "このオプションは、強力なパスワードの強制や無効なログインの調整など、すべての「ブルートフォース保護」オプションを有効にします。個々のオプションは、以下で変更することができます。"
@@ -7787,10 +8665,6 @@ msgstr "このオプションは、強力なパスワードの強制や無効な
 #: lib/wfDiagnostic.php:1191 lib/wfJavascriptBridge.php:745
 msgid "Prevent users registering 'admin' username if it doesn't exist"
 msgstr "「admin」ユーザー名が存在しない場合にその登録を防止"
-
-#: lib/wfJavascriptBridge.php:1094
-msgid "We are excited to announce the release of a completely rebuilt two-factor authentication (2FA) feature within Wordfence. 2FA is an important layer of security that protects you from password guessing and credential stuffing attacks. Previously a Premium-only feature, it is now available for sites running the free version of Wordfence. You are now able to enable 2FA for any role, we’ve added a number of important security features, and we’ve significantly improved the admin interface."
-msgstr "この度、Wordfence 内で完全に再構築された2要素認証 (2FA) 機能のリリースを発表することができました。2FA は、パスワードの推測や資格情報の詰め込み攻撃から保護するための重要なセキュリティ層です。以前はプレミアムのみの機能でしたが、Wordfence の無料版を実行しているサイトでも利用できるようになりました。どのような役割でも 2FA を有効にできるようになり、重要なセキュリティ機能が多数追加され、管理インターフェースが大幅に改善されました。"
 
 #: modules/login-security/views/manage/activate.php:36
 msgid "Enter the code from your authenticator app below to verify and activate two-factor authentication for this account."
@@ -7943,6 +8817,10 @@ msgstr "国別ブロック"
 msgid "Country"
 msgstr "国別"
 
+#: lib/wfJavascriptBridge.php:1116
+msgid "Wordfence country blocking is designed to stop an attack, prevent content theft, or end malicious activity that originates from a geographic region in less than 1/300,000th of a second. Blocking countries who are regularly creating failed logins, a large number of page not found errors, and are clearly engaged in malicious activity is an effective way to protect your site during an attack."
+msgstr "Wordfence の国別ブロックは、30万分の1秒以下で、ある地域を発生源とする攻撃を停止し、コンテンツの盗難を防止し、悪意のある活動を停止するように設計されています。ログインに失敗したり、大量のページが見つからないエラーが発生したり、明らかに悪意のある活動をしている国をブロックすることは、攻撃中にサイトを保護する効果的な方法です。"
+
 #: lib/wfJavascriptBridge.php:784
 msgid "Put Geographic Protection In Place With Country Blocking"
 msgstr "国別ブロックによる地理的保護"
@@ -7968,10 +8846,6 @@ msgstr "プレミアム保護が有効"
 #: models/firewall/wfFirewall.php:599
 msgid "Enable Brute Force Protection."
 msgstr "ブルートフォース保護を有効化。"
-
-#: lib/wfJavascriptBridge.php:1116
-msgid "Wordfence country blocking is designed to stop an attack, prevent content theft, or end malicious activity that originates from a geographic region in less than 1/300,000th of a second. Blocking countries who are regularly creating failed logins, a large number of page not found errors, and are clearly engaged in malicious activity is an effective way to protect your site during an attack."
-msgstr "Wordfence の国別ブロックは、30万分の1秒以下で、ある地域を発生源とする攻撃を停止し、コンテンツの盗難を防止し、悪意のある活動を停止するように設計されています。ログインに失敗したり、大量のページが見つからないエラーが発生したり、明らかに悪意のある活動をしている国をブロックすることは、攻撃中にサイトを保護する効果的な方法です。"
 
 #: lib/wfJavascriptBridge.php:97
 msgid "Alert me with scan results of this severity level or greater:"
@@ -8284,6 +9158,10 @@ msgstr "Wordfence のスキャンが有効"
 msgid "Wordfence Scan Deactivated"
 msgstr "Wordfence のスキャンが無効"
 
+#: lib/wfJavascriptBridge.php:558
+msgid "Issue Found"
+msgstr "問題を発見"
+
 #. translators: Localized date.
 #: views/scanner/text/issue-base.php:15
 msgid "Issue Found: %s"
@@ -8296,10 +9174,6 @@ msgstr "発見した結果"
 #: lib/wfJavascriptBridge.php:1007
 msgid "Traffic logging mode"
 msgstr "トラフィック記録モード"
-
-#: lib/wfJavascriptBridge.php:944
-msgid "These options let you choose which traffic to log and to ignore certain types of visitors, based on their level of access, usernames, IP address, or browser type. If you run a high-traffic website where it is not feasible to see your visitors in real-time, simply change the <strong>Traffic logging mode</strong> to \"Security Only.\""
-msgstr "これらのオプションを使用すると、アクセスレベル、ユーザー名、IP アドレス、またはブラウザタイプに基づいて、ログに記録するトラフィックと特定のタイプの訪問者を無視するトラフィックを選択できます。 トラフィックの多いサイトを運営していて、訪問者をリアルタイムで確認できない場合は <strong>トラフィック記録モード</strong> を「セキュリティのみ」に変更するだけです"
 
 #: lib/wfLockedOut.php:10
 msgid "You are temporarily locked out"
@@ -8316,6 +9190,10 @@ msgstr "通知メールの設定"
 #: lib/wfJavascriptBridge.php:291
 msgid "Dashboard notifications will also be displayed for Security Alerts, Promotions, Blog Highlights, and Product Updates. These notifications can be disabled by upgrading to a premium license."
 msgstr "また、セキュリティ警告、プロモーション、ブログハイライト、製品アップデートについては、ダッシュボードに通知が表示されます。これらの通知は、プレミアムライセンスにアップグレードすることで無効にすることができます。"
+
+#: lib/wfJavascriptBridge.php:944
+msgid "These options let you choose which traffic to log and to ignore certain types of visitors, based on their level of access, usernames, IP address, or browser type. If you run a high-traffic website where it is not feasible to see your visitors in real-time, simply change the <strong>Traffic logging mode</strong> to \"Security Only.\""
+msgstr "これらのオプションを使用すると、アクセスレベル、ユーザー名、IP アドレス、またはブラウザタイプに基づいて、ログに記録するトラフィックと特定のタイプの訪問者を無視するトラフィックを選択できます。 トラフィックの多いサイトを運営していて、訪問者をリアルタイムで確認できない場合は <strong>トラフィック記録モード</strong> を「セキュリティのみ」に変更するだけです"
 
 #: lib/wfDiagnostic.php:1202 lib/wfJavascriptBridge.php:137
 msgid "Anyone claiming to be Google will not be rate-limited"
@@ -8426,11 +9304,6 @@ msgstr "2. Authenticator アプリからコードを入力する"
 msgid "The plugin will load as a regular plugin after WordPress has been loaded, and while it can block many malicious requests, some vulnerable plugins or WordPress itself may run vulnerable code before all plugins are loaded."
 msgstr "このプラグインは WordPress をロードした後に通常のプラグインとしてロードし、多くの悪意のあるリクエストをブロックすることができますが、一部の脆弱なプラグインや WordPress 自体が、すべてのプラグインがロードされる前に脆弱なコードを実行する可能性があります。"
 
-#. translators: IP or range
-#: modules/login-security/classes/controller/settings.php:232
-msgid "The IP/range %s is invalid."
-msgstr "IP / range %s は無効です。"
-
 #: lib/wfJavascriptBridge.php:158
 msgid "As a free Wordfence user, you are currently using the Community version of the Threat Defense Feed. Premium users are protected by additional firewall rules and malware signatures as well as the Wordfence real-time IP blocklist. Upgrade to Premium today to improve your protection."
 msgstr "Wordfence の無料ユーザーとして、現在、コミュニティ版の脅威防御フィードを使用しています。プレミアムユーザーは、追加のファイアウォールルールやマルウェア署名、Wordfence リアルタイム IP ブロックリストによって保護します。今すぐプレミアムにアップグレードして、保護機能を向上させましょう。"
@@ -8461,6 +9334,90 @@ msgstr "次に、ユーザーがブロックされた国からサイトにアク
 #: views/reports/activity-report-email-inline.php:134
 msgid "NOTE: You are using the free version of Wordfence and are missing out on features like real-time firewall rule and malware signature updates, country blocking, and detecting if your site IP is sending spam. <a href=\"https://www.wordfence.com/zz6/\">Click here to upgrade to Wordfence Premium now</a>."
 msgstr "注意: ご利用の Wordfence は無料版のため、リアルタイムのファイアウォールルールやマルウェアシグネチャの更新、国によるブロック、サイト IP がスパムを送信しているかどうかの検出などの機能はご利用いただけません。<a href=\"https://www.wordfence.com/zz6/\">今すぐ Wordfence Premium にアップグレードするには、ここをクリックしてください</a>。"
+
+#. translators: 1. Site address; 2. Username
+#: modules/login-security/views/manage/activate.php:22
+#: modules/login-security/views/manage/regenerate.php:64
+msgid "Two-Factor Authentication Recovery Codes - %1$s (%2$s)"
+msgstr "2要素認証の回復コード - %1$s (%2$s)"
+
+#. translators: 1. IP address; 2. Username; 3. Email address; 4. Score; 5.
+#. Message
+#: modules/login-security/classes/controller/ajax.php:289
+msgid ""
+"A visitor blocked from registration sent the following message.\n"
+"\n"
+"----------------------------------------\n"
+"\n"
+"IP: %1$s\n"
+"Username: %2$s\n"
+"Email: %3$s\n"
+"reCAPTCHA Score: %4$f\n"
+"\n"
+"----------------------------------------\n"
+"\n"
+"%5$s"
+msgstr ""
+"登録をブロックされた訪問者から、次のようなメッセージが届きました。\n"
+"\n"
+"----------------------------------------\n"
+"\n"
+"IP: %1$s\n"
+"ユーザー名: %2$s\n"
+"メールアドレス: %3$s\n"
+"reCAPTCHA スコア: %4$f\n"
+"\n"
+"----------------------------------------\n"
+"\n"
+"%5$s"
+
+#: lib/wfJavascriptBridge.php:793
+msgid "Recommended"
+msgstr "推奨"
+
+#: lib/wfJavascriptBridge.php:1131
+msgid "Wordfence Scan & Premium Enabled"
+msgstr "Wordfence Scan & Premium に対応"
+
+#: lib/wfJavascriptBridge.php:590
+msgid "License Status"
+msgstr "ライセンス状況"
+
+#: lib/wfJavascriptBridge.php:175
+msgid "Basic WordPress Protection"
+msgstr "WordPress の基本的な保護機能"
+
+#: lib/wfJavascriptBridge.php:395
+msgid "Existing WAF Installation Detected"
+msgstr "既存の WAF のインストールが検出されました"
+
+#: modules/login-security/classes/controller/javascript.php:25
+msgid "(definitely a human)"
+msgstr "(間違いなく人間)"
+
+#: lib/wfJavascriptBridge.php:1118
+msgid "Wordfence Firewall & Premium Enabled"
+msgstr "Wordfence ファイアウォール & プレミアムに対応"
+
+#. translators: 1. WordPress avatar tag; 2. WordPress username
+#: modules/login-security/views/page/manage.php:31
+msgid "Editing User:&nbsp;&nbsp;%1$s <span class=\"wfls-text-plain\">%2$s</span>"
+msgstr "ユーザーを編集中:&nbsp;&nbsp;%1$s <span class=\"wfls-text-plain\">%2$s</span>"
+
+#. translators: section name.
+#: lib/wfJavascriptBridge.php:155
+msgid "Are you sure you want to restore the default %s settings? This will undo any custom changes you have made to the options on this page."
+msgstr "本当に %s の設定をデフォルトに戻してもよろしいですか ? これは、このページのオプションに加えたカスタムの変更を取り消します。"
+
+#. translators: IP or range
+#: modules/login-security/classes/controller/settings.php:232
+msgid "The IP/range %s is invalid."
+msgstr "IP/range %s は無効です。"
+
+#. translators: configuration URL
+#: lib/wfJavascriptBridge.php:1153
+msgid "You are running the LiteSpeed web server and Wordfence can't determine whether \"noabort\" is set. Please verify that the environmental variable \"noabort\" is set for the local site, or the server's global External Application Abort is set to \"No Abort\"."
+msgstr "LiteSpeed Web サーバーを実行しており、Wordfenceは「noabort」が設定されているかどうかを判断できません。ローカルサイトの環境変数「noabort」が設定されているか、サーバーのグローバルな External Application Abort が「No Abort」に設定されているかを確認してください。"
 
 #: modules/login-security/views/manage/activate.php:44
 msgid "Activate"
@@ -8813,6 +9770,22 @@ msgstr "エジプト"
 msgid "Enable"
 msgstr "有効化"
 
+#: lib/wordfenceClass.php:4080
+msgid "Entire Site"
+msgstr "サイト全体"
+
+#: lib/wfBulkCountries.php:93
+msgid "Equatorial Guinea"
+msgstr "赤道ギニア"
+
+#: lib/wfBulkCountries.php:71
+msgid "Eritrea"
+msgstr "エリトリア"
+
+#: lib/wfBulkCountries.php:68
+msgid "Estonia"
+msgstr "エストニア"
+
 #: lib/wfDiagnostic.php:976 lib/wfDiagnostic.php:1071 lib/wfDiagnostic.php:1076
 #: lib/wfDiagnostic.php:1080 lib/wfDiagnostic.php:1140
 #: lib/wfDiagnostic.php:1141 lib/wfDiagnostic.php:1142
@@ -8839,22 +9812,6 @@ msgstr "有効化"
 #: lib/wfJavascriptBridge.php:372 models/firewall/wfFirewall.php:35
 msgid "Enabled"
 msgstr "有効"
-
-#: lib/wordfenceClass.php:4080
-msgid "Entire Site"
-msgstr "サイト全体"
-
-#: lib/wfBulkCountries.php:93
-msgid "Equatorial Guinea"
-msgstr "赤道ギニア"
-
-#: lib/wfBulkCountries.php:71
-msgid "Eritrea"
-msgstr "エリトリア"
-
-#: lib/wfBulkCountries.php:68
-msgid "Estonia"
-msgstr "エストニア"
 
 #: lib/wfBulkCountries.php:73
 msgid "Ethiopia"
@@ -9360,6 +10317,23 @@ msgstr "WordPress デバッグモード"
 msgid "WordPress memory limit"
 msgstr "WordPress メモリ制限"
 
+#. translators: WordPress directory.
+#: lib/wfDiagnostic.php:365 lib/wfDiagnostic.php:469 lib/wfDiagnostic.php:536
+#: lib/wfDiagnostic.php:1041 lib/wfDiagnostic.php:1052
+#: lib/wfDiagnostic.php:1054 lib/wfDiagnostic.php:1055
+#: lib/wfDiagnostic.php:1068 lib/wfDiagnostic.php:1081
+#: lib/wfDiagnostic.php:1082 lib/wfDiagnostic.php:1083
+#: lib/wfDiagnostic.php:1084 lib/wfDiagnostic.php:1085
+#: lib/wfDiagnostic.php:1086 lib/wfDiagnostic.php:1091
+#: lib/wfDiagnostic.php:1092 lib/wfDiagnostic.php:1093
+#: lib/wfDiagnostic.php:1094 lib/wfDiagnostic.php:1095
+#: lib/wfDiagnostic.php:1099 lib/wfJavascriptBridge.php:1140
+#: lib/wfSupportController.php:456
+#: views/reports/activity-report-email-inline.php:270
+#: views/reports/activity-report.php:117
+msgid "Yes"
+msgstr "はい"
+
 #: lib/wfScan.php:65 lib/wfScan.php:66
 msgid "[none]"
 msgstr "[なし]"
@@ -9380,23 +10354,6 @@ msgstr "ブロック済み"
 #: modules/login-security/classes/controller/javascript.php:43
 msgid "Cancel Changes"
 msgstr "変更を取り消す"
-
-#. translators: WordPress directory.
-#: lib/wfDiagnostic.php:365 lib/wfDiagnostic.php:469 lib/wfDiagnostic.php:536
-#: lib/wfDiagnostic.php:1041 lib/wfDiagnostic.php:1052
-#: lib/wfDiagnostic.php:1054 lib/wfDiagnostic.php:1055
-#: lib/wfDiagnostic.php:1068 lib/wfDiagnostic.php:1081
-#: lib/wfDiagnostic.php:1082 lib/wfDiagnostic.php:1083
-#: lib/wfDiagnostic.php:1084 lib/wfDiagnostic.php:1085
-#: lib/wfDiagnostic.php:1086 lib/wfDiagnostic.php:1091
-#: lib/wfDiagnostic.php:1092 lib/wfDiagnostic.php:1093
-#: lib/wfDiagnostic.php:1094 lib/wfDiagnostic.php:1095
-#: lib/wfDiagnostic.php:1099 lib/wfJavascriptBridge.php:1140
-#: lib/wfSupportController.php:456
-#: views/reports/activity-report-email-inline.php:270
-#: views/reports/activity-report.php:117
-msgid "Yes"
-msgstr "はい"
 
 #: lib/menu_tools.php:21 lib/menu_tools_diagnostic.php:24
 #: lib/wfDiagnostic.php:1173 lib/wfJavascriptBridge.php:307
@@ -11860,11 +12817,6 @@ msgid ""
 "%s"
 msgstr "現在の Wordfence のアラートを見るには、こちらへ: %s"
 
-#. translators: Email address.
-#: lib/wordfenceClass.php:2047
-msgid "We received a request to email \"%s\" instructions to unlock their access. If that is the email address of a site administrator or someone on the Wordfence alert list, they have been emailed instructions on how to regain access to this system. The instructions we sent will expire 30 minutes from now."
-msgstr "アクセスのロックを解除するための手順を \"%s\" にメールするよう依頼がありました。これがサイト管理者または Wordfence のアラートリストに載っている人のメールアドレスである場合、このシステムへのアクセスを回復するための手順をメールで送信済みです。送信した手順は、今から30分後に失効します。"
-
 #. translators: URL to the WordPress admin panel.
 #: lib/wordfenceClass.php:7089
 msgid "No longer an administrator for this site? Click here to stop receiving security alerts: %s"
@@ -11888,6 +12840,11 @@ msgstr "誰かが次のメールアドレスのユーザーのパスワードを
 #: lib/wfAlerts.php:96
 msgid "Wordfence Deactivated"
 msgstr "Wordfence を無効化しました"
+
+#. translators: Email address.
+#: lib/wordfenceClass.php:2047
+msgid "We received a request to email \"%s\" instructions to unlock their access. If that is the email address of a site administrator or someone on the Wordfence alert list, they have been emailed instructions on how to regain access to this system. The instructions we sent will expire 30 minutes from now."
+msgstr "アクセスのロックを解除するための手順を \"%s\" にメールするよう依頼がありました。これがサイト管理者または Wordfence のアラートリストに載っている人のメールアドレスである場合、このシステムへのアクセスを回復するための手順をメールで送信済みです。送信した手順は、今から30分後に失効します。"
 
 #: lib/wfJavascriptBridge.php:513 lib/wfJavascriptBridge.php:2001
 msgid "Ignored IP addresses for Wordfence Web Application Firewall alerting"
@@ -12248,15 +13205,6 @@ msgstr "このサービスへのアクセスは制限されています。(HTTP�
 msgid "Your access to this site has been limited"
 msgstr "サイトへのアクセスは制限されています"
 
-#. translators: Support URL.
-#: lib/wfCredentialsController.php:311
-msgid "Please choose a different password. The password you are using exists on lists of passwords leaked in data breaches. Attackers use such lists to break into sites and install malicious code. <a href=\"%s\">Learn More</a>"
-msgstr "違うパスワードを選んでください。あなたが使っているパスワードは、情報漏えいで流出したパスワードのリストに存在しています。攻撃者はそのようなリストを利用して、サイトに侵入し、悪意のあるコードをインストールします。<a href=\"%s\">もっと詳しく</a>"
-
-#: lib/wfJavascriptBridge.php:215
-msgid "By default, Wordfence will scan your site daily. Start your first scan now to see if your site has any security issues that need to be addressed. From here you can run manual scans any time you like."
-msgstr "デフォルトでは、Wordfence はあなたのサイトを毎日スキャンします。今すぐ最初のスキャンを開始し、あなたのサイトに対処すべきセキュリティ上の問題があるかどうかを確認しましょう。ここから、いつでも手動でスキャンを実行することができます。"
-
 #. translators: 1. Reset password URL. 2. Support URL.
 #: lib/wordfenceClass.php:3203 lib/wordfenceClass.php:3239
 msgid "<strong>INSECURE PASSWORD:</strong> Your login attempt has been blocked because the password you are using exists on lists of passwords leaked in data breaches. Attackers use such lists to break into sites and install malicious code. Please <a href=\"%1$s\">reset your password</a> to reactivate your account. <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More<span style=\"font-size:0;\"> (opens in new tab)</span></a>"
@@ -12267,13 +13215,18 @@ msgstr "<strong>安全でないパスワード:</strong> あなたが使用し�
 msgid "A user with username \"%1$s\" tried to sign in to your WordPress site. Access was denied because the password being used exists on lists of passwords leaked in data breaches. Attackers use such lists to break into sites and install malicious code. Please change or reset the password (%2$s) to reactivate this account. Learn More: %3$s"
 msgstr "ユーザー名 \"%1$s\" のユーザーが WordPress サイトにサインインしようとしました。使用されているパスワードは、データ侵害で流出したパスワードのリストに存在するため、アクセスは拒否されました。攻撃者はそのようなリストを使用してサイトに侵入し、悪質なコードをインストールします。このアカウントを再度有効化するには、パスワード (%2$s) を変更またはリセットしてください。もっと詳しく: %3$s"
 
+#. translators: Support URL.
+#: lib/wfCredentialsController.php:311
+msgid "Please choose a different password. The password you are using exists on lists of passwords leaked in data breaches. Attackers use such lists to break into sites and install malicious code. <a href=\"%s\">Learn More</a>"
+msgstr "違うパスワードを選んでください。あなたが使っているパスワードは、情報漏えいで流出したパスワードのリストに存在しています。攻撃者はそのようなリストを利用して、サイトに侵入し、悪意のあるコードをインストールします。<a href=\"%s\">もっと詳しく</a>"
+
+#: lib/wfJavascriptBridge.php:215
+msgid "By default, Wordfence will scan your site daily. Start your first scan now to see if your site has any security issues that need to be addressed. From here you can run manual scans any time you like."
+msgstr "デフォルトでは、Wordfence はあなたのサイトを毎日スキャンします。今すぐ最初のスキャンを開始し、あなたのサイトに対処すべきセキュリティ上の問題があるかどうかを確認しましょう。ここから、いつでも手動でスキャンを実行することができます。"
+
 #: lib/wfJavascriptBridge.php:75
 msgid "A Wordfence scan looks for malware, malicious URLs, and patterns of infections by examining all of the files, posts, and comments on your WordPress website. It also checks your server and monitors your site's online reputation."
 msgstr "Wordfence のスキャンは、WordPress ウェブサイト上のすべてのファイル、投稿、コメントを調べることで、マルウェア、悪意のある URL、および感染のパターンを探します。また、サーバーをチェックし、サイトのオンラインレピュテーションを監視します。"
-
-#: lib/wfJavascriptBridge.php:331
-msgid "Do not repair files on your system unless you're ABSOLUTELY sure you know what you're doing. If you repair the wrong file it could cause your WordPress website to stop functioning and you will probably have to restore from backups. If you're unsure, Cancel and work with your hosting provider to clean your system of infected files."
-msgstr "何をやっているか間違いなく分かっているのでなければ、システム上のファイルを修復しないでください。間違ったファイルを修復すると、WordPress のウェブサイトが機能しなくなる可能性があり、おそらくバックアップから復元する必要があります。もし、確信が持てない場合は、キャンセルし、ホスティングプロバイダーと協力して感染したファイルのクリーニングを行なってください。"
 
 #: lib/wf503.php:351
 msgid "Your access to this site has been limited by the site owner"
@@ -12282,6 +13235,10 @@ msgstr "このサイトへのアクセスは、サイトオーナーによって
 #: lib/menu_tools_whois.php:23
 msgid "The whois service gives you a way to look up who owns an IP address or domain name that is visiting your website or is engaging in malicious activity on your website."
 msgstr "Whois サービスでは、あなたの Web サイトを訪問している、あるいはあなたの Web サイトで悪質な行為を行っている IP アドレスやドメイン名の所有者を調べることができます。"
+
+#: lib/wfJavascriptBridge.php:331
+msgid "Do not repair files on your system unless you're ABSOLUTELY sure you know what you're doing. If you repair the wrong file it could cause your WordPress website to stop functioning and you will probably have to restore from backups. If you're unsure, Cancel and work with your hosting provider to clean your system of infected files."
+msgstr "何をやっているか間違いなく分かっているのでなければ、システム上のファイルを修復しないでください。間違ったファイルを修復すると、WordPress のウェブサイトが機能しなくなる可能性があり、おそらくバックアップから復元する必要があります。もし、確信が持てない場合は、キャンセルし、ホスティングプロバイダーと協力して感染したファイルのクリーニングを行なってください。"
 
 #: lib/email_unsubscribeRequest.php:10
 msgid "If you did not request this, you can safely ignore it."
@@ -12484,6 +13441,10 @@ msgstr "Wordfence に関するドキュメントは、下のボタンをクリ�
 msgid "Top Topics and Questions"
 msgstr "人気のトピックと質問"
 
+#: lib/menu_support.php:97
+msgid "To continue using Defiant products and services including the Wordfence plugin, all customers must review and agree to the updated terms and privacy policies. These changes reflect our commitment to follow data protection best practices and regulations. The Wordfence interface will remain disabled until these terms are agreed to."
+msgstr "Wordfence プラグインを含む Defiant 社の製品やサービスを継続して使用するには、すべてのお客様が更新された規約およびプライバシーポリシーを確認し、同意する必要があります。これらの変更は、データ保護のベストプラクティスおよび規制に従うという当社のコミットメントを反映したものです。これらの条件に同意されるまで、Wordfence のインターフェイスは無効のままです。"
+
 #: lib/menu_support.php:96
 msgid "Agreement to New Terms and Privacy Policies"
 msgstr "新しい規約およびプライバシーポリシーへの同意"
@@ -12500,10 +13461,6 @@ msgstr "無料版のお客様のサポートは、wordpress.org にある弊社�
 #: lib/wfScanEngine.php:2414
 msgid "The GeoIP database that is required for country blocking has been updated to a new format. This new format requires sites to run PHP 5.4 or newer, and this site is on PHP %s. To ensure country blocking continues functioning, please update PHP."
 msgstr "国別ブロックに必要な GeoIP データベースが新しいフォーマットに更新されました。この新しい形式では、サイトが PHP 5.4以降を実行する必要がありますが、このサイトは PHP %s を使用しています。国別ブロックを確実に機能させるために、PHP を更新してください。"
-
-#: lib/menu_support.php:97
-msgid "To continue using Defiant products and services including the Wordfence plugin, all customers must review and agree to the updated terms and privacy policies. These changes reflect our commitment to follow data protection best practices and regulations. The Wordfence interface will remain disabled until these terms are agreed to."
-msgstr "Wordfence プラグインを含む Defiant 社の製品やサービスを継続して使用するには、すべてのお客様が更新された規約およびプライバシーポリシーを確認し、同意する必要があります。これらの変更は、データ保護のベストプラクティスおよび規制に従うという当社のコミットメントを反映したものです。これらの条件に同意されるまで、Wordfence のインターフェイスは無効のままです。"
 
 #: lib/menu_support.php:87
 msgid "The GDPR is a set of rules that provides more control over EU personal data. Defiant has updated its terms of service, privacy policies, and software, as well as made available standard contractual clauses to meet GDPR compliance."
@@ -12525,10 +13482,6 @@ msgid "%d path was skipped for the malware scan due to scan settings"
 msgid_plural "%d paths were skipped for the malware scan due to scan settings"
 msgstr[0] "スキャン設定により、マルウェアスキャン中に%d個のパスがスキップされました"
 
-#: lib/email_unlockRequest.php:20
-msgid "Do this if you keep getting locked out or blocked and can't access your site. You can re-enable login security and the firewall once you sign-in to the site by visiting the Wordfence Firewall menu, clicking and then turning on the firewall and login security options. If you use country blocking, you will also need to choose which countries to block."
-msgstr "ロックアウトされたりブロックされたりしてサイトにアクセスできない状態が続いている場合は、これを実行してください。Wordfence ファイアウォール メニューにアクセスし、ファイアウォールとログインセキュリティのオプションをクリックしてオンにすれば、サイトにサインインした後にログインセキュリティとファイアウォールを再び有効化できます。国別ブロッキングを使用する場合は、ブロックする国を選択する必要もあります。"
-
 #: lib/email_unlockRequest.php:17
 msgid "Do this if you still can't regain access using the link above. It causes everyone who is blocked or locked out to be able to access your site again."
 msgstr "上記のリンクを使用してもアクセスを回復できない場合は、この手順を実行してください。これにより、ブロックされたりロックアウトされたりしているすべての人が、あなたのサイトに再びアクセスできるようになります。"
@@ -12540,6 +13493,10 @@ msgstr "すべての IP アドレスをブロック解除するには、ここ�
 #: lib/email_unlockRequest.php:14
 msgid "Do this if you simply need to regain access because you were accidentally locked out. If you received an \"Insecure Password\" message before getting locked out, you may also need to reset your password."
 msgstr "誤ってロックアウトされたため、アクセスを回復する必要がある場合、この操作を行ってください。ロックアウトされる前に「安全でないパスワード」というメッセージが表示された場合、パスワードのリセットが必要かもしれません。"
+
+#: lib/email_unlockRequest.php:20
+msgid "Do this if you keep getting locked out or blocked and can't access your site. You can re-enable login security and the firewall once you sign-in to the site by visiting the Wordfence Firewall menu, clicking and then turning on the firewall and login security options. If you use country blocking, you will also need to choose which countries to block."
+msgstr "ロックアウトされたりブロックされたりしてサイトにアクセスできない状態が続いている場合は、これを実行してください。Wordfence ファイアウォール メニューにアクセスし、ファイアウォールとログインセキュリティのオプションをクリックしてオンにすれば、サイトにサインインした後にログインセキュリティとファイアウォールを再び有効化できます。国別ブロッキングを使用する場合は、ブロックする国を選択する必要もあります。"
 
 #: lib/email_unlockRequest.php:14
 msgid "Click here to unlock your ability to sign-in and to access to the site."
@@ -12893,3 +13850,39 @@ msgstr "Web アプリケーションファイアウォール、ブルートフ�
 #: lib/wfUnlockMsg.php:2
 msgid "If you are a WordPress user with administrative privileges on this site please enter your email in the box below and click \"Send\". You will then receive an email that helps you regain access."
 msgstr "このサイトの管理者権限を持つ WordPress ユーザーであれば、下のボックスにメールアドレスを入力し、送信をクリックしてください。アクセスを回復するためのメールが届きます。"
+
+#: lib/wfJavascriptBridge.php:576
+msgid "Legacy Two-Factor Authentication Users"
+msgstr "従来の2要素認証ユーザー"
+
+#: lib/wfJavascriptBridge.php:430
+msgid "Firewall Rules"
+msgstr "ファイアウォールのルール"
+
+#: lib/wfJavascriptBridge.php:615
+msgid "Malware Signatures"
+msgstr "マルウェア署名"
+
+#: lib/wfJavascriptBridge.php:862
+msgid "Scan Options & Settings"
+msgstr "スキャンオプション & 設定"
+
+#: lib/wfJavascriptBridge.php:683
+msgid "No users currently have legacy cellphone sign-in enabled."
+msgstr "現在、レガシーな携帯電話サインインを有効にしているユーザーはいません。"
+
+#: lib/wfJavascriptBridge.php:710
+msgid "Once you have entered credentials, click Continue to complete the removal."
+msgstr "認証情報を入力したら、「続ける」をクリックして削除を完了します。"
+
+#: lib/wfJavascriptBridge.php:575
+msgid "Legacy support for SMS-based two-factor authentication has been phased out, as it is less secure than using a modern authenticator app."
+msgstr "従来の SMS ベースの2要素認証のサポートは、最新の認証アプリより安全性が低いため、段階的に廃止されています。"
+
+#: lib/wfJavascriptBridge.php:234
+msgid "Check spam & spamvertising blocklists"
+msgstr "スパム & スパム広告のブロックリストを確認"
+
+#: lib/wfJavascriptBridge.php:353
+msgid "Email address"
+msgstr "メールアドレス"

@@ -1,0 +1,12 @@
+[2026-04-14 03:27:51 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2026-04-14 03:27:55 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2026-04-14 03:28:04 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2026-04-14 03:29:06 : INFO] - Pruning the Cache log file 
+[2026-04-14 04:04:58 : INFO] - Setting changed, purging cache 
+[2026-04-14 04:07:34 : INFO] - Full Cache Purge triggered by: WPO_Page_Cache::handle_purge_single_page_cache 
+[2026-04-14 04:08:21 : INFO] - Full Cache Purge triggered by action: customize_save_after 
+[2026-04-14 04:18:43 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2026-04-14 04:23:45 : INFO] - Full Cache Purge triggered by action: autoptimize_action_cachepurged 
+[2026-04-14 07:09:20 : INFO] - Full Cache Purge triggered by action: customize_save_after 
+[2026-04-14 07:15:38 : INFO] - Full Cache Purge triggered by action: customize_save_after 
+[2026-04-14 07:35:08 : INFO] - Full Cache Purge triggered by: WPO_Page_Cache::handle_purge_single_page_cache 

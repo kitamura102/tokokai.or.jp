@@ -3,7 +3,7 @@ Contributors: nosilver4u
 Donate link: https://ewww.io/donate/
 Tags: compress, convert, webp, resize, lazy load
 Tested up to: 7.0
-Stable tag: 8.7.2
+Stable tag: 8.7.5
 License: GPLv3
 
 Comprehensive image optimization with WebP, AVIF, Lazy Load, and more. Optimize images automatically for Faster Sites and Happy Visitors.
@@ -32,7 +32,7 @@ Are you frustrated by a slow website? Do over-sized images make you say â€œewwwâ
 * Preserve GIF animations in thumbnails
 * [Free email support](https://ewww.io/contact-us/)
 
-EWWW Image Optimizer is the only plugin that lets you optimize images using tools on your own web server (jpegtran, optipng, pngout, pngquant, gifsicle, cwebp). This requires the PHP exec() function and a [compatible](https://docs.ewww.io/article/43-supported-web-hosts) Linux, Windows, MacOS, or FreeBSD web server. [If your web server is not compatible, we offer unlimited lossless JPG image optimization and WebP conversion via our Compress API **for free*](https://docs.ewww.io/article/29-what-is-exec-and-why-do-i-need-it).
+EWWW Image Optimizer is the only plugin that lets you optimize images using tools on your own web server (jpegtran, optipng, pngout, pngquant, gifsicle, cwebp). This requires the PHP exec() function and a [compatible](https://docs.ewww.io/article/43-supported-web-hosts) Linux, Windows, MacOS, or FreeBSD web server. [If your web server is not compatible, we offer unlimited lossless JPG image optimization and WebP conversion via our Compress API **for free**](https://docs.ewww.io/article/29-what-is-exec-and-why-do-i-need-it).
 
 **Upgrade to [Premium](https://ewww.io/plans/) for:**
 
@@ -170,6 +170,23 @@ That's not a question, but since I made it up, I'll answer it. See this resource
 
 * Feature requests can be viewed and submitted on our [feedback portal](https://feedback.ewww.io/b/features)
 * If you would like to help translate this plugin in your language, [join the team](https://translate.wordpress.org/projects/wp-plugins/ewww-image-optimizer/)
+
+= 8.7.5 =
+*Release Date - August 5, 2026*
+
+* improved: use WP file access functions wherever possible
+* fixed: PHP notices in BuddyPress/BuddyBoss compatibility functions
+* removed: PNG to JPG auto-convert for large PNG images
+
+= 8.7.4 =
+*Release Date - July 16, 2026*
+
+* security: prevent authenticated XSS
+
+= 8.7.3 =
+*Release Date - July 9, 2026*
+
+* added: ewww_image_optimizer_cloud_based_media filter for cloud-based storage plugins to integrate with optimization processes
 
 = 8.7.2 =
 *Release Date - June 10, 2026*

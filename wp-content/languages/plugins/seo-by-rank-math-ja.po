@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Rank Math SEO – AI SEO Tools to Dominate SEO Rankings - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-08 13:59:07+0000\n"
+"PO-Revision-Date: 2026-07-17 13:24:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,381 @@ msgstr ""
 "X-Generator: GlotPress/4.0.3\n"
 "Language: ja_JP\n"
 "Project-Id-Version: Plugins - Rank Math SEO – AI SEO Tools to Dominate SEO Rankings - Stable (latest release)\n"
+
+#: includes/modules/ai-visibility/Api/class-base-controller.php:104
+#: includes/modules/ai-visibility/Api/class-checkout-controller.php:83
+#: includes/modules/ai-visibility/Api/class-trial-controller.php:94
+msgid "Rank Math account not connected. Please connect your account and try again."
+msgstr "Rank Math アカウントが連携されていません。アカウントを連携してから、もう一度お試しください。"
+
+#. translators: %d: HTTP status code returned by the backend.
+#: includes/modules/ai-visibility/Api/class-base-controller.php:163
+msgid "AI Visibility API returned an unexpected status: %d"
+msgstr "AI Visibility API から予期しないステータスが返されました: %d"
+
+#: includes/modules/ai-visibility/Api/class-base-controller.php:171
+msgid "AI Visibility API returned an invalid response."
+msgstr "AI Visibility API から無効なレスポンスが返されました。"
+
+#: includes/modules/ai-visibility/Api/class-brands-controller.php:37
+msgid "Brand UUID."
+msgstr "ブランドの UUID。"
+
+#: includes/modules/ai-visibility/Api/class-brands-controller.php:464
+msgid "No fields to update."
+msgstr "更新するフィールドがありません。"
+
+#: includes/modules/ai-visibility/Api/class-brands-controller.php:55
+msgid "Force a refresh from the AI Visibility API."
+msgstr "AI Visibility API からのデータを強制的に再取得します。"
+
+#: includes/modules/ai-visibility/Api/class-brands-controller.php:62
+msgid "Filter brands by name or URL."
+msgstr "名前または URL でブランドを絞り込みます。"
+
+#: includes/modules/ai-visibility/Api/class-trial-controller.php:125
+msgid "We could not activate your trial. Please try again."
+msgstr "トライアルを有効化できませんでした。もう一度お試しください。"
+
+#: includes/modules/ai-visibility/Api/class-brands-controller.php:112
+msgid "ISO 3166-1 alpha-2 country code (e.g. \"US\", \"HU\")."
+msgstr "ISO 3166-1 alpha-2の国コード (例: \"US\", \"HU\")。"
+
+#: includes/modules/ai-visibility/Api/class-brands-controller.php:201
+msgid "Query UUID."
+msgstr "クエリーの UUID。"
+
+#: includes/modules/ai-visibility/Api/class-checkout-controller.php:112
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/shared/Modals/CheckoutIframe.js:50
+#: includes/modules/ai-visibility/assets/src/shared/Modals/CheckoutIframe.js:54
+msgid "Could not start the checkout session. Please try again."
+msgstr "購入手続きを開始できませんでした。もう一度お試しください。"
+
+#: includes/modules/ai-visibility/Api/class-trial-controller.php:75
+msgid "Your AI Visibility trial has been activated."
+msgstr "AI Visibility のトライアルが有効化されました。"
+
+#: includes/modules/ai-visibility/Api/class-brands-controller.php:208
+msgid "Whether the query is enabled for analysis."
+msgstr "このクエリーを分析対象として有効化するかどうか。"
+
+#: includes/modules/ai-visibility/Api/class-brands-controller.php:100
+msgid "Brand website URL or domain."
+msgstr "ブランドのサイト URL またはドメイン。"
+
+#: includes/abilities/ai-visibility/class-create-ai-visibility-brand.php:69
+msgid "Creates a new brand for AI Visibility monitoring, triggering an initial analysis automatically."
+msgstr "AI Visibility でモニタリングする新しいブランドを作成し、初回の分析を自動的に実行します。"
+
+#: includes/abilities/ai-visibility/class-create-ai-visibility-brand.php:80
+#: includes/modules/ai-visibility/Api/class-brands-controller.php:94
+msgid "Brand name."
+msgstr "ブランド名。"
+
+#: includes/abilities/ai-visibility/class-create-ai-visibility-brand.php:89
+#: includes/modules/ai-visibility/Api/class-brands-controller.php:106
+msgid "Short description of the brand or product."
+msgstr "ブランドまたは製品の簡単な説明。"
+
+#: includes/abilities/ai-visibility/class-get-ai-visibility-brand-insights.php:58
+msgid "Get AI Visibility brand insights"
+msgstr "AI Visibility のブランドインサイトを取得"
+
+#: includes/abilities/ai-visibility/class-get-ai-visibility-brand-insights.php:70
+msgid "Brand UUID. Obtain from get-ai-visibility-overview."
+msgstr "ブランドの UUID。get-ai-visibility-overview から取得してください。"
+
+#: includes/abilities/ai-visibility/class-get-ai-visibility-brand-queries.php:70
+msgid "Brand UUID. Obtain from get-ai-visibility-overview or get-ai-visibility-brand-insights."
+msgstr "ブランドの UUID。get-ai-visibility-overview または get-ai-visibility-brand-insights から取得してください。"
+
+#: includes/abilities/ai-visibility/class-get-ai-visibility-overview.php:58
+msgid "Get AI Visibility overview"
+msgstr "AI Visibility の概要を取得"
+
+#: includes/abilities/ai-visibility/class-get-ai-visibility-overview.php:59
+msgid "Returns the site-level AI Visibility summary and the full list of tracked brands with their current scores, ranks, sentiment, and analysis status."
+msgstr "サイト全体の AI Visibility サマリーと、現在のスコア・ランク・センチメント・分析状況を含む、モニタリング中の全ブランドの一覧を返します。"
+
+#: includes/abilities/ai-visibility/class-get-ai-visibility-overview.php:69
+msgid "Pass true to bypass the 12-hour dashboard cache and return a stale-flagged response. Use the REST endpoint to trigger a fresh upstream fetch."
+msgstr "true を渡すと、12時間のダッシュボードキャッシュを無視し、古いデータであることを示すフラグ付きのレスポンスを返します。最新のデータを取得するには REST エンドポイントを使用してください。"
+
+#: includes/abilities/ai-visibility/class-subscriber.php:68
+#: includes/module/class-manager.php:236
+#: includes/modules/ai-visibility/Admin/class-admin.php:62
+#: includes/modules/ai-visibility/Admin/class-admin.php:149
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/App.js:88
+msgid "AI Visibility"
+msgstr "AI Visibility"
+
+#: includes/module/class-manager.php:237
+msgid "Track your brand's AI search visibility. Monitor brand mentions, citations, & sentiment, and discover opportunities to grow your AI visibility."
+msgstr "ブランドの AI 検索での可視性を追跡できます。ブランドのメンション・引用・センチメントをモニタリングし、AI 上での可視性を高めるチャンスを見つけましょう。"
+
+#: includes/module/class-manager.php:565 assets/admin/js/components.js:1
+#: assets/admin/js/modules.js:1 assets/admin/js/post-list.js:1
+#: assets/admin/js/rank-math-app.js:1
+#: includes/modules/content-ai/assets/js/content-ai-media.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
+#: includes/modules/links/assets/js/links-page.js:1
+msgid "Free 15-Day Content AI Trial"
+msgstr "Content AI 15日間無料トライアル"
+
+#. Translators: placeholder is the new label.
+#: includes/modules/ai-visibility/Admin/class-admin.php:67
+msgid "AI Visibility %s"
+msgstr "AI Visibility %s"
+
+#: includes/abilities/ai-visibility/class-create-ai-visibility-brand.php:94
+msgid "ISO 3166-1 alpha-2 country code (e.g. \"US\", \"HU\"). Defaults to no country filter."
+msgstr "ISO 3166-1 alpha-2の国コード (例: 「US」「HU」)。指定しない場合、国での絞り込みは行われません。"
+
+#: includes/abilities/ai-visibility/class-get-ai-visibility-brand-insights.php:59
+msgid "Returns the full analysis results for a single brand — AI Visibility score, rank, sentiment, mention and citation counts, per-competitor breakdown, and per-query results including the raw AI model responses."
+msgstr "単一ブランドの分析結果を完全な形で返します。AI Visibility スコア、ランク、センチメント、メンション数と引用数、競合ごとの内訳、AI モデルの生の応答を含むクエリーごとの結果が含まれます。"
+
+#: includes/abilities/ai-visibility/class-get-ai-visibility-brand-queries.php:58
+msgid "Get AI Visibility brand queries"
+msgstr "AI Visibility のブランドクエリーを取得"
+
+#: includes/abilities/ai-visibility/class-get-ai-visibility-brand-queries.php:59
+msgid "Returns the list of search queries being monitored for a brand, including which are currently enabled and which were auto-generated as baselines."
+msgstr "あるブランドについてモニタリング中の検索クエリーの一覧を返します。現在有効になっているクエリーと、ベースラインとして自動生成されたクエリーを含みます。"
+
+#: includes/abilities/ai-visibility/class-get-ai-visibility-overview.php:74
+msgid "Filter brands by name or URL (case-insensitive substring match)."
+msgstr "名前または URL でブランドを絞り込みます (大文字小文字を区別しない部分一致)。"
+
+#: includes/abilities/ai-visibility/class-subscriber.php:69
+msgid "Abilities to retrieve AI brand visibility data tracked by Rank Math."
+msgstr "Rank Math がモニタリングする AI ブランド可視性データを取得するためのアビリティ。"
+
+#: includes/abilities/ai-visibility/class-create-ai-visibility-brand.php:85
+msgid "Brand website URL."
+msgstr "ブランドのサイト URL。"
+
+#: includes/abilities/ai-visibility/class-create-ai-visibility-brand.php:68
+msgid "Create AI Visibility brand"
+msgstr "AI Visibility のブランドを作成"
+
+#: includes/modules/links/Api/class-controller.php:754
+msgid "Filter by post ID."
+msgstr "投稿 ID で絞り込む。"
+
+#: includes/frontend/paper/class-singular.php:133
+msgid "Post not found."
+msgstr "投稿が見つかりません。"
+
+#: includes/abilities/schema/class-subscriber.php:66
+msgid "Abilities to read and manage schema markup attached to posts."
+msgstr "投稿に添付されたスキーママークアップを読み取り、管理するアビリティ。"
+
+#: includes/abilities/schema/class-get-post-schema.php:166
+msgid "This schema type requires Rank Math PRO. Upgrade at rankmath.com/pro to unlock Movie, Dataset, Fact Check, and custom schema types."
+msgstr "このスキーマタイプを使用するには、Rank Math プロ版が必要です。映画、データセット、ファクトチェック、およびカスタムスキーマタイプを利用するには、rankmath.com/pro でアップグレードしてください。"
+
+#: includes/abilities/schema/class-get-post-schema.php:75
+msgid "When true (default), includes the schema types available on this install. Always pass true when evaluating which schema to add."
+msgstr "true (デフォルト) の場合、このインストールで使用可能なスキーマタイプが含まれます。追加するスキーマを評価する際は、常に true を渡してください。"
+
+#: includes/abilities/schema/class-get-post-schema.php:71
+msgid "The ID of the post to retrieve schema markup for."
+msgstr "スキーママークアップを取得する投稿 ID。"
+
+#: includes/abilities/schema/class-get-post-schema.php:59
+msgid "Get post schema"
+msgstr "投稿のスキーマを取得"
+
+#: includes/abilities/post-seo/class-subscriber.php:66
+msgid "Abilities to read and manage per-post SEO metadata."
+msgstr "投稿ごとの SEO メタデータを読み取り、管理するアビリティ。"
+
+#: includes/abilities/post-seo/class-subscriber.php:65
+msgid "Post SEO"
+msgstr "投稿の SEO"
+
+#: includes/abilities/post-seo/class-get-post-seo-meta.php:67
+msgid "The ID of the post to retrieve SEO metadata for."
+msgstr "SEO メタデータを取得する投稿 ID。"
+
+#: includes/abilities/post-seo/class-get-post-seo-meta.php:59
+msgid "Returns the full SEO metadata for a post: title, description, focus keyword, robots settings, canonical URL, Open Graph and Twitter overrides, and the current SEO score."
+msgstr "投稿の完全な SEO メタデータ: タイトル、説明、フォーカスキーワード、robots 設定、カロニカル URL、Open Graph および Twitter のオーバーライド、現在の SEO スコアを返します。"
+
+#: includes/abilities/post-seo/class-get-post-seo-meta.php:58
+msgid "Get post SEO metadata"
+msgstr "投稿の SEO メタデータを取得"
+
+#: includes/abilities/link-genius/class-subscriber.php:67
+msgid "Abilities to retrieve and analyse internal and external link data for posts."
+msgstr "投稿の内部リンクや外部リンクのデータを取得し、分析するアビリティ。"
+
+#: includes/abilities/link-genius/class-link-report-runner.php:84
+msgid "Upgrade to Rank Math PRO to unlock broken link detection, redirect chain analysis, and HTTP status distribution from the Link Genius audit."
+msgstr "Rank Math プロ版 にアップグレードすると、Link Genius 監査によるリンク切れ検出、リダイレクトチェーン分析、HTTP ステータス配信機能が利用できます。"
+
+#: includes/abilities/link-genius/class-get-post-links.php:80
+msgid "ID of the post whose links to retrieve."
+msgstr "リンクを取得する投稿 ID。"
+
+#: includes/abilities/link-genius/class-get-post-links.php:70
+msgid "Returns a paginated list of internal and external links stored for a given post, including the URL, link type, and target post details for internal links."
+msgstr "指定した投稿に保存されている内部リンクと外部リンクをページ分割した一覧を返します。内部リンクには、URL、リンクの種類、リンク先の投稿の詳細が含まれます。"
+
+#: includes/abilities/link-genius/class-get-post-links.php:69
+msgid "Get post links"
+msgstr "投稿リンクを取得"
+
+#: includes/abilities/link-genius/class-get-link-report.php:67
+msgid "Returns a site-wide link health report: total internal and external links, post counts with no internal or external links, and — on Rank Math PRO — broken links, redirects, nofollow counts, and HTTP status distribution from the Link Genius audit."
+msgstr "サイト全体のリンク健全性レポートを返します: レポートには、内部リンクと外部リンクの合計数、内部リンクまたは外部リンクのない投稿数、Rank Math プロ版では、Link Genius audit によるリンク切れ、リダイレクト、nofollow 数、HTTP ステータス分布が含まれます。"
+
+#: includes/abilities/schema/class-get-post-schema.php:60
+msgid "Returns the schema markup attached to a post and the schema types available on this install. Use this after rank-math/get-post-seo-meta to check what schema is already set and what types are supported before making a recommendation. If the schema type you want to recommend is not in available_types.types and upgrade_message is present, show upgrade_message verbatim to the user and do not suggest adding the schema type directly."
+msgstr "投稿に添付されているスキーママークアップと、この環境で利用可能なスキーマタイプを返します。rank-math/get-post-seo-meta の後でこれを使用し、提案を作成する前に、すでに設定されているスキーマとサポートされているタイプを確認してください。推奨したいスキーマタイプが available_types.types に含まれておらず、upgrade_message が存在する場合は、upgrade_message をそのままユーザーに表示し、スキーマタイプを直接追加をするように提案しないでください。"
+
+#: includes/abilities/link-genius/class-get-link-report.php:66
+msgid "Get link report"
+msgstr "リンクレポートを取得"
+
+#: includes/rest/class-rest-helper.php:108
+msgid "Sorry, you are not allowed to edit homepage SEO settings."
+msgstr "申しわけありません、ホームページの SEO 設定を編集する権限がありません。"
+
+#: includes/abilities/seo-analysis/class-fix-site-seo.php:105
+msgid "For bulk post fixes (focus_keywords, post_titles): max posts to update in one call. Default 100."
+msgstr "投稿の一括修正 (focus_keywords、post_titles) の場合: 1回の実行で更新できる投稿の最大数。デフォルトは100。"
+
+#: includes/abilities/seo-analysis/class-fix-site-seo.php:99
+msgid "Required for site_description: the new tagline to set."
+msgstr "site_description に必須: 設定する新しいキャッチフレーズ。"
+
+#: includes/abilities/seo-analysis/class-fix-site-seo.php:95
+msgid "The SEO test identifier to fix (from audit-site-seo findings)."
+msgstr "修正すべき SEO テスト識別子 (audit-site-seo の結果より)。"
+
+#: includes/abilities/seo-analysis/class-fix-site-seo.php:82
+msgid "Fix site SEO"
+msgstr "サイトの BSEO を修正する"
+
+#. translators: %d: count updated
+#: includes/abilities/seo-analysis/class-fix-runner.php:358
+msgid "Updated focus keywords on %d posts to match their titles."
+msgstr "%d 件の投稿のフォーカスキーワードを投稿タイトルに合わせて更新しました。"
+
+#: includes/abilities/seo-analysis/class-fix-runner.php:341
+msgid "All posts with focus keywords already include them in their titles."
+msgstr "フォーカスキーワードを含むすべての投稿は、すでに投稿タイトルにそのキーワードが含んでいます。"
+
+#. translators: %d: post_limit
+#: includes/abilities/seo-analysis/class-fix-runner.php:257
+#: includes/abilities/seo-analysis/class-fix-runner.php:365
+msgid "Results were limited to %d posts — run again to continue."
+msgstr "結果は %d 件の投稿に制限されました。続行するにはもう一度実行してください。"
+
+#: includes/abilities/seo-analysis/class-subscriber.php:67
+msgid "Abilities to audit and fix site-wide SEO issues."
+msgstr "サイト全体の SEO 問題を監査し、修正するアビリティ。"
+
+#: includes/abilities/seo-analysis/class-fix-site-seo.php:83
+msgid "Applies an automatic fix for a single failing Rank Math SEO test. Pass the test_id from an audit-site-seo finding. Some fixes require additional input (e.g. value for site_description). Bulk fixes accept an optional post_limit."
+msgstr "Rank Math SEO テスト で 失敗した1 件に対して自動修正を適用します。audit-site-seo の検出結果に含まれる test_id を指定してください。一部の修正では追加の入力が必要です (例: site_description の value)。一括修正では、オプションで post_limit を指定できます。"
+
+#: includes/abilities/seo-analysis/class-fix-runner.php:232
+msgid "All published posts already have a focus keyword set."
+msgstr "公開済みの記事にはすべて、既にフォーカスキーワードが設定されています。"
+
+#: includes/abilities/seo-analysis/class-fix-runner.php:213
+#: includes/abilities/seo-analysis/class-fix-runner.php:288
+msgid "No indexable post types are configured in Rank Math."
+msgstr "Rank Math には、インデックス登録可能な投稿タイプが設定されていません。"
+
+#: includes/abilities/seo-analysis/class-fix-runner.php:191
+msgid "Default robots.txt content written to Rank Math settings."
+msgstr "デフォルトの robots.txt の内容を Rank Math の設定へ保存しました。"
+
+#: includes/abilities/seo-analysis/class-fix-runner.php:185
+msgid "Robots.txt content is already configured in Rank Math settings."
+msgstr "Robots.txt の内容は、すでに Rank Math の設定になっています。"
+
+#: includes/abilities/seo-analysis/class-fix-runner.php:136
+msgid "Schema / rich snippet module enabled."
+msgstr "スキーマ / リッチスニペットモジュールを有効化しました。"
+
+#: includes/abilities/seo-analysis/class-fix-runner.php:125
+msgid "Sitemap module enabled. Your XML sitemap is now active."
+msgstr "サイトマップモジュールを有効化しました。XML サイトマップが利用できます。"
+
+#. translators: %s: tagline value
+#: includes/abilities/seo-analysis/class-fix-runner.php:107
+msgid "Site tagline updated to: \"%s\"."
+msgstr "サイトのキャッチフレーズを更新しました: %s。"
+
+#: includes/abilities/seo-analysis/class-fix-runner.php:99
+msgid "The provided tagline is the default WordPress value. Please supply a unique tagline."
+msgstr "入力されたキャッチフレーズは WordPress のデフォルト値です。独自のキャッチフレーズを入力してください。"
+
+#: includes/abilities/seo-analysis/class-fix-runner.php:93
+msgid "A \"value\" input is required to set the site tagline. Provide a short, unique description of your site."
+msgstr "サイトのキャッチフレーズを設定するには、「値」の入力が必要です。サイトを表す短くて独自性のある説明を入力してください。"
+
+#: includes/abilities/seo-analysis/class-fix-runner.php:77
+msgid "Permalink structure set to /%postname%/ and rewrite rules flushed."
+msgstr "パーマリンク構造を /%postname%/ に設定し、リライトルールが更新されました。"
+
+#: includes/abilities/seo-analysis/class-fix-runner.php:70
+msgid "Permalink structure is already set to /%postname%/."
+msgstr "パーマリンク構造はすでに /%postname%/ に設定されています。"
+
+#: includes/abilities/seo-analysis/class-fix-runner.php:57
+msgid "Site visibility set to public. Search engines can now index your site."
+msgstr "サイトの公開設定が「公開」になりました。検索エンジンがサイトをインデックスできるようになりました。"
+
+#. translators: %s: test ID
+#: includes/abilities/seo-analysis/class-fix-runner.php:40
+msgid "No automatic fix is available for test \"%s\". Use the fix_text guidance to resolve it manually."
+msgstr "テスト「%s」には自動修正機能がありません。fix_text のガイダンスに従って手動で解決してください。"
+
+#: includes/abilities/seo-analysis/class-audit-site-seo.php:66
+msgid "Audit site SEO"
+msgstr "サイトの SEO を監査"
+
+#. translators: %s: URL to the Rank Math PRO upgrade page
+#: includes/abilities/seo-analysis/class-audit-runner.php:65
+msgid "Competitor URL analysis requires Rank Math PRO. Upgrade at %s"
+msgstr "競合他社の URL の分析には Rank Math プロ版が必要です。%s でアップグレードしてください"
+
+#: includes/abilities/seo-analysis/class-audit-runner.php:56
+msgid "The provided URL is not valid."
+msgstr "入力された URL は無効です。"
+
+#. translators: 1: count updated, 2: total found
+#: includes/abilities/seo-analysis/class-fix-runner.php:250
+msgid "Set focus keywords on %1$d posts (derived from post titles)."
+msgstr "%1$d  件の投稿にフォーカスキーワードを設定しました (投稿タイトルから生成)。"
+
+#: includes/abilities/seo-analysis/class-fix-runner.php:171
+msgid "OpenGraph output is always enabled in Rank Math. If this test is failing, the remote audit API may need a fallback Open Graph image. Set one at Rank Math → Titles & Meta → Global Meta → Open Graph Thumbnail."
+msgstr "OpenGraph 出力は Rank Math つねに有効になっています。このテストが失敗する場合、リモート監査 API がフォールバック用の Open Graph 画像を必要としている可能性があります。Rank Math → タイトルとメタ → グローバルメタ → Open Graph サムネイル で設定してください。"
+
+#: includes/abilities/seo-analysis/class-fix-runner.php:160
+msgid "Global robots setting updated to allow indexing. Run a fresh audit to confirm the remote API test passes."
+msgstr "グローバル robots 設定をインデックス許可に更新しました。リモート API テストに合格することを確認するには、新しく監査を実行してください。"
+
+#: includes/abilities/seo-analysis/class-audit-site-seo.php:83
+msgid "Optional URL to audit. Defaults to this site's home URL. When provided, only remote API tests run (local checks are site-wide)."
+msgstr "監査対象の オプション URL。デフォルトはこのサイトのホーム URL です。指定した場合は、リモート API テストのみ実行されます (ローカルチェックはサイト全体)。"
+
+#: includes/abilities/seo-analysis/class-audit-site-seo.php:77
+msgid "Re-run the audit. Defaults to true (always fresh when called by an AI host)."
+msgstr "監査を再実行します。デフォルトは true です (AI ホストから呼び出された場合は常に最新)。"
+
+#: includes/abilities/seo-analysis/class-audit-site-seo.php:67
+msgid "Runs Rank Math's site-wide SEO audit and returns a structured score plus per-test findings with fix hints. Combines local checks with the remote rankmath.com API tests."
+msgstr "Rank Math のサイト全体 SEO 監査を実行し、構造化されたスコアとテストごとの結果、修正のヒントを返します。ローカルチェックとリモートの rankmath.com API テストを組み合わせて実行します。"
 
 #: includes/modules/content-ai/class-rest.php:125
 msgid "Per-tool usage data returned by the API."
@@ -23,17 +398,22 @@ msgstr "この機能の月間利用制限に達しました。"
 msgid "You've reached the monthly usage limit for this feature on your domain."
 msgstr "お客様のドメインにおけるこの機能の月間使用制限に達しました。"
 
-#. Translators: placeholder is the new label.
-#: includes/modules/links/Admin/class-admin.php:57
-msgid "Link Genius %s"
-msgstr "Link Genius %s"
+#. Translators: placeholder is the number of modified posts.
+#: includes/modules/content-ai/class-bulk-image-alt.php:174
+msgid "Image alt attributes successfully updated in %d posts. The process was stopped as you have reached the monthly limit for this feature."
+msgstr "%d 件の投稿で画像の alt 属性が更新されました。この機能の月間利用制限に達したため処理は停止されました。"
 
-#: includes/modules/links/Api/class-controller.php:642
-#: includes/modules/links/Api/class-controller.php:702
+#. Translators: placeholder is the number of modified posts.
+#: includes/modules/content-ai/class-bulk-edit-seo-meta.php:161
+msgid "SEO meta successfully updated in %d posts. The process was stopped as you have reached the monthly limit for this feature."
+msgstr "%d 件の投稿の SEO メタを更新しました。この機能の月間利用上限に達したため処理は停止されました。"
+
+#: includes/modules/links/Api/class-controller.php:721
+#: includes/modules/links/Api/class-controller.php:787
 msgid "Items per page."
 msgstr "1ページあたりの項目数。"
 
-#: includes/modules/links/Api/class-controller.php:648
+#: includes/modules/links/Api/class-controller.php:727
 msgid "Search in post title."
 msgstr "投稿タイトルで検索。"
 
@@ -41,48 +421,54 @@ msgstr "投稿タイトルで検索。"
 msgid "You do not have permission to access this resource."
 msgstr "このリソースにアクセスする権限がありません。"
 
-#: includes/modules/links/Api/class-controller.php:708
+#: includes/modules/links/Api/class-controller.php:793
 msgid "Search in URL."
 msgstr "URL 内を検索します。"
 
-#: includes/modules/links/Api/class-controller.php:719
+#: includes/modules/links/Api/class-controller.php:804
 msgid "Filter by target post ID."
 msgstr "対象の投稿 IDでフィルタリングします。"
 
-#: includes/modules/links/Api/class-controller.php:714
+#: includes/modules/links/Api/class-controller.php:799
 msgid "Filter by source post ID."
 msgstr "元の投稿 IDで絞り込みます。"
 
-#: includes/modules/links/Api/class-controller.php:675
-#: includes/modules/links/Api/class-controller.php:730
+#: includes/modules/links/Api/class-controller.php:760
+#: includes/modules/links/Api/class-controller.php:815
 msgid "Order by field."
 msgstr "フィールドで並べ替えます。"
 
-#: includes/modules/links/Api/class-controller.php:681
-#: includes/modules/links/Api/class-controller.php:736
+#: includes/modules/links/Api/class-controller.php:766
+#: includes/modules/links/Api/class-controller.php:821
 msgid "Order direction (ASC, DESC)."
 msgstr "並び順 (昇順、降順)。"
 
-#: includes/modules/links/Api/class-controller.php:669
+#: includes/modules/links/Api/class-controller.php:748
 msgid "Filter by SEO score range (great, good, bad, no-score)."
 msgstr "SEOスコアの範囲 (優良、良好、不良、スコアなし) で絞り込みます。"
 
-#: includes/modules/links/Api/class-controller.php:654
+#: includes/modules/links/Api/class-controller.php:733
 msgid "Filter by post type. Supports multiple values."
 msgstr "投稿タイプで絞り込み。複数の値を指定できます。"
 
-#: includes/modules/links/Api/class-controller.php:724
+#: includes/modules/links/Api/class-controller.php:809
 msgid "Filter by link type (1 = internal, 0 = external)."
 msgstr "リンクタイプ (1 = 内部、0 = 外部) で絞り込みます。"
 
-#: includes/module/class-manager.php:158
-#: includes/modules/links/Admin/class-admin.php:52
+#: includes/modules/links/Api/class-controller.php:742
+msgid "Filter by orphan status (orphan, linked)."
+msgstr "孤立ステータスで絞り込みます (孤立、リンクあり)。"
+
+#: includes/abilities/link-genius/class-subscriber.php:66
+#: includes/module/class-manager.php:165
+#: includes/modules/links/Admin/class-admin.php:51
+#: includes/modules/links/Admin/class-admin.php:55
 #: includes/modules/links/assets/js/links-page.js:1
 #: includes/modules/links/assets/src/features/links-page/LinksPage.js:86
 msgid "Link Genius"
 msgstr "リンクジーニアス"
 
-#: includes/module/class-manager.php:159
+#: includes/module/class-manager.php:166
 msgid "An advanced internal linking tool that analyzes your posts, tracks link data, highlights opportunities, and offers detailed report."
 msgstr "投稿を分析し、リンクデータを追跡し、改善点をハイライト表示し、詳細なレポートを提供する高度な内部リンクツールです。"
 
@@ -208,7 +594,7 @@ msgstr "カスタムのクロール / インデックス作成ルールを設定
 msgid "Edit llms.txt"
 msgstr "llms.txt を編集"
 
-#: includes/module/class-manager.php:195
+#: includes/module/class-manager.php:201
 msgid "LLMS Txt"
 msgstr "LLMS Txt"
 
@@ -217,7 +603,7 @@ msgstr "LLMS Txt"
 msgid "%s The URLs will be submitted to Bing and Yandex only, and not to Google."
 msgstr "%s URL は Bing と Yandex のみに送信され、Google には送信されません。"
 
-#: includes/module/class-manager.php:196
+#: includes/module/class-manager.php:202
 msgid "Serve a custom llms.txt file to guide AI models with posts, terms, and most important content on your website."
 msgstr "カスタムの llms.txt ファイルを提供することでサイト上の投稿、ターム、および重要なコンテンツに基づいて AI モデルを誘導できます。"
 
@@ -259,6 +645,16 @@ msgstr "現在のステップ"
 msgid "Current Step Data"
 msgstr "現在のステップデータ"
 
+#. translators: constant value
+#: includes/modules/analytics/class-analytics.php:246
+msgid "Loopback requests to %s are blocked. This may prevent scheduled tasks from running. Please check your server configuration."
+msgstr "%sへのループバックリクエストがブロックされています。これにより、スケジュールされたタスクの実行が妨げられる可能性があります。サーバーの設定を確認してください。"
+
+#. translators: constant value
+#: includes/modules/analytics/class-analytics.php:252
+msgid "WordPress's internal cron system is disabled via %s. Please ensure a real cron job is set up, otherwise scheduled features like Analytics may not work correctly."
+msgstr "WordPress の内部 cron システムが %sによって無効化されています。実際の cron ジョブを設定してください。設定しない場合、アナリティクスなどのスケジュール機能が正しく動作しないことがあります。"
+
 #: includes/helpers/class-content-ai.php:507
 msgid "The input provided is invalid. Please check the format and try again."
 msgstr "入力された内容が無効です。フォーマットを確認して、もう一度お試しください。"
@@ -299,7 +695,7 @@ msgstr "リダイレクト ID"
 msgid "Whether the object has a redirect or not"
 msgstr "オブジェクトにリダイレクトがあるかどうか"
 
-#: includes/rest/class-rest-helper.php:289
+#: includes/rest/class-rest-helper.php:296
 msgid "Sorry, the field contains invalid characters."
 msgstr "もうしわけありません、入力欄に無効な文字が含まれています。"
 
@@ -392,6 +788,30 @@ msgstr "データベース内で更新する Content AI プラン。"
 msgid "A list of prompts received from the API to be saved in the database."
 msgstr "データベースに保存される API から受信したプロンプトの一覧。"
 
+#: includes/modules/content-ai/class-rest.php:181
+msgid "The prompt data to be saved in the database."
+msgstr "データベースに保存するプロンプトデータ。"
+
+#: includes/modules/content-ai/class-rest.php:164
+msgid "The selected prompt to be updated in the recent prompts."
+msgstr "選択されたプロンプトは、最近のプロンプトで更新されます。"
+
+#: includes/modules/content-ai/class-rest.php:147
+msgid "The output index to delete, applicable only to the Chat endpoint."
+msgstr "削除する出力インデックス、Chat エンドポイントにのみ適用されます。"
+
+#: includes/modules/content-ai/class-rest.php:142
+msgid "Indicates if the request to delete the output was for the Chat endpoint."
+msgstr "出力削除のリクエストが Chat エンドポイントに対するものかどうかを示します。"
+
+#: includes/modules/content-ai/class-rest.php:78
+msgid "The content of the new post."
+msgstr "新しい投稿の内容。"
+
+#: includes/modules/analytics/rest/class-rest.php:165
+msgid "Hide."
+msgstr "非表示。"
+
 #: includes/modules/analytics/rest/class-rest.php:160
 msgid "Toggle bar."
 msgstr "切り替えバー。"
@@ -430,8 +850,8 @@ msgstr "1ページあたりの表示件数。"
 
 #: includes/modules/analytics/rest/class-rest.php:78
 #: includes/modules/analytics/rest/class-rest.php:119
-#: includes/modules/links/Api/class-controller.php:637
-#: includes/modules/links/Api/class-controller.php:697
+#: includes/modules/links/Api/class-controller.php:716
+#: includes/modules/links/Api/class-controller.php:782
 msgid "Page number."
 msgstr "ページ番号。"
 
@@ -439,14 +859,61 @@ msgstr "ページ番号。"
 msgid "Post Type."
 msgstr "投稿タイプ。"
 
+#: includes/modules/analytics/rest/class-rest.php:56
+msgid "Post ID."
+msgstr "投稿 ID 。"
+
+#: includes/admin/class-bulk-actions.php:111
+msgid "Determine Search Intent"
+msgstr "検索意図を判定"
+
+#: includes/admin/class-bulk-actions.php:139 assets/admin/js/components.js:1
+#: assets/admin/js/post-list.js:1 assets/admin/js/rank-math-app.js:1
+#: includes/modules/content-ai/assets/js/content-ai-media.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
+#: includes/modules/links/assets/js/links-page.js:1
+msgid "Your current plugin version does not support this feature. Please update Rank Math PRO to version 3.0.83 or later to unlock full functionality."
+msgstr "現在お使いのプラグインのバージョンでは、この機能はサポートされていません。すべての機能をご利用いただくには、Rank Math プロ版をバージョン3.0.83以降にアップデートしてください。"
+
 #: includes/admin/wizard/views/search-console-ui.php:358
 #: assets/admin/js/generalSettings.js:1 assets/admin/js/wizard.js:1
 msgid "Select Account"
 msgstr "アカウントを選択"
 
+#. Translators: placeholders are opening and closing tags for connect analytics
+#. setting and using ga4 property doc.
+#: includes/updates/update-1.0.239.php:35
+msgid "Universal Analytics (UA) is no longer supported. Please connect your Google Analytics GA4 account by navigating to %1$sGeneral Settings → Analytics%2$s. For more details, refer to this guide: %3$sHow to Use Google Analytics 4 (GA4) Property with Rank Math%4$s."
+msgstr "ユニバーサル アナリティクス (UA) はサポートされなくなりました。 %1$s 一般設定 → Analytics %2$s に移動して、Google Analytics GA4 アカウントに接続してください。詳細については、%3$s Rank Math %4$s で Google アナリティクス 4 (GA4) プロパティを使用する方法のガイドを参照してください。"
+
+#: includes/modules/sitemap/settings/authors.php:52
+#: assets/admin/js/sitemapSettings.js:1
+msgid "Enable this option to include authors in the sitemap even if they have not created any posts. This ensures all author archives are listed, regardless of content availability."
+msgstr "このオプションを有効にすると、投稿を作成していない著者もサイトマップに含めることができます。これにより、コンテンツの可用性に関係なく、すべての作成者のアーカイブがリストされるようになります。"
+
+#. Translators: placeholder is the URL to the robots.txt tester tool.
+#: includes/modules/robots-txt/options.php:96
+msgid "Test and edit your live robots.txt file with our <a href=\"%1$s\" target=\"_blank\">Robots.txt Tester</a>."
+msgstr "<a href=\"%1$s\" target=\"_blank\">Robots.txt テスター</a>を使用して、現在使用中の robots.txt ファイルをテストおよび編集します。"
+
+#: includes/modules/sitemap/settings/authors.php:51
+#: assets/admin/js/sitemapSettings.js:1
+msgid "Include Authors Without Posts"
+msgstr "投稿のない 投稿者を含める"
+
 #: includes/rest/class-rest-helper.php:68
 msgid "Sorry, you are not allowed to create/update schema."
 msgstr "スキーマを作成 / 更新する権限がありません。"
+
+#: includes/modules/analytics/class-analytics-common.php:356
+#: includes/modules/analytics/assets/js/stats.js:1
+msgid "Average position of all the keywords ranking within top 100 positions."
+msgstr "上位100位以内にランクインしているすべてのキーワードの平均順位。"
+
+#: includes/modules/analytics/class-analytics-common.php:350
+#: includes/modules/analytics/assets/js/stats.js:1
+msgid "Total number of keywords your site ranks for within top 100 positions."
+msgstr "サイトが上位100位以内にランクインしているキーワードの総数。"
 
 #: includes/modules/schema/blocks/faq/block.json
 msgctxt "block title"
@@ -543,6 +1010,32 @@ msgctxt "block description"
 msgid "Add the Schema generated by Rank Math anywhere on your page using this Block."
 msgstr "このブロックを使用して、ページの任意の場所に Rank Math によって生成されたスキーマを追加します。"
 
+#: includes/admin/class-cmb2-options.php:384
+#: includes/admin/class-cmb2-options.php:392
+#: includes/admin/class-option-center.php:588
+#: includes/admin/class-option-center.php:594
+msgid "You do not have permission to edit the .htaccess file."
+msgstr ".htaccess ファイルを編集する権限がありません。"
+
+#: includes/modules/content-ai/views/options.php:161
+#: assets/admin/js/generalSettings.js:1
+msgid "Arabic"
+msgstr "アラビア語"
+
+#: includes/modules/content-ai/views/options.php:189
+#: assets/admin/js/generalSettings.js:1
+msgid "Turkish"
+msgstr "トルコ語"
+
+#: includes/modules/content-ai/class-bulk-image-alt.php:139
+msgid "Bulk image alt generation failed."
+msgstr "画像の代替テキスト一括生成に失敗しました。"
+
+#: includes/modules/content-ai/class-bulk-actions.php:91
+#: includes/modules/content-ai/class-bulk-actions.php:108
+msgid "Write Image Alt Text with AI"
+msgstr "AI で画像の代替テキストを作成"
+
 #: includes/modules/content-ai/class-bulk-image-alt.php:54
 msgid "Bulk image alt generation started. It might take few minutes to complete the process."
 msgstr "画像の代替テキストの一括生成を開始しました。処理には数分かかる場合があります。"
@@ -552,6 +1045,24 @@ msgstr "画像の代替テキストの一括生成を開始しました。処理
 msgid "Image alt attributes successfully updated in %d post."
 msgid_plural "Image alt attributes successfully updated in %d posts."
 msgstr[0] "%d 投稿で画像の alt 属性が正常に更新されました。"
+
+#: includes/modules/local-seo/views/titles-options.php:249
+#: assets/admin/js/titleSettings.js:1
+msgid "Additional Info"
+msgstr "追加情報"
+
+#: includes/helpers/class-choices.php:638
+msgid "Number of Employees"
+msgstr "従業員数"
+
+#: includes/modules/local-seo/views/titles-options.php:65
+#: assets/admin/js/titleSettings.js:1
+msgid "Provide a detailed description of your organization."
+msgstr "組織の詳細な説明を入力してください。"
+
+#: includes/modules/local-seo/views/titles-options.php:85
+msgid "URL of your website or your company’s website."
+msgstr "個人のサイトまたは会社のサイトの URL。"
 
 #: includes/modules/local-seo/views/titles-options.php:250
 #: assets/admin/js/titleSettings.js:1
@@ -575,9 +1086,75 @@ msgstr "説明:"
 msgid "Founding Date"
 msgstr "設立日"
 
+#: includes/helpers/class-choices.php:631
+msgid "ISO 6523 Code"
+msgstr "ISO 6523 コード"
+
+#: includes/helpers/class-choices.php:637
+msgid "Tax ID"
+msgstr "税務登録番号"
+
+#: includes/helpers/class-choices.php:636
+msgid "VAT ID"
+msgstr "VAT 番号"
+
+#: includes/helpers/class-choices.php:635
+msgid "Global Location Number"
+msgstr "グローバルロケーション番号"
+
+#: includes/helpers/class-choices.php:634
+msgid "NAICS Code"
+msgstr "NAICS コード"
+
+#: includes/helpers/class-choices.php:633
+msgid "LEI Code"
+msgstr "LEI コード"
+
+#: includes/helpers/class-choices.php:632
+msgid "DUNS"
+msgstr "DUNS 番号"
+
+#: includes/modules/content-ai/views/options.php:33
+#: assets/admin/js/generalSettings.js:1
+msgid "Escape the Writer's Block Using AI to Write Inside WordPress."
+msgstr "AI を活用して WordPress で文章を書くことで、執筆の行き詰まりを解消しできます。"
+
+#: includes/modules/content-ai/views/options.php:32
+#: assets/admin/js/generalSettings.js:1
+msgid "Engage with RankBot, Our AI Chatbot, For SEO Advice."
+msgstr "SEO に関するアドバイスが必要な場合は、AI チャットボット「RankBot」をご利用ください。"
+
+#: includes/modules/content-ai/views/options.php:31
+#: assets/admin/js/generalSettings.js:1
+msgid "Experience the Revolutionary AI-Powered Content Editor."
+msgstr "革新的な AI 搭載コンテンツエディターを体験しましょう。"
+
+#: includes/modules/content-ai/views/options.php:30
+#: assets/admin/js/generalSettings.js:1
+msgid "Gain Access to 40+ Advanced AI Tools."
+msgstr "40種類以上の高度な AI ツールをご利用いただけます。"
+
+#. Description of the plugin
+#: rank-math.php
+msgid "Rank Math SEO is the Best WordPress SEO plugin with the features of many SEO and AI SEO tools in a single package to help multiply your SEO traffic."
+msgstr "Rank Math SEO は、数多くの SEO ツールと AI SEO ツールの機能を 1つにまとめた、最高の WordPress SEO プラグインです。SEO 経由のトラフィックを大幅に伸ばすお手伝いをします。"
+
 #: includes/modules/content-ai/class-bulk-actions.php:249
 msgid "Terminate"
 msgstr "終了"
+
+#: includes/modules/content-ai/class-bulk-actions.php:242
+msgid "Cancel Content AI Bulk Editing Process"
+msgstr "Content AI の一括編集処理をキャンセル"
+
+#. Translators: placeholders are the number of posts that were processed.
+#: includes/modules/content-ai/class-bulk-actions.php:245
+msgid "Terminate the ongoing Content AI Bulk Editing Process to halt any pending modifications and revert to the previous state. The bulk metadata has been generated for %1$d out of %1$d posts so far."
+msgstr "実行中の Content AI 一括編集処理を終了し、保留中の変更を停止して以前の状態に戻します。これまでに %1$d件中 %1$d件の投稿でメタデータが生成されています。"
+
+#: includes/modules/content-ai/class-bulk-actions.php:261
+msgid "Bulk Editing Process Successfully Cancelled"
+msgstr "一括編集処理を正常にキャンセルしました"
 
 #: includes/admin/class-admin-menu.php:286
 msgid "Christmas Sale"
@@ -637,6 +1214,14 @@ msgstr "nofollow に設定"
 msgid "Set Schema: Default (%s)"
 msgstr "スキーマを設定: デフォルト (%s)"
 
+#: includes/admin/class-bulk-actions.php:83
+msgid "Set to noindex"
+msgstr "noindex に設定"
+
+#: includes/admin/class-bulk-actions.php:84
+msgid "Set to index"
+msgstr "index に設定"
+
 #: includes/modules/schema/shortcode/course.php:104
 msgid "Course Price"
 msgstr "コースの価格"
@@ -673,6 +1258,10 @@ msgstr "コースタイプ"
 msgid "Course Currency"
 msgstr "コースの通貨"
 
+#: includes/modules/analytics/class-analytics-common.php:332
+msgid "This is the number of pageviews carried out by visitors from Search Engines."
+msgstr "これは、検検索エンジン経由の訪問者によるページビュー数です。"
+
 #: includes/modules/content-ai/views/options.php:160
 #: assets/admin/js/generalSettings.js:1
 msgid "UK English"
@@ -683,13 +1272,17 @@ msgstr "英語 (イギリス)"
 msgid "US English"
 msgstr "英語 (アメリカ)"
 
-#: includes/modules/content-ai/class-admin.php:142
+#: includes/modules/content-ai/class-admin.php:145
 msgid "Content AI Plan"
 msgstr "Content AI プラン"
 
-#: includes/modules/content-ai/class-admin.php:146
+#: includes/modules/content-ai/class-admin.php:149
 msgid "Content AI Credits"
 msgstr "Content AI クレジット"
+
+#: includes/modules/content-ai/class-admin.php:153
+msgid "Content AI Refresh Date"
+msgstr "Content AI 更新日"
 
 #: includes/modules/content-ai/blocks/command/assets/src/block.json
 msgctxt "block keyword"
@@ -741,9 +1334,603 @@ msgstr "Content AI は、キーワード調査を対象国に合わせて調整�
 msgid "This feature enables the default primary tone or writing style that characterizes your content. You can override this in individual tools."
 msgstr "この機能により、コンテンツを特徴づけるデフォルトの主な口調または文体が有効になります。 これは個々のツールでオーバーライドできます。"
 
+#: includes/modules/content-ai/views/options.php:155
+#: assets/admin/js/generalSettings.js:1
+msgid "This option lets you set the default language for content generated using Content AI. You can override this in individual tools."
+msgstr "このオプションを使用すると、Content AI を使用して生成されたコンテンツのデフォルト言語を設定できます。 これは個々のツールでオーバーライドできます。"
+
+#: includes/modules/content-ai/views/options.php:96
+#: assets/admin/js/generalSettings.js:1
+msgid "This option lets you set the default audience that usually reads your content. You can override this in individual tools."
+msgstr "このオプションを使用すると、通常コンテンツを読むデフォルトの対象ユーザーを設定できます。 これは個々のツールでオーバーライドできます。"
+
+#: includes/helpers/class-content-ai.php:503
+msgid "Please revise the entered values in the fields as they are not secure. Make the required adjustments and try again."
+msgstr "フィールドに入力した値は安全ではないため、修正してください。 必要な調整を行って、再試行してください。"
+
 #: includes/modules/content-ai/class-bulk-actions.php:129
 msgid "Another bulk editing process is already running. Please try again later after the existing process is complete."
 msgstr "別の一括編集プロセスがすでに実行されています。 既存のプロセスが完了してから、もう一度試してください。"
+
+#: includes/modules/content-ai/views/options.php:188
+#: assets/admin/js/generalSettings.js:1
+msgid "Swedish"
+msgstr "スウェーデン語"
+
+#: includes/modules/content-ai/views/options.php:187
+#: assets/admin/js/generalSettings.js:1
+msgid "Spanish"
+msgstr "スペイン語"
+
+#: includes/modules/content-ai/views/options.php:186
+#: assets/admin/js/generalSettings.js:1
+msgid "Slovenian"
+msgstr "スロベニア語"
+
+#: includes/modules/content-ai/views/options.php:185
+#: assets/admin/js/generalSettings.js:1
+msgid "Slovak"
+msgstr "スロバキア語"
+
+#: includes/modules/content-ai/views/options.php:183
+#: assets/admin/js/generalSettings.js:1
+msgid "Romanian"
+msgstr "ルーマニア語"
+
+#: includes/modules/content-ai/views/options.php:182
+#: assets/admin/js/generalSettings.js:1
+msgid "Portuguese"
+msgstr "ポルトガル語"
+
+#: includes/modules/content-ai/views/options.php:181
+#: assets/admin/js/generalSettings.js:1
+msgid "Polish"
+msgstr "ポーランド語"
+
+#: includes/modules/content-ai/views/options.php:180
+#: assets/admin/js/generalSettings.js:1
+msgid "Norwegian"
+msgstr "ノルウェー語"
+
+#: includes/modules/content-ai/views/options.php:179
+#: assets/admin/js/generalSettings.js:1
+msgid "Lithuanian"
+msgstr "リトアニア語"
+
+#: includes/modules/content-ai/views/options.php:178
+#: assets/admin/js/generalSettings.js:1
+msgid "Latvian"
+msgstr "ラトビア語"
+
+#: includes/modules/content-ai/views/options.php:177
+#: assets/admin/js/generalSettings.js:1
+msgid "Korean"
+msgstr "韓国語"
+
+#: includes/modules/content-ai/views/options.php:176
+#: assets/admin/js/generalSettings.js:1
+msgid "Japanese"
+msgstr "日本語"
+
+#: includes/modules/content-ai/views/options.php:175
+#: assets/admin/js/generalSettings.js:1
+msgid "Italian"
+msgstr "イタリア語"
+
+#: includes/modules/content-ai/views/options.php:174
+#: assets/admin/js/generalSettings.js:1
+msgid "Indonesian"
+msgstr "インドネシア語"
+
+#: includes/modules/content-ai/views/options.php:173
+#: assets/admin/js/generalSettings.js:1
+msgid "Hungarian"
+msgstr "ハンガリー語"
+
+#: includes/modules/content-ai/views/options.php:172
+#: assets/admin/js/generalSettings.js:1
+msgid "Hebrew"
+msgstr "ヘブライ語"
+
+#: includes/modules/content-ai/views/options.php:171
+#: assets/admin/js/generalSettings.js:1
+msgid "Greek"
+msgstr "ギリシャ語"
+
+#: includes/modules/content-ai/views/options.php:170
+#: assets/admin/js/generalSettings.js:1
+msgid "German"
+msgstr "ドイツ語"
+
+#: includes/modules/content-ai/views/options.php:169
+#: assets/admin/js/generalSettings.js:1
+msgid "French"
+msgstr "フランス語"
+
+#: includes/modules/content-ai/views/options.php:168
+#: assets/admin/js/generalSettings.js:1
+msgid "Finnish"
+msgstr "フィンランド語"
+
+#: includes/modules/content-ai/views/options.php:167
+#: assets/admin/js/generalSettings.js:1
+msgid "Estonian"
+msgstr "エストニア語"
+
+#: includes/modules/content-ai/views/options.php:166
+#: assets/admin/js/generalSettings.js:1
+msgid "Dutch"
+msgstr "オランダ語"
+
+#: includes/modules/content-ai/views/options.php:165
+#: assets/admin/js/generalSettings.js:1
+msgid "Danish"
+msgstr "デンマーク語"
+
+#: includes/modules/content-ai/views/options.php:164
+#: assets/admin/js/generalSettings.js:1
+msgid "Czech"
+msgstr "チェコ語"
+
+#: includes/modules/content-ai/views/options.php:163
+#: assets/admin/js/generalSettings.js:1
+msgid "Chinese"
+msgstr "中国語"
+
+#: includes/modules/content-ai/views/options.php:162
+#: assets/admin/js/generalSettings.js:1
+msgid "Bulgarian"
+msgstr "ブルガリア語"
+
+#: includes/modules/content-ai/views/options.php:142
+#: assets/admin/js/generalSettings.js:1
+msgid "Travelers"
+msgstr "旅行者"
+
+#: includes/modules/content-ai/views/options.php:141
+#: assets/admin/js/generalSettings.js:1
+msgid "Tech Enthusiasts"
+msgstr "テクノロジー愛好家"
+
+#: includes/modules/content-ai/views/options.php:154
+#: assets/admin/js/generalSettings.js:1
+msgid "Default Language"
+msgstr "デフォルトの言語"
+
+#: includes/modules/content-ai/views/options.php:145
+#: assets/admin/js/generalSettings.js:1
+msgid "Writers"
+msgstr "ライター"
+
+#: includes/modules/content-ai/views/options.php:144
+#: assets/admin/js/generalSettings.js:1
+msgid "Video Creators"
+msgstr "動画クリエイター"
+
+#: includes/helpers/class-content-ai.php:497
+msgid "Please connect your account to use the Content AI."
+msgstr "Content AI を使用するには、アカウントを連携してください。"
+
+#: includes/helpers/class-content-ai.php:498
+msgid "Please update the Rank Math SEO plugin to the latest version to use this feature."
+msgstr "この機能を使用するには、Rank Math SEO プラグインを最新バージョンに更新してください。"
+
+#: includes/helpers/class-content-ai.php:499
+msgid "This feature is only available for Content AI subscribers."
+msgstr "この機能は Content AI の契約者のみ利用できます。"
+
+#: includes/helpers/class-content-ai.php:500
+msgid "Oops! Too many requests in a short time. Please try again after some time."
+msgstr "短時間に多くのリクエストが送信されました。しばらくしてからもう一度お試しください。"
+
+#: includes/helpers/class-content-ai.php:504
+msgid "The output was stopped as it was identified as potentially unsafe by the content filter."
+msgstr "コンテンツフィルターにより安全でない可能性があると判断されたため、出力を停止しました。"
+
+#: includes/helpers/class-content-ai.php:505
+msgid "Could not generate. Please try again later."
+msgstr "生成できませんでした。しばらくしてからもう一度お試しください。"
+
+#: includes/modules/content-ai/class-bulk-actions.php:87
+#: includes/modules/content-ai/class-bulk-actions.php:107
+msgid "&#8595; Rank Math Content AI"
+msgstr "&#8595; Rank Math Content AI"
+
+#: includes/modules/content-ai/class-bulk-actions.php:88
+msgid "Write SEO Title with AI"
+msgstr "AI で SEO タイトルを作成"
+
+#: includes/modules/content-ai/class-bulk-actions.php:89
+msgid "Write SEO Description with AI"
+msgstr "AI で SEO ディスクリプションを作成"
+
+#: includes/modules/content-ai/class-bulk-actions.php:90
+msgid "Write SEO Title & Description with AI"
+msgstr "AI で SEO タイトルとディスクリプションを作成"
+
+#. Translators: placeholder is the number of modified items.
+#: includes/modules/content-ai/class-bulk-edit-seo-meta.php:112
+msgid "SEO meta successfully updated in %d item."
+msgid_plural "SEO meta successfully updated in %d items."
+msgstr[0] "%d件の投稿で SEO メタ情報を更新しました。"
+
+#: includes/modules/content-ai/class-bulk-edit-seo-meta.php:54
+msgid "Bulk editing SEO meta started. It might take few minutes to complete the process."
+msgstr "SEO メタ情報の一括編集を開始しました。完了までに数分かかることがあります。"
+
+#: includes/modules/content-ai/class-content-ai-page.php:127
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
+msgid "AI Tools"
+msgstr "AI ツール"
+
+#: includes/modules/content-ai/class-content-ai-page.php:129
+msgid "Content AI Tools"
+msgstr "Content AI ツール"
+
+#: includes/modules/content-ai/class-content-ai-page.php:133
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
+msgid "Content Editor"
+msgstr "コンテンツエディター"
+
+#: includes/modules/content-ai/class-content-ai-page.php:135
+msgid "Content AI Editor"
+msgstr "Content AI エディター"
+
+#: includes/modules/content-ai/class-content-ai-page.php:139
+#: includes/modules/content-ai/assets/js/content-ai-page.js:1
+#: includes/modules/content-ai/assets/js/content-ai.js:1
+msgid "Chat"
+msgstr "チャット"
+
+#: includes/modules/content-ai/class-content-ai-page.php:141
+msgid "Content AI Chat"
+msgstr "Content AI チャット"
+
+#: includes/modules/content-ai/class-content-ai-page.php:147
+msgid "Content AI History"
+msgstr "Content AI 履歴"
+
+#: includes/modules/content-ai/views/options.php:100
+#: assets/admin/js/generalSettings.js:1
+msgid "Activists"
+msgstr "活動家"
+
+#: includes/modules/content-ai/views/options.php:101
+#: assets/admin/js/generalSettings.js:1
+msgid "Artists"
+msgstr "アーティスト"
+
+#: includes/modules/content-ai/views/options.php:103
+#: assets/admin/js/generalSettings.js:1
+msgid "Bargain Hunters"
+msgstr "お得情報を求める人"
+
+#: includes/modules/content-ai/views/options.php:104
+#: assets/admin/js/generalSettings.js:1
+msgid "Bloggers"
+msgstr "ブロガー"
+
+#: includes/modules/content-ai/views/options.php:105
+#: assets/admin/js/generalSettings.js:1
+msgid "Business Owners"
+msgstr "経営者"
+
+#: includes/modules/content-ai/views/options.php:106
+#: assets/admin/js/generalSettings.js:1
+msgid "Collectors"
+msgstr "コレクター"
+
+#: includes/modules/content-ai/views/options.php:107
+#: assets/admin/js/generalSettings.js:1
+msgid "Cooks"
+msgstr "料理好き"
+
+#: includes/modules/content-ai/views/options.php:108
+#: assets/admin/js/generalSettings.js:1
+msgid "Crafters"
+msgstr "クラフト愛好家"
+
+#: includes/modules/content-ai/views/options.php:109
+#: assets/admin/js/generalSettings.js:1
+msgid "Dancers"
+msgstr "ダンサー"
+
+#: includes/modules/content-ai/views/options.php:110
+#: assets/admin/js/generalSettings.js:1
+msgid "DIYers"
+msgstr "DIY 愛好家"
+
+#: includes/modules/content-ai/views/options.php:111
+#: assets/admin/js/generalSettings.js:1
+msgid "Designers"
+msgstr "デザイナー"
+
+#: includes/modules/content-ai/views/options.php:112
+#: assets/admin/js/generalSettings.js:1
+msgid "Educators"
+msgstr "教育関係者"
+
+#: includes/modules/content-ai/views/options.php:113
+#: assets/admin/js/generalSettings.js:1
+msgid "Engineers"
+msgstr "エンジニア"
+
+#: includes/modules/content-ai/views/options.php:114
+#: assets/admin/js/generalSettings.js:1
+msgid "Entrepreneurs"
+msgstr "起業家"
+
+#: includes/modules/content-ai/views/options.php:115
+#: assets/admin/js/generalSettings.js:1
+msgid "Environmentalists"
+msgstr "環境活動家"
+
+#: includes/modules/content-ai/views/options.php:116
+#: assets/admin/js/generalSettings.js:1
+msgid "Fashionistas"
+msgstr "ファッション愛好家"
+
+#: includes/modules/content-ai/views/options.php:117
+#: assets/admin/js/generalSettings.js:1
+msgid "Fitness Enthusiasts"
+msgstr "フィットネス愛好家"
+
+#: includes/modules/content-ai/views/options.php:118
+#: assets/admin/js/generalSettings.js:1
+msgid "Foodies"
+msgstr "グルメ愛好家"
+
+#: includes/modules/content-ai/views/options.php:119
+#: assets/admin/js/generalSettings.js:1
+msgid "Gaming Enthusiasts"
+msgstr "ゲーム愛好家"
+
+#: includes/modules/content-ai/views/options.php:120
+#: assets/admin/js/generalSettings.js:1
+msgid "Gardeners"
+msgstr "ガーデニング愛好家"
+
+#: includes/modules/content-ai/views/options.php:121
+#: assets/admin/js/generalSettings.js:1
+msgid "General Audience"
+msgstr "一般層"
+
+#: includes/modules/content-ai/views/options.php:122
+#: assets/admin/js/generalSettings.js:1
+msgid "Health Enthusiasts"
+msgstr "健康志向の人"
+
+#: includes/modules/content-ai/views/options.php:123
+#: assets/admin/js/generalSettings.js:1
+msgid "Healthcare Professionals"
+msgstr "医療従事者"
+
+#: includes/modules/content-ai/views/options.php:124
+#: assets/admin/js/generalSettings.js:1
+msgid "Indoor Hobbyists"
+msgstr "インドア派の趣味人"
+
+#: includes/modules/content-ai/views/options.php:125
+#: assets/admin/js/generalSettings.js:1
+msgid "Investors"
+msgstr "投資家"
+
+#: includes/modules/content-ai/views/options.php:126
+#: assets/admin/js/generalSettings.js:1
+msgid "Job Seekers"
+msgstr "求職者"
+
+#: includes/modules/content-ai/views/options.php:127
+#: assets/admin/js/generalSettings.js:1
+msgid "Movie Buffs"
+msgstr "映画好き"
+
+#: includes/modules/content-ai/views/options.php:128
+#: assets/admin/js/generalSettings.js:1
+msgid "Musicians"
+msgstr "ミュージシャン"
+
+#: includes/modules/content-ai/views/options.php:129
+#: assets/admin/js/generalSettings.js:1
+msgid "Outdoor Enthusiasts"
+msgstr "アウトドア愛好家"
+
+#: includes/modules/content-ai/views/options.php:130
+#: assets/admin/js/generalSettings.js:1
+msgid "Parents"
+msgstr "親"
+
+#: includes/modules/content-ai/views/options.php:131
+#: assets/admin/js/generalSettings.js:1
+msgid "Pet Owners"
+msgstr "ペットの飼い主"
+
+#: includes/modules/content-ai/views/options.php:132
+#: assets/admin/js/generalSettings.js:1
+msgid "Photographers"
+msgstr "写真愛好家"
+
+#: includes/modules/content-ai/views/options.php:133
+#: assets/admin/js/generalSettings.js:1
+msgid "Podcast Listeners"
+msgstr "ポッドキャストリスナー"
+
+#: includes/modules/content-ai/views/options.php:134
+#: assets/admin/js/generalSettings.js:1
+msgid "Professionals"
+msgstr "専門職の人"
+
+#: includes/modules/content-ai/views/options.php:135
+#: assets/admin/js/generalSettings.js:1
+msgid "Retirees"
+msgstr "退職者"
+
+#: includes/modules/content-ai/views/options.php:137
+#: assets/admin/js/generalSettings.js:1
+msgid "Seniors"
+msgstr "シニア層"
+
+#: includes/modules/content-ai/views/options.php:138
+#: assets/admin/js/generalSettings.js:1
+msgid "Social Media Users"
+msgstr "SNS ユーザー"
+
+#: includes/modules/content-ai/views/options.php:139
+#: assets/admin/js/generalSettings.js:1
+msgid "Sports Fans"
+msgstr "スポーツファン"
+
+#: includes/modules/content-ai/views/options.php:140
+#: assets/admin/js/generalSettings.js:1
+msgid "Students"
+msgstr "学生"
+
+#: includes/modules/content-ai/views/options.php:143
+#: assets/admin/js/generalSettings.js:1
+msgid "TV Enthusiasts"
+msgstr "テレビ愛好家"
+
+#. translators: 1. Credits left 2. Buy more credits link
+#: includes/modules/content-ai/views/options.php:223
+msgid "%1$s credits left this month. Credits will renew on %2$s or you can upgrade to get more credits %3$s."
+msgstr "今月の残りクレジットは %1$sです。クレジットは %2$sに更新されます。または %3$sからアップグレードするとクレジットを追加できます。"
+
+#: includes/modules/content-ai/views/options.php:58
+#: assets/admin/js/generalSettings.js:1
+msgid "Default Tone"
+msgstr "デフォルトのトーン"
+
+#: includes/modules/content-ai/views/options.php:63
+#: assets/admin/js/generalSettings.js:1
+msgid "Analytical"
+msgstr "分析的"
+
+#: includes/modules/content-ai/views/options.php:64
+#: assets/admin/js/generalSettings.js:1
+msgid "Argumentative"
+msgstr "論理的"
+
+#: includes/modules/content-ai/views/options.php:65
+#: assets/admin/js/generalSettings.js:1
+msgid "Casual"
+msgstr "カジュアル"
+
+#: includes/modules/content-ai/views/options.php:66
+#: assets/admin/js/generalSettings.js:1
+msgid "Conversational"
+msgstr "会話調"
+
+#: includes/modules/content-ai/views/options.php:67
+#: assets/admin/js/generalSettings.js:1
+msgid "Creative"
+msgstr "クリエイティブ"
+
+#: includes/modules/content-ai/views/options.php:68
+#: assets/admin/js/generalSettings.js:1
+msgid "Descriptive"
+msgstr "説明的"
+
+#: includes/modules/content-ai/views/options.php:69
+#: assets/admin/js/generalSettings.js:1
+msgid "Emotional"
+msgstr "感情的"
+
+#: includes/modules/content-ai/views/options.php:70
+#: assets/admin/js/generalSettings.js:1
+msgid "Empathetic"
+msgstr "共感的"
+
+#: includes/modules/content-ai/views/options.php:71
+#: assets/admin/js/generalSettings.js:1
+msgid "Expository"
+msgstr "説明文的"
+
+#: includes/modules/content-ai/views/options.php:72
+#: assets/admin/js/generalSettings.js:1
+msgid "Factual"
+msgstr "事実に基づく"
+
+#: includes/modules/content-ai/views/options.php:73
+#: assets/admin/js/generalSettings.js:1
+msgid "Formal"
+msgstr "フォーマル"
+
+#: includes/modules/content-ai/views/options.php:74
+#: assets/admin/js/generalSettings.js:1
+msgid "Friendly"
+msgstr "親しみやすい"
+
+#: includes/modules/content-ai/views/options.php:75
+#: assets/admin/js/generalSettings.js:1
+msgid "Humorous"
+msgstr "ユーモラス"
+
+#: includes/modules/content-ai/views/options.php:76
+#: assets/admin/js/generalSettings.js:1
+msgid "Informal"
+msgstr "インフォーマル"
+
+#: includes/modules/content-ai/views/options.php:77
+#: assets/admin/js/generalSettings.js:1
+msgid "Journalese"
+msgstr "ジャーナリズム調"
+
+#: includes/modules/content-ai/views/options.php:78
+#: assets/admin/js/generalSettings.js:1
+msgid "Narrative"
+msgstr "物語調"
+
+#: includes/modules/content-ai/views/options.php:79
+#: assets/admin/js/generalSettings.js:1
+msgid "Objective"
+msgstr "客観的"
+
+#: includes/modules/content-ai/views/options.php:80
+#: assets/admin/js/generalSettings.js:1
+msgid "Opinionated"
+msgstr "主観的な意見調"
+
+#: includes/modules/content-ai/views/options.php:81
+#: assets/admin/js/generalSettings.js:1
+msgid "Persuasive"
+msgstr "説得力のある"
+
+#: includes/modules/content-ai/views/options.php:82
+#: assets/admin/js/generalSettings.js:1
+msgid "Poetic"
+msgstr "詩的"
+
+#: includes/modules/content-ai/views/options.php:83
+#: assets/admin/js/generalSettings.js:1
+msgid "Satirical"
+msgstr "風刺的"
+
+#: includes/modules/content-ai/views/options.php:84
+#: assets/admin/js/generalSettings.js:1
+msgid "Story-telling"
+msgstr "ストーリーテリング調"
+
+#: includes/modules/content-ai/views/options.php:85
+#: assets/admin/js/generalSettings.js:1
+msgid "Subjective"
+msgstr "主観的"
+
+#: includes/modules/content-ai/views/options.php:86
+#: assets/admin/js/generalSettings.js:1
+msgid "Technical"
+msgstr "テクニカル"
+
+#: includes/modules/content-ai/views/options.php:95
+#: assets/admin/js/generalSettings.js:1
+msgid "Default Audience"
+msgstr "デフォルトのターゲット層"
+
+#: includes/modules/content-ai/views/options.php:204
+#: assets/admin/js/generalSettings.js:1
+msgid "Choose the type of posts/pages/CPTs where you want to use Content AI."
+msgstr "Content AI を使用する投稿 / 固定ページ / カスタム投稿タイプを選択してください。"
 
 #. translators: %s: Allowed tags
 #: includes/settings/general/webmaster.php:94
@@ -820,7 +2007,7 @@ msgstr "https://rankmath.com/"
 msgid "Import Social URLs of your author archive pages."
 msgstr "投稿者アーカイブ ページのソーシャル URL をインポートします。"
 
-#: includes/admin/class-admin.php:530 includes/settings/titles/social.php:88
+#: includes/admin/class-admin.php:525 includes/settings/titles/social.php:88
 #: assets/admin/js/titleSettings.js:1
 msgid "Additional Profiles to add in the <code>sameAs</code> Schema property."
 msgstr "<code>sameAs</code> Schema プロパティに追加する追加のプロファイル。"
@@ -847,7 +2034,7 @@ msgid "Verify auto-updates are enabled for Rank Math"
 msgstr "Rank Math の自動更新が有効になっていることを確認します"
 
 #. Translators: placeholder is the new Rank Math label.
-#: includes/module/class-manager.php:261
+#: includes/module/class-manager.php:276
 #: includes/modules/seo-analysis/class-admin.php:85
 #: includes/modules/seo-analysis/class-seo-analysis.php:59
 #: includes/modules/seo-analysis/class-seo-analysis.php:72
@@ -880,11 +2067,11 @@ msgstr "サイトの SEO に適したパーマリンク構造を確認します"
 msgid "Check the presence of sitemaps on your website"
 msgstr "サイトにサイトマップが存在するかどうかを確認する"
 
-#: includes/modules/seo-analysis/class-seo-analyzer.php:525
+#: includes/modules/seo-analysis/class-seo-analyzer.php:537
 msgid "(No Title)"
 msgstr "（タイトルなし）"
 
-#: includes/modules/seo-analysis/class-seo-analyzer.php:533
+#: includes/modules/seo-analysis/class-seo-analyzer.php:545
 msgid "(No Description)"
 msgstr "(説明はありません)"
 
@@ -1106,9 +2293,13 @@ msgstr "XML サイトマップに投稿者のアーカイブを含めます。"
 msgid "HTML Sitemap"
 msgstr "HTML サイトマップ"
 
-#: includes/admin/class-admin.php:514
+#: includes/admin/class-admin.php:509
 msgid "Exclusive Offer!"
 msgstr "特別オファー！"
+
+#: includes/admin/class-cmb2-options.php:311
+msgid "Ctrl/Cmd + Enter"
+msgstr "Ctrl/Cmd + Enter"
 
 #: includes/modules/local-seo/views/titles-options.php:55
 #: includes/settings/titles/local.php:49 assets/admin/js/titleSettings.js:1
@@ -1181,40 +2372,40 @@ msgstr "スコアの再計算"
 msgid "<strong>Min Size: 112Χ112px</strong>.<br /> A squared image is preferred by the search engines."
 msgstr "<strong>最小サイズ：112Χ112px</strong>。<br />四角い画像は検索エンジンによって好まれます。"
 
-#: includes/module/class-manager.php:212
+#: includes/module/class-manager.php:218
 msgid "Video Sitemap"
 msgstr "動画サイトマップ"
 
-#: includes/module/class-manager.php:163 includes/module/class-manager.php:208
-#: includes/module/class-manager.php:217 includes/module/class-manager.php:226
+#: includes/module/class-manager.php:170 includes/module/class-manager.php:214
+#: includes/module/class-manager.php:223 includes/module/class-manager.php:232
 msgid "This module is available in the PRO version."
 msgstr "このモジュールは PRO バージョンで利用できます。"
 
-#: includes/module/class-manager.php:449 assets/admin/js/modules.js:1
+#: includes/module/class-manager.php:464 assets/admin/js/modules.js:1
 msgid "PRO options are enabled."
 msgstr "PRO オプションが有効になっています。"
 
-#: includes/module/class-manager.php:221
+#: includes/module/class-manager.php:227
 msgid "Podcast"
 msgstr "ポッドキャスト"
 
-#: includes/module/class-manager.php:203
+#: includes/module/class-manager.php:209
 msgid "News Sitemap"
 msgstr "ニュースサイトマップ"
 
-#: includes/module/class-manager.php:444 assets/admin/js/modules.js:1
+#: includes/module/class-manager.php:459 assets/admin/js/modules.js:1
 msgid "More powerful options are available in the PRO version."
 msgstr "PRO バージョンでは、より強力なオプションが利用可能です。"
 
-#: includes/module/class-manager.php:222
+#: includes/module/class-manager.php:228
 msgid "Make your podcasts discoverable via Google Podcasts, Apple Podcasts, and similar services with Podcast RSS feed and Schema Markup generated by Rank Math."
 msgstr "Podcast RSS フィードと Rank Math によって生成されたスキーマ マークアップを使用して、Google Podcast、Apple Podcast、および同様のサービスを介してポッドキャストを検出できるようにします。"
 
-#: includes/module/class-manager.php:213
+#: includes/module/class-manager.php:219
 msgid "For your video content, a Video Sitemap is a recommended step for better rankings and inclusion in the Video search."
 msgstr "動画コンテンツの場合、動画サイトマップは、ランキングを上げて動画検索に含めるための推奨手順です。"
 
-#: includes/module/class-manager.php:204
+#: includes/module/class-manager.php:210
 msgid "Create a News Sitemap for your news-related content. You only need a News sitemap if you plan on posting news-related content on your website."
 msgstr "ニュース関連のコンテンツのニュースサイトマップを作成します。 ニュース関連のコンテンツをサイトに投稿する場合にのみ、ニュースサイトマップが必要です。"
 
@@ -1387,6 +2578,14 @@ msgstr "「インデックスのステータス」タブを有効にします"
 msgid "Database Table: Inspections"
 msgstr "データベーステーブル：検査"
 
+#: includes/modules/analytics/google/class-request.php:352
+msgid "Unknown error, call get_response() to find out what happened."
+msgstr "不明なエラーです。詳細を確認するには get_response() を呼び出してください。"
+
+#: includes/admin/wizard/views/search-console-ui.php:160
+msgid "Enable this option to show the Index Status tab in the Analytics module."
+msgstr "このオプションを有効化すると、アナリティクスモジュールに「インデックスステータス」タブが表示されます。"
+
 #. Translators: Placeholder expands to number of redirections.
 #: includes/modules/redirections/class-import-export.php:86
 msgid "Warning: you have more than %d active redirections. Exporting them to your .htaccess file may cause performance issues."
@@ -1553,12 +2752,12 @@ msgid "%s ago"
 msgstr "%s前"
 
 #. Translators: placeholder is "IndexNow API".
-#: includes/module/class-manager.php:178
+#: includes/module/class-manager.php:185
 msgid "Directly notify search engines like Bing & Yandex using the %s when pages are added, updated and removed, or submit URLs manually."
 msgstr "ページが追加、更新、削除されたときに%sを使用して、Bing や Yandex などの検索エンジンに直接通知するか、URLを手動で送信します。"
 
 #. Translators: placeholder is "IndexNow API".
-#: includes/module/class-manager.php:178
+#: includes/module/class-manager.php:185
 msgid "IndexNow API"
 msgstr "IndexNow API"
 
@@ -1665,11 +2864,11 @@ msgstr "投稿タイプの自動送信"
 msgid "Submit posts from these post types automatically to the IndexNow API when a post is published, updated, or trashed."
 msgstr "投稿が公開、更新、またはゴミ箱に移動されたときに、これらの投稿タイプからの投稿を IndexNow API に自動的に送信します。"
 
-#: includes/module/class-manager.php:557 assets/admin/js/modules.js:1
+#: includes/module/class-manager.php:572 assets/admin/js/modules.js:1
 msgid "Buy"
 msgstr "購入"
 
-#: includes/module/class-manager.php:553 assets/admin/js/modules.js:1
+#: includes/module/class-manager.php:568 assets/admin/js/modules.js:1
 msgid "24/7 Support"
 msgstr "年中無休のサポート"
 
@@ -1685,25 +2884,21 @@ msgstr "Rank Math PRO を入手！"
 msgid "Click here to see all the exciting features."
 msgstr "すべてのエキサイティングな機能を表示するには、ここをクリックしてください。"
 
-#: includes/module/class-manager.php:547 assets/admin/js/modules.js:1
+#: includes/module/class-manager.php:562 assets/admin/js/modules.js:1
 msgid "Take SEO to the Next Level!"
 msgstr "SEO を次のレベルに引き上げましょう！"
 
-#: includes/module/class-manager.php:549 assets/admin/js/modules.js:1
+#: includes/module/class-manager.php:564 assets/admin/js/modules.js:1
 msgid "Unlimited personal websites"
 msgstr "無制限の個人サイト"
 
-#: includes/module/class-manager.php:550 assets/admin/js/modules.js:1
-msgid "Free 15 Content AI Credits"
-msgstr "無料の15コンテンツAIのクレジット"
-
-#: includes/module/class-manager.php:551 assets/admin/js/modules.js:1
+#: includes/module/class-manager.php:566 assets/admin/js/modules.js:1
 msgid "Track 500 Keywords"
 msgstr "500 キーワードを追跡する"
 
 #: includes/admin/class-pro-notice.php:220
 #: includes/admin/class-pro-notice.php:239
-#: includes/module/class-manager.php:552 assets/admin/js/modules.js:1
+#: includes/module/class-manager.php:567 assets/admin/js/modules.js:1
 msgid "Powerful Schema Generator"
 msgstr "強力なスキーマのジェネレーター"
 
@@ -1754,6 +2949,13 @@ msgstr "オプションが有効になっていて、製品が Slack で共有�
 msgid "When the option is enabled and a term from this taxonomy is shared on Slack, additional information will be shown (the total number of items with this term)."
 msgstr "オプションが有効になっていて、このタクソノミーの単語が Slack で共有されている場合、追加情報（この単語の項目の総数）が表示されます。"
 
+#: includes/settings/titles/author.php:125
+#: includes/settings/titles/post-types.php:343
+#: includes/settings/titles/taxonomies.php:114
+#: assets/admin/js/titleSettings.js:1
+msgid "Slack Enhanced Sharing"
+msgstr "Slack 拡張シェア"
+
 #: includes/modules/content-ai/views/options.php:214
 msgid "Click to refresh the available credits."
 msgstr "クリックして、利用可能なクレジットを更新します。"
@@ -1771,7 +2973,7 @@ msgstr "ヘッドレス CMS サポート"
 msgid "Enable this option to register a REST API endpoint that returns the HTML meta tags for a given URL. %s"
 msgstr "このオプションを有効にすると、特定の URL の HTML メタタグを返す REST API エンドポイントが登録されます。%s"
 
-#: includes/modules/links/Admin/class-admin.php:49
+#: includes/modules/ai-visibility/Admin/class-admin.php:59
 #: includes/modules/content-ai/assets/js/content-ai.js:1
 msgid "New!"
 msgstr "新着 !"
@@ -1944,7 +3146,7 @@ msgstr "ベネズエラ（ボリバル共和国）"
 msgid "Viet Nam"
 msgstr "ベトナム"
 
-#: includes/module/class-manager.php:185
+#: includes/module/class-manager.php:192
 #: includes/modules/content-ai/class-admin.php:87
 #: includes/modules/content-ai/class-admin.php:119
 #: includes/modules/content-ai/class-content-ai-page.php:75
@@ -1957,15 +3159,15 @@ msgstr "ベトナム"
 msgid "Content AI"
 msgstr "コンテンツ AI"
 
-#: includes/module/class-manager.php:186
+#: includes/module/class-manager.php:193
 msgid "Get sophisticated AI suggestions for related Keywords, Questions & Links to include in the SEO meta & Content Area. Supports 80+ Countries."
 msgstr "関連するキーワード、質問、リンクに関する高度なAIの提案を取得して、SEOメタおよびコンテンツエリアに含めます。 80か国以上をサポートします。"
 
-#: includes/module/class-manager.php:397
+#: includes/module/class-manager.php:412
 msgid "You cant access this page."
 msgstr "このページにはアクセスできません。"
 
-#: includes/module/class-manager.php:435 assets/admin/js/modules.js:1
+#: includes/module/class-manager.php:450 assets/admin/js/modules.js:1
 msgid "NEW!"
 msgstr "新着!"
 
@@ -2064,11 +3266,11 @@ msgstr "AIO SEO Premiumで設定済みのすべてのリダイレクトをイン
 msgid "Import Locations Settings."
 msgstr "場所の設定をインポートします"
 
-#: includes/rest/class-rest-helper.php:183
+#: includes/rest/class-rest-helper.php:190
 msgid "Sorry, you are not allowed to edit this term."
 msgstr "このタームを編集する権限がありません。"
 
-#: includes/rest/class-rest-helper.php:201
+#: includes/rest/class-rest-helper.php:208
 msgid "Invalid term ID."
 msgstr "無効なターム ID。"
 
@@ -2091,11 +3293,11 @@ msgstr "いいえ、望んでいません "
 msgid "I already upgraded"
 msgstr "すでにアップグレードしました"
 
-#: rank-math.php:477
+#: rank-math.php:491
 msgid "CAUTION:"
 msgstr "注意："
 
-#: rank-math.php:478
+#: rank-math.php:492
 msgid "This action is IRREVERSIBLE."
 msgstr "このアクションは不可逆的です。"
 
@@ -2272,6 +3474,10 @@ msgstr "場所サイトマップ %1$s %2$s"
 msgid "No Rank Math transients found."
 msgstr "Rank Math の過渡現象が見つかりません。"
 
+#: includes/modules/database-tools/class-database-tools.php:105
+msgid "SEO Analyzer data has already been cleared."
+msgstr "SEO アナライザーのデータはすでにクリアされています。"
+
 #: includes/modules/status/class-system-status.php:66
 msgid "Active modules"
 msgstr "有効なモジュール"
@@ -2404,7 +3610,7 @@ msgstr "Google パーミッション"
 msgid "Instant Indexing module settings. %s."
 msgstr "インスタントインデックスモジュールの設定。%s"
 
-#: includes/module/class-manager.php:176
+#: includes/module/class-manager.php:183
 #: includes/modules/instant-indexing/class-instant-indexing.php:251
 #: includes/modules/instant-indexing/class-instant-indexing.php:252
 #: assets/admin/js/components.js:1
@@ -2463,7 +3669,7 @@ msgstr "Google 認証トークンに問題があります。<a href=\"%1$s\" cla
 msgid "Import meta information of your terms like the titles, descriptions, robots meta, OpenGraph info, etc."
 msgstr "タイトル、説明、ロボットメタ、OpenGraph 情報などの用語のメタ情報をインポートします。"
 
-#: includes/module/class-manager.php:429
+#: includes/module/class-manager.php:444
 #: includes/modules/status/class-system-status.php:63
 #: assets/admin/js/modules.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
@@ -2566,7 +3772,7 @@ msgstr "プロ版へ"
 msgid "Last 30 Days"
 msgstr "過去30日間"
 
-#: includes/modules/404-monitor/class-monitor.php:68
+#: includes/modules/404-monitor/class-monitor.php:92
 #: includes/modules/analytics/class-analytics-common.php:77
 #: includes/modules/redirections/class-redirections.php:68
 msgid "View Report"
@@ -2576,7 +3782,7 @@ msgstr "レポートを表示"
 msgid "Rank Math Overview"
 msgstr "Rank Math 概要"
 
-#: includes/modules/404-monitor/class-monitor.php:73
+#: includes/modules/404-monitor/class-monitor.php:97
 msgid "Log Count"
 msgstr "ログカウント"
 
@@ -2586,15 +3792,15 @@ msgstr "ログカウント"
 msgid "(opens in a new window)"
 msgstr "(新しいウィンドウで開きます)"
 
-#: includes/modules/404-monitor/class-monitor.php:74
+#: includes/modules/404-monitor/class-monitor.php:98
 msgid "Total number of 404 pages opened by the users."
 msgstr "ユーザーが開いた404ページの総数。"
 
-#: includes/modules/404-monitor/class-monitor.php:80
+#: includes/modules/404-monitor/class-monitor.php:104
 msgid "URL Hits"
 msgstr "URL ヒット"
 
-#: includes/modules/404-monitor/class-monitor.php:81
+#: includes/modules/404-monitor/class-monitor.php:105
 msgid "Total number visits received on all the 404 pages."
 msgstr "404ページすべてで受け取った訪問の総数。"
 
@@ -2622,6 +3828,10 @@ msgstr "動画サイトマップ設定のインポート"
 msgid "Import Video Sitemap Settings from Yoast Video Add-on."
 msgstr "Yoast Video アドオンから動画サイトマップ設定をインポートします。"
 
+#: includes/frontend/class-head.php:423
+msgid "Search Engine Optimization by Rank Math PRO - https://rankmath.com/"
+msgstr "Rank Math PRO による検索エンジン最適化 - https://rankmath.com/"
+
 #: includes/admin/wizard/views/search-console-ui.php:365
 #: assets/admin/js/generalSettings.js:1 assets/admin/js/wizard.js:1
 msgid "Google AdSense support is only available in Rank Math Pro's Advanced Analytics module."
@@ -2641,6 +3851,13 @@ msgstr "申し訳ありませんが、指定された ID の投稿が見つか�
 msgid "Enable this option only if you are not using any other plugin/theme to install Google Analytics code."
 msgstr "このオプションを有効にするのは、他のプラグイン / テーマを使用して Google Analytics コードをインストールしていない場合のみです。 "
 
+#: includes/abilities/content-analysis/class-get-seo-scores.php:336
+#: includes/modules/analytics/assets/js/stats.js:1
+#: includes/modules/links/assets/js/links-page.js:1
+#: includes/modules/links/assets/src/features/links-page/tabs/Posts.js:243
+msgid "Good"
+msgstr "いい"
+
 #: includes/modules/analytics/views/email-reports/sections/positions.php:20
 #: includes/modules/analytics/assets/js/stats.js:1
 msgid "Top 3 Positions"
@@ -2655,7 +3872,7 @@ msgstr "4-10 ポジション "
 msgid "11-50 Positions"
 msgstr "11-50 ポジション"
 
-#: includes/admin/metabox/class-screen.php:171
+#: includes/admin/metabox/class-screen.php:172
 #: includes/modules/analytics/assets/js/admin-bar.js:1
 #: includes/modules/analytics/assets/js/stats.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
@@ -2692,6 +3909,8 @@ msgid "Note:"
 msgstr "注:"
 
 #: includes/modules/redirections/class-table.php:277
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/BrandDetail/QueriesTable.js:145
 msgid "Created"
 msgstr "作成日"
 
@@ -2703,7 +3922,7 @@ msgstr "接続解除"
 #: includes/admin/wizard/views/search-console-ui.php:284
 #: includes/admin/wizard/views/search-console-ui.php:309
 #: includes/admin/wizard/views/search-console-ui.php:365
-#: includes/module/class-manager.php:437
+#: includes/module/class-manager.php:452
 #: includes/modules/analytics/views/options.php:149
 #: assets/admin/js/components.js:1 assets/admin/js/generalSettings.js:1
 #: assets/admin/js/modules.js:1 assets/admin/js/wizard.js:1
@@ -2724,6 +3943,10 @@ msgstr "サイト"
 #: includes/modules/404-monitor/class-table.php:145
 #: includes/modules/redirections/class-table.php:253
 #: assets/admin/js/common.js:1
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/shared/components/ActionButtons.js:41
+#: includes/modules/ai-visibility/assets/src/shared/components/ActionButtons.js:45
+#: includes/modules/ai-visibility/assets/src/shared/components/TranscriptViewer.js:83
 msgid "View"
 msgstr "表示"
 
@@ -3254,12 +4477,12 @@ msgstr "更新日"
 msgid "You are using the outdated WordPress, please update it to version %s or higher."
 msgstr "古い WordPress を使用しています。バージョン%s以降に更新してください。"
 
-#: includes/modules/seo-analysis/class-seo-analyzer.php:420
+#: includes/modules/seo-analysis/class-seo-analyzer.php:432
 msgid "Unexpected API response."
 msgstr "予期しない API 応答。"
 
 #. Translators: placeholder is a HTTP error code.
-#: includes/modules/seo-analysis/class-seo-analyzer.php:413
+#: includes/modules/seo-analysis/class-seo-analyzer.php:425
 msgid "HTTP %d error."
 msgstr "HTTP %dエラー。"
 
@@ -3267,17 +4490,25 @@ msgstr "HTTP %dエラー。"
 msgid "SEO Score: Ok"
 msgstr "SEO スコア: Ok"
 
-#: includes/module/class-manager.php:374
+#: includes/module/class-manager.php:389
 msgid "Please activate Web Stories plugin to use this module."
 msgstr "このモジュールを使用するには、Web Stories プラグインを有効化してください。"
 
-#: includes/module/class-manager.php:369
+#: includes/module/class-manager.php:384
 msgid "Google Web Stories"
 msgstr "Google Web Stories"
 
-#: includes/module/class-manager.php:370
+#: includes/module/class-manager.php:385
 msgid "Make any Story created with the Web Stories WordPress plugin SEO-Ready with automatic support for Schema and Meta tags."
 msgstr "Web Stories WordPress プラグイン SEO 対応で作成されたストーリーを作成し、スキーマタグとメタタグを自動的にサポートします。"
+
+#: includes/abilities/content-analysis/class-get-seo-scores.php:308
+#: includes/abilities/content-analysis/class-get-seo-scores.php:341
+#: assets/admin/js/classic.js:1
+#: includes/modules/analytics/assets/js/admin-bar.js:1
+#: includes/modules/analytics/assets/js/stats.js:1
+msgid "Not available"
+msgstr "利用不可"
 
 #: includes/admin/wizard/views/search-console-ui.php:215
 #: includes/admin/wizard/views/search-console-ui.php:356
@@ -3352,7 +4583,7 @@ msgstr "%1$s のグローバル SEO、スキーマ、およびその他の設定
 msgid "read here"
 msgstr "ここを読む"
 
-#: includes/module/class-manager.php:167
+#: includes/module/class-manager.php:174
 msgid "Image SEO"
 msgstr "画像の SEO"
 
@@ -3408,37 +4639,37 @@ msgstr "面倒なコードをいじることなく、リダイレクトを簡単
 msgid "Change Sitemap settings of %1$s. %2$s."
 msgstr "%1$s のサイトマップ設定を変更します。%2$s。"
 
-#: includes/module/class-manager.php:126
-msgid "Redirect non-existent content easily with 301 and 302 status code. This can help improve your site ranking. Also supports many other response codes."
-msgstr "存在しないコンテンツを 301 および 302 ステータスコードで簡単にリダイレクトします。これは、サイトのランキングを向上させるのに役立ちます。他の多くの応答コードもサポートします。 "
-
 #. translators: hreflang tags documentation link
 #: includes/modules/sitemap/settings/general.php:19
 msgid "Rank Math generates the default Sitemaps only and WPML takes care of the rest. When a search engine bot visits any post/page, it is shown hreflang tag that helps it crawl the translated pages. This is one of the recommended methods by Google. Please %s"
 msgstr "Rank Math はデフォルトのサイトマップのみを生成し、残りは WPML が処理します。検索エンジンボットが投稿/ページにアクセスすると、翻訳されたページをクロールするのに役立つ hreflang タグが表示されます。これは、Google が推奨する方法の1つです。%s してください。 "
 
-#: includes/module/class-manager.php:144
+#: includes/module/class-manager.php:133
+msgid "Redirect non-existent content easily with 301 and 302 status code. This can help improve your site ranking. Also supports many other response codes."
+msgstr "存在しないコンテンツを 301 および 302 ステータスコードで簡単にリダイレクトします。これは、サイトのランキングを向上させるのに役立ちます。他の多くの応答コードもサポートします。 "
+
+#: includes/module/class-manager.php:151
 msgid "Enable Rank Math's sitemap feature, which helps search engines intelligently crawl your website's content. It also supports hreflang tag."
 msgstr "Rank Math のサイトマップ機能を有効にします。これは、検索エンジンがサイトのコンテンツをインテリジェントにクロールするのに役立ちます。また、hreflang タグもサポートしています。 "
 
-#: includes/module/class-manager.php:152
+#: includes/module/class-manager.php:159
 msgid "Counts the total number of internal, external links, to and from links inside your posts. You can also see the same count in the Posts List Page."
 msgstr "投稿内のリンクとの間の内部リンクと外部リンクの総数をカウントします。 投稿リストページでも同じ数を確認できます。"
 
-#: includes/module/class-manager.php:168
+#: includes/module/class-manager.php:175
 msgid "Advanced Image SEO options to supercharge your website. Automate the task of adding the ALT and Title tags to your images on the fly."
 msgstr "サイトを過給するための高度な画像 SEO オプション。 ALT タグとタイトルタグをその場で画像に追加するタスクを自動化します。"
 
-#: includes/module/class-manager.php:243 assets/admin/js/wizard.js:1
+#: includes/module/class-manager.php:258 assets/admin/js/wizard.js:1
 msgid "The Role Manager allows you to use WordPress roles to control which of your site users can have edit or view access to Rank Math's settings."
 msgstr "ロールマネージャーを使用すると、WordPress の役割を使用して、Rank Math の設定への編集または表示アクセス権を持つことができるサイトユーザーを制御できます。"
 
 #. translators: Link to AMP plugin
-#: includes/module/class-manager.php:322
+#: includes/module/class-manager.php:337
 msgid "Install %s to make Rank Math work with Accelerated Mobile Pages. Rank Math automatically adds required meta tags in all the AMP pages."
 msgstr "%s をインストールして、Rank Math を Accelerated Mobile Pages で機能させます。Rank Math は、すべての AMP ページに必要なメタタグを自動的に追加します。"
 
-#: includes/module/class-manager.php:350
+#: includes/module/class-manager.php:365
 msgid "Optimize WooCommerce Pages for Search Engines by adding required metadata and Product Schema which will make your site stand out in the SERPs."
 msgstr "必要なメタデータと製品スキーマを追加して、検索エンジンの WooCommerce ページを最適化します。これにより、SERP でサイトを際立たせることができます。"
 
@@ -3480,6 +4711,10 @@ msgstr "サイト全体で有効になるグローバルメタ設定を変更し
 #: includes/admin/class-option-center.php:161
 msgid "Optimize for local searches and Knowledge Graph using these settings. %s."
 msgstr "これらの設定を使用して、ローカル検索とナレッジグラフ用に最適化します。 %s。"
+
+#: includes/module/class-manager.php:124
+msgid "Dominate the search results for the local audiences by optimizing your website for Local SEO and it also helps you to acquire the Knowledge Graph."
+msgstr "ローカル SEO に対応させることで、地域の検索結果で上位を目指せます。ナレッジグラフの獲得にも役立ちます。"
 
 #: includes/admin/class-option-center.php:145
 #: includes/settings/titles/homepage.php:27
@@ -3531,7 +4766,7 @@ msgstr "フロントエンドに SEO スコアを表示している場合、こ�
 msgid "Automatic Updates"
 msgstr "自動更新"
 
-#: includes/modules/seo-analysis/class-seo-analyzer.php:348
+#: includes/modules/seo-analysis/class-seo-analyzer.php:360
 #: includes/modules/seo-analysis/seo-analysis-tests.php:187
 #: includes/modules/seo-analysis/seo-analysis-tests.php:199
 msgid "Rank Math auto-update option is enabled on your site."
@@ -3545,15 +4780,16 @@ msgstr "自動更新を有効化"
 msgid "Enable automatic updates to ensure you are always using the latest version of Rank Math."
 msgstr "自動更新を有効にして、常に最新バージョンの Rank Math を使用していることを確認します。"
 
-#: includes/rest/class-rest-helper.php:147
+#: includes/abilities/schema/class-get-post-schema.php:118
+#: includes/rest/class-rest-helper.php:154
 msgid "Invalid post ID."
 msgstr "無効な投稿 ID です。"
 
-#: includes/rest/class-rest-helper.php:132
+#: includes/rest/class-rest-helper.php:139
 msgid "Sorry, you are not allowed to edit this post."
 msgstr "この投稿を編集する権限がありません。"
 
-#: includes/rest/class-rest-helper.php:116
+#: includes/rest/class-rest-helper.php:123
 msgid "Sorry, you are not allowed to edit this post type."
 msgstr "この投稿タイプを編集する権限がありません。"
 
@@ -3687,7 +4923,11 @@ msgstr "変換する投稿が見つかりません。"
 msgid "Numbered"
 msgstr "番号付き"
 
-#: includes/module/class-manager.php:295
+#: includes/modules/database-tools/class-database-tools.php:344
+msgid "Convert TOC block created using AIOSEO. Use this option to easily move your previous blocks into Rank Math."
+msgstr "AIOSEO で作成された目次ブロックを変換します。このオプションを使うと、以前のブロックを簡単に Rank Math に移行できます。"
+
+#: includes/module/class-manager.php:310
 #: includes/modules/status/assets/js/status.js:1
 msgid "Database Tools"
 msgstr "データベースツール"
@@ -3709,7 +4949,7 @@ msgstr "プラグインのロールバックが成功しました。"
 msgid "Installing the rollback version&#8230;"
 msgstr "ロールバックバージョン &#8230; のインストール"
 
-#: includes/module/class-manager.php:289 assets/admin/js/components.js:1
+#: includes/module/class-manager.php:304 assets/admin/js/components.js:1
 #: assets/admin/js/modules.js:1 includes/modules/status/assets/js/status.js:1
 msgid "Version Control"
 msgstr "バージョン管理"
@@ -3721,7 +4961,7 @@ msgstr "バージョン管理"
 msgid "Attachments"
 msgstr "添付ファイル"
 
-#: includes/module/class-manager.php:134
+#: includes/module/class-manager.php:141
 msgid "Schema (Structured Data)"
 msgstr "スキーマ（構造化データ）"
 
@@ -3760,7 +5000,7 @@ msgid "Review (Unsupported)"
 msgstr "レビュー（サポートされていません）"
 
 #. translators: 1. Bold text 2. Bold text
-#: rank-math.php:476
+#: rank-math.php:490
 msgid "%1$s A filter to remove the Rank Math data from the database is present. Deactivating & Deleting this plugin will remove everything related to the Rank Math plugin. %2$s"
 msgstr "%1$s データベースから Rank Math データを削除するためのフィルターが存在します。このプラグインを無効化して削除すると、Rank Math プラグインに関連するすべてのものが削除されます。%2$s"
 
@@ -3778,11 +5018,11 @@ msgstr "現在の投稿/ページのカスタムまたは生成された SEO 説
 msgid "Read more"
 msgstr "続きを読む"
 
-#: includes/admin/metabox/class-screen.php:280
+#: includes/admin/metabox/class-screen.php:311
 msgid "username"
 msgstr "ユーザー名"
 
-#: includes/module/class-manager.php:341
+#: includes/module/class-manager.php:356
 msgid "Enable the BuddyPress module for Rank Math SEO to make your BuddyPress forum SEO friendly by adding proper meta tags to all forum pages."
 msgstr "Rank Math SEO の BuddyPress モジュールを有効にして、すべてのフォーラムページに適切なメタタグを追加することで、BuddyPress フォーラムの SEO を友好的にします。 "
 
@@ -3861,6 +5101,10 @@ msgstr "404 エラーログが大きくなりすぎていませんか？ この�
 #: includes/modules/database-tools/class-database-tools.php:296
 msgid "Need a clean slate or not able to run the SEO Analyzer tool? Flushing the analysis data might fix the issue. Flushing SEO Analyzer data is entirely safe and doesn't remove any critical data from your website."
 msgstr "Need a clean slate or not able to run the SEO Analysis tool? Flushing the analysis data might fix the issue. Flushing SEO Analysis data is entirely safe and doesn't remove any critical data from your website."
+
+#: includes/modules/database-tools/class-database-tools.php:295
+msgid "Flush SEO Analyzer Data"
+msgstr "SEO アナライザーのデータを消去"
 
 #: includes/replace-variables/class-variable.php:95 assets/admin/js/common.js:1
 msgid "Example"
@@ -3975,15 +5219,15 @@ msgstr "ブログページを表示"
 msgid "Show Blog Page in Breadcrumb."
 msgstr "ブログページをパンくずリストで表示"
 
-#: includes/module/class-manager.php:360
+#: includes/module/class-manager.php:375
 msgid "ACF"
 msgstr "ACF"
 
-#: includes/module/class-manager.php:361
+#: includes/module/class-manager.php:376
 msgid "ACF support helps Rank Math SEO read and analyze content written in the Advanced Custom Fields. If your theme uses ACF, you should enable this option."
 msgstr "ACF のサポートは、Rank Math SEO が Advanced Custom Fields に書き込まれたコンテンツを読み取って分析するのに役立ちます。テーマで ACF を使用している場合は、このオプションを有効にする必要があります。"
 
-#: includes/module/class-manager.php:365
+#: includes/module/class-manager.php:380
 msgid "Please activate ACF plugin to use this module."
 msgstr "このモジュールを使用するには、ACF プラグインを有効化してください。"
 
@@ -4037,6 +5281,14 @@ msgstr "リダイレクトルールが正常に削除されました。"
 msgid "Status & Tools"
 msgstr "ステータスとツール"
 
+#: includes/modules/database-tools/class-database-tools.php:112
+msgid "SEO Analyzer data successfully deleted."
+msgstr "SEO アナライザーのデータを削除しました。"
+
+#: includes/modules/database-tools/class-database-tools.php:297
+msgid "Clear SEO Analyzer"
+msgstr "SEO アナライザーをクリア"
+
 #: includes/modules/buddypress/class-admin.php:46
 #: assets/admin/js/titleSettings.js:1
 msgid "Groups"
@@ -4066,7 +5318,7 @@ msgstr "グループ名。"
 msgid "BuddyPress:"
 msgstr "BuddyPress:"
 
-#: includes/module/class-manager.php:345
+#: includes/module/class-manager.php:360
 msgid "Please activate BuddyPress plugin to use this module."
 msgstr "このモジュールを使用するには、BuddyPress プラグインを有効化してください。"
 
@@ -4114,16 +5366,18 @@ msgstr "現在のグループのグループの説明"
 msgid "<strong>Warning:</strong> your site's search engine visibility is set to Hidden in <a href=\"%1$s\" target=\"_blank\">Settings &gt; Reading</a>. This means that the changes you make here will not take effect. Set the search engine visibility to Public to be able to change the robots.txt content."
 msgstr "<strong>警告：</strong>サイトの検索エンジンの表示は<a href=\"%1$s\" target=\"_blank\">設定>閲覧</a>で非表示に設定されています。これは、ここで行った変更が有効にならないことを意味します。robots.txt の内容を変更できるようにするには、検索エンジンの可視性を「公開」に設定します。 "
 
-#: includes/module/class-manager.php:340
+#: includes/module/class-manager.php:355
 msgid "BuddyPress"
 msgstr "BuddyPress"
 
-#: includes/module/class-manager.php:283
+#: includes/module/class-manager.php:298
 msgid "Robots Txt"
 msgstr "Robots Txt"
 
 #: includes/admin/class-cmb2-options.php:311 assets/admin/js/common.js:1
 #: assets/admin/js/modules.js:1 assets/admin/js/settings.js:1
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/shared/Modals/AddBrandModal.js:448
 #: includes/modules/status/assets/js/status.js:1
 msgid "Save Changes"
 msgstr "変更を保存"
@@ -4202,6 +5456,9 @@ msgid "Custom Term description."
 msgstr "カスタム単語の説明。"
 
 #: includes/modules/woocommerce/views/options-general.php:79
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/Analyses/AnalysesTable.js:48
+#: includes/modules/ai-visibility/assets/src/Dashboard/BrandsTable.js:62
 msgid "Brand"
 msgstr "ブランド"
 
@@ -4266,7 +5523,7 @@ msgstr "サイトトークン"
 msgid "Powered by %s"
 msgstr "Powered by %s"
 
-#: includes/module/class-manager.php:330
+#: includes/module/class-manager.php:345
 msgid "bbPress"
 msgstr "bbPress"
 
@@ -4323,7 +5580,7 @@ msgstr "SEO スコア配置"
 msgid "Site disconnected successfully."
 msgstr "サイトの切断に成功しました。"
 
-#: includes/module/class-manager.php:335
+#: includes/module/class-manager.php:350
 msgid "Please activate bbPress plugin to use this module."
 msgstr "このモジュールを使用するには、bbPress プラグインを有効化してください。"
 
@@ -4357,7 +5614,7 @@ msgstr "コースプロバイダーの名前"
 msgid "Hiring Organization "
 msgstr "雇用する組織"
 
-#: includes/module/class-manager.php:331
+#: includes/module/class-manager.php:346
 msgid "Add proper Meta tags to your bbPress forum posts, categories, profiles, etc. Get more options to take control of what search engines see and how they see it."
 msgstr "bbPress フォーラムの投稿、カテゴリー、プロファイルなどに適切なメタタグを追加します。検索エンジンが何を表示し、どのように表示するかを制御するためのオプションをさらに取得します。"
 
@@ -4482,6 +5739,11 @@ msgstr ""
 "\n"
 "これは、Google のような検索エンジンがサイトの投稿/ページ/製品/画像/アーカイブをクロールおよび再クロールするために使用するものです。 "
 
+#: includes/frontend/class-head.php:421
+msgid "Search Engine Optimization by Rank Math - https://rankmath.com/"
+msgstr "Rank Math による検索エンジン最適化 - https://rankmath.com/"
+
+#: includes/abilities/schema/class-subscriber.php:65
 #: includes/modules/schema/class-admin.php:70 assets/admin/js/blocks.js:1
 #: includes/modules/analytics/assets/js/stats.js:1
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
@@ -4516,11 +5778,6 @@ msgstr "タイトルを書き換える"
 msgid "Your current theme doesn't support title-tag. Enable this option to rewrite page, post, category, search and archive page titles."
 msgstr "現在のテーマはタイトルタグをサポートしていません。 このオプションを有効にすると、ページ、投稿、カテゴリー、検索、アーカイブのページタイトルが書き換えられます。 "
 
-#. translators: API error
-#: includes/modules/seo-analysis/class-seo-analyzer.php:301
-msgid "<strong>API Error:</strong> %s"
-msgstr "<strong>API エラー:</strong> %s"
-
 #: includes/rest/class-admin.php:364
 msgid "Module slug"
 msgstr "モジュールスラッグ"
@@ -4529,8 +5786,8 @@ msgstr "モジュールスラッグ"
 msgid "Module state either on or off"
 msgstr "モジュールの状態がオンまたはオフのいずれか"
 
-#: includes/rest/class-rest-helper.php:241
-#: includes/rest/class-rest-helper.php:271 includes/rest/class-shared.php:320
+#: includes/rest/class-rest-helper.php:248
+#: includes/rest/class-rest-helper.php:278 includes/rest/class-shared.php:320
 msgid "Sorry, field is empty which is not allowed."
 msgstr "申し訳ありませんが、フィールドが空であり、許可されていません。"
 
@@ -4588,7 +5845,7 @@ msgstr "ページ %s"
 msgid "Price Valid Until"
 msgstr "価格は次の期間まで有効です。"
 
-#: includes/admin/class-post-columns.php:288
+#: includes/admin/class-post-columns.php:291
 msgid "Is Pillar"
 msgstr "柱です。"
 
@@ -4598,7 +5855,7 @@ msgstr "柱です。"
 msgid "Performer"
 msgstr "演奏者"
 
-#: includes/admin/class-post-columns.php:297
+#: includes/admin/class-post-columns.php:300
 #: includes/modules/links/assets/js/links-page.js:1
 #: includes/modules/links/assets/src/features/links-page/tabs/Posts.js:55
 #: includes/modules/links/assets/src/features/links-page/tabs/Posts.js:245
@@ -4850,6 +6107,10 @@ msgstr "エラー：nonce検証に失敗しました"
 msgid "Rank Math requires PHP version %s or above. Please update PHP to run this plugin."
 msgstr "Rank Math には、PHP バージョン%s以降が必要です。 このプラグインを実行するには、PHP を更新してください。 "
 
+#: includes/settings/titles/misc.php:131 assets/admin/js/titleSettings.js:1
+msgid "Prevent all paginated pages from getting indexed by search engines."
+msgstr "ページ送りされたすべてのページが検索エンジンにインデックスされないようにします。"
+
 #: includes/modules/buddypress/views/options-titles.php:47
 #: includes/settings/titles/author.php:48
 #: includes/settings/titles/homepage.php:70
@@ -4870,16 +6131,24 @@ msgstr "削除"
 
 #: includes/modules/redirections/class-table.php:251
 #: includes/modules/redirections/class-table.php:312
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/Dashboard/index.js:344
+#: includes/modules/ai-visibility/assets/src/shared/components/ActionButtons.js:65
+#: includes/modules/ai-visibility/assets/src/shared/components/ActionButtons.js:71
 #: includes/modules/redirections/assets/js/redirections.js:1
 msgid "Activate"
 msgstr "有効化"
 
 #: includes/modules/redirections/class-table.php:338
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/BrandDetail/BrandHeader.js:88
 msgid "Active"
 msgstr "有効"
 
 #: includes/modules/local-seo/views/titles-options.php:252
 #: assets/admin/js/titleSettings.js:1
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/shared/Modals/AddBrandModal.js:449
 msgid "Add"
 msgstr "追加"
 
@@ -4952,6 +6221,10 @@ msgstr "カスタム"
 
 #: includes/modules/redirections/class-table.php:250
 #: includes/modules/redirections/class-table.php:313
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/Dashboard/index.js:345
+#: includes/modules/ai-visibility/assets/src/shared/components/ActionButtons.js:65
+#: includes/modules/ai-visibility/assets/src/shared/components/ActionButtons.js:76
 #: includes/modules/redirections/assets/js/redirections.js:1
 msgid "Deactivate"
 msgstr "無効化"
@@ -4969,11 +6242,14 @@ msgstr "削除"
 msgid "Delete Permanently"
 msgstr "完全に削除する"
 
-#: rank-math.php:497
+#: rank-math.php:511
 msgid "Documentation"
 msgstr "ドキュメンテーション"
 
 #: includes/modules/redirections/class-table.php:249
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/shared/components/ActionButtons.js:53
+#: includes/modules/ai-visibility/assets/src/shared/components/ActionButtons.js:57
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Edit"
@@ -5010,7 +6286,7 @@ msgstr "エクスポート"
 msgid "Friday"
 msgstr "金曜日"
 
-#: rank-math.php:496 assets/admin/js/wizard.js:1
+#: rank-math.php:510 assets/admin/js/wizard.js:1
 msgid "Getting Started"
 msgstr "はじめてみよう"
 
@@ -5021,7 +6297,7 @@ msgstr "はじめてみよう"
 msgid "Hide"
 msgstr "非表示"
 
-#: includes/class-installer.php:384
+#: includes/class-installer.php:385
 #: includes/settings/general/breadcrumbs.php:65
 #: assets/admin/js/generalSettings.js:1
 msgid "Home"
@@ -5039,6 +6315,8 @@ msgid "Images"
 msgstr "画像"
 
 #: includes/modules/redirections/class-table.php:339
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/BrandDetail/BrandHeader.js:88
 msgid "Inactive"
 msgstr "休止中"
 
@@ -5081,6 +6359,7 @@ msgstr "ゴミ箱へ移動"
 msgid "Name"
 msgstr "名前"
 
+#: includes/abilities/content-analysis/class-get-seo-scores.php:337
 #: includes/modules/instant-indexing/views/history.php:32
 #: assets/admin/js/instantIndexingSettings.js:1
 #: includes/modules/seo-analysis/assets/js/seo-analysis.js:1
@@ -5094,6 +6373,8 @@ msgstr "その他"
 
 #: includes/modules/404-monitor/class-admin.php:151
 #: includes/modules/redirections/class-admin.php:163
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/BrandDetail/index.js:47
 msgid "Overview"
 msgstr "概要"
 
@@ -5105,7 +6386,7 @@ msgid "Page"
 msgstr "固定ページ"
 
 #: includes/frontend/paper/class-error-404.php:26
-#: includes/frontend/paper/class-singular.php:128
+#: includes/frontend/paper/class-singular.php:196
 #: includes/frontend/paper/class-taxonomy.php:31
 msgid "Page not found"
 msgstr "ページが見つかりませんでした"
@@ -5173,13 +6454,15 @@ msgstr "画面コンテンツ"
 #: includes/modules/404-monitor/views/main.php:27
 #: includes/modules/redirections/views/main.php:45
 #: assets/admin/js/components.js:1 assets/admin/js/wizard.js:1
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/Analyses/AnalysesFilterBar.js:108
 msgid "Search"
 msgstr "検索"
 
 #: includes/module/class-module.php:105
 #: includes/modules/404-monitor/class-admin.php:222
 #: includes/modules/instant-indexing/class-instant-indexing.php:222
-#: includes/modules/redirections/class-admin.php:319 rank-math.php:439
+#: includes/modules/redirections/class-admin.php:319 rank-math.php:453
 #: assets/admin/js/instantIndexingSettings.js:1 assets/admin/js/modules.js:1
 #: assets/admin/js/rank-math-app.js:1
 #: includes/modules/schema/blocks/schema/assets/js/index.js:1
@@ -5198,12 +6481,14 @@ msgstr "シンプル"
 msgid "Site Tagline"
 msgstr "サイトのキャッチフレーズ"
 
-#: includes/module/class-manager.php:143
+#: includes/module/class-manager.php:150
 #: includes/modules/sitemap/sitemap-xsl.php:259 assets/admin/js/wizard.js:1
 msgid "Sitemap"
 msgstr "サイトマップ"
 
-#: includes/module/class-manager.php:301 assets/admin/js/components.js:1
+#: includes/module/class-manager.php:316 assets/admin/js/components.js:1
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/BrandDetail/QueriesTable.js:155
 #: includes/modules/analytics/assets/js/stats.js:1
 #: includes/modules/redirections/assets/js/redirections.js:1
 msgid "Status"
@@ -5263,7 +6548,7 @@ msgstr "動画"
 msgid "Wednesday"
 msgstr "水曜日"
 
-#: includes/module/class-manager.php:349
+#: includes/module/class-manager.php:364
 #: includes/modules/woocommerce/class-admin.php:75
 #: assets/admin/js/generalSettings.js:1
 msgid "WooCommerce"
@@ -5287,6 +6572,8 @@ msgstr "宛先"
 #: includes/settings/titles/post-types.php:330
 #: includes/settings/titles/post-types.php:368
 #: assets/admin/js/titleSettings.js:1
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/shared/components/StatusToggle.js:37
 msgid "Disabled"
 msgstr "無効"
 
@@ -5301,6 +6588,8 @@ msgstr "開始日"
 #: includes/settings/titles/post-types.php:331
 #: includes/settings/titles/post-types.php:369
 #: assets/admin/js/titleSettings.js:1
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/shared/components/StatusToggle.js:36
 msgid "Enabled"
 msgstr "有効"
 
@@ -5319,8 +6608,9 @@ msgstr "SEO 設定"
 msgid "Address"
 msgstr "住所"
 
+#: includes/abilities/analytics/class-subscriber.php:65
 #: includes/admin/wizard/views/search-console-ui.php:192
-#: includes/module/class-manager.php:251
+#: includes/module/class-manager.php:266
 #: includes/modules/analytics/class-analytics-common.php:75
 #: includes/modules/analytics/class-analytics-common.php:146
 #: includes/modules/analytics/class-analytics.php:76
@@ -5468,6 +6758,8 @@ msgstr "さらに詳しく"
 #: includes/modules/woocommerce/class-admin.php:77
 #: assets/admin/js/settings.js:1 assets/admin/js/titleSettings.js:1
 #: assets/admin/js/wizard.js:1
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/shared/Modals/AddBrandModal.js:292
 #: includes/modules/redirections/assets/js/redirections.js:1
 #: includes/modules/role-manager/assets/js/role-manager.js:1
 msgid "Learn more"
@@ -5684,6 +6976,10 @@ msgstr "区切り文字"
 msgid "SEO Titles &amp; Meta"
 msgstr "SEO タイトルとメタ"
 
+#: includes/abilities/seo-analysis/class-subscriber.php:66
+msgid "SEO Analysis"
+msgstr "SEO 分析"
+
 #: includes/admin/wizard/views/search-console-ui.php:129
 #: includes/modules/analytics/google/class-permissions.php:107
 #: includes/modules/seo-analysis/seo-analysis-tests.php:114
@@ -5693,7 +6989,7 @@ msgstr "Search Console"
 
 #. translators: Search query term
 #. translators: placeholder
-#: includes/class-installer.php:388
+#: includes/class-installer.php:389
 #: includes/settings/general/breadcrumbs.php:110
 #: assets/admin/js/generalSettings.js:1
 msgid "Results for %s"
@@ -5708,7 +7004,7 @@ msgstr "正規表現"
 msgid "Referer"
 msgstr "リファラー"
 
-#: includes/module/class-manager.php:125
+#: includes/module/class-manager.php:132
 #: includes/modules/redirections/class-admin.php:155
 #: includes/modules/redirections/class-admin.php:220
 #: includes/modules/redirections/class-redirections.php:67
@@ -5791,7 +7087,7 @@ msgstr "固定ページ番号"
 msgid "OpenGraph Thumbnail"
 msgstr "OpenGraph サムネイル"
 
-#: includes/modules/404-monitor/class-monitor.php:117
+#: includes/modules/404-monitor/class-monitor.php:141
 msgid "No valid id found."
 msgstr "有効な id が見つかりませんでした。"
 
@@ -5803,7 +7099,7 @@ msgstr "スニペットなし"
 msgid "No sitemaps found."
 msgstr "サイトマップが見つかりません。"
 
-#: includes/admin/class-post-columns.php:271
+#: includes/admin/class-post-columns.php:274
 #: includes/helpers/class-choices.php:75 assets/admin/js/rank-math-app.js:1
 msgid "No Index"
 msgstr "インデックスなし"
@@ -5845,7 +7141,7 @@ msgid "Manage Redirections"
 msgstr "リダイレクトを管理"
 
 #: includes/admin/class-option-center.php:159
-#: includes/module/class-manager.php:116 assets/admin/js/titleSettings.js:1
+#: includes/module/class-manager.php:123 assets/admin/js/titleSettings.js:1
 msgid "Local SEO"
 msgstr "ローカルSEO"
 
@@ -5931,7 +7227,7 @@ msgstr "Geo 座標"
 msgid "Focus Keyword of the current post"
 msgstr "現在の投稿の重要なキーワード"
 
-#: includes/admin/class-post-columns.php:292
+#: includes/admin/class-post-columns.php:295
 #: includes/replace-variables/class-advanced-variables.php:44
 #: assets/admin/js/rank-math-app.js:1
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
@@ -6118,17 +7414,17 @@ msgstr "投稿"
 
 #. translators: Archive title
 #. translators: placeholder
-#: includes/class-installer.php:386
+#: includes/class-installer.php:387
 #: includes/settings/general/breadcrumbs.php:98
 #: assets/admin/js/generalSettings.js:1
 msgid "Archives for %s"
 msgstr "%sのアーカイブ"
 
-#: includes/module/class-manager.php:323
+#: includes/module/class-manager.php:338
 msgid "AMP plugin"
 msgstr "AMP プラグイン"
 
-#: includes/module/class-manager.php:319
+#: includes/module/class-manager.php:334
 msgid "AMP"
 msgstr "AMP"
 
@@ -6152,7 +7448,7 @@ msgstr "もう一つ追加"
 msgid "About Page"
 msgstr "About ページ"
 
-#: includes/class-installer.php:389
+#: includes/class-installer.php:390
 #: includes/settings/general/breadcrumbs.php:121
 #: assets/admin/js/generalSettings.js:1
 msgid "404 Error: page not found"
@@ -6205,11 +7501,11 @@ msgstr "新しいタブ/ウィンドウで外部リンクを開く"
 msgid "Strip Category Base"
 msgstr "カテゴリベースを削除"
 
-#: includes/module/class-manager.php:107
+#: includes/module/class-manager.php:114
 #: includes/modules/404-monitor/class-admin.php:143
 #: includes/modules/404-monitor/class-admin.php:197
-#: includes/modules/404-monitor/class-monitor.php:67
-#: includes/modules/404-monitor/class-monitor.php:98
+#: includes/modules/404-monitor/class-monitor.php:91
+#: includes/modules/404-monitor/class-monitor.php:122
 #: includes/modules/404-monitor/views/help-tab-overview.php:26
 #: assets/admin/js/generalSettings.js:1 assets/admin/js/wizard.js:1
 msgid "404 Monitor"
@@ -6416,23 +7712,23 @@ msgstr "Facebook Debugger"
 msgid "Facebook Sharing Debugger"
 msgstr "Facebook Sharing Debugger"
 
-#: includes/module/class-manager.php:108
+#: includes/module/class-manager.php:115
 msgid "Records the URLs on which visitors & search engines run into 404 Errors. You can also turn on Redirections to redirect the error causing URLs to other URLs."
 msgstr "訪問者と検索エンジンが404エラーに遭遇した URL を記録します。 リダイレクトをオンにして、エラーの原因となっている URL を他の URL にリダイレクトすることもできます。"
 
-#: includes/module/class-manager.php:135
+#: includes/module/class-manager.php:142
 msgid "Enable support for the structured data, which adds Schema code in your website, resulting in rich search results, better CTR and more traffic."
 msgstr "構造化データのサポートを有効にします。これにより、サイトにスキーマコードが追加され、検索結果が豊富になり、クリック率が向上し、トラフィックが増加します。"
 
-#: includes/module/class-manager.php:252
+#: includes/module/class-manager.php:267
 msgid "Connect Rank Math with Google Search Console to see the most important information from Google directly in your WordPress dashboard."
 msgstr "Rank Math を Google 検索コンソールに接続して、WordPress ダッシュボードに直接 Google からの最も重要な情報を表示します。"
 
-#: includes/module/class-manager.php:355
+#: includes/module/class-manager.php:370
 msgid "Please activate WooCommerce plugin to use this module."
 msgstr "このモジュールを使用するには、WooCommerce プラグインを有効化にしてください。"
 
-#: includes/module/class-manager.php:151
+#: includes/module/class-manager.php:158
 msgid "Link Counter"
 msgstr "リンクカウンター"
 
@@ -6653,11 +7949,6 @@ msgstr "投稿フォーマットアーカイブ"
 msgid "SEO options related to featured images and media appearing in your post content. %s."
 msgstr "投稿コンテンツに表示される注目の画像やメディアに関連する SEO オプション。%s"
 
-#: includes/modules/robots-txt/class-robots-txt.php:72
-#: assets/admin/js/generalSettings.js:1
-msgid "Leave the field empty to let WordPress handle the contents dynamically. If an actual robots.txt file is present in the root folder of your site, this option won't take effect and you have to edit the file directly, or delete it and then edit from here."
-msgstr "WordPress がコンテンツを動的に処理できるようにするには、フィールドを空のままにします。実際の robots.txt ファイルがサイトのルートフォルダにある場合、このオプションは有効になりません。ファイルを直接編集するか、ファイルを削除してからここから編集する必要があります。 "
-
 #: includes/admin/class-cmb2-options.php:406
 #: includes/admin/class-option-center.php:606
 msgid "Failed to backup .htaccess file. Please check file permissions."
@@ -6680,6 +7971,11 @@ msgstr "時間："
 #: includes/helpers/class-choices.php:45
 msgid "Play icon"
 msgstr "Play アイコン"
+
+#: includes/modules/robots-txt/class-robots-txt.php:72
+#: assets/admin/js/generalSettings.js:1
+msgid "Leave the field empty to let WordPress handle the contents dynamically. If an actual robots.txt file is present in the root folder of your site, this option won't take effect and you have to edit the file directly, or delete it and then edit from here."
+msgstr "WordPress がコンテンツを動的に処理できるようにするには、フィールドを空のままにします。実際の robots.txt ファイルがサイトのルートフォルダにある場合、このオプションは有効になりません。ファイルを直接編集するか、ファイルを削除してからここから編集する必要があります。 "
 
 #: includes/helpers/class-choices.php:75 assets/admin/js/rank-math-app.js:1
 msgid "Prevents pages from being indexed and displayed in search engine result pages"
@@ -6770,11 +8066,11 @@ msgstr "ログがクリアされました - %d 項目が削除されました。
 msgid "Are you sure you wish to delete all 404 error logs?"
 msgstr "404 エラーログをすべて削除してもよろしいですか？"
 
-#: includes/modules/404-monitor/class-monitor.php:100
+#: includes/modules/404-monitor/class-monitor.php:124
 msgid "Review 404 errors on your site"
 msgstr "サイトの 404 エラーを確認する"
 
-#: includes/modules/404-monitor/class-monitor.php:121
+#: includes/modules/404-monitor/class-monitor.php:145
 msgid "Log item successfully deleted."
 msgstr "ログ項目が正常に削除されました。"
 
@@ -7316,7 +8612,7 @@ msgstr "オペレーティング・システム"
 msgid "Application Category"
 msgstr "アプリのカテゴリー"
 
-#: includes/admin/class-admin.php:446 includes/traits/class-ajax.php:59
+#: includes/admin/class-admin.php:441 includes/traits/class-ajax.php:59
 msgid "You are not authorized to perform this action."
 msgstr "この操作の実行権限がありません。"
 
@@ -7476,14 +8772,14 @@ msgstr "Google Search Console に登録し、<a href=\"%1$s\">「設定」> 「�
 msgid "Google's Search Console is a vital source of information concerning your rankings and click-through rates.  Rank Math can import this data, so you don't have to log into your Google account to get the data you need."
 msgstr "Google Search Console は、ランキングとクリック率に関する重要な情報源です。Rank Math はこのデータをインポートできるため、必要なデータを取得するために Google アカウントにログインする必要はありません。"
 
-#: includes/modules/seo-analysis/seo-analysis-tests.php:87
-msgid "HTML Page Titles play a large role in Google's ranking algorithm.  When you add a Focus Keyword to a post or page, Rank Math will check to see that you used the keyword in the title.  If it finds any posts or pages that are missing the keyword in the title, it will tell you here."
-msgstr "HTML ページタイトルは、Google のランキングアルゴリズムで大きな役割を果たします。 投稿またはページにフォーカスキーワードを追加すると、ランク数学は、タイトルでキーワードを使用したかどうかを確認します。 タイトルにキーワードがない投稿やページが見つかった場合は、ここに表示されます。 "
-
 #. translators: link to plugin search console setting screen
 #: includes/modules/seo-analysis/seo-analysis-tests.php:123
 msgid "You can integrate the Google Search Console with Rank math in the <a href=\"%1$s\" target=\"_blank\">Search Console tab</a>. of Rank Math's General Settings menu."
 msgstr "Google Search Console を Rank Math と統合するには、ランク計算の「一般設定」メニューの<a href=\"%1$s\" target=\"_blank\">「Search Console」</a>タブを使用します。 "
+
+#: includes/modules/seo-analysis/seo-analysis-tests.php:87
+msgid "HTML Page Titles play a large role in Google's ranking algorithm.  When you add a Focus Keyword to a post or page, Rank Math will check to see that you used the keyword in the title.  If it finds any posts or pages that are missing the keyword in the title, it will tell you here."
+msgstr "HTML ページタイトルは、Google のランキングアルゴリズムで大きな役割を果たします。 投稿またはページにフォーカスキーワードを追加すると、ランク数学は、タイトルでキーワードを使用したかどうかを確認します。 タイトルにキーワードがない投稿やページが見つかった場合は、ここに表示されます。 "
 
 #. translators: Link to Search Console KB article
 #: includes/modules/seo-analysis/seo-analysis-tests.php:125
@@ -7975,10 +9271,6 @@ msgstr "nofollow から除外されたドメイン"
 msgid "The <code>nofollow</code> attribute <strong>will not be added</strong> for the link if target domain is in this list. Add one per line."
 msgstr "ターゲットドメインがこのリストにある場合、リンクの<code>nofollow</code>属性は<strong>追加されません</strong>。 1行に1つずつ追加します。 "
 
-#: includes/settings/general/links.php:110 assets/admin/js/generalSettings.js:1
-msgid "Automatically add <code>target=\"_blank\"</code> attribute for external links appearing in your posts, pages, and other post types to make them open in a new browser tab or window. The attribute is dynamically applied when the content is displayed, and the stored content is not changed."
-msgstr "投稿、ページ、その他の投稿タイプに表示される外部リンクの<code>target=\"_blank\"</code>属性を自動的に追加して、新しいブラウザのタブまたはウィンドウで開くようにします。 この属性は、コンテンツが表示されるときに動的に適用され、保存されているコンテンツは変更されません。 "
-
 #: includes/settings/general/others.php:116
 #: assets/admin/js/generalSettings.js:1
 msgid "RSS Before Content"
@@ -8003,6 +9295,10 @@ msgstr "サイトフィードの各投稿の後にコンテンツを追加しま
 #: assets/admin/js/generalSettings.js:1
 msgid "Contents are locked because a robots.txt file is present in the root folder."
 msgstr "ルートフォルダにrobots.txtファイルが存在するため、コンテンツはロックされています。"
+
+#: includes/settings/general/links.php:110 assets/admin/js/generalSettings.js:1
+msgid "Automatically add <code>target=\"_blank\"</code> attribute for external links appearing in your posts, pages, and other post types to make them open in a new browser tab or window. The attribute is dynamically applied when the content is displayed, and the stored content is not changed."
+msgstr "投稿、ページ、その他の投稿タイプに表示される外部リンクの<code>target=\"_blank\"</code>属性を自動的に追加して、新しいブラウザのタブまたはウィンドウで開くようにします。 この属性は、コンテンツが表示されるときに動的に適用され、保存されているコンテンツは変更されません。 "
 
 #: includes/settings/general/rss-vars-table.php:26
 #: assets/admin/js/generalSettings.js:1
@@ -8259,12 +9555,108 @@ msgstr "SEOプラグインはひとつだけ有効化してください。そう
 msgid "Please keep only one Sitemap plugin active, otherwise, you might lose your rankings and traffic."
 msgstr "サイトマッププラグインは1つだけ有効化してください。そうしないと、ランキングとトラフィックが失われる可能性があります。"
 
+#: includes/module/class-manager.php:257
+#: includes/modules/role-manager/class-capability-manager.php:62
+#: includes/modules/role-manager/class-role-manager.php:60
+#: assets/admin/js/components.js:1 assets/admin/js/wizard.js:1
+#: includes/modules/role-manager/assets/js/role-manager.js:1
+msgid "Role Manager"
+msgstr "権限管理"
+
+#: includes/modules/image-seo/options.php:16
+#: assets/admin/js/generalSettings.js:1
+msgid "Add <code>alt</code> attributes for <code>images</code> without <code>alt</code> attributes automatically. The attribute is dynamically applied when the content is displayed, and the stored content is not changed."
+msgstr "<code>alt</code> 属性のない <code>画像</code> に、自動的に <code>alt</code> 属性を追加します。この属性はコンテンツの表示時に動的に適用されるため、保存されているコンテンツ自体は変更されません。"
+
+#: includes/modules/image-seo/options.php:40
+#: assets/admin/js/generalSettings.js:1
+msgid "Add <code>TITLE</code> attribute for all <code>images</code> without a <code>TITLE</code> attribute automatically. The attribute is dynamically applied when the content is displayed, and the stored content is not changed."
+msgstr "<code>TITLE</code> 属性のないすべての <code>画像</code> に、自動的に <code>TITLE</code> 属性を追加します。この属性はコンテンツの表示時に動的に適用されるため、保存されているコンテンツ自体は変更されません。"
+
+#: includes/settings/general/htaccess.php:52
+#: assets/admin/js/generalSettings.js:1
+msgid "Be careful when editing the htaccess file, it is easy to make mistakes and break your site. If that happens, you can restore the file to its state <strong>before the last edit</strong> by replacing the htaccess file with the backup copy created by Rank Math in the same directory (<em>.htaccess_back_xxxxxx</em>) using an FTP client."
+msgstr "htaccess ファイルを編集する際は注意してください。誤った編集によりサイトが動かなくなることがあります。その場合、FTP クライアントを使用して、同じディレクトリ内に Rank Math が作成したバックアップファイル（<em>.htaccess_back_xxxxxx</em>）で htaccess ファイルを置き換えることで、<strong>直前の編集前の状態</strong>に復元できます。"
+
+#: includes/settings/general/others.php:101
+#: assets/admin/js/generalSettings.js:1
+msgid "Usage Tracking"
+msgstr "利用状況のトラッキング"
+
+#. translators: Google Search Console Link
+#: includes/settings/general/webmaster.php:19
+#: assets/admin/js/generalSettings.js:1
+msgid "Enter your Google Search Console verification HTML code or ID. Learn how to get it: %s"
+msgstr "Google Search Console の確認用 HTML コードまたは ID を入力してください。取得方法はこちら: %s"
+
+#. translators: Baidu webmaster link
+#: includes/settings/general/webmaster.php:41
+#: includes/settings/general/webmaster.php:43
+#: assets/admin/js/generalSettings.js:1
+msgid "Baidu Webmaster Tools"
+msgstr "Baidu Webmaster Tools"
+
+#. translators: Baidu webmaster link
+#: includes/settings/general/webmaster.php:43
+#: assets/admin/js/generalSettings.js:1
+msgid "Enter your Baidu Webmaster Tools verification HTML code or ID. Learn how to get it: %s"
+msgstr "Baidu Webmaster Tools の確認用 HTML コードまたは ID を入力してください。取得方法はこちら: %s"
+
+#. translators: Yandex webmaster link
+#: includes/settings/general/webmaster.php:55
+#: assets/admin/js/generalSettings.js:1
+msgid "Enter your Yandex verification HTML code or ID. Learn how to get it: %s"
+msgstr "Yandex の確認用 HTML コードまたは ID を入力してください。取得方法はこちら: %s"
+
+#. translators: Pinterest webmaster link
+#: includes/settings/general/webmaster.php:68
+#: assets/admin/js/generalSettings.js:1
+msgid "Enter your Pinterest verification HTML code or ID. Learn how to get it: %s"
+msgstr "Pinterest の確認用 HTML コードまたは ID を入力してください。取得方法はこちら: %s"
+
+#. translators: Norton webmaster link
+#: includes/settings/general/webmaster.php:80
+#: assets/admin/js/generalSettings.js:1
+msgid "Enter your Norton Safe Web verification HTML code or ID. Learn how to get it: %s"
+msgstr "Norton Safe Web の確認用 HTML コードまたは ID を入力してください。取得方法はこちら: %s"
+
+#: includes/helpers/class-choices.php:480 assets/admin/js/rank-math-app.js:1
+#: includes/modules/redirections/assets/js/redirections.js:1
+msgid "301 Permanent Move"
+msgstr "301 恒久的な移動"
+
+#: includes/helpers/class-choices.php:481 assets/admin/js/rank-math-app.js:1
+#: includes/modules/redirections/assets/js/redirections.js:1
+msgid "302 Temporary Move"
+msgstr "302 一時的な移動"
+
+#: includes/helpers/class-choices.php:482 assets/admin/js/rank-math-app.js:1
+#: includes/modules/redirections/assets/js/redirections.js:1
+msgid "307 Temporary Redirect"
+msgstr "307 一時的なリダイレクト"
+
+#: includes/helpers/class-choices.php:483 assets/admin/js/rank-math-app.js:1
+#: includes/modules/redirections/assets/js/redirections.js:1
+msgid "410 Content Deleted"
+msgstr "410 コンテンツ削除済み"
+
+#: includes/helpers/class-choices.php:484 assets/admin/js/rank-math-app.js:1
+#: includes/modules/redirections/assets/js/redirections.js:1
+msgid "451 Content Unavailable for Legal Reasons"
+msgstr "451 法的理由により利用不可"
+
+#: includes/module/class-manager.php:277
+msgid "Let Rank Math analyze your website and your website's content using 28+ different tests to provide tailor-made SEO Analysis to you."
+msgstr "Rank Math が 28以上のテストでサイトとそのコンテンツを分析し、サイトに合わせた SEO 分析を提供します。"
+
 #: includes/admin/metabox/class-taxonomy-screen.php:140
 #: includes/modules/local-seo/views/titles-options.php:64
 #: includes/settings/general/rss-vars-table.php:20
 #: includes/settings/titles/post-types.php:191
 #: assets/admin/js/generalSettings.js:1 assets/admin/js/rank-math-app.js:1
 #: assets/admin/js/titleSettings.js:1
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/BrandDetail/BrandHeader.js:105
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Description"
@@ -8289,11 +9681,11 @@ msgstr "説明"
 msgid "None"
 msgstr "なし"
 
-#: includes/admin/class-post-columns.php:231
-#: includes/admin/class-post-columns.php:252
-#: includes/admin/class-post-columns.php:307
-#: includes/admin/class-post-columns.php:327
-#: includes/admin/class-post-columns.php:340
+#: includes/admin/class-post-columns.php:234
+#: includes/admin/class-post-columns.php:255
+#: includes/admin/class-post-columns.php:310
+#: includes/admin/class-post-columns.php:330
+#: includes/admin/class-post-columns.php:343
 #: includes/modules/schema/assets/js/schema-gutenberg.js:1
 #: includes/modules/schema/assets/js/schema-template.js:1
 msgid "Save"
@@ -8316,11 +9708,14 @@ msgstr "リンク追加"
 msgid "Alternative Text"
 msgstr "代替テキスト"
 
-#: includes/admin/class-post-columns.php:232
-#: includes/admin/class-post-columns.php:253
-#: includes/admin/class-post-columns.php:308
-#: includes/admin/class-post-columns.php:328
-#: includes/admin/class-post-columns.php:341 assets/admin/js/post-list.js:1
+#: includes/admin/class-post-columns.php:235
+#: includes/admin/class-post-columns.php:256
+#: includes/admin/class-post-columns.php:311
+#: includes/admin/class-post-columns.php:331
+#: includes/admin/class-post-columns.php:344 assets/admin/js/post-list.js:1
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/shared/Modals/AddBrandModal.js:433
+#: includes/modules/ai-visibility/assets/src/shared/Modals/ConfirmModal.js:39
 #: includes/modules/redirections/assets/js/redirections.js:1
 msgid "Cancel"
 msgstr "キャンセル"
@@ -8329,7 +9724,10 @@ msgstr "キャンセル"
 #: includes/admin/class-admin-bar-menu.php:187
 #: includes/admin/class-admin-breadcrumbs.php:33
 #: includes/admin/class-admin-menu.php:141 assets/admin/js/components.js:1
-#: assets/admin/js/modules.js:1 includes/modules/analytics/assets/js/stats.js:1
+#: assets/admin/js/modules.js:1
+#: includes/modules/ai-visibility/assets/js/ai-visibility.js:1
+#: includes/modules/ai-visibility/assets/src/App.js:39
+#: includes/modules/analytics/assets/js/stats.js:1
 msgid "Dashboard"
 msgstr "ダッシュボード"
 
@@ -8355,7 +9753,7 @@ msgstr "ヘルプ"
 msgid "Insert/edit link"
 msgstr "リンクの挿入/編集"
 
-#: includes/admin/class-post-columns.php:294
+#: includes/admin/class-post-columns.php:297
 msgid "Keyword"
 msgstr "キーワード"
 
@@ -8399,7 +9797,7 @@ msgstr "更新"
 
 #: includes/admin/class-admin-dashboard-nav.php:111
 #: includes/admin/class-setup-wizard.php:68
-#: includes/admin/class-setup-wizard.php:69 rank-math.php:440 rank-math.php:445
+#: includes/admin/class-setup-wizard.php:69 rank-math.php:454 rank-math.php:459
 #: assets/admin/js/modules.js:1
 msgid "Setup Wizard"
 msgstr "設定ウィザード"
@@ -8407,10 +9805,6 @@ msgstr "設定ウィザード"
 #: includes/admin/class-admin-dashboard-nav.php:121
 msgid "Import &amp; Export"
 msgstr "インポート / エクスポート"
-
-#: includes/admin/class-admin.php:415
-msgid "Copy Link URL to Clipboard"
-msgstr "リンク URL をクリップボードにコピー"
 
 #: includes/admin/class-assets.php:206
 msgid "Link Title"
@@ -8445,7 +9839,7 @@ msgid "On"
 msgstr "オン"
 
 #: includes/admin/class-post-columns.php:131
-#: includes/admin/class-post-columns.php:175
+#: includes/admin/class-post-columns.php:178
 #: includes/replace-variables/class-post-variables.php:81
 #: includes/modules/content-ai/assets/js/content-ai-page.js:1
 #: includes/modules/content-ai/assets/js/content-ai.js:1
@@ -8500,7 +9894,7 @@ msgstr "SEO スコアー: 悪い"
 #: includes/admin/class-registration.php:212
 #: includes/admin/metabox/class-metabox.php:163
 #: includes/admin/metabox/class-metabox.php:203
-#: includes/admin/metabox/class-metabox.php:389
+#: includes/admin/metabox/class-metabox.php:383
 msgid "Rank Math SEO"
 msgstr "Rank Math SEO"
 
@@ -8576,10 +9970,6 @@ msgstr "<code>rel=\"nofollow\"</code> を追加"
 msgid "SEO Details"
 msgstr "SEO の詳細"
 
-#: includes/admin/class-admin.php:416
-msgid "Insert Link in Content"
-msgstr "コンテンツにリンクを挿入"
-
 #: includes/admin/class-post-filters.php:173
 msgid "Focus Keyword Not Set"
 msgstr "重要なキーワードが設定されていません"
@@ -8609,30 +9999,22 @@ msgstr "今回はバックアップを作成できません。"
 msgid "Settings successfully imported. Your old configuration has been saved as a backup."
 msgstr "設定が正常にインポートされました。 古い構成はバックアップとして保存されています。 "
 
-#: includes/admin/metabox/class-post-screen.php:129
+#: includes/admin/metabox/class-post-screen.php:130
 msgid "The featured image should be at least 200 by 200 pixels to be picked up by Facebook and other social media sites."
 msgstr "Facebook などのソーシャルメディアサイトで使われるようにするには、画像サイズを200x200ピクセル以上にするべきです。"
 
-#: includes/admin/metabox/class-metabox.php:230
-#: includes/settings/titles/post-types.php:273
+#: includes/admin/metabox/class-metabox.php:234
+#: includes/settings/titles/post-types.php:273 assets/admin/js/gutenberg.js:1
 #: assets/admin/js/titleSettings.js:1
 msgid "Link Suggestions"
 msgstr "リンクの提案"
-
-#: includes/admin/metabox/class-metabox.php:245
-msgid "Click on the button to copy URL or insert link in content. You can also drag and drop links in the post content."
-msgstr "ボタンをクリックして、URLをコピーするか、コンテンツにリンクを挿入します。 投稿コンテンツにリンクをドラッグアンドドロップすることもできます。"
-
-#: includes/admin/metabox/class-metabox.php:250
-msgid "We can't show any link suggestions for this post. Try selecting categories and tags for this post, and mark other posts as Pillar Content to make them show up here."
-msgstr "この投稿へのリンクの提案は表示できません。 この投稿のカテゴリとタグを選択し、他の投稿をピラーコンテンツとしてマークして、ここに表示されるようにしてください。 "
 
 #: includes/admin/class-post-filters.php:174
 msgid "Articles noindexed"
 msgstr "noindex の投稿"
 
 #: includes/admin/class-post-columns.php:132
-#: includes/admin/class-post-columns.php:176
+#: includes/admin/class-post-columns.php:179
 msgid "SEO Desc"
 msgstr "SEO の説明"
 
@@ -8656,3 +10038,19 @@ msgstr "ウェブショップ"
 #: includes/admin/class-import-export.php:64
 msgid "Cleanup of %s data successfully done."
 msgstr "%s データのクリーンアップが正常に完了しました。"
+
+#: includes/admin/class-page.php:137
+msgid "$id variable required"
+msgstr "変数 $id が必要です"
+
+#: includes/admin/class-page.php:137 includes/admin/class-page.php:141
+msgid "Variable Required"
+msgstr "変数が必要です"
+
+#: includes/admin/class-page.php:141
+msgid "$title variable required"
+msgstr "変数 $title が必要です"
+
+#: includes/admin/class-list-table.php:24
+msgid "No items found."
+msgstr "項目が見つかりません。"

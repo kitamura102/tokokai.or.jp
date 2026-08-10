@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 7.0.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-20 16:07:07+0000\n"
+"PO-Revision-Date: 2026-07-18 14:12:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1167,7 +1167,7 @@ msgstr "サイトネットワーク管理者が利用中のテーマを停止し
 
 #: wp-admin/network/themes.php:314
 msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
-msgstr "この画面では、テーマを各サイトの「外観」パネルで選択できる、またはできないようにします。現在サイトが使用しているテーマの有効化または停止ではありません。"
+msgstr "この画面では、テーマを各サイトの「外観」パネルで選択できる、またはできないようにします。現在サイトが使用しているテーマの有効化または無効化ではありません。"
 
 #: wp-admin/network/sites.php:32
 msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."

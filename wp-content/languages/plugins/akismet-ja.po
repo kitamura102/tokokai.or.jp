@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-04-23 23:00:56+0000\n"
+"PO-Revision-Date: 2026-08-03 15:09:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -477,11 +477,11 @@ msgstr "%1$s 以降、このアカウントはプランの制限 %3$s を超え�
 
 #: views/notice.php:323
 msgid "Your Akismet usage has been over your plan&#8217;s limit for three consecutive months. We have restricted your account for the rest of the month. Increase your limit to make sure your site stays protected from spam."
-msgstr "Akismet の使用量が3か月連続で上限を超えています。 今月の残りの期間、アカウントに制限が適用されます。 今後もサイトをスパムから保護するため、上限を増やしましょう。"
+msgstr "Akismet の使用量が3か月連続でプラン上限を超えました。今月末までアカウント利用に制限をかけました。Akismet がスパムをブロックし続けることができるように、上限を増やしてください。"
 
 #: views/notice.php:314
 msgid "Your Akismet usage is nearing your plan&#8217;s limit for the third consecutive month. We will restrict your account after you reach the limit. Increase your limit to make sure your site stays protected from spam."
-msgstr "Akismet の使用量が3か月連続でプランの上限に近づいています。 上限に達した場合はアカウントの利用が制限されます。 今後もサイトをスパムから保護するため、上限を増やしましょう。"
+msgstr "Akismet の使用量が3か月連続でプラン上限に近づいています。上限に達した場合はアカウントを制限します。 Akismet がスパムをブロックし続けることができるように、上限を増やしてください。"
 
 #: views/notice.php:280
 msgid "Your account has been restricted"
@@ -606,7 +606,7 @@ msgstr "真であれば、Akismet は最も悪質な種類のスパムをスパ�
 #: class.akismet-rest-api.php:31 class.akismet-rest-api.php:127
 #: class.akismet-rest-api.php:140 class.akismet-rest-api.php:153
 msgid "A 12-character Akismet API key. Available at akismet.com/account"
-msgstr "12文字の Akismet API キー。 akismet.com/account で利用可能"
+msgstr "12文字の Akismet API キーです。akismet.com/account で入手できます。"
 
 #: views/notice.php:128
 msgid "Your site can&#8217;t connect to the Akismet servers."
@@ -846,7 +846,7 @@ msgstr "API キーに問題があります。"
 #. translators: The placeholder is a URL.
 #: views/notice.php:132
 msgid "Your firewall may be blocking Akismet from connecting to its API. Please contact your host and refer to <a class=\"akismet-external-link\" href=\"%s\" target=\"_blank\">our guide about firewalls</a>"
-msgstr "ファイアウォールによって Akismet が API に接続できない可能性があります。 ホスティングサービスにご連絡のうえ、<a class=\"akismet-external-link\" href=\"%s\" target=\"_blank\">ファイアウォールに関するガイド</a>を参照してください"
+msgstr "ファイアウォールが Akismet の API への接続をブロックしている可能性があります。ホスティングサービスに連絡し、<a class=\"akismet-external-link\" href=\"%s\" target=\"_blank\">ファイアウォールに関するガイド</a>に言及してください。"
 
 #: views/notice.php:112
 msgid "Network functions are disabled."
