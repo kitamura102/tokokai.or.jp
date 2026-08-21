@@ -87,22 +87,44 @@
  <?php }; ?>
 
  <?php
-      $post_num = 10;
+      $post_num = $content['post_num']?? 10;
       $post_type = $content['post_type'];
       if(!$options['use_news']){
         $post_type = 'post';
       }
-      $post_order = $content['post_order'];
+      if ($content['post_order'] == 'rand') {
+        $post_order = 'rand';
+      } else {
+        $post_order = array(
+          'date'     => 'DESC',
+          'modified' => 'DESC',
+          'ID'       => 'DESC',
+        );
+      };
       $layout = $content['layout'];
       $autoplay = ( isset($content['autoplay']) && $content['autoplay'] === 'off' ) ? false : true;
       if($post_type == 'news'){
         $taxonomy_name = 'news_category';
         $show_date = 'display';
+        $cate_id = $content['news_category']?? 0;
       } else {
         $taxonomy_name = 'category';
         $show_date = $options['blog_show_date'];
+        $cate_id = $content['category']?? 0;
       }
-      $args = array( 'post_type' => $post_type, 'posts_per_page' => $post_num, 'orderby' => $post_order );
+      if($cate_id){
+        $args = array( 'post_type' => $post_type, 'posts_per_page' => $post_num, 'orderby' => $post_order, 'ignore_sticky_posts' => true,
+          'tax_query' => array(
+            array(
+              'taxonomy' => $taxonomy_name,
+              'field'    => 'term_id',
+              'terms'    => $cate_id,
+            ),
+          ),
+        );
+      }else{
+        $args = array( 'post_type' => $post_type, 'posts_per_page' => $post_num, 'orderby' => $post_order, 'ignore_sticky_posts' => true );
+      }
       $post_list = new wp_query($args);
       $total_posts = $post_list->found_posts; 
       $show_arrow = true;
@@ -117,14 +139,17 @@
       if(  $post_type === 'news' ){
         $button_url =esc_url(get_post_type_archive_link('news'));
       }
+      $post_count = $post_list->post_count;
       if($post_list->have_posts()):
  ?>
 
- <div class="splide index_carousel<?php if($layout == 'type2'){ echo ' type2'; }; ?> <?php if(!$show_arrow) { echo ' index_carousel__hide_arrow';}; ?>"<?php if(!$autoplay){?> data-splide='{"autoplay":false,"type":"slide"}' <?php } ?>>
+ <div class="<?php if($post_count>2){ echo 'splide '; }elseif($post_count==2){ echo 'blog_list '; }else{ echo 'blog_list_only_child '; }; ?>index_carousel<?php if($layout == 'type2'){ echo ' type2'; }; ?> <?php if(!$show_arrow) { echo ' index_carousel__hide_arrow';}; ?>"<?php if(!$autoplay){?> data-splide='{"autoplay":false,"type":"slide"}' <?php } ?>>
+  <?php if($post_count>2){ ?>
   <div class="splide__arrows">
    <button class="splide__arrow splide__arrow--prev"><span>Prev</span></button>
    <button class="splide__arrow splide__arrow--next"><span>Next</span></button>
   </div>
+  <?php }; ?>
   <div class="splide__track">
    <div class="splide__list">
     <?php

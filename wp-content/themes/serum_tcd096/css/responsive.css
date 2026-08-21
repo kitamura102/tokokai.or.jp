@@ -8,7 +8,7 @@
 body { touch-action:manipulation; }
 html:before { display:none; }
 html.open_menu body { overflow-y:hidden; }
-body { padding:60px 0 0; }
+html body { padding:60px 0 0; }
 body:before { display:none; }
 body:after { display:none; }
 #container { border:none; min-height:inherit; }

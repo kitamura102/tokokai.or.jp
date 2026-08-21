@@ -1456,3 +1456,17 @@ table.theme_option_table td .wp-picker-container .wp-color-result.button {
 
 /* スペース対策 */
 #side-sortables .option_list li.space { margin-left:0px; }
+
+
+/* WP7.0対策 */
+input[type="date"], input[type="datetime-local"], input[type="datetime"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"]{
+  min-height: 30px;
+  line-height: 2;
+  border-radius: 4px;
+  padding: 0 8px;
+}
+.wp-core-ui select{
+  min-height: 30px;
+  padding: 0 24px 0 8px;
+  line-height: 2;
+}

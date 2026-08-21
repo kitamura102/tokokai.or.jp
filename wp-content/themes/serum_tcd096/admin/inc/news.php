@@ -229,7 +229,7 @@ function add_news_tab_panel( $options ) {
      <h4 class="theme_option_headline2"><?php printf(__('%s list', 'tcd-serum'), $news_label); ?></h4>
       <ul class="option_list">
        <li class="cf">
-        <span class="label"><?php _e('Post type', 'tcd-serum');  ?></span>
+        <span class="label"><?php _e('Content type', 'tcd-serum');  ?></span>
         <div class="standard_radio_button">
          <input id="recent_news_post_type_type1" type="radio" name="dp_options[recent_news_post_type]" value="recent_post" <?php checked( $options['recent_news_post_type'], 'recent_post' ); ?>>
          <label for="recent_news_post_type_type1"><?php _e('Recent post', 'tcd-serum'); ?></label>

@@ -1,15 +1,19 @@
-# Translation of WordPress - 7.0.x - Development - Administration - Network Admin in Japanese
-# This file is distributed under the same license as the WordPress - 7.0.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 7.1.x - Development - Administration - Network Admin in Japanese
+# This file is distributed under the same license as the WordPress - 7.1.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-18 14:12:04+0000\n"
+"PO-Revision-Date: 2026-08-14 15:34:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/4.0.3\n"
 "Language: ja_JP\n"
-"Project-Id-Version: WordPress - 7.0.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 7.1.x - Development - Administration - Network Admin\n"
+
+#: wp-admin/network/users.php:343
+msgid "No users were deleted because no user was selected for content reassignment."
+msgstr "コンテンツの再割り当て対象としてユーザーが選択されていないため、削除されたユーザーはいません。"
 
 #: wp-admin/network/sites.php:361
 msgid "Site flagged for deletion."
@@ -661,7 +665,7 @@ msgstr "パス"
 msgid "Domain"
 msgstr "domain"
 
-#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:270
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:297
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Documentation on Network Users</a>"
 msgstr "<a href=\"https://wpdocs.osdn.jp/Network_Admin_Users_Screen\">サイトネットワークユーザーの解説</a>"
 
@@ -726,7 +730,7 @@ msgstr "次の内容を %2$s にある %1$s ファイルへ追加して、他の
 msgid "Confirm your action"
 msgstr "操作を確認"
 
-#: wp-admin/network/users.php:260
+#: wp-admin/network/users.php:287
 msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
 msgstr "リスト上のユーザーをマウスオーバーすると編集リンクが表示されます。左側の編集リンクを使ってユーザープロフィールの編集画面へ移動できます。サイト名の右側にある編集リンクからは、そのサイトの「サイト編集」画面へ移動します。"
 
@@ -1081,7 +1085,7 @@ msgid "The choice of subdirectory sites is disabled if this setup is more than a
 msgstr "この設定が1ヶ月以上前に行われた場合、メインサイトからの &#8220;blog&#8221; ディレクトリのパーマリンクに関連する問題のため、サブディレクトリサイトの選択肢が無効になっています。将来のバージョンでは対応する予定です。"
 
 #: wp-admin/network.php:65
-msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can switch between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
 msgstr "このコードを追加してブラウザーで再読み込みを行うと、マルチサイトが有効化されます。追加コードのアーカイブは「サイトネットワーク管理」ナビゲーションメニューからアクセスできるこの画面に保存されます。同メニューをクリックするか、ツールバードロップダウンにある「参加サイト」から各サイト名をクリックすることで、サイトネットワーク管理画面とサイト管理画面を切り替えられます。"
 
 #: wp-admin/network.php:63
@@ -1105,7 +1109,7 @@ msgid "The Network creation panel is not for WordPress MU networks."
 msgstr "サイトネットワーク作成パネルは WordPress MU ネットワーク向けではありません。"
 
 #. translators: %s: User login.
-#: wp-admin/network/users.php:87 wp-admin/network/users.php:126
+#: wp-admin/network/users.php:88 wp-admin/network/users.php:127
 msgid "Warning! User cannot be modified. The user %s is a network administrator."
 msgstr "注意: ユーザーを変更できません。ユーザー %s はサイトネットワーク管理者です。"
 
@@ -1125,11 +1129,11 @@ msgstr "各サイトをマウスオーバーするとオプションが7つ表�
 msgid "Operational settings has fields for the network&#8217;s name and admin email."
 msgstr "運用設定には、サイトネットワーク名と管理者メールアドレスの記入欄があります。"
 
-#: wp-admin/network/users.php:263
+#: wp-admin/network/users.php:290
 msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
 msgstr "一括操作により、選択したユーザーを永久に削除したり、スパム判定を切り替えることができます。スパムユーザーの投稿は削除され、同じメールアドレスでは再び登録できなくなります。"
 
-#: wp-admin/network/users.php:261
+#: wp-admin/network/users.php:288
 msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
 msgstr "ユーザーの名前をクリックして、各々のユーザーのプロフィール画面にいくこともできます。"
 
@@ -1137,7 +1141,7 @@ msgstr "ユーザーの名前をクリックして、各々のユーザーのプ
 msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
 msgstr "アップロード設定ではアップロードされるファイルのサイズと、それぞれのサイトで利用できるアップロード容量を調整できます。特定のサイトを編集するときに、そのサイトのデフォルト値を変更できます。許可されたファイルタイプをリストに入力します (スペースで区切ります)。"
 
-#: wp-admin/network/users.php:264
+#: wp-admin/network/users.php:291
 msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
 msgstr "ユーザープロフィール編集画面にいき、チェックボックスにチェックして権限を昇格させることで、既存のユーザーを追加の特権管理者にすることができます。"
 
@@ -1145,11 +1149,11 @@ msgstr "ユーザープロフィール編集画面にいき、チェックボッ
 msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
 msgstr "サイトを作成せずサイトネットワークに登録したユーザーは、メインダッシュボードサイトの購読者として追加され、同サイト上でアカウント管理用のプロフィールページが与えられます。サイトを作成するまでは、これらのユーザーにはメインナビゲーションでダッシュボードと参加サイトのみが表示されます。"
 
-#: wp-admin/network/users.php:262
+#: wp-admin/network/users.php:289
 msgid "You can sort the table by clicking on any of the table headings and switch between list and excerpt views by using the icons above the users list."
 msgstr "見出しをクリックすればテーブルを並び替えられます。ユーザー一覧の上のアイコンを使って、一覧・抜粋表示を切り替えられます。"
 
-#: wp-admin/network/users.php:259
+#: wp-admin/network/users.php:286
 msgid "This table shows all users across the network and the sites to which they are assigned."
 msgstr "このテーブルでは、サイトネットワーク上のすべてのユーザーと所属するサイトを表示しています。"
 
@@ -1206,7 +1210,7 @@ msgstr "特定のドメインからのサイト登録を禁止したい場合、
 msgid "If you want to limit site registrations to certain domains. One domain per line."
 msgstr "特定のドメインからのみのサイト登録を許可したい場合、許可するドメインを改行で区切って入力してください。"
 
-#: wp-admin/network/users.php:294
+#: wp-admin/network/users.php:321
 msgid "Users removed from spam."
 msgstr "ユーザーのスパマー判定を解除しました。"
 
@@ -1226,11 +1230,11 @@ msgstr "サイトをスパムとしてマークしました。"
 msgid "Sites removed from spam."
 msgstr "サイトのスパム判定を解除しました。"
 
-#: wp-admin/network/users.php:297
+#: wp-admin/network/users.php:324
 msgid "Users deleted."
 msgstr "ユーザーを削除しました。"
 
-#: wp-admin/network/users.php:291
+#: wp-admin/network/users.php:318
 msgid "Users marked as spam."
 msgstr "ユーザーをスパマーとしてマークしました。"
 

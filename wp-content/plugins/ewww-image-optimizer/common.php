@@ -2308,6 +2308,11 @@ function ewww_image_optimizer_handle_upload( $params ) {
 	if ( ewww_image_optimizer_get_option( 'ewww_image_optimizer_debug' ) && ewww_image_optimizer_function_exists( 'print_r' ) ) {
 		ewwwio_debug_message( print_r( $params, true ) );
 	}
+	ewwwio_debug_message( 'request URI: ' . EWWW\Base::$request_uri );
+	if ( wp_is_rest_endpoint() && preg_match( '#wp/v2/media/\d+/sideload#', EWWW\Base::$request_uri ) && isset( $_REQUEST['image_size'] ) && ! empty( $_REQUEST['image_size'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification
+		ewwwio_debug_message( 'sub-sizes sideloading, can\'t touch this!' );
+		return $params;
+	}
 	global $ewww_new_image;
 	$ewww_new_image = true;
 	remove_filter( 'wp_update_attachment_metadata', 'ewww_image_optimizer_update_scaled_metadata', 8 );
@@ -2860,55 +2865,65 @@ function ewww_image_optimizer_imagick_create_webp( $file, $type, $webpfile ) {
 				}
 				ewwwio_debug_message( 'something unknown went wrong, try the normal process' );
 			}
-			$image = new Imagick( $file );
-			if ( false === $image ) {
-				return;
-			}
-			if ( ewww_image_optimizer_get_option( 'ewww_image_optimizer_metadata_remove' ) ) {
-				// Getting possible color profiles.
-				$profiles = $image->getImageProfiles( 'icc', true );
-			}
-			$color = $image->getImageColorspace();
-			ewwwio_debug_message( "color space is $color" );
-			if ( Imagick::COLORSPACE_CMYK === $color ) {
-				ewwwio_debug_message( 'found CMYK image' );
-				if ( ewwwio_is_file( EWWW_IMAGE_OPTIMIZER_PLUGIN_PATH . 'vendor/icc/sRGB2014.icc' ) ) {
-					ewwwio_debug_message( 'adding icc profile' );
-					$icc_profile = file_get_contents( EWWW_IMAGE_OPTIMIZER_PLUGIN_PATH . 'vendor/icc/sRGB2014.icc' );
-					$image->profileImage( 'icc', $icc_profile );
+			try {
+				$image = new Imagick( $file );
+				if ( false === $image ) {
+					return;
 				}
-				ewwwio_debug_message( 'attempting SRGB transform' );
-				$image->transformImageColorspace( Imagick::COLORSPACE_SRGB );
-				ewwwio_debug_message( 'removing icc profile' );
-				$image->setImageProfile( '*', null );
-				$profiles = array();
-			}
-			$image->setImageFormat( 'WEBP' );
-			if ( $sharp_yuv ) {
-				ewwwio_debug_message( 'enabling sharp_yuv' );
-				$image->setOption( 'webp:use-sharp-yuv', 'true' );
-			}
-			ewwwio_debug_message( "setting quality to $quality" );
-			$image->setImageCompressionQuality( $quality );
-			break;
-		case 'image/png':
-			$image = new Imagick( $file );
-			if ( false === $image ) {
-				return;
-			}
-			$image->setImageFormat( 'WEBP' );
-			if ( defined( 'EWWW_IMAGE_OPTIMIZER_LOSSY_PNG2WEBP' ) && EWWW_IMAGE_OPTIMIZER_LOSSY_PNG2WEBP ) {
-				ewwwio_debug_message( 'doing lossy conversion' );
+				if ( ewww_image_optimizer_get_option( 'ewww_image_optimizer_metadata_remove' ) ) {
+					// Getting possible color profiles.
+					$profiles = $image->getImageProfiles( 'icc', true );
+				}
+				$color = $image->getImageColorspace();
+				ewwwio_debug_message( "color space is $color" );
+				if ( Imagick::COLORSPACE_CMYK === $color ) {
+					ewwwio_debug_message( 'found CMYK image' );
+					if ( ewwwio_is_file( EWWW_IMAGE_OPTIMIZER_PLUGIN_PATH . 'vendor/icc/sRGB2014.icc' ) ) {
+						ewwwio_debug_message( 'adding icc profile' );
+						$icc_profile = file_get_contents( EWWW_IMAGE_OPTIMIZER_PLUGIN_PATH . 'vendor/icc/sRGB2014.icc' );
+						$image->profileImage( 'icc', $icc_profile );
+					}
+					ewwwio_debug_message( 'attempting SRGB transform' );
+					$image->transformImageColorspace( Imagick::COLORSPACE_SRGB );
+					ewwwio_debug_message( 'removing icc profile' );
+					$image->setImageProfile( '*', null );
+					$profiles = array();
+				}
+				$image->setImageFormat( 'WEBP' );
 				if ( $sharp_yuv ) {
 					ewwwio_debug_message( 'enabling sharp_yuv' );
 					$image->setOption( 'webp:use-sharp-yuv', 'true' );
 				}
 				ewwwio_debug_message( "setting quality to $quality" );
 				$image->setImageCompressionQuality( $quality );
-			} else {
-				ewwwio_debug_message( 'sticking to lossless' );
-				$image->setOption( 'webp:lossless', true );
-				$image->setOption( 'webp:alpha-quality', 100 );
+			} catch ( Exception $e ) {
+				ewwwio_debug_message( 'caught exception: ' . $e->getMessage() );
+				return;
+			}
+			break;
+		case 'image/png':
+			try {
+				$image = new Imagick( $file );
+				if ( false === $image ) {
+					return;
+				}
+				$image->setImageFormat( 'WEBP' );
+				if ( defined( 'EWWW_IMAGE_OPTIMIZER_LOSSY_PNG2WEBP' ) && EWWW_IMAGE_OPTIMIZER_LOSSY_PNG2WEBP ) {
+					ewwwio_debug_message( 'doing lossy conversion' );
+					if ( $sharp_yuv ) {
+						ewwwio_debug_message( 'enabling sharp_yuv' );
+						$image->setOption( 'webp:use-sharp-yuv', 'true' );
+					}
+					ewwwio_debug_message( "setting quality to $quality" );
+					$image->setImageCompressionQuality( $quality );
+				} else {
+					ewwwio_debug_message( 'sticking to lossless' );
+					$image->setOption( 'webp:lossless', true );
+					$image->setOption( 'webp:alpha-quality', 100 );
+				}
+			} catch ( Exception $e ) {
+				ewwwio_debug_message( 'caught exception: ' . $e->getMessage() );
+				return;
 			}
 			break;
 		default:
@@ -2916,14 +2931,24 @@ function ewww_image_optimizer_imagick_create_webp( $file, $type, $webpfile ) {
 	}
 	if ( ewww_image_optimizer_get_option( 'ewww_image_optimizer_metadata_remove' ) ) {
 		ewwwio_debug_message( 'removing meta' );
-		$image->stripImage();
-		if ( ! empty( $profiles ) ) {
-			ewwwio_debug_message( 'adding color profile to WebP' );
-			$image->profileImage( 'icc', $profiles['icc'] );
+		try {
+			$image->stripImage();
+			if ( ! empty( $profiles ) ) {
+				ewwwio_debug_message( 'adding color profile to WebP' );
+				$image->profileImage( 'icc', $profiles['icc'] );
+			}
+		} catch ( Exception $e ) {
+			ewwwio_debug_message( 'caught exception: ' . $e->getMessage() );
+			return;
 		}
 	}
 	ewwwio_debug_message( 'getting blob' );
-	$image_blob = $image->getImageBlob();
+	try {
+		$image_blob = $image->getImageBlob();
+	} catch ( Exception $e ) {
+		ewwwio_debug_message( 'caught exception: ' . $e->getMessage() );
+		return;
+	}
 	ewwwio_debug_message( 'writing file' );
 	file_put_contents( $webpfile, $image_blob );
 }
@@ -8354,6 +8379,11 @@ function ewww_image_optimizer_resize_from_meta_data( $meta, $id = null, $log = t
 		ewwwio_debug_message( 'attachment meta is not a usable array' );
 		return $meta;
 	}
+	ewwwio_debug_message( 'request URI: ' . EWWW\Base::$request_uri );
+	if ( empty( $meta['sizes'] ) && wp_is_rest_endpoint() && str_contains( EWWW\Base::$request_uri, 'wp/v2/media' ) && isset( $_REQUEST['generate_sub_sizes'] ) && 'false' === $_REQUEST['generate_sub_sizes'] ) { // phpcs:ignore WordPress.Security.NonceVerification
+		ewwwio_debug_message( 'sub-sizes not generating yet, come back later' );
+		return $meta;
+	}
 	global $wpdb;
 	global $ewww_new_image;
 	global $ewww_image;
@@ -8361,7 +8391,11 @@ function ewww_image_optimizer_resize_from_meta_data( $meta, $id = null, $log = t
 	ewwwio_debug_message( "attachment id: $id" );
 
 	session_write_close();
-	if ( ! empty( $ewww_new_image ) ) {
+	if ( wp_is_rest_endpoint() && preg_match( '#wp/v2/media/\d+/finalize#', EWWW\Base::$request_uri ) ) {
+		ewwwio_debug_message( 'this is a new image upload, finalized via REST API' );
+		$ewww_new_image = true;
+		$new_image      = true;
+	} elseif ( ! empty( $ewww_new_image ) ) {
 		ewwwio_debug_message( 'this is a newly uploaded image with no metadata yet' );
 		$new_image = true;
 	} elseif ( $background_new ) {
@@ -13970,6 +14004,7 @@ AddType image/webp .webp</pre>
 		( ewwwio()->gd_supports_webp() && ! ewww_image_optimizer_get_option( 'ewww_image_optimizer_cloud_key' ) )
 	) {
 		$local_webp_available = true;
+		ewwwio_debug_message( 'Local WebP conversion is available.' );
 	}
 	$cloud_webp_available   = ewww_image_optimizer_get_option( 'ewww_image_optimizer_cloud_key' ) || ! $local_webp_available;
 	$webp_conversion_method = ewww_image_optimizer_get_option( 'ewww_image_optimizer_webp_conversion_method' );
@@ -14172,6 +14207,16 @@ AddType image/webp .webp</pre>
 							<p class='description'>
 								<?php esc_html_e( 'AVIF conversion is enabled via the Easy IO CDN.', 'ewww-image-optimizer' ); ?>
 							</p>
+						</div>
+					</div>
+					<div class='ewww-settings-row'>
+						<div class='ewww-setting-header'>
+							<label for='ewww_image_optimizer_disable_client_side_processing'><?php esc_html_e( 'Disable Client-side Processing', 'ewww-image-optimizer' ); ?></label>
+							<?php ewwwio_help_link( 'https://docs.ewww.io/article/11-advanced-configuration', '58542afac697912ffd6c18c0' ); ?>
+						</div>
+						<div class='ewww-setting-detail'>
+							<input type='checkbox' id='ewww_image_optimizer_disable_client_side_processing' name='ewww_image_optimizer_disable_client_side_processing' value='true' <?php checked( ewww_image_optimizer_get_option( 'ewww_image_optimizer_disable_client_side_processing' ) ); ?> />
+							<?php esc_html_e( 'Prevent browser-based image processing and use server-side libraries for thumbnail creation and image scaling.', 'ewww-image-optimizer' ); ?><br>
 						</div>
 					</div>
 				</div>

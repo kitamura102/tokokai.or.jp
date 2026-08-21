@@ -174,6 +174,32 @@ jQuery(document).ready(function($){
   });
 
 
+  // carousel
+  $(document).on('click', '.carousel_post_type_post', function(event){
+    if ($(this).prop("checked")) {
+      $(this).closest('.cb_content').find('.carousel_post_type_post_option').show();
+      $(this).closest('.cb_content').find('.carousel_post_type_news_option').hide();
+    };
+  });
+  $(document).on('click', '.carousel_post_type_news', function(event){
+    if ($(this).prop("checked")) {
+      $(this).closest('.cb_content').find('.carousel_post_type_post_option').hide();
+      $(this).closest('.cb_content').find('.carousel_post_type_news_option').show();
+    };
+  });
+  $('.carousel_post_type_post').each(function(){
+    if ($(this).prop("checked")) {
+      $(this).closest('.cb_content').find('.carousel_post_type_post_option').show();
+      $(this).closest('.cb_content').find('.carousel_post_type_news_option').hide();
+    }
+  });
+  $('.carousel_post_type_news').each(function(){
+    if ($(this).prop("checked")) {
+      $(this).closest('.cb_content').find('.carousel_post_type_post_option').hide();
+      $(this).closest('.cb_content').find('.carousel_post_type_news_option').show();
+    }
+  });
+
   // ロゴアイコン画面
   $(document).on('click', '#header_logo_show_icon_image_yes', function(event){
     if ($(this).prop("checked")) {

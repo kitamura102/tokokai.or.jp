@@ -30,7 +30,7 @@ $catch_font_type = $convert_font_type($options['catch_font_type'] ?? 1);
 $single_title_font_type = $convert_font_type($options['single_title_font_type'] ?? 1);
 $splash_catch_font_type = $convert_font_type($options['splash_catch_font_type'] ?? 1);
 ?>
-body { font-size:<?php echo esc_html($options['content_font_size']); ?>px; }
+html body { font-size:<?php echo esc_html($options['content_font_size']); ?>px; }
 .single_title { font-size:<?php echo esc_html($options['single_title_font_size']); ?>px; }
 #page_header .catch, #page_header_small .catch { font-size:<?php echo esc_html($options['page_header_font_size']); ?>px; }
 .common_catch, .tcdce-body .common_catch, .cb_free_space .post_content h2:not(.styled_h2) { font-size:<?php echo esc_html($options['catch_font_size']); ?>px !important; }
@@ -39,7 +39,7 @@ body { font-size:<?php echo esc_html($options['content_font_size']); ?>px; }
   #page_header .catch, #page_header_small .catch { font-size:<?php echo esc_html(floor( (( int )$options['page_header_font_size'] + ( int )$options['page_header_font_size_sp']) / 2 ) ); ?>px; }
 }
 @media screen and (max-width:800px) {
-  body { font-size:<?php echo esc_html($options['content_font_size_sp']); ?>px; }
+  html body { font-size:<?php echo esc_html($options['content_font_size_sp']); ?>px; }
   #page_header .catch, #page_header_small .catch { font-size:<?php echo esc_html($options['page_header_font_size_sp']); ?>px; }
   .single_title { font-size:<?php echo esc_html($options['single_title_font_size_sp']); ?>px; }
   .common_catch, .tcdce-body .common_catch, .cb_free_space .post_content h2:not(.styled_h2) { font-size:<?php echo esc_html($options['catch_font_size_sp']); ?>px !important; }
@@ -48,11 +48,11 @@ body { font-size:<?php echo esc_html($options['content_font_size']); ?>px; }
      // 基本のフォントタイプ
      if($content_font_type == 1) {
 ?>
-body, input, textarea { font-family: var(--tcd-font-type1); }
+html body, input, textarea { font-family: var(--tcd-font-type1); }
 <?php } elseif($content_font_type == 2) { ?>
-body, input, textarea { font-weight:500; font-family: var(--tcd-font-type2); }
+html body, input, textarea { font-weight:500; font-family: var(--tcd-font-type2); }
 <?php } elseif($content_font_type == 3) { ?>
-body, input, textarea { font-family: var(--tcd-font-type3); }
+html body, input, textarea { font-family: var(--tcd-font-type3); }
 <?php }; ?>
 
 <?php

@@ -630,9 +630,9 @@
 .tcd-ui-radio[data-switch="3"]:not([data-checked="1"])+*+*,
 .tcd-ui-radio[data-switch="3"]:not([data-checked="2"])+*+*+*,
 /* 選択肢4 */
-.tcd-ui-radio[data-switch="3"]:not([data-checked="0"])+*,
-.tcd-ui-radio[data-switch="3"]:not([data-checked="1"])+*+*,
-.tcd-ui-radio[data-switch="3"]:not([data-checked="2"])+*+*+*,
-.tcd-ui-radio[data-switch="3"]:not([data-checked="3"])+*+*+*+* {
+.tcd-ui-radio[data-switch="4"]:not([data-checked="0"])+*,
+.tcd-ui-radio[data-switch="4"]:not([data-checked="1"])+*+*,
+.tcd-ui-radio[data-switch="4"]:not([data-checked="2"])+*+*+*,
+.tcd-ui-radio[data-switch="4"]:not([data-checked="3"])+*+*+*+* {
   display: none;
 }

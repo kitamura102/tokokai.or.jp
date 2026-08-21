@@ -17,6 +17,19 @@ class styled_post_list1_widget extends WP_Widget {
   function widget($args, $instance) {
 
     extract( $args );
+
+    // Ensure all widget settings have defaults before use.
+    $defaults = array(
+      'title' => __('Recent post', 'tcd-serum'),
+      'post_num' => 3,
+      'post_order' => 'date',
+      'post_type' => 'recent_post',
+      'category' => '',
+      'news_category' => '',
+      'treatment_category' => '',
+    );
+    $instance = wp_parse_args( (array) $instance, $defaults );
+
     $title = apply_filters('widget_title', $instance['title']);
     $post_num = $instance['post_num'];
     $post_type = $instance['post_type'];

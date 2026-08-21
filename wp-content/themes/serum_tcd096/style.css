@@ -5,7 +5,7 @@ Theme URI:https://tcd-theme.com/tcd096/
 Description:WordPress theme "SERUM" is a template with the image of a dermatology clinic, featuring side icon buttons and a post type that allows you to organize the subjects of treatment. CTAs can also be easily set up.
 Author:TCD
 Author URI:https://tcd-theme.com/
-Version:2.9.1
+Version:2.9.5
 Text Domain:tcd-serum
 */
 
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 { font-weight:600; }
 ---------------------------------------------------------------------- */
 html { height:100%; position:relative; }
 html:before { content:''; width:100%; height:80px; position:absolute; top:0; left:0; background:#fff; z-index:-1; }
-body { overflow-x:hidden; height:100%; padding:80px 80px 0; font-family:Arial,sans-serif; font-size:14px; line-height:1; width:100%; position:relative; -webkit-font-smoothing:antialiased; }
+html body { overflow-x:hidden; height:100%; padding:80px 80px 0; font-family:Arial,sans-serif; font-size:14px; line-height:1; width:100%; position:relative; -webkit-font-smoothing:antialiased; }
 body.hide_page_side_bar { padding-right:0; padding-left:0; }
 @media screen and (min-width:1222px) {
   html body:not(.hide_page_side_bar) {
@@ -260,6 +260,11 @@ body.single-news #main_content { background:#f6f6f6; padding-top:80px; }
 .cb_carousel.no_bg_color:first-child { padding-top:110px; }
 .cb_carousel .catch { text-align:center; line-height:1.7; margin:0 0 68px 0; }
 .cb_carousel .index_carousel { width:930px; margin:0 auto; position:relative; }
+.cb_carousel .index_carousel.blog_list.type2 { width:620px; }
+.cb_carousel .index_carousel.blog_list_only_child.type2 { width:310px; }
+.cb_carousel .index_carousel.blog_list .item { width:50%; }
+.cb_carousel .index_carousel.blog_list_only_child .item { width:100%; }
+
 .cb_carousel .index_carousel:after { content:''; display:block; width:1px; height:155px; background:#fff; position:absolute; right:0; bottom:0; }
 .cb_carousel .index_carousel.index_carousel__hide_arrow:after{
   background: transparent;
@@ -304,6 +309,14 @@ body.hide_blog_date .index_carousel .title span { -webkit-line-clamp:3; }
 .index_carousel__hide_arrow .splide__arrows{ display: none; }
 @media only screen and (max-width: 1350px) {
 	.cb_carousel .splide__arrow { display:none; }
+}
+@media only screen and (max-width: 980px) {
+  .cb_carousel .index_carousel.blog_list.type2,
+  .cb_carousel .index_carousel.blog_list_only_child.type2 { width:calc(100% - 40px); margin:0 20px; }
+}
+@media only screen and (max-width: 768px) {
+  .cb_carousel .index_carousel.blog_list.type2,
+  .cb_carousel .index_carousel.blog_list_only_child.type2{ width:100%; margin:0; }
 }
 
 

@@ -128,10 +128,13 @@ function add_front_page_dp_default_options( $dp_default_options ) {
             "catch" => __( 'Catchphrase', 'tcd-serum' ),
             "layout" => 'type1',
             "post_type" => 'post',
+            "category" => 0,
+            "news_category" => 0,
             "post_order" => 'date',
             "display_bg_color" => 'show',
             "autoplay" => 'on',
             "button" => '',
+            "post_num" => 10
 		),
 		array(
             "cb_content_select" => "free_space",
@@ -917,12 +920,16 @@ function add_front_page_theme_options_validate( $input ) {
         $value['catch'] = wp_filter_nohtml_kses( $value['catch'] );
 
         $value['post_type'] = wp_filter_nohtml_kses( $value['post_type'] );
+        $value['category'] = wp_filter_nohtml_kses( $value['category'] );
+        $value['news_category'] = wp_filter_nohtml_kses( $value['news_category'] );
         $value['post_order'] = wp_filter_nohtml_kses( $value['post_order'] );
         $value['layout'] = wp_filter_nohtml_kses( $value['layout'] );
 
         $value['display_bg_color'] = wp_filter_nohtml_kses( $value['display_bg_color'] );
         
         $value['autoplay'] = isset($value['autoplay']) ? wp_filter_nohtml_kses( $value['autoplay'] ) : 'off';
+
+        $value['post_num'] = wp_filter_nohtml_kses( $value['post_num'] );
       // フリースペース -----------------------------------------------------------------------
       } elseif ($value['cb_content_select'] == 'free_space') {
 
@@ -1096,12 +1103,16 @@ function the_cb_content_setting($cb_index = 'cb_cloneindex', $cb_content_select 
        if (!isset($value['catch'])) { $value['catch'] = ''; }
 
        if (!isset($value['post_type'])) { $value['post_type'] = 'post'; }
+       if (!isset($value['category'])) { $value['category'] = 0; }
+       if (!isset($value['news_category'])) { $value['news_category'] = 0; }
        if (!isset($value['post_order'])) { $value['post_order'] = 'date'; }
        if (!isset($value['layout'])) { $value['layout'] = 'type1'; }
 
        if (!isset($value['display_bg_color'])) { $value['display_bg_color'] = 'show'; }
        if (!isset($value['autoplay'])) { $value['autoplay'] = 'on'; }
        if (!isset($value['button'])) { $value['button'] = ''; }
+
+       if (!isset($value['post_num'])) { $value['post_num'] = 10; }
 ?>
 
   <h3 class="cb_content_headline"><?php _e('Carousel', 'tcd-serum'); ?><span class="cb_content_headline_sub_title"></span></h3>
@@ -1134,11 +1145,44 @@ function the_cb_content_setting($cb_index = 'cb_cloneindex', $cb_content_select 
     <li class="cf">
      <span class="label"><?php _e('Post type', 'tcd-serum');  ?></span>
      <div class="standard_radio_button">
-      <input id="carousel_post_type_post_<?php echo $cb_index; ?>" type="radio" name="dp_options[contents_builder][<?php echo $cb_index; ?>][post_type]" value="post" <?php checked( $value['post_type'], 'post' ); ?>>
+      <input class="carousel_post_type_post" id="carousel_post_type_post_<?php echo $cb_index; ?>" type="radio" name="dp_options[contents_builder][<?php echo $cb_index; ?>][post_type]" value="post" <?php checked( $value['post_type'], 'post' ); ?>>
       <label for="carousel_post_type_post_<?php echo $cb_index; ?>"><?php echo esc_html($blog_label); ?></label>
-      <input id="carousel_post_type_news_<?php echo $cb_index; ?>" type="radio" name="dp_options[contents_builder][<?php echo $cb_index; ?>][post_type]" value="news" <?php checked( $value['post_type'], 'news' ); ?>>
+      <input class="carousel_post_type_news" id="carousel_post_type_news_<?php echo $cb_index; ?>" type="radio" name="dp_options[contents_builder][<?php echo $cb_index; ?>][post_type]" value="news" <?php checked( $value['post_type'], 'news' ); ?>>
       <label for="carousel_post_type_news_<?php echo $cb_index; ?>"><?php echo esc_html($news_label); ?></label>
      </div>
+    </li>
+    <li class="cf carousel_post_type_post_option">
+     <span class="label"><?php _e('Category', 'tcd-serum'); ?></span>
+      <?php
+        wp_dropdown_categories( array(
+          'class' => '',
+          'hierarchical' => true,
+          'id' => '',
+          'name' => 'dp_options[contents_builder]['.$cb_index.'][category]',
+          'selected' => $value['category'],
+          'value_field' => 'term_id',
+          'show_option_all' => __("All posts", "tcd-serum")
+        ) );
+      ?>
+    </li>
+    <li class="cf carousel_post_type_news_option">
+     <span class="label"><?php _e('Category', 'tcd-serum'); ?></span>
+      <?php
+        wp_dropdown_categories( array(
+          'class' => '',
+          'hierarchical' => true,
+          'id' => '',
+          'name' => 'dp_options[contents_builder]['.$cb_index.'][news_category]',
+          'selected' => $value['news_category'],
+          'value_field' => 'term_id',
+          'taxonomy' => 'news_category',
+          'show_option_all' => __("All posts", "tcd-serum")
+        ) );
+      ?>
+    </li>
+    <li class="cf">
+     <span class="label"><?php _e('Number of post to display', 'tcd-serum'); ?></span>
+     <input class="hankaku" style="width:70px;" type="number" min="1" step="1" name="dp_options[contents_builder][<?php echo $cb_index; ?>][post_num]" value="<?php echo esc_attr( $value['post_num'] ); ?>" />
     </li>
     <li class="cf">
      <span class="label"><?php _e('Post order', 'tcd-serum');  ?></span>
@@ -1167,7 +1211,7 @@ function the_cb_content_setting($cb_index = 'cb_cloneindex', $cb_content_select 
       <label for="carousel_autoplay_off_<?php echo $cb_index; ?>"><?php _e('Off', 'tcd-serum'); ?></label>
      </div>
     </li>
-    <li class="cf"><span class="label"><?php _e('Label for button linking to archive page', 'tcd-serum'); ?><span class="recommend_desc"><?php _e('If you don\'t want to display it, leave it empty."', 'tcd-serum'); ?></span></span><input type="text" class="full_width" name="dp_options[contents_builder][<?php echo $cb_index; ?>][button]"value="<?php echo esc_attr( $value['button']); ?>"></li>
+    <li class="cf"><span class="label"><?php _e('Label for button linking to archive page', 'tcd-serum'); ?><span class="recommend_desc"><?php _e('If you don\'t want to display it, leave it empty."', 'tcd-serum'); ?></span></span><input type="text" class="full_width" name="dp_options[contents_builder][<?php echo $cb_index; ?>][button]" value="<?php echo esc_attr( $value['button']); ?>"></li>
    </ul>
    </div><!-- END .cb_content_switch_target -->
 

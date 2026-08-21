@@ -38,7 +38,16 @@ if( jQuery('#news_ticker').length ){
        if ($contents_builder) :
          foreach($contents_builder as $content) :
            if ( $content['cb_content_select'] == 'carousel' && $content['show_content'] ) {
+             $post_num = $content['post_num']?? 10;
+             $post_type = $content['post_type'];
+             if(!$options['use_news']){
+               $post_type = 'post';
+             }
+             $args = array( 'post_type' => $post_type, 'posts_per_page' => $post_num, 'ignore_sticky_posts' => true );
+             $post_list = new wp_query($args);
+             $post_count = $post_list->post_count;
              $layout = $content['layout'];
+             if($post_count > 2):
              if($layout == 'type1'){
 ?>
 if( jQuery('.num<?php echo $content_count; ?> .index_carousel').length ){
@@ -75,6 +84,7 @@ if( jQuery('.num<?php echo $content_count; ?> .index_carousel').length ){
 }
 <?php
              }
+           endif;
            };
            $content_count++;
          endforeach;
@@ -251,7 +261,16 @@ if( jQuery('#news_ticker').length ){
        if ($contents_builder) :
          foreach($contents_builder as $content) :
            if ( $content['cb_content_select'] == 'carousel' && $content['show_content'] ) {
+             $post_num = $content['post_num']?? 10;
+             $post_type = $content['post_type'];
+             if(!$options['use_news']){
+               $post_type = 'post';
+             }
+             $args = array( 'post_type' => $post_type, 'posts_per_page' => $post_num, 'ignore_sticky_posts' => true );
+             $post_list = new wp_query($args);
+             $post_count = $post_list->post_count;
              $layout = $content['layout'];
+             if($post_count > 2):
              if($layout == 'type1'){
 ?>
 if( jQuery('.num<?php echo $content_count; ?> .index_carousel').length ){
@@ -288,6 +307,7 @@ if( jQuery('.num<?php echo $content_count; ?> .index_carousel').length ){
 }
 <?php
              }
+           endif;
            };
            $content_count++;
          endforeach;
