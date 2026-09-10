@@ -41,6 +41,8 @@ Redirect permanent /guide/shinryou/ https://tokokai.or.jp/dept/
 Redirect permanent /movie/ https://tokokai.or.jp/about/kouhou/movie_01/
 Redirect permanent /movie2/ https://tokokai.or.jp/about/kouhou/movie_02/
 Redirect permanent /welcome/ https://tokokai.or.jp/
+Redirect permanent /info/ https://tokokai.or.jp/news/
+Redirect permanent /shinryou/ https://tokokai.or.jp/news/shinryou/
 Redirect permanent /pdf/recruit/tyourihojyo.pdf https://tokokai.or.jp/recruit/
 Redirect permanent /shinryou_lady/ https://tokokai.or.jp/sanka/
 Redirect permanent /pdf/gairai_tantouR070701.pdf https://tokokai.or.jp/schedule/
@@ -50,6 +52,18 @@ Redirect permanent /restrictions/ https://tokokai.or.jp/guide/menkai/
 Redirect permanent /ict/ https://tokokai.or.jp/
 Redirect permanent /kinen/ https://tokokai.or.jp/
 Redirect permanent /sanka/contact/index/ https://tokokai.or.jp/sanka/contact/
+Redirect permanent /infomation/page/2/ https://tokokai.or.jp/news/
+Redirect permanent /sanka/news_category/news_category4/ https://tokokai.or.jp/sanka/
+Redirect permanent /sanka/treatment/sample-treatment2/ https://tokokai.or.jp/sanka/
+Redirect permanent /sanka/news/ https://tokokai.or.jp/sanka/
+Redirect permanent /category/news/shinryou/20260422_02/ https://tokokai.or.jp/news/shinryou/20260422_02/
+Redirect permanent /news(.*)/ https://tokokai.or.jp/news/shinryou/20260701_03/
+Redirect permanent /shinryou/20260410/ https://tokokai.or.jp/news/shinryou/20260410_01/
+Redirect permanent /shinryou/整形外科-外来診療変更のお知らせ/ https://tokokai.or.jp/news/shinryou/20260601_01/
+Redirect permanent /shinryou/循環器内科-外来診療変更/ https://tokokai.or.jp/news/shinryou/20260601_02/
+Redirect permanent /infomation/ https://tokokai.or.jp/news/
+Redirect permanent /img/sites/8/* https://tokokai.or.jp/
+Redirect permanent /wp-content/plugins/* https://tokokai.or.jp/
 
 Redirect permanent /pdf/kiri01.pdf https://tokokai.or.jp/pdf/kiri/kiri01.pdf
 Redirect permanent /pdf/kiri02.pdf https://tokokai.or.jp/pdf/kiri/kiri02.pdf
@@ -92,6 +106,7 @@ Redirect permanent /pdf/kiri39.pdf https://tokokai.or.jp/pdf/kiri/kiri39.pdf
 Redirect permanent /pdf/kiri40.pdf https://tokokai.or.jp/pdf/kiri/kiri40.pdf
 Redirect permanent /pdf/kiri41.pdf https://tokokai.or.jp/pdf/kiri/kiri41.pdf
 Redirect permanent /pdf/kiri42.pdf https://tokokai.or.jp/pdf/kiri/kiri42.pdf
+
 Redirect permanent /pdf/m_hinyouki.pdf https://tokokai.or.jp/pdf/monshin/m_hinyouki.pdf
 Redirect permanent /pdf/m_kinen.pdf https://tokokai.or.jp/pdf/monshin/m_kinen.pdf
 Redirect permanent /pdf/m_naika.pdf https://tokokai.or.jp/pdf/monshin/m_naika.pdf
@@ -131,8 +146,6 @@ Redirect permanent /jikahatu/ https://tokokai.or.jp/
 Redirect permanent /nyuusatu/ https://tokokai.or.jp/
 Redirect permanent /pdf/Ortho-kenkyuu.pdf https://tokokai.or.jp/
 
-Redirect permanent /info/ https://tokokai.or.jp/news/
-Redirect permanent /shinryou/ https://tokokai.or.jp/category/news/shinryou/
 
 Redirect permanent /pdf/R040527-a.pdf https://tokokai.or.jp/news/
 Redirect permanent /pdf/R040527-a.pdf https://tokokai.or.jp/news/
@@ -183,6 +196,9 @@ Redirect permanent /pdf/R071024.pdf https://tokokai.or.jp/news/
 Redirect permanent /pdf/R071224-1.pdf https://tokokai.or.jp/news/
 Redirect permanent /pdf/R80206-2.pdf https://tokokai.or.jp/news/
 Redirect permanent /pdf/R041122tachiai.pdf https://tokokai.or.jp/news/
+Redirect permanent /pdf/R070805.pdf https://tokokai.or.jp/news/
+Redirect permanent /pdf/R011102-1.pdf https://tokokai.or.jp/news/
+Redirect permanent /pdf/R011102-2.pdf https://tokokai.or.jp/news/
 
 Redirect permanent /pdf/R041021menkai.pdf https://tokokai.or.jp/guide/menkai/
 Redirect permanent /pdf/R050127menkai.pdf https://tokokai.or.jp/guide/menkai/
@@ -211,6 +227,20 @@ Redirect permanent /sanka/gynecology.html?id=gyn04 https://tokokai.or.jp/sanka/g
 Redirect permanent /pdf/postnatalcare.pdf https://tokokai.or.jp/sanka/obstetrics/#obs05
 Redirect permanent /pdf/h-kousoku.pdf https://tokokai.or.jp/pdf/hokan/h-kousoku.pdf
 Redirect permanent /pdf/Rkitei1.pdf https://tokokai.or.jp/pdf/roken/Rkitei1.pdf
+
+Redirect permanent /roken/category1/sample-post6/ https://tokokai.or.jp/roken/
+Redirect permanent /roken/category1/sample-post3/ https://tokokai.or.jp/roken/
+Redirect permanent /roken/news_category/news_category1/ https://tokokai.or.jp/roken/
+Redirect permanent /roken/category1/sample-post5/ https://tokokai.or.jp/roken/
+Redirect permanent /roken/category1/sample-post4/ https://tokokai.or.jp/roken/
+Redirect permanent /roken/treatment/sample-treatment1/ https://tokokai.or.jp/roken/
+Redirect permanent /roken/wp-admin/* https://tokokai.or.jp/roken/
+Redirect permanent /roken/wp-content/themes/serum_tcd096/* https://tokokai.or.jp/roken/
+Redirect permanent /roken/wp-content/themes/serum-child/* https://tokokai.or.jp/roken/
+
+
+Redirect permanent /hokan/wp-content/themes/serum-child/* https://tokokai.or.jp/hokan/
+
 
 #キャッシュ保存期間設定 追加
 <IfModule mod_expires.c>
