@@ -22,6 +22,7 @@ Redirect permanent /uketuke/ https://tokokai.or.jp/guide/outpatient/
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 RewriteRule ^bosyu/(.*)$ /pdf/recruit/$1 [R=301,L]
+
 Redirect permanent /tantou/ https://tokokai.or.jp/schedule/
 Redirect permanent /kouhou/ https://tokokai.or.jp/about/kouhou/
 Redirect permanent /message/ https://tokokai.or.jp/about/message/
@@ -43,6 +44,7 @@ Redirect permanent /movie2/ https://tokokai.or.jp/about/kouhou/movie_02/
 Redirect permanent /welcome/ https://tokokai.or.jp/
 Redirect permanent /info/ https://tokokai.or.jp/news/
 Redirect permanent /shinryou/ https://tokokai.or.jp/news/shinryou/
+Redirect permanent /important/ https://tokokai.or.jp/news/important/
 Redirect permanent /pdf/recruit/tyourihojyo.pdf https://tokokai.or.jp/recruit/
 Redirect permanent /shinryou_lady/ https://tokokai.or.jp/sanka/
 Redirect permanent /pdf/gairai_tantouR070701.pdf https://tokokai.or.jp/schedule/
@@ -62,6 +64,7 @@ Redirect permanent /shinryou/20260410/ https://tokokai.or.jp/news/shinryou/20260
 Redirect permanent /shinryou/整形外科-外来診療変更のお知らせ/ https://tokokai.or.jp/news/shinryou/20260601_01/
 Redirect permanent /shinryou/循環器内科-外来診療変更/ https://tokokai.or.jp/news/shinryou/20260601_02/
 Redirect permanent /infomation/ https://tokokai.or.jp/news/
+Redirect permanent /news/important/ https://tokokai.or.jp/category/news/important/
 Redirect permanent /img/sites/8/* https://tokokai.or.jp/
 Redirect permanent /wp-content/plugins/* https://tokokai.or.jp/
 
@@ -146,6 +149,7 @@ Redirect permanent /jikahatu/ https://tokokai.or.jp/
 Redirect permanent /nyuusatu/ https://tokokai.or.jp/
 Redirect permanent /pdf/Ortho-kenkyuu.pdf https://tokokai.or.jp/
 
+Redirect permanent /pdf/m_nyuusen202209.pdf https://tokokai.or.jp/pdf/monshin/m_nyuusen.pdf
 
 Redirect permanent /pdf/R040527-a.pdf https://tokokai.or.jp/news/
 Redirect permanent /pdf/R040527-a.pdf https://tokokai.or.jp/news/
@@ -199,6 +203,7 @@ Redirect permanent /pdf/R041122tachiai.pdf https://tokokai.or.jp/news/
 Redirect permanent /pdf/R070805.pdf https://tokokai.or.jp/news/
 Redirect permanent /pdf/R011102-1.pdf https://tokokai.or.jp/news/
 Redirect permanent /pdf/R011102-2.pdf https://tokokai.or.jp/news/
+Redirect permanent /pdf/R050728.pdf https://tokokai.or.jp/news/
 
 Redirect permanent /pdf/R041021menkai.pdf https://tokokai.or.jp/guide/menkai/
 Redirect permanent /pdf/R050127menkai.pdf https://tokokai.or.jp/guide/menkai/
